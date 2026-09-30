@@ -1,8 +1,0 @@
-ID,Topic,Amount,ProposedOwner,Question,Evidence,Boundary
-R1,Administrative plan credits,25213487.049,FP&A / allocation accounting,Reconcile planned credits to actual postings,Allocation policy and journal mapping,No Actual records; not proven zero activity
-R2,Networking telephone,8686173.735,Networking owner / procurement,"Explain service scope, seats, rates and credits","Telephony contracts, invoices and telecom credits",Original author narrative is not invoice evidence
-R3,Productivity hardware,2935225.815,End-user computing / procurement,"Confirm purchases, capitalization and timing","Asset register, purchase orders and deployment plan",No recurring-cost conclusion yet
-R4,Negative CAPEX entries,-2369251.479,Controller,Identify capitalization and reclassification entries,Journal detail and capitalization policy,Not a cash capital-spend schedule
-R5,Estimate issue dates,,FP&A,Obtain immutable forecast snapshots,"Issue dates, close cutoffs and version definitions",No predictive-accuracy ranking
-R6,Unrecorded commitments,,Budget owners / procurement,Identify incremental obligations beyond LE3,Open POs and included-commitment mapping,Zero incremental input is illustrative
-R7,Telephone cost proposal,,Procurement / networking owner,Validate addressable spend and service impact,"Contract exit terms, minimum seats and SLA",No approval or realized savings

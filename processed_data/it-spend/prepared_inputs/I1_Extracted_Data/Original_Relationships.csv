@@ -1,8 +1,0 @@
-FromTableName,FromColumnName,ToTableName,ToColumnName,IsActive,Cardinality,CrossFilteringBehavior,FromKeyCount,ToKeyCount,RelyOnReferentialIntegrity
-Fact,Scenario ID,Scenario,Scenario ID,1,M:1,Single,8,,0
-Fact,IT Sub Area ID,IT Area,IT Sub Area ID,1,M:1,Single,41,,0
-Fact,Business Area ID,Business Area,Business Area ID,1,M:1,Single,10,,0
-Fact,Country/Region ID,Country Region,Country/Region ID,1,M:1,Single,38,,0
-Fact,Cost Element ID,Cost Element,Cost Element ID,1,M:1,Single,243,,0
-Fact,Department,Department,Department,1,M:1,Single,413,,0
-Fact,Date,Date,Date,1,M:1,Single,15,,0
