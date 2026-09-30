@@ -34,5 +34,3 @@ Welcome to my financial portfolio! Here, I document a summary of my projects in 
 ## SQL Projects
 
 
-
-Layout inspired by [Katie Huang’s Portfolio Guide](https://github.com/katiehuangx/Portfolio-Guide/blob/main/README.md).
