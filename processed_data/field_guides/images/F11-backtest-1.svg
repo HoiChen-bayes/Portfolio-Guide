@@ -1,0 +1,66 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="422" viewBox="0 0 1332 422">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#257F77"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Backtest Summary</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Sample</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Method</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Observations</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">WAPE</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Bias</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Holdout</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Last month</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">65.8%</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-18.8%</text>
+<rect x="16" y="172" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Holdout</text>
+<rect x="276" y="172" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Recent volume x pooled</text>
+<text x="286" y="221" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">price</text>
+<rect x="536" y="172" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15</text>
+<rect x="796" y="172" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">63.3%</text>
+<rect x="1056" y="172" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-19.3%</text>
+<rect x="16" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Holdout</text>
+<rect x="276" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Trailing 3 months</text>
+<rect x="536" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15</text>
+<rect x="796" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">41.6%</text>
+<rect x="1056" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-22.5%</text>
+<rect x="16" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Development</text>
+<rect x="276" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Last month</text>
+<rect x="536" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">30</text>
+<rect x="796" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">33.0%</text>
+<rect x="1056" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-1.9%</text>
+<rect x="16" y="340" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Development</text>
+<rect x="276" y="340" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Recent volume x pooled</text>
+<text x="286" y="389" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">price</text>
+<rect x="536" y="340" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">30</text>
+<rect x="796" y="340" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">32.2%</text>
+<rect x="1056" y="340" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-1.2%</text>
+</svg>

@@ -1,37 +1,38 @@
-# 2013-09.csv
+# 2013-09
 
-[Download the complete file](../outputs/F10_月度更新练习/2013-09.csv) · [Back to data guide](../README.md)
+[Download data](<../outputs/F10_月度更新练习/2013-09.csv>) · [Back to data](../README.md)
 
-**Purpose:** Provide a prepared table for consistent joins, filtering and analysis.
+## 2013-09
 
-**Rows:** 35. **Fields:** 17. CSV files store text; the type rules below describe how to interpret the values during import. The images render the actual first five records, with wide tables split into consecutive column panels. They are data excerpts, not screenshots of the Excel application.
+View the budget, actual amounts and calculations.
 
-![Actual records — 2013-09](images/a56dae18ba-1.png)
+![2013-09](images/a56dae18ba-1.svg)
 
-![Actual records — 2013-09](images/a56dae18ba-2.png)
+![2013-09](images/a56dae18ba-2.svg)
 
-![Actual records — 2013-09](images/a56dae18ba-3.png)
+![2013-09](images/a56dae18ba-3.svg)
 
-![Actual records — 2013-09](images/a56dae18ba-4.png)
+![2013-09](images/a56dae18ba-4.svg)
 
-## Fields and formats
+### Fields
 
-| Field | Meaning / use | Import and display | Example |
+| Field | Meaning | Format | Example |
 |---|---|---|---|
-| SourceRow | Traceability row in this sample, not a business transaction ID. | Identifier; preserve as text, including leading zeros | 23 |
-| Segment | Grouping, filter or comparison label for segment. | Text / categorical label; preserve spelling and blanks | Midmarket |
-| Country | Grouping, filter or comparison label for country. | Text / categorical label; preserve spelling and blanks | France |
-| Product | Grouping, filter or comparison label for product. | Text / categorical label; preserve spelling and blanks | Paseo |
-| Discount Band | Field retained under its source/output label; interpret with the table purpose and displayed example. | Text / categorical label; preserve spelling and blanks | None |
-| Units Sold | Sample units sold; fractional values are preserved. | Numeric; counts as whole numbers, units/durations retain needed decimals | 549.0 |
-| Manufacturing Price | Source manufacturing-price field; not a substitute for unit COGS. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 10 |
-| Sale Price | Field retained under its source/output label; interpret with the table purpose and displayed example. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 15 |
-| Gross Sales | Units sold × sale price, before discounts. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 8235.0 |
-| Discounts | Discount amount deducted from gross sales. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 0.0 |
-| Sales | Net sales after discounts. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 8235.0 |
-| COGS | Cost of goods sold from the source sample. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 5490.0 |
-| Profit | Sales less COGS; not full company net profit. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 2745.0 |
-| Date | Field retained under its source/output label; interpret with the table purpose and displayed example. | Date / period; parse stated order, display YYYY-MM-DD or YYYY-MM | 2013-09-01 |
-| Month Number | Field retained under its source/output label; interpret with the table purpose and displayed example. | Numeric; counts as whole numbers, units/durations retain needed decimals | 9 |
-| Month Name | Field retained under its source/output label; interpret with the table purpose and displayed example. | Text / categorical label; preserve spelling and blanks | September |
-| Year | Calendar year. | Numeric; counts as whole numbers, units/durations retain needed decimals | 2013 |
+| SourceRow | Traceability row in this sample, not a business transaction ID. | Number | 23 |
+| Segment | — | Text | Midmarket |
+| Country | — | Text | France |
+| Product | — | Text | Paseo |
+| Discount Band | — | Text | None |
+| Units Sold | Sample units sold; fractional values are preserved. | Number | 549.0 |
+| Manufacturing Price | Source manufacturing-price field; not a substitute for unit COGS. | Number | 10 |
+| Sale Price | — | Number | 15 |
+| Gross Sales | Units sold × sale price, before discounts. | Number | 8235.0 |
+| Discounts | Discount amount deducted from gross sales. | Number | 0.0 |
+| Sales | Net sales after discounts. | Number | 8235.0 |
+| COGS | Cost of goods sold from the source sample. | Number | 5490.0 |
+| Profit | Sales less COGS; not full company net profit. | Number | 2745.0 |
+| Date | — | Text | 2013-09-01 |
+| Month Number | — | Number | 9 |
+| Month Name | — | Text | September |
+| Year | Calendar year. | Number | 2013 |
+

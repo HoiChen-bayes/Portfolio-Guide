@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1592" height="346" viewBox="0 0 1592 346">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#257F77"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Discount Band</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Discount Band</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">COGS</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Profit</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Margin</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Discount rate</text>
+<rect x="1316" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1326" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Net price</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Low</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">28440921.0</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">6188857.7</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">17.9%</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2.5%</text>
+<rect x="1316" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">132.2461508792</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Medium</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">33200908.0</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">5579522.835</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">14.4%</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">7.2%</text>
+<rect x="1316" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">102.1348012568</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">High</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">33983620.0</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">3388866.725</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">9.1%</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12.5%</text>
+<rect x="1316" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">93.8805526074</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">None</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">6207199.0</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1736455.0</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">21.9%</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0%</text>
+<rect x="1316" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">92.1927962536</text>
+</svg>

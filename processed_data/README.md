@@ -13,16 +13,16 @@
 
 ## Worksheets and output tables
 
-The links below open illustrated file guides first, with downloads inside each guide. Previews contain actual saved values; ratios, identifiers and dates are explained beside the column definitions.
+The links below open illustrated file guides first, with downloads inside each guide. Each preview shows the data, field names and formats.
 
 
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
 | [F10_更新验证.csv](field_guides/6396fbea58.md) | Validate repeatable monthly inputs without double-counting. |
-| [2013-09.csv](field_guides/a56dae18ba.md) | Provide a prepared table for consistent joins, filtering and analysis. |
+| [2013-09.csv](field_guides/a56dae18ba.md) | View the budget, actual amounts and calculations. |
 | [F1_逐行核对.csv](field_guides/1bc15fbc8d.md) | Reconcile the revenue and profit chain and retain traceability. |
 | [F2_月度表现.csv](field_guides/8bdc1bd1cc.md) | Measure monthly commercial performance. |
 | [F3-F4_Country.csv](field_guides/5d09058605.md) | Compare product, country and segment economics. |
@@ -33,9 +33,9 @@ Open a table or workbook below to inspect real rows, column meanings and format 
 | [F5-F6_可比期间增长拆解.csv](field_guides/989d798a35.md) | Explain growth over equal-length comparable periods. |
 | [F7_折扣政策情景.csv](field_guides/820ddf1e13.md) | Test discount and volume scenarios. |
 | [F8_Q4_产品利润贡献.csv](field_guides/6647307b2e.md) | Explain quarterly profit contributions. |
-| [Financial_Sample.csv](field_guides/4db0bc7d9d.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Commercial_Performance.xlsx](field_guides/41014485aa.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [Forecast_Cash_Close.xlsx](field_guides/db4a6469d4.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [Financial_Sample.csv](field_guides/4db0bc7d9d.md) | View the budget, actual amounts and calculations. |
+| [Commercial_Performance.xlsx](field_guides/41014485aa.md) | View the calculations and assumptions. |
+| [Forecast_Cash_Close.xlsx](field_guides/db4a6469d4.md) | View the calculations and assumptions. |
 
 - [Forecast backtest evidence](field_guides/F11-backtest.md)
 - [Monthly update validation evidence](field_guides/F18-validation.md)

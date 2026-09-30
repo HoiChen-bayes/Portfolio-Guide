@@ -1,20 +1,23 @@
-# Forecast backtest results
+# Backtest Summary
 
-[Download summary](../outputs/FP&A_extensions/F11_Backtest_Summary.csv) · [Detailed results](../outputs/FP&A_extensions/F11_回测明细.json) · [SQL](../outputs/FP&A_extensions/F11_回测逻辑.sql)
+[Download data](<../outputs/FP&A_extensions/F11_Backtest_Summary.csv>) · [Back to data](../README.md)
 
-Three methods are compared over the same rolling one-month horizon. April–September is the method-selection period; October–December is the holdout period. The trailing-three-month method is selected on development results.
+## Backtest Summary
 
-![Saved backtest results](images/F11-backtest-1.png)
+View the figures used in this analysis.
 
-![Saved backtest results](images/F11-backtest-2.png)
+![Backtest Summary](images/F11-backtest-1.svg)
 
-| Column | Meaning | Format |
+![Backtest Summary](images/F11-backtest-2.svg)
+
+### Fields
+
+| Field | Format | Example |
 |---|---|---|
-| Sample | Development or Holdout window | Text |
-| Method | Forecast baseline | Text |
-| Observations | Segment × target-month observations per method | Whole number |
-| WAPE | Sum of absolute segment-level errors / absolute actual sales | Decimal, display 0.0% |
-| Bias | Sum of forecast minus actual / absolute actual sales | Signed decimal, display 0.0% |
-| Company WAPE | Aggregate segments first, then calculate monthly absolute errors | Decimal, display 0.0% |
+| Sample | Text | Holdout |
+| Method | Text | Last month |
+| Observations | Number | 15 |
+| WAPE | Percentage | 65.8% |
+| Bias | Percentage | -18.8% |
+| Company WAPE | Percentage | 65.8% |
 
-WAPE is an error measure, not an accuracy percentage. These are historical simulations, not the performance of a deployed forecast.

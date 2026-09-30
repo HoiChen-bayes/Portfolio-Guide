@@ -20,11 +20,11 @@
 - Reforecast and cash
 - Simulated month-end close
 
-## Prepared data and outputs
+## Analysis data and outputs
 
 [Explore the processed tables, worksheet contents and calculation evidence →](processed_data/README.md)
 
-The output guide separates prepared inputs, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
+The output guide separates Analysis data, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
 
 ## Visualisation
 
@@ -42,12 +42,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare units × sale price with gross sales, deduct discounts, then deduct COGS; retain fractional units.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/1bc15fbc8d.md)
+[View the data](processed_data/field_guides/1bc15fbc8d.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F1 — supporting file excerpt](processed_data/field_guides/images/1bc15fbc8d-1.png)
+![F1 — supporting file excerpt](processed_data/field_guides/images/1bc15fbc8d-1.svg)
 
 </details>
 
@@ -57,12 +57,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Sum monetary fields by month and calculate margin from total profit divided by total sales.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/8bdc1bd1cc.md)
+[View the data](processed_data/field_guides/8bdc1bd1cc.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F2 — supporting file excerpt](processed_data/field_guides/images/8bdc1bd1cc-1.png)
+![F2 — supporting file excerpt](processed_data/field_guides/images/8bdc1bd1cc-1.svg)
 
 </details>
 
@@ -72,12 +72,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare scale, profit contribution and weighted margin by product, country and segment.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/a0944d798a.md)
+[View the data](processed_data/field_guides/a0944d798a.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F3 — supporting file excerpt](processed_data/field_guides/images/a0944d798a-1.png)
+![F3 — supporting file excerpt](processed_data/field_guides/images/a0944d798a-1.svg)
 
 </details>
 
@@ -87,12 +87,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Aggregate by discount band and inspect negative-profit records; this association does not prove a discount-only cause.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/00a5999f80.md)
+[View the data](processed_data/field_guides/00a5999f80.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F4 — supporting file excerpt](processed_data/field_guides/images/00a5999f80-1.png)
+![F4 — supporting file excerpt](processed_data/field_guides/images/00a5999f80-1.svg)
 
 </details>
 
@@ -102,12 +102,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare the same four months in both years and classify matched, new-coverage and lost-coverage combinations.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/989d798a35.md)
+[View the data](processed_data/field_guides/989d798a35.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F5 — supporting file excerpt](processed_data/field_guides/images/989d798a35-1.png)
+![F5 — supporting file excerpt](processed_data/field_guides/images/989d798a35-1.svg)
 
 </details>
 
@@ -117,12 +117,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Apply the stated volume-first decomposition at product × country × segment level. Realised price includes discount and within-group mix effects.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/989d798a35.md)
+[View the data](processed_data/field_guides/989d798a35.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F6 — supporting file excerpt](processed_data/field_guides/images/989d798a35-1.png)
+![F6 — supporting file excerpt](processed_data/field_guides/images/989d798a35-1.svg)
 
 </details>
 
@@ -132,12 +132,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** For 2014 Paseo / Small Business, change discount and volume assumptions while holding gross price and unit COGS fixed.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/820ddf1e13.md)
+[View the data](processed_data/field_guides/820ddf1e13.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F7 — supporting file excerpt](processed_data/field_guides/images/820ddf1e13-1.png)
+![F7 — supporting file excerpt](processed_data/field_guides/images/820ddf1e13-1.svg)
 
 </details>
 
@@ -147,12 +147,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare October–December only, then reconcile product contributions to the quarterly profit movement.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/6647307b2e.md)
+[View the data](processed_data/field_guides/6647307b2e.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F8 — supporting file excerpt](processed_data/field_guides/images/6647307b2e-1.png)
+![F8 — supporting file excerpt](processed_data/field_guides/images/6647307b2e-1.svg)
 
 </details>
 
@@ -162,12 +162,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Combine profit contribution, growth and discount exposure; request operating costs and capacity evidence before allocating resources.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/41014485aa.md)
+[View the data](processed_data/field_guides/41014485aa.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F9 — supporting file excerpt](processed_data/field_guides/images/41014485aa-s5-1.png)
+![F9 — supporting file excerpt](processed_data/field_guides/images/41014485aa-s5-1.svg)
 
 </details>
 
@@ -177,12 +177,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Use complete month-level batches and reconcile rows, sales and profit after replacement.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/6396fbea58.md)
+[View the data](processed_data/field_guides/6396fbea58.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F10 — supporting file excerpt](processed_data/field_guides/images/6396fbea58-1.png)
+![F10 — supporting file excerpt](processed_data/field_guides/images/6396fbea58-1.svg)
 
 </details>
 
@@ -192,9 +192,9 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Select on April–September results, then evaluate October–December with one-month rolling forecasts. The short historical test does not establish production reliability.
 
-[Inspect the supporting results and definitions](processed_data/field_guides/F11-backtest.md) · [Backtest and version outputs](processed_data/README.md)
+[View the results](processed_data/field_guides/F11-backtest.md) · [Backtest and version outputs](processed_data/README.md)
 
-![Recorded evidence](processed_data/field_guides/images/F11-backtest-1.png)
+![Recorded evidence](processed_data/field_guides/images/F11-backtest-1.svg)
 
 
 ### F12 — How does the scenario become a decision proposal?
@@ -203,7 +203,7 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Convert the F7 scenario into a testable recommendation rather than treating modelled benefits as achieved results.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/820ddf1e13.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F12_Commercial_Decision_Memo.md)
+[View the data](processed_data/field_guides/820ddf1e13.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F12_Commercial_Decision_Memo.md)
 
 ### F13 — How is the work presented for review?
 
@@ -211,7 +211,7 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Prioritise the executive story and direct readers to supporting calculations, rather than repeating every chart.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F13_Portfolio_Review.md)
+[View the data](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F13_Portfolio_Review.md)
 
 ### F14 — How can the analysis be reproduced as practice?
 
@@ -219,7 +219,7 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Use the task questions and compare the rebuilt calculations with the supplied answer materials.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F14_独立实操_题目.md)
+[View the data](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F14_独立实操_题目.md)
 
 ### F15 — Why did the Q4 forecast change?
 
@@ -227,12 +227,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Bridge $5.587M October actualisation, $2.619M remaining-volume change and $0.230M realised-price change. This is Forecast vs Prior Forecast.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/db4a6469d4.md)
+[View the data](processed_data/field_guides/db4a6469d4.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F15 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s0-1.png)
+![F15 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s0-1.svg)
 
 </details>
 
@@ -242,12 +242,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Roll receivables, inventory, payables and cash under the scenario timing assumptions; use the peak balance gap, not a sum of monthly gaps.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/db4a6469d4.md)
+[View the data](processed_data/field_guides/db4a6469d4.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F16 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s1-1.png)
+![F16 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s1-1.svg)
 
 </details>
 
@@ -257,12 +257,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Post each illustrative debit and credit, then reconcile the adjusted trial balance and the effect on profit and net assets.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/db4a6469d4.md)
+[View the data](processed_data/field_guides/db4a6469d4.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![F17 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s3-1.png)
+![F17 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s3-1.svg)
 
 </details>
 
@@ -272,9 +272,9 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Validate monthly completeness and revenue identities before publishing a new version. This is a local workflow, not scheduled cloud refresh.
 
-[Inspect the supporting results and definitions](processed_data/field_guides/F18-validation.md) · [Backtest and version outputs](processed_data/README.md)
+[View the results](processed_data/field_guides/F18-validation.md) · [Backtest and version outputs](processed_data/README.md)
 
-![Recorded evidence](processed_data/field_guides/images/F18-validation-1.png)
+![Recorded evidence](processed_data/field_guides/images/F18-validation-1.svg)
 
 ## Source and measurement notes
 

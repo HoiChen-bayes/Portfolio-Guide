@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="398" viewBox="0 0 1332 398">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#257F77"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Segment</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Segment</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Units Sold</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Gross Sales</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Discounts</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Sales</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Government</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">470673.5</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">56403066.5</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">3898805.83</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">52504260.67</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Small Business</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">153139.0</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">45941700.0</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">3513781.5</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">42427918.5</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Channel Partners</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">161263.5</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1935162.0</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">134568.36</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1800593.64</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Midmarket</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">172178.0</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2582670.0</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">200786.925</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2381883.075</text>
+<rect x="16" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Enterprise</text>
+<rect x="276" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">168552.0</text>
+<rect x="536" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">21069000.0</text>
+<rect x="796" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1457305.625</text>
+<rect x="1056" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">19611694.375</text>
+</svg>

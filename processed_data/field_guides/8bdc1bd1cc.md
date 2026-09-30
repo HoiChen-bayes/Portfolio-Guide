@@ -1,26 +1,27 @@
-# F2_月度表现.csv
+# 月度表现
 
-[Download the complete file](../outputs/F2_月度表现.csv) · [Back to data guide](../README.md)
+[Download data](<../outputs/F2_月度表现.csv>) · [Back to data](../README.md)
 
-**Purpose:** Measure monthly commercial performance.
+## 月度表现
 
-**Rows:** 16. **Fields:** 10. CSV files store text; the type rules below describe how to interpret the values during import. The images render the actual first five records, with wide tables split into consecutive column panels. They are data excerpts, not screenshots of the Excel application.
+Measure monthly commercial performance.
 
-![Actual records — F2_月度表现](images/8bdc1bd1cc-1.png)
+![月度表现](images/8bdc1bd1cc-1.svg)
 
-![Actual records — F2_月度表现](images/8bdc1bd1cc-2.png)
+![月度表现](images/8bdc1bd1cc-2.svg)
 
-## Fields and formats
+### Fields
 
-| Field | Meaning / use | Import and display | Example |
+| Field | Meaning | Format | Example |
 |---|---|---|---|
-| Period | Grouping, filter or comparison label for period. | Date / period; parse stated order, display YYYY-MM-DD or YYYY-MM | 2013-09 |
-| Units Sold | Sample units sold; fractional values are preserved. | Numeric; counts as whole numbers, units/durations retain needed decimals | 50601.0 |
-| Gross Sales | Units sold × sale price, before discounts. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 4729736.0 |
-| Discounts | Discount amount deducted from gross sales. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 245735.97 |
-| Sales | Net sales after discounts. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 4484000.03 |
-| COGS | Cost of goods sold from the source sample. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 3720397.0 |
-| Profit | Sales less COGS; not full company net profit. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 763603.03 |
-| Margin | Aggregate profit divided by aggregate sales. | Decimal ratio; display as 0.0% (0.10 = 10%) | 0.17029505461443986 |
-| Discount rate | Total discounts divided by total gross sales. | Decimal ratio; display as 0.0% (0.10 = 10%) | 0.051955536207517715 |
-| Net price | Net sales divided by units sold. | Numeric; preserve full precision, display amount with 2 decimals where applicable | 88.61485010177665 |
+| Period | — | Text | 2013-09 |
+| Units Sold | Sample units sold; fractional values are preserved. | Number | 50601.0 |
+| Gross Sales | Units sold × sale price, before discounts. | Number | 4729736.0 |
+| Discounts | Discount amount deducted from gross sales. | Number | 245735.97 |
+| Sales | Net sales after discounts. | Number | 4484000.03 |
+| COGS | Cost of goods sold from the source sample. | Number | 3720397.0 |
+| Profit | Sales less COGS; not full company net profit. | Number | 763603.03 |
+| Margin | Aggregate profit divided by aggregate sales. | Percentage | 17.0% |
+| Discount rate | Total discounts divided by total gross sales. | Percentage | 5.2% |
+| Net price | Net sales divided by units sold. | Number | 88.61485010177665 |
+

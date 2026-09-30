@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1592" height="398" viewBox="0 0 1592 398">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#257F77"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">可比期间增长拆解</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Product</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Coverage</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Price 2013</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Price 2014</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Volume effect</text>
+<rect x="1316" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1326" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Realized price effect</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Amarilla</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Exited coverage</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10.56</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="1316" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Amarilla</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Matched</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">334.57019294743844</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">114.0215751544269</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">944157.0844976713</text>
+<rect x="1316" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-1285357.3444976714</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Amarilla</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Exited coverage</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12.9</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="1316" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Amarilla</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">New coverage</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">294.0</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="1316" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.0</text>
+<rect x="16" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Amarilla</text>
+<rect x="276" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Matched</text>
+<rect x="536" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10.92</text>
+<rect x="796" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10.32</text>
+<rect x="1056" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">11870.039999999999</text>
+<rect x="1316" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-835.7999999999995</text>
+</svg>

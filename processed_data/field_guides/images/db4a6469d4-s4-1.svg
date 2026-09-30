@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="398" viewBox="0 0 1332 398">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#257F77"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Actuals</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Month</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Units</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Gross sales</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Discounts</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Net sales</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Sep 2013</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">50,601</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">4,729,736</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">245,735.97</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">4,484,000.03</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Oct 2013</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">95,622</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">9,828,688</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">533,076.9</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">9,295,611.1</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Nov 2013</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">65,481</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">8,167,338</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">900,134.7</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">7,267,203.3</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Dec 2013</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">52,970</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">5,835,025</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">466,583.92</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">5,368,441.08</text>
+<rect x="16" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Jan 2014</text>
+<rect x="276" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">67,835.5</text>
+<rect x="536" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">7,307,403.5</text>
+<rect x="796" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">699,641.82</text>
+<rect x="1056" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">6,607,761.68</text>
+</svg>
