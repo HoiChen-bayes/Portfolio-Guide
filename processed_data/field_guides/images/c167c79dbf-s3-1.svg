@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="398" viewBox="0 0 1332 398">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Variance</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Member</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Actual</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Plan</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Variance</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Variance %</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">BU Support</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">75,744,376.62</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">77,696,486.35</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-1,952,109.72</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-2.5%</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Enablement</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12,622,588.67</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12,859,624.63</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-237,035.96</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-1.8%</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Functional</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">79,722,403.83</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">87,061,987.15</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-7,339,583.32</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-8.4%</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Governance</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">14,454,788.06</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15,009,731.61</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-554,943.55</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-3.7%</text>
+<rect x="16" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Infrastructure</text>
+<rect x="276" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">74,981,539.46</text>
+<rect x="536" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">50,657,576.79</text>
+<rect x="796" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">24,323,962.68</text>
+<rect x="1056" y="328" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">48.0%</text>
+</svg>

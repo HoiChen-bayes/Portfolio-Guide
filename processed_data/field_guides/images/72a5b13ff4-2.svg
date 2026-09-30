@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="524" viewBox="0 0 812 524">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Review Actions</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">ID</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Evidence</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Boundary</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R1</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Allocation policy and</text>
+<text x="286" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">journal mapping</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">No Actual records; not</text>
+<text x="546" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">proven zero activity</text>
+<rect x="16" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R2</text>
+<rect x="276" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Telephony contracts,</text>
+<text x="286" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">invoices and telecom</text>
+<text x="286" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">credits</text>
+<rect x="536" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Original author narrative</text>
+<text x="546" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">is not invoice evidence</text>
+<rect x="16" y="270" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R3</text>
+<rect x="276" y="270" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Asset register, purchase</text>
+<text x="286" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">orders and deployment</text>
+<text x="286" y="341" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">plan</text>
+<rect x="536" y="270" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">No recurring-cost</text>
+<text x="546" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">conclusion yet</text>
+<rect x="16" y="356" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R4</text>
+<rect x="276" y="356" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Journal detail and</text>
+<text x="286" y="405" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">capitalization policy</text>
+<rect x="536" y="356" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Not a cash capital-spend</text>
+<text x="546" y="405" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">schedule</text>
+<rect x="16" y="420" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R5</text>
+<rect x="276" y="420" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Issue dates, close</text>
+<text x="286" y="469" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">cutoffs and version</text>
+<text x="286" y="491" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">definitions</text>
+<rect x="536" y="420" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">No predictive-accuracy</text>
+<text x="546" y="469" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">ranking</text>
+</svg>

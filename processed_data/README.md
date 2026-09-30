@@ -13,11 +13,11 @@
 
 ## Worksheets and output tables
 
-The links below open illustrated file guides first, with downloads inside each guide. Previews contain actual saved values; ratios, identifiers and dates are explained beside the column definitions.
+The links below open illustrated file guides first, with downloads inside each guide. Each preview shows the data, field names and formats.
 
 
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
@@ -32,18 +32,18 @@ Open a table or workbook below to inspect real rows, column meanings and format 
 | [I5-I6_Version_Diagnostics.csv](field_guides/8bcf1c0244.md) | Compare estimate versions and diagnose overlap with actuals. |
 | [I7_Monthly_Patterns.csv](field_guides/f8a92ddc76.md) | Distinguish recurring variance patterns from monthly offsets. |
 | [I8_Review_Actions.csv](field_guides/72a5b13ff4.md) | Prepare specific evidence requests for budget-owner review. |
-| [Business_Area.csv](field_guides/4b3d8dc24c.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Cost_Element.csv](field_guides/109ceb78e7.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Country_Region.csv](field_guides/73ff7187d3.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Date.csv](field_guides/5b1a129efe.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Department.csv](field_guides/b35d7f8b04.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Fact.csv](field_guides/51feea3373.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [IT_Area.csv](field_guides/7b6cef3132.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Original_Measures.csv](field_guides/e6d25bb0a4.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Original_Relationships.csv](field_guides/8e74b81160.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Range.csv](field_guides/c65be4eb8d.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Scenario.csv](field_guides/fb7bcc4efb.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Analysis.xlsx](field_guides/c167c79dbf.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [Business_Area.csv](field_guides/4b3d8dc24c.md) | View the budget, actual amounts and calculations. |
+| [Cost_Element.csv](field_guides/109ceb78e7.md) | View the budget, actual amounts and calculations. |
+| [Country_Region.csv](field_guides/73ff7187d3.md) | View the budget, actual amounts and calculations. |
+| [Date.csv](field_guides/5b1a129efe.md) | View the budget, actual amounts and calculations. |
+| [Department.csv](field_guides/b35d7f8b04.md) | View the budget, actual amounts and calculations. |
+| [Fact.csv](field_guides/51feea3373.md) | View the budget, actual amounts and calculations. |
+| [IT_Area.csv](field_guides/7b6cef3132.md) | View the budget, actual amounts and calculations. |
+| [Original_Measures.csv](field_guides/e6d25bb0a4.md) | View the budget, actual amounts and calculations. |
+| [Original_Relationships.csv](field_guides/8e74b81160.md) | View the budget, actual amounts and calculations. |
+| [Range.csv](field_guides/c65be4eb8d.md) | View the budget, actual amounts and calculations. |
+| [Scenario.csv](field_guides/fb7bcc4efb.md) | View the budget, actual amounts and calculations. |
+| [Analysis.xlsx](field_guides/c167c79dbf.md) | View the calculations and assumptions. |
 
 <details>
 <summary>Browse all downloadable files</summary>

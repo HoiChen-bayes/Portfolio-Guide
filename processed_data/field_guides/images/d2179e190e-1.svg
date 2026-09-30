@@ -1,0 +1,60 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1072" height="502" viewBox="0 0 1072 502">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Data Dictionary</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Table</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Field</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Meaning</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Relationship or treatment</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Fact</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Date</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Monthly observation,</text>
+<text x="546" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Jan–Dec 2014</text>
+<rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Month key; not an invoice</text>
+<text x="806" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">date</text>
+<rect x="16" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Fact</text>
+<rect x="276" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Value</text>
+<rect x="536" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Original unscaled amount</text>
+<rect x="796" y="184" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Reporting amount = Value</text>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">× 0.3; keep negatives and</text>
+<text x="806" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">zeros</text>
+<rect x="16" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Fact</text>
+<rect x="276" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Department</text>
+<rect x="536" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Department ID</text>
+<rect x="796" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Department.Department →</text>
+<text x="806" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">VP; not employee count</text>
+<rect x="16" y="334" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Fact</text>
+<rect x="276" y="334" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cost Element ID</text>
+<rect x="536" y="334" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cost type key</text>
+<rect x="796" y="334" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cost_Element: group /</text>
+<text x="806" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">subgroup / cost element</text>
+<text x="806" y="405" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">name</text>
+<rect x="16" y="420" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Fact</text>
+<rect x="276" y="420" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Country/Region ID</text>
+<rect x="536" y="420" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Geography key</text>
+<rect x="796" y="420" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Country_Region: country</text>
+<text x="806" y="469" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">and sales region</text>
+</svg>

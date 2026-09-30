@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="498" viewBox="0 0 1332 498">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Estimates</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Version</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Annual amount</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Revision vs Plan</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Actual less version</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Sum monthly abs error</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Plan</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">243,285,406.52</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="796" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">14,240,290.13</text>
+<rect x="1056" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">29,509,177.48</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">LE1</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">242,827,940.69</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-457,465.84</text>
+<rect x="796" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">14,697,755.97</text>
+<rect x="1056" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">16,077,315.4</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">LE2</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">257,369,775.92</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">14,084,369.39</text>
+<rect x="796" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">155,920.73</text>
+<rect x="1056" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10,284,212.37</text>
+<rect x="16" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">LE3</text>
+<rect x="276" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">260,093,394.41</text>
+<rect x="536" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">16,807,987.89</text>
+<rect x="796" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-2,567,697.76</text>
+<rect x="1056" y="276" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15,992,806.53</text>
+<rect x="16" y="328" width="260" height="152" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Issue dates and actual</text>
+<text x="26" y="377" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">cutoffs are unavailable.</text>
+<text x="26" y="399" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">These are snapshot</text>
+<text x="26" y="421" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">differences, not</text>
+<text x="26" y="443" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">comparable out-of-sample</text>
+<text x="26" y="465" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">forecasts.</text>
+<rect x="276" y="328" width="260" height="152" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="536" y="328" width="260" height="152" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="796" y="328" width="260" height="152" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="1056" y="328" width="260" height="152" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="355" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+</svg>

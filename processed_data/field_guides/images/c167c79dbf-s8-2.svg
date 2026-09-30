@@ -1,0 +1,41 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="410" viewBox="0 0 812 410">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Source</text>
+<rect x="16" y="68" width="260" height="64" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Month</text>
+<rect x="276" y="68" width="260" height="64" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">LE3</text>
+<rect x="536" y="68" width="260" height="64" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Positive networking</text>
+<text x="546" y="117" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">telephone LE3</text>
+<rect x="16" y="132" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="159" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Jan</text>
+<rect x="276" y="132" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="159" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">17,585,804.48</text>
+<rect x="536" y="132" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="159" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">289,737.39</text>
+<rect x="16" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Feb</text>
+<rect x="276" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">19,689,491.4</text>
+<rect x="536" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">891,945</text>
+<rect x="16" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Mar</text>
+<rect x="276" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">21,661,658.3</text>
+<rect x="536" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">862,908.21</text>
+<rect x="16" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Apr</text>
+<rect x="276" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">19,909,348.62</text>
+<rect x="536" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1,058,202.82</text>
+<rect x="16" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May</text>
+<rect x="276" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">21,933,572.21</text>
+<rect x="536" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">558,617.63</text>
+</svg>

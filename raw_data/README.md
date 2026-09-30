@@ -9,15 +9,15 @@ Files are copied byte-for-byte from the local downloads. Table exports, encoding
 
 [Processed data](../processed_data/README.md) · [Project](../README.md)
 
-The Excel Info tab contains attribution only. The model’s extracted Fact and dimension tables can be inspected in the [prepared inputs guide](../processed_data/README.md); these are labelled as extractions rather than original CSV downloads.
+The Excel Info tab contains attribution only. The model’s extracted Fact and dimension tables can be inspected in the [Analysis data guide](../processed_data/README.md); these are labelled as extractions rather than original CSV downloads.
 
 
-The Excel Info tab contains attribution only. The model’s extracted Fact and dimension tables can be inspected in the [prepared inputs guide](../processed_data/README.md); these are labelled as extractions rather than original CSV downloads.
+The Excel Info tab contains attribution only. The model’s extracted Fact and dimension tables can be inspected in the [Analysis data guide](../processed_data/README.md); these are labelled as extractions rather than original CSV downloads.
 
-## Illustrated data guide
+## Data previews
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
-| [IT_Spend_Analysis_Original.xlsx](field_guides/8c94608c4f.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [IT_Spend_Analysis_Original.xlsx](field_guides/8c94608c4f.md) | View the calculations and assumptions. |

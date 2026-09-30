@@ -1,0 +1,74 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="480" viewBox="0 0 1332 480">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#51498D"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Actions</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">ID</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Topic</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Amount</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Proposed owner</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Next question</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R1</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Administrative plan</text>
+<text x="286" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">credits</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">25,213,487.05</text>
+<rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">FP&amp;A / allocation</text>
+<text x="806" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">accounting</text>
+<rect x="1056" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Reconcile planned credits</text>
+<text x="1066" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">to actual postings</text>
+<rect x="16" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R2</text>
+<rect x="276" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Networking telephone</text>
+<rect x="536" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">8,686,173.73</text>
+<rect x="796" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Networking owner /</text>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">procurement</text>
+<rect x="1056" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Explain service scope,</text>
+<text x="1066" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">seats, rates and credits</text>
+<rect x="16" y="248" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R3</text>
+<rect x="276" y="248" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Productivity hardware</text>
+<rect x="536" y="248" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2,935,225.81</text>
+<rect x="796" y="248" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">End-user computing /</text>
+<text x="806" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">procurement</text>
+<rect x="1056" y="248" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Confirm purchases,</text>
+<text x="1066" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">capitalization and timing</text>
+<rect x="16" y="312" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="339" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R4</text>
+<rect x="276" y="312" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="339" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Negative CAPEX entries</text>
+<rect x="536" y="312" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="339" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-2,369,251.48</text>
+<rect x="796" y="312" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="339" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Controller</text>
+<rect x="1056" y="312" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="339" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Identify capitalization</text>
+<text x="1066" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">and reclassification</text>
+<text x="1066" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">entries</text>
+<rect x="16" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">R5</text>
+<rect x="276" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Estimate issue dates</text>
+<rect x="536" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="796" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">FP&amp;A</text>
+<rect x="1056" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Obtain immutable forecast</text>
+<text x="1066" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">snapshots</text>
+</svg>
