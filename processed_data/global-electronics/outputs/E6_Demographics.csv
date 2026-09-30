@@ -1,0 +1,97 @@
+﻿Gender,Age band,Customer Country,Observed buyers
+Female,25–34,Australia,60
+Female,25–34,Canada,79
+Female,25–34,France,31
+Female,25–34,Germany,81
+Female,25–34,Italy,32
+Female,25–34,Netherlands,28
+Female,25–34,United Kingdom,110
+Female,25–34,United States,425
+Female,35–44,Australia,61
+Female,35–44,Canada,95
+Female,35–44,France,33
+Female,35–44,Germany,96
+Female,35–44,Italy,44
+Female,35–44,Netherlands,41
+Female,35–44,United Kingdom,131
+Female,35–44,United States,417
+Female,45–54,Australia,62
+Female,45–54,Canada,81
+Female,45–54,France,29
+Female,45–54,Germany,92
+Female,45–54,Italy,35
+Female,45–54,Netherlands,43
+Female,45–54,United Kingdom,95
+Female,45–54,United States,413
+Female,55–64,Australia,80
+Female,55–64,Canada,85
+Female,55–64,France,40
+Female,55–64,Germany,89
+Female,55–64,Italy,44
+Female,55–64,Netherlands,37
+Female,55–64,United Kingdom,109
+Female,55–64,United States,404
+Female,65+,Australia,107
+Female,65+,Canada,178
+Female,65+,France,76
+Female,65+,Germany,191
+Female,65+,Italy,72
+Female,65+,Netherlands,69
+Female,65+,United Kingdom,236
+Female,65+,United States,885
+Female,Under 25,Australia,31
+Female,Under 25,Canada,59
+Female,Under 25,France,18
+Female,Under 25,Germany,43
+Female,Under 25,Italy,27
+Female,Under 25,Netherlands,22
+Female,Under 25,United Kingdom,83
+Female,Under 25,United States,259
+Male,25–34,Australia,65
+Male,25–34,Canada,96
+Male,25–34,France,35
+Male,25–34,Germany,87
+Male,25–34,Italy,41
+Male,25–34,Netherlands,42
+Male,25–34,United Kingdom,124
+Male,25–34,United States,432
+Male,35–44,Australia,52
+Male,35–44,Canada,91
+Male,35–44,France,22
+Male,35–44,Germany,90
+Male,35–44,Italy,38
+Male,35–44,Netherlands,40
+Male,35–44,United Kingdom,117
+Male,35–44,United States,430
+Male,45–54,Australia,52
+Male,45–54,Canada,96
+Male,45–54,France,32
+Male,45–54,Germany,84
+Male,45–54,Italy,49
+Male,45–54,Netherlands,45
+Male,45–54,United Kingdom,108
+Male,45–54,United States,433
+Male,55–64,Australia,63
+Male,55–64,Canada,85
+Male,55–64,France,31
+Male,55–64,Germany,78
+Male,55–64,Italy,44
+Male,55–64,Netherlands,45
+Male,55–64,United Kingdom,129
+Male,55–64,United States,425
+Male,65+,Australia,118
+Male,65+,Canada,182
+Male,65+,France,77
+Male,65+,Germany,173
+Male,65+,Italy,83
+Male,65+,Netherlands,91
+Male,65+,United Kingdom,247
+Male,65+,United States,904
+Male,Under 25,Australia,29
+Male,Under 25,Canada,52
+Male,Under 25,France,14
+Male,Under 25,Germany,46
+Male,Under 25,Italy,21
+Male,Under 25,Netherlands,31
+Male,Under 25,United Kingdom,81
+Male,Under 25,United States,279

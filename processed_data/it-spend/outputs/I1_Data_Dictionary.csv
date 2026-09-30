@@ -1,0 +1,14 @@
+﻿Table,Field,Meaning,Relationship or treatment
+Fact,Date,"Monthly observation, Jan–Dec 2014",Month key; not an invoice date
+Fact,Value,Original unscaled amount,Reporting amount = Value × 0.3; keep negatives and zeros
+Fact,Department,Department ID,Department.Department → VP; not employee count
+Fact,Cost Element ID,Cost type key,Cost_Element: group / subgroup / cost element name
+Fact,Country/Region ID,Geography key,Country_Region: country and sales region
+Fact,Business Area ID,Business organization key,Business_Area; distinct from IT area
+Fact,IT Sub Area ID,IT service hierarchy key,IT_Area: IT area and IT subarea
+Fact,Scenario ID,Scenario key,"Scenario: Actual, Plan, LE1, LE2, LE3"
+Date,Date,Date dimension 2011–2014,Only 2014 has Fact records
+Measures,Amount,Original report measure,YTD sum of raw Value × 0.3
+Derived,Variance,Actual minus Plan,Positive = higher net spend; missing Actual only zero for arithmetic
+Derived,Variance %,Variance / Plan,Only meaningful here if Plan > 0
+Derived,WAPE,Sum absolute monthly errors / sum absolute monthly Actual,"Descriptive, company-month grain; issue dates absent"

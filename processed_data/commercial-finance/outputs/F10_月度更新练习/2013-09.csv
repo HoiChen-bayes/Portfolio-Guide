@@ -1,0 +1,36 @@
+﻿SourceRow,Segment,Country,Product,Discount Band,Units Sold,Manufacturing Price,Sale Price,Gross Sales,Discounts,Sales,COGS,Profit,Date,Month Number,Month Name,Year
+23,Midmarket,France,Paseo,None,549.0,10,15,8235.0,0.0,8235.0,5490.0,2745.0,2013-09-01,9,September,2013
+24,Small Business,Mexico,Paseo,None,788.0,10,300,236400.0,0.0,236400.0,197000.0,39400.0,2013-09-01,9,September,2013
+43,Government,France,VTT,None,1527.0,250,350,534450.0,0.0,534450.0,397020.0,137430.0,2013-09-01,9,September,2013
+63,Enterprise,United States of America,Carretera,Low,330.0,3,125,41250.0,412.5,40837.5,39600.0,1237.5,2013-09-01,9,September,2013
+73,Small Business,United States of America,Montana,Low,2498.0,5,300,749400.0,7494.0,741906.0,624500.0,117406.0,2013-09-01,9,September,2013
+97,Channel Partners,United States of America,Amarilla,Low,1989.0,260,12,23868.0,238.68,23629.32,5967.0,17662.32,2013-09-01,9,September,2013
+153,Government,Germany,Montana,Low,1797.0,5,350,628950.0,18868.5,610081.5,467220.0,142861.5,2013-09-01,9,September,2013
+174,Government,Mexico,Paseo,Low,1760.0,10,7,12320.0,369.6,11950.4,8800.0,3150.3999999999996,2013-09-01,9,September,2013
+180,Government,United States of America,Velo,Low,736.0,120,20,14720.0,588.8,14131.2,7360.0,6771.200000000001,2013-09-01,9,September,2013
+203,Government,Canada,Velo,Low,2646.0,120,20,52920.0,2116.8,50803.2,26460.0,24343.199999999997,2013-09-01,9,September,2013
+206,Government,United States of America,VTT,Low,349.0,250,350,122150.0,4886.0,117264.0,90740.0,26524.0,2013-09-01,9,September,2013
+216,Government,Canada,Paseo,Medium,2349.0,10,7,16443.0,822.15,15620.85,11745.0,3875.85,2013-09-01,9,September,2013
+234,Government,Mexico,Montana,Medium,720.0,5,350,252000.0,12600.0,239400.0,187200.0,52200.0,2013-09-01,9,September,2013
+315,Government,Mexico,Carretera,Medium,1834.0,3,20,36680.0,2567.6,34112.4,18340.0,15772.4,2013-09-01,9,September,2013
+318,Government,France,Paseo,Medium,1031.0,10,7,7217.0,505.19,6711.81,5155.0,1556.8100000000004,2013-09-01,9,September,2013
+324,Channel Partners,Germany,VTT,Medium,2215.0,250,12,26580.0,1860.6,24719.4,6645.0,18074.4,2013-09-01,9,September,2013
+337,Midmarket,United States of America,Paseo,Medium,2931.0,10,15,43965.0,3077.55,40887.45,29310.0,11577.449999999995,2013-09-01,9,September,2013
+339,Small Business,Germany,Paseo,Medium,1123.0,10,300,336900.0,23583.0,313317.0,280750.0,32567.0,2013-09-01,9,September,2013
+355,Enterprise,Germany,Amarilla,Medium,994.0,260,125,124250.0,8697.5,115552.5,119280.0,-3727.5,2013-09-01,9,September,2013
+369,Small Business,Canada,Montana,Medium,1283.0,5,300,384900.0,30792.0,354108.0,320750.0,33358.0,2013-09-01,9,September,2013
+378,Government,Germany,Paseo,Medium,2409.0,10,7,16863.0,1349.04,15513.96,12045.0,3468.959999999999,2013-09-01,9,September,2013
+408,Small Business,France,Montana,Medium,322.0,5,300,96600.0,8694.0,87906.0,80500.0,7406.0,2013-09-01,9,September,2013
+434,Channel Partners,France,VTT,Medium,2234.0,250,12,26808.0,2412.72,24395.28,6702.0,17693.28,2013-09-01,9,September,2013
+501,Channel Partners,Mexico,VTT,High,1005.0,250,12,12060.0,1326.6,10733.4,3015.0,7718.4,2013-09-01,9,September,2013
+523,Government,France,Velo,High,2805.0,120,20,56100.0,6171.0,49929.0,28050.0,21879.0,2013-09-01,9,September,2013
+524,Midmarket,Mexico,Velo,High,655.0,120,15,9825.0,1080.75,8744.25,6550.0,2194.25,2013-09-01,9,September,2013
+533,Enterprise,Mexico,Amarilla,High,947.0,260,125,118375.0,13021.25,105353.75,113640.0,-8286.25,2013-09-01,9,September,2013
+536,Government,United States of America,Paseo,High,380.0,10,7,2660.0,292.6,2367.4,1900.0,467.4000000000001,2013-09-01,9,September,2013
+538,Enterprise,Canada,Carretera,High,2416.0,3,125,302000.0,36240.0,265760.0,289920.0,-24160.0,2013-09-01,9,September,2013
+563,Government,Canada,VTT,High,623.0,250,350,218050.0,26166.0,191884.0,161980.0,29904.0,2013-09-01,9,September,2013
+576,Channel Partners,Canada,Amarilla,High,2761.0,260,12,33132.0,3975.84,29156.16,8283.0,20873.16,2013-09-01,9,September,2013
+581,Government,Germany,Carretera,High,442.0,3,20,8840.0,1149.2,7690.8,4420.0,3270.8,2013-09-01,9,September,2013
+603,Midmarket,Germany,Velo,High,660.0,120,15,9900.0,1287.0,8613.0,6600.0,2013.0,2013-09-01,9,September,2013
+627,Enterprise,France,Carretera,High,1023.0,3,125,127875.0,17902.5,109972.5,122760.0,-12787.5,2013-09-01,9,September,2013
+640,Midmarket,Canada,Paseo,High,2470.0,10,15,37050.0,5187.0,31863.0,24700.0,7163.0,2013-09-01,9,September,2013

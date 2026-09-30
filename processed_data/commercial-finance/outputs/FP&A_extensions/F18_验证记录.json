@@ -1,0 +1,6 @@
+{
+  "repeat_same_version": "unchanged, no duplicated rows",
+  "bad_amount": "Amount reconciliation failed: 2014-12.csv",
+  "changed_frozen_file": "Frozen version differs. Use a new version; existing snapshot preserved.",
+  "month_gap": "Missing month in the submitted sequence."
+}

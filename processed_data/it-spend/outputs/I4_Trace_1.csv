@@ -1,0 +1,32 @@
+VP,Department,Sales Region,Country/Region,MonthNo,Actual,Plan,LE1,LE2,LE3,Variance
+Drew Judsen,52.0,USA,USA,10,,-1282013.346,-2467446.5607,0.0,-152686.9752,1282013.346
+Drew Judsen,52.0,USA,USA,9,,-1282013.346,-1440433.4985,,-152686.9752,1282013.346
+Drew Judsen,52.0,USA,USA,11,,-1282013.346,-2467446.5607,0.0,-152686.9752,1282013.346
+Drew Judsen,52.0,USA,USA,12,,-1282013.346,-2233759.803,0.0,-149979.1212,1282013.346
+Drew Judsen,52.0,USA,USA,4,,-1282013.061,-1440433.2134999998,,,1282013.061
+Drew Judsen,52.0,USA,USA,5,,-1282013.061,-1440433.2134999998,,,1282013.061
+Drew Judsen,52.0,USA,USA,6,,-1282013.061,-1440433.2134999998,,,1282013.061
+Drew Judsen,52.0,USA,USA,7,,-1282013.061,-1440433.2134999998,,-232732.161,1282013.061
+Drew Judsen,52.0,USA,USA,8,,-1282013.061,-1440433.2134999998,,-152686.9752,1282013.061
+Drew Judsen,52.0,USA,USA,2,,-1027013.061,,,,1027013.061
+Drew Judsen,52.0,USA,USA,3,,-1027013.061,,,,1027013.061
+Drew Judsen,52.0,USA,USA,1,,-1027013.061,,,,1027013.061
+Sean Peters,248.0,Latin America,Brazil,9,,,,,-71183.81349,0.0
+Raju Singh,8.0,Latin America,Mexico,12,,,16133.417999999998,0.0,0.0,0.0
+Sean Peters,248.0,Latin America,Brazil,7,,,,,-71183.81349,0.0
+Sean Peters,248.0,Latin America,Brazil,8,,,,,-71183.81349,0.0
+Dan English,147.0,Aus and NZ,New Zeland,12,,,88125.74399999999,,,0.0
+Sean Peters,248.0,Latin America,Brazil,10,,,,-106775.72025,-71183.81349,0.0
+Sean Peters,248.0,Latin America,Brazil,11,,,,-106775.72025,-71183.81349,0.0
+Raju Singh,8.0,Latin America,Mexico,10,,,,0.0,0.0,0.0
+Raju Singh,8.0,Latin America,Mexico,11,,,,0.0,0.0,0.0
+Jim Brown,446.0,Canada,Canada,9,,,,,0.0,0.0
+Raju Singh,8.0,Latin America,Mexico,9,,,,,0.0,0.0
+Raju Singh,8.0,Latin America,Mexico,8,,,,,0.0,0.0
+Raju Singh,8.0,Latin America,Mexico,7,,,,,0.0,0.0
+Jim Brown,446.0,Canada,Canada,12,,,46421.463,,0.0,0.0
+Jim Brown,446.0,Canada,Canada,11,,,,,0.0,0.0
+Jim Brown,446.0,Canada,Canada,10,,,,,0.0,0.0
+Jim Brown,446.0,Canada,Canada,8,,,,,0.0,0.0
+Jim Brown,446.0,Canada,Canada,7,,,,,0.0,0.0
+Sean Peters,248.0,Latin America,Brazil,12,,,127106.403,-106775.72025,-71183.81349,0.0
