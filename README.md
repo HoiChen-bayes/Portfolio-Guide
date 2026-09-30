@@ -1,6 +1,6 @@
 # Commercial Finance: Growth, Margin & FP&A
 
-[← Portfolio](https://github.com/HoiChen-bayes/finance-powerbi-portfolio) · [Source Data](raw_data/README.md) · [Analysis Outputs](processed_data/README.md)
+[← Portfolio](https://github.com/hoichengit/Portfolio-Guide) · [Source Data](raw_data/README.md) · [Analysis Outputs](processed_data/README.md)
 
 ## Dataset overview
 
