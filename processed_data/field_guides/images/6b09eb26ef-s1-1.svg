@@ -4,62 +4,62 @@
 <rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
 <text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Date</text>
 <rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
-<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Month no.</text>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Category</text>
 <rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
-<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Category</text>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Type</text>
 <rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
-<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Type</text>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Amount USD</text>
 <rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
 <text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Description</text>
 <rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Jan 2022</text>
 <rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Rent</text>
 <rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Rent</text>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
 <rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">$7,000.00</text>
 <rect x="1056" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Store space shared with</text>
 <text x="1066" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Mall co-renter</text>
 <rect x="16" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
 <text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Jan 2022</text>
 <rect x="276" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Utilities</text>
 <rect x="536" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Utilities</text>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
 <rect x="796" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">$4,800.00</text>
 <rect x="1056" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
 <text x="1066" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Higher month than usual</text>
 <rect x="16" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="26" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 Jan 2022</text>
 <rect x="276" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="286" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<text x="286" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Transport</text>
 <rect x="536" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="546" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Transport</text>
+<text x="546" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
 <rect x="796" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="806" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
+<text x="806" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">$2,000.00</text>
 <rect x="1056" y="236" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="1066" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Metro card</text>
 <rect x="16" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
 <text x="26" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">08 Jan 2022</text>
 <rect x="276" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="286" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<text x="286" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Marketing</text>
 <rect x="536" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="546" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Marketing</text>
+<text x="546" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
 <rect x="796" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
-<text x="806" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
+<text x="806" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">$2,200.00</text>
 <rect x="1056" y="288" width="260" height="52" fill="white" stroke="#D8DFE5"/>
 <text x="1066" y="315" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Ad Material/Promotions</text>
 <rect x="16" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="26" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">11 Jan 2022</text>
 <rect x="276" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="286" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<text x="286" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Business Insurance</text>
 <rect x="536" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="546" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Business Insurance</text>
+<text x="546" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
 <rect x="796" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
-<text x="806" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Expense</text>
+<text x="806" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">$400.00</text>
 <rect x="1056" y="340" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
 <text x="1066" y="367" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Insurance Premium</text>
 </svg>

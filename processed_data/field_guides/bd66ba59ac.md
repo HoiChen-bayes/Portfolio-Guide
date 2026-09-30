@@ -65,14 +65,11 @@ Actual income and expenses recorded by date and category.
 
 ![Actual](images/bd66ba59ac-s2-1.svg)
 
-![Actual](images/bd66ba59ac-s2-2.svg)
-
 ### Fields
 
 | Field | Format | Example |
 |---|---|---|
 | Date | Date | 01 Jan 2022 |
-| Month no. | Whole number | 1 |
 | Category | Text | Rent |
 | Type | Text | Expense |
 | Description | Text | Store space shared with Mall co-renter |
