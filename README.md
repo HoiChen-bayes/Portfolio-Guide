@@ -1,6 +1,6 @@
 # Pets & More: Budget, Forecast & Cash
 
-[← Portfolio](https://github.com/HoiChen-bayes/finance-powerbi-portfolio) · [Source Data](raw_data/README.md) · [Analysis Outputs](processed_data/README.md)
+[← Portfolio](https://github.com/hoichengit/Portfolio-Guide) · [Source Data](raw_data/README.md) · [Analysis Outputs](processed_data/README.md)
 
 ## Dataset overview
 
@@ -43,15 +43,25 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 ### B1 — Can actuals and budget be compared?
 
-**Yes — compare January–May 2022 by month and category, in USD.** The budget includes those same five months. Both datasets use the same nine income and expense categories.
+**Yes. These two entries both refer to January Sales in USD.**
 
-**What to do.** Take January–May from the budget. Add up the actual transactions for each month and category, then place each total beside its matching budget. Leave June–December out of this comparison.
+#### 1. Actual: January Sales = $5,000
 
-**Example.** January Sales actuals total **$5,000**, against a January Sales budget of **$6,000**: **$1,000 below budget**. These amounts are comparable because the month, category and currency match. The two files do not need the same number of records.
+Look at **January**, **Sales** and **5,000** in the original Excel sheet.
 
-![Why Budget and Actual can be compared: matching months, categories and currency](processed_data/field_guides/images/B1_Why_Comparable.svg)
+![Actual Excel screenshot: January Sales of 5,000](processed_data/field_guides/images/Actual_January_Sales.png)
 
-[See the matching data and how the January example was calculated](processed_data/field_guides/4710152f65.md)
+#### 2. Budget: January Sales = $6,000
+
+Look at the **January** column and **Sales** row in the original Excel sheet.
+
+![Budget Excel screenshot: January Sales budget of 6,000](processed_data/field_guides/images/Budget_January_Sales.png)
+
+**The month and category match, so we can compare the amounts: $5,000 − $6,000 = −$1,000. Sales is $1,000 below budget.**
+
+For the full analysis, compare **January–May only**, because that is the period covered by the actuals.
+
+[Open the Excel file and full screenshots](processed_data/field_guides/4710152f65.md)
 
 <a id="b2"></a>
 
