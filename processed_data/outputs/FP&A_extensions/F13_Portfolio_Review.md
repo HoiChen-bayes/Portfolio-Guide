@@ -24,7 +24,7 @@ A retrospective SQL exercise compares three one-month-ahead methods at segment-m
 
 Each target forecast uses earlier months only. All 135 predictions match an independent calculation, and changing target-month data does not change that month's prediction. The retrospective protocol assumes prior-month data are available at month-end and does not reproduce a real historical publication process.
 
-**Review:** F11 forecast methodology and reproducible SQLite analysis.
+**Review:** 11 forecast methodology and reproducible SQLite analysis.
 
 ## Planning, cash and close: what does the forecast imply?
 
@@ -34,7 +34,7 @@ Linked sales and cost forecasts to receivables, inventory, payables and cash und
 
 A separate synthetic ledger demonstrates five balanced adjusting journals, moving profit from **200,000** to **180,000**. Trial-balance and net-assets/equity checks reconcile. A local monthly update workflow validates 700 sample rows, freezes versions and rejects invalid amounts, missing months and changes to frozen inputs.
 
-**Review:** F15–F17 workbook and planning dashboard; F18 update instructions and validation evidence.
+**Review:** 15–17 workbook and planning dashboard; 18 update instructions and validation evidence.
 
 ## Boundaries
 

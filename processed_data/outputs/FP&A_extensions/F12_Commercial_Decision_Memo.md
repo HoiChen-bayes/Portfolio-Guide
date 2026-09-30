@@ -33,4 +33,4 @@ Stop or review if contract constraints are breached, service worsens, or observe
 
 **Current recommendation:** retain the current policy while collecting evidence. Prepare a bounded test for approval. The analysis supports further investigation, not immediate rollout.
 
-**Trace:** F7 in `F1-F10_Commercial_Performance.xlsx` and dashboard page 06. No actual test, owner assignment or approval has occurred.
+**Trace:** 7 in `F1-F10_Commercial_Finance_1_Analysis.xlsx` and dashboard page 06. No actual test, owner assignment or approval has occurred.
