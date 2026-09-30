@@ -1,5 +1,0 @@
-Version,Total,RevisionVsPlan,ActualMinusVersion,MonthlyAbsError,MonthlyWAPE,MatchingMonths,MatchList,Evaluation
-Plan,243285406.524,0.0,14240290.128000021,29509177.475999992,0.11458731248818395,0,None,Descriptive only; issue date not supplied
-LE1,242827940.68695,-457465.8370499909,14697755.965050012,16077315.399629999,0.06242994624864803,0,None,Descriptive only; issue date not supplied
-LE2,257369775.91889998,14084369.394899994,155920.73310002685,10284212.369580008,0.039934703617081305,8,"Jan, Feb, Apr, May, Jun, Jul, Aug, Sep",Descriptive only; issue date not supplied
-LE3,260093394.41351998,16807987.88951999,-2567697.7615199685,15992806.528260004,0.062101789204637804,6,"Jan, Feb, Mar, Apr, May, Jun",Descriptive only; issue date not supplied

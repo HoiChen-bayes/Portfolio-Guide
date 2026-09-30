@@ -1,38 +1,197 @@
-# 🗺️ Hoi's Portfolio
+# Global Electronics: Retail Performance
 
-Welcome to my financial portfolio! Here, I document a summary of my projects in the financial field.
+[← Portfolio](https://github.com/HoiChen-bayes/finance-powerbi-portfolio) · [Source Data](raw_data/README.md) · [Analysis Outputs](processed_data/README.md)
 
-## 📚 Table of Contents
+## Dataset overview
 
-- [Financial Analysis](#financial-analysis-projects)
-- [Power BI](#power-bi-projects)
-- [Data Engineering](#data-engineering-projects)
-- [SQL](#sql-projects)
+- 62,884 sales lines and 26,326 distinct orders, January 2016–February 2021.
+- Sales linked to customer, product and store dimensions, plus exchange rates.
+- Static USD product prices and costs support estimated revenue and gross profit.
+- The main annual comparison is 2020 versus 2019; 2021 is incomplete.
+
+[Explore source tables, real data excerpts and field formats →](raw_data/README.md)
+
+## Analysis questions
+
+- Sales and order drivers
+- Product and store contribution
+- Strict same-store comparison
+- Repeat-purchase cohorts
+- Delivery performance
+- Management review
+
+## Prepared data and outputs
+
+[Explore the processed tables, worksheet contents and calculation evidence →](processed_data/README.md)
+
+The output guide separates prepared inputs, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
+
+## Visualisation
+
+[Open the interactive Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjY0ZTExNjctN2RmZC00ZjY5LTk0ODEtMmJhZjQ5ZmQ0YTk2IiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) — no sign-in or dataset download required. Select a page and use its filters to explore the analysis.
+
+![Power BI Summary](assets/summary.png)
+
+[Download Power BI file](report.pbix)
+
+## Results and evidence
+
+### E1 — Do the tables join correctly?
+
+**Result.** All 62,884 sales lines and quantities are preserved; dimension keys are unique with no unmatched sales keys.
+
+**How and why.** Validate keys and joins, then compare row and quantity totals before and after preparation.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/85d1f2d278.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E1 — supporting file excerpt](processed_data/field_guides/images/85d1f2d278-1.png)
+
+</details>
+
+### E2 — What revenue and gross profit can be estimated?
+
+**Result.** Full-period estimated sales are $55.755M and gross profit $32.663M across 197,757 units.
+
+**How and why.** Multiply quantities by static product prices and costs; deduct estimated cost from estimated sales.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/70e6712348.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E2 — supporting file excerpt](processed_data/field_guides/images/70e6712348-1.png)
+
+</details>
+
+### E3 — Are orders or basket values driving the decline?
+
+**Result.** 2020 orders fall from 9,083 to 4,635 (about 49.0%); average estimated order value falls only 0.27%.
+
+**How and why.** Count distinct orders, then divide revenue by order count and compare channel totals.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/8a20bf94e0.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E3 — supporting file excerpt](processed_data/field_guides/images/8a20bf94e0-1.png)
+
+</details>
+
+### E4 — Which category and store contributions stand out?
+
+**Result.** Computers lose about $3.293M sales versus 2019, the largest category decline. Kansas Store 50 has the highest 2020 physical-store estimated gross profit, about $179K.
+
+**How and why.** Aggregate by product category and store while retaining separate customer and store geography.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/bd58016c24.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E4 — supporting file excerpt](processed_data/field_guides/images/bd58016c24-1.png)
+
+</details>
+
+### E5 — Does the decline remain on a same-store basis?
+
+**Result.** The strict 11-store cohort declines 44.0%, from $4.315M to $2.415M; it covers only 30.1% of 2019 physical-store sales.
+
+**How and why.** Require the stated opening and monthly coverage criteria before comparing the same stores.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/37f4b0f1fe.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E5 — supporting file excerpt](processed_data/field_guides/images/37f4b0f1fe-1.png)
+
+</details>
+
+### E6 — How many customers return within 90 days?
+
+**Result.** 1,078 of 11,745 eligible customers return: 9.18%. There are 11,887 observed buyers overall.
+
+**How and why.** Identify each first order and allow a full 90-day observation window before counting a second order.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/d7d3dc200c.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E6 — supporting file excerpt](processed_data/field_guides/images/d7d3dc200c-1.png)
+
+</details>
+
+### E7 — What can delivery dates establish?
+
+**Result.** All 5,580 online orders have delivery dates; all 20,746 store orders lack them. Online mean delivery falls from about 7.17 days in 2016 to 4.03 days in 2020.
+
+**How and why.** Measure valid online order-to-delivery intervals. Do not treat missing store delivery dates as zero days.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/22d6390870.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E7 — supporting file excerpt](processed_data/field_guides/images/22d6390870-1.png)
+
+</details>
+
+### E8 — What reconciles the annual sales fall?
+
+**Result.** Sales fall by about $8.970M: approximately $8.944M from order volume and $0.026M from order-value/basket effects.
+
+**How and why.** Bridge orders at prior average order value, then current orders at the change in average order value. The arithmetic explains the movement, not its external cause.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/e49f3d39f6.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E8 — supporting file excerpt](processed_data/field_guides/images/e49f3d39f6-1.png)
+
+</details>
+
+### E9 — Which stores warrant management review?
+
+**Result.** Kansas 50 and Connecticut 45 combine material gross profit with sales declines. Alaska 43 needs a coverage check first.
+
+**How and why.** Rank comparable-store evidence and distinguish gross profit from store net profit; rent, payroll and investment data are absent.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/4a0c26a3d3.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E9 — supporting file excerpt](processed_data/field_guides/images/4a0c26a3d3-1.png)
+
+</details>
+
+### E10 — Does the update reproduce the complete totals?
+
+**Result.** Restoring the held-out December batch reproduces the full 2020 row, quantity and estimated-sales totals.
+
+**How and why.** Validate required fields and order-line keys, then reconcile the updated data with the complete-period benchmark.
+
+[Inspect the supporting file and field definitions](processed_data/field_guides/04b98f329e.md)
+
+<details>
+<summary>View the supporting data excerpt</summary>
+
+![E10 — supporting file excerpt](processed_data/field_guides/images/04b98f329e-1.png)
+
+</details>
+
+## Source and measurement notes
 
 
-## Financial Analysis Projects
+**Period:** January 2016–February 2021; executive focus on 2020 versus 2019.  
+**Scope:** 62,884 sales lines and 26,326 orders, linked to product, store and customer dimensions.  
+**Source:** [Maven Analytics — Global Electronics Retailer](https://mavenanalytics.io/data-playground/global-electronics-retailer) · [Downloaded data mirror](https://github.com/DimitriKneur/Global-Electronics-Retailer-Analysis/tree/main/0_Data_Sources).
 
-| Project | Area | Description and tasks | Outputs |
-|---|---|---|---|
-| 🐈‍⬛[Pets & More](projects/pets-more/README.md) |  Budget, Forecast & Cash | A pet-business case covering budget performance and the full-year outlook. Reconcile source records, explain variances, test recovery scenarios and model cash needs. | [Source Data](raw_data/pets-more/README.md) /  [Analysis Outputs](processed_data/pets-more/README.md) |
-| 💻[IT Finance](projects/it-spend/README.md) | Cost Control & Forecast Review | An IT finance case tracing a $14.24M overspend to cost drivers. Reconcile the source model, compare estimates and test cost actions in a rolling outlook. | [Source Data](raw_data/it-spend/README.md) / [Analysis Outputs](processed_data/it-spend/README.md) |
-| 📈[Commercial Finance](projects/commercial-finance/README.md) | Growth, Margin & FP&A | A commercial finance case connecting revenue growth with profitability and planning. Analyse product economics, test discount policies and extend the work into forecasts, cash and close exercises. | [Source Data](raw_data/commercial-finance/README.md) /  [Analysis Outputs](processed_data/commercial-finance/README.md) |
-| 🏪[Global Electronics](projects/global-electronics/README.md) | Retail Performance | A retail finance case diagnosing the 2020 sales decline. Reconcile the multi-table dataset, separate order and basket effects, and assess stores, repeat purchasing and delivery. | [Source Data](raw_data/global-electronics/README.md) /  [Analysis Outputs](processed_data/global-electronics/README.md) |
+Fictional retailer supplied for practice. Sales and gross profit are estimates based on static product prices and costs, not transaction-level realised prices. KPI goals use prior-year benchmarks, not a source budget. 2021 is partial; the project does not attribute the decline to an unobserved business cause.
 
-## Power BI Projects
-
-| Project | Description and visualisation | Dashboard Links |
-|---|---|---|
-| 🧗[Adventure Work](projects/pets-more/README.md) | Explore budget gaps, spending concentration and the revised outlook. Use page navigation, period and scenario controls to move from the summary to detailed analysis. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDUxM2MxNDYtMzZhMy00ZDhlLTkzZjQtMGRiYTRlNDMxYjUxIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-| 🐈‍⬛[Pets & More](projects/pets-more/README.md) | Explore budget gaps, spending concentration and the revised outlook. Use page navigation, period and scenario controls to move from the summary to detailed analysis. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDUxM2MxNDYtMzZhMy00ZDhlLTkzZjQtMGRiYTRlNDMxYjUxIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-| 💻[IT Finance](projects/it-spend/README.md) | Explore spend, plan variance and the latest estimates across technology and organisational dimensions. Drill through the cost story and compare the available planning scenarios. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTMyMjlmZDAtODE2YS00Njc5LTlhMTktMjZhOTFhZDliYmFhIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-| 📈[Commercial Finance](projects/commercial-finance/README.md) | Explore revenue flows, product economics and discount trade-offs alongside FP&A scenarios. Use portfolio bubbles, growth bridges and planning pages to trace headline results to supporting detail. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDcyNmZhMDItYWY0Yy00MDQ4LTgwNDktNzYxNDAxZmRkYzNjIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-| 🏪[Global Electronics](projects/global-electronics/README.md) | Explore retail performance through revenue flows, channel trends, store comparisons and customer cohorts. Use interactive filters and drill paths to investigate the source of the decline. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjY0ZTExNjctN2RmZC00ZjY5LTk0ODEtMmJhZjQ5ZmQ0YTk2IiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-
-## Data Engineering Projects
-
-## SQL Projects
-
-
-
-Layout inspired by [Katie Huang’s Portfolio Guide](https://github.com/katiehuangx/Portfolio-Guide/blob/main/README.md).
