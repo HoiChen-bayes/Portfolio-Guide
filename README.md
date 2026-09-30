@@ -13,12 +13,17 @@
 
 ## Analysis questions
 
-- Revenue and margin quality
-- Comparable growth bridge
-- Discount scenarios
-- Forecast backtesting
-- Reforecast and cash
-- Simulated month-end close
+Click a question to jump to its answer and evidence.
+
+| Analysis area | Questions |
+|---|---|
+| Sales and profitability | [F1 — Do the revenue and profit fields reconcile?](#f1)<br>[F2 — What is overall performance?](#f2)<br>[F3 — Which products and segments matter most?](#f3)<br>[F4 — Where is discount quality weak?](#f4) |
+| Growth and pricing | [F5 — How much did comparable sales grow?](#f5)<br>[F6 — What explains that growth?](#f6)<br>[F7 — Could a discount change improve profit?](#f7) |
+| Commercial review | [F8 — What should the quarterly review highlight?](#f8)<br>[F9 — What should commercial managers prioritise?](#f9) |
+| Monthly updates | [F10 — Can monthly input be refreshed without duplication?](#f10)<br>[F18 — Can an approved data version be preserved?](#f18) |
+| Forecast and decisions | [F11 — Which forecast baseline performs best?](#f11)<br>[F12 — How does the scenario become a decision proposal?](#f12)<br>[F15 — Why did the Q4 forecast change?](#f15) |
+| Present and repeat the analysis | [F13 — How is the work presented for review?](#f13)<br>[F14 — How can the analysis be reproduced as practice?](#f14) |
+| Cash and month-end close | [F16 — Can positive profit coexist with a funding gap?](#f16)<br>[F17 — How do close adjustments affect the accounts?](#f17) |
 
 ## Analysis data and outputs
 
@@ -36,6 +41,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 ## Results and evidence
 
+<a id="f1"></a>
+
 ### F1 — Do the revenue and profit fields reconcile?
 
 **Result.** All 700 records reconcile within $0.01 across the gross sales, net sales and sample profit checks.
@@ -50,6 +57,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F1 — supporting file excerpt](processed_data/field_guides/images/1bc15fbc8d-1.svg)
 
 </details>
+
+<a id="f2"></a>
 
 ### F2 — What is overall performance?
 
@@ -66,6 +75,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f3"></a>
+
 ### F3 — Which products and segments matter most?
 
 **Result.** Paseo leads product sales. Government contributes about 67.4% of sample profit; Enterprise loses about $0.615M.
@@ -80,6 +91,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F3 — supporting file excerpt](processed_data/field_guides/images/a0944d798a-1.svg)
 
 </details>
+
+<a id="f4"></a>
 
 ### F4 — Where is discount quality weak?
 
@@ -96,6 +109,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f5"></a>
+
 ### F5 — How much did comparable sales grow?
 
 **Result.** September–December sales rose from $26.42M to $36.16M, up $9.74M or 36.9%.
@@ -110,6 +125,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F5 — supporting file excerpt](processed_data/field_guides/images/989d798a35-1.svg)
 
 </details>
+
+<a id="f6"></a>
 
 ### F6 — What explains that growth?
 
@@ -126,6 +143,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f7"></a>
+
 ### F7 — Could a discount change improve profit?
 
 **Result.** The modelled pilot adds about $159K profit; the downside reduces profit by about $110K.
@@ -140,6 +159,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F7 — supporting file excerpt](processed_data/field_guides/images/820ddf1e13-1.svg)
 
 </details>
+
+<a id="f8"></a>
 
 ### F8 — What should the quarterly review highlight?
 
@@ -156,6 +177,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f9"></a>
+
 ### F9 — What should commercial managers prioritise?
 
 **Result.** Investigate Enterprise losses, assess Government opportunities and consider a bounded Paseo / Small Business pricing pilot.
@@ -170,6 +193,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F9 — supporting file excerpt](processed_data/field_guides/images/41014485aa-s5-1.svg)
 
 </details>
+
+<a id="f10"></a>
 
 ### F10 — Can monthly input be refreshed without duplication?
 
@@ -186,6 +211,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f11"></a>
+
 ### F11 — Which forecast baseline performs best?
 
 **Result.** The selected trailing-three-month baseline has holdout WAPE of 41.6% and bias of −22.5%.
@@ -197,6 +224,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![Recorded evidence](processed_data/field_guides/images/F11-backtest-1.svg)
 
 
+<a id="f12"></a>
+
 ### F12 — How does the scenario become a decision proposal?
 
 **Result.** A written pilot proposal sets decision conditions, implementation-cost considerations and stopping criteria.
@@ -204,6 +233,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 **How and why.** Convert the F7 scenario into a testable recommendation rather than treating modelled benefits as achieved results.
 
 [View the data](processed_data/field_guides/820ddf1e13.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F12_Commercial_Decision_Memo.md)
+
+<a id="f13"></a>
 
 ### F13 — How is the work presented for review?
 
@@ -213,6 +244,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 [View the data](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F13_Portfolio_Review.md)
 
+<a id="f14"></a>
+
 ### F14 — How can the analysis be reproduced as practice?
 
 **Result.** A separate exercise and answer key provide a repeatable review of the work.
@@ -220,6 +253,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 **How and why.** Use the task questions and compare the rebuilt calculations with the supplied answer materials.
 
 [View the data](processed_data/field_guides/41014485aa.md) · [Supporting document](processed_data/outputs/FP&A_extensions/F14_独立实操_题目.md)
+
+<a id="f15"></a>
 
 ### F15 — Why did the Q4 forecast change?
 
@@ -236,6 +271,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f16"></a>
+
 ### F16 — Can positive profit coexist with a funding gap?
 
 **Result.** Yes. The downside retains $3.013M Q4 sample profit but needs a peak $3.572M buffer to maintain the modelled minimum cash.
@@ -251,6 +288,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="f17"></a>
+
 ### F17 — How do close adjustments affect the accounts?
 
 **Result.** The synthetic ledger demonstrates accruals, prepayment release, capitalisation, depreciation and deferred revenue with balanced entries.
@@ -265,6 +304,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![F17 — supporting file excerpt](processed_data/field_guides/images/db4a6469d4-s3-1.svg)
 
 </details>
+
+<a id="f18"></a>
 
 ### F18 — Can an approved data version be preserved?
 
