@@ -1,8 +1,13 @@
-# Financial Analysis & Power BI Portfolio
+# 🗺️ Hoi's Portfolio
 
-Four projects presented from two perspectives: financial analysis explains the business questions and evidence; Power BI lets readers explore the results interactively.
+Welcome to my financial portfolio! Here, I document a summary of my projects in the financial field.
 
-[Financial Analysis](#financial-analysis-projects) · [Power BI](#power-bi-projects)
+Table of contents
+[Financial Analysis](#financial-analysis-projects)
+[Power BI](#power-bi-projects)
+Data Engineering
+SQL
+
 
 ## Financial Analysis Projects
 
@@ -15,7 +20,7 @@ Four projects presented from two perspectives: financial analysis explains the b
 
 ## Power BI Projects
 
-| Project | Description and visualisation | Dashboard |
+| Project | Description and visualisation | Dashboard Links |
 |---|---|---|
 | 🧗[Adventure Work](projects/pets-more/README.md) | Explore budget gaps, spending concentration and the revised outlook. Use page navigation, period and scenario controls to move from the summary to detailed analysis. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDUxM2MxNDYtMzZhMy00ZDhlLTkzZjQtMGRiYTRlNDMxYjUxIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
 | 🐈‍⬛[Pets & More](projects/pets-more/README.md) | Explore budget gaps, spending concentration and the revised outlook. Use page navigation, period and scenario controls to move from the summary to detailed analysis. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDUxM2MxNDYtMzZhMy00ZDhlLTkzZjQtMGRiYTRlNDMxYjUxIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
