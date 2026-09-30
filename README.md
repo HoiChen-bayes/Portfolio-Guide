@@ -13,12 +13,16 @@
 
 ## Analysis questions
 
-- Sales and order drivers
-- Product and store contribution
-- Strict same-store comparison
-- Repeat-purchase cohorts
-- Delivery performance
-- Management review
+Click a question to jump to its answer and evidence.
+
+| Analysis area | Questions |
+|---|---|
+| Check the data and calculations | [E1 — Do the tables join correctly?](#e1)<br>[E2 — What revenue and gross profit can be estimated?](#e2) |
+| Sales performance | [E3 — Are orders or basket values driving the decline?](#e3)<br>[E4 — Which category and store contributions stand out?](#e4) |
+| Store comparisons | [E5 — Does the decline remain on a same-store basis?](#e5)<br>[E9 — Which stores warrant management review?](#e9) |
+| Customer behaviour and delivery | [E6 — How many customers return within 90 days?](#e6)<br>[E7 — What can delivery dates establish?](#e7) |
+| Explain the annual decline | [E8 — What reconciles the annual sales fall?](#e8) |
+| Monthly updates | [E10 — Does the update reproduce the complete totals?](#e10) |
 
 ## Analysis data and outputs
 
@@ -36,6 +40,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 ## Results and evidence
 
+<a id="e1"></a>
+
 ### E1 — Do the tables join correctly?
 
 **Result.** All 62,884 sales lines and quantities are preserved; dimension keys are unique with no unmatched sales keys.
@@ -50,6 +56,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![E1 — supporting file excerpt](processed_data/field_guides/images/85d1f2d278-1.svg)
 
 </details>
+
+<a id="e2"></a>
 
 ### E2 — What revenue and gross profit can be estimated?
 
@@ -66,6 +74,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="e3"></a>
+
 ### E3 — Are orders or basket values driving the decline?
 
 **Result.** 2020 orders fall from 9,083 to 4,635 (about 49.0%); average estimated order value falls only 0.27%.
@@ -80,6 +90,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![E3 — supporting file excerpt](processed_data/field_guides/images/8a20bf94e0-1.svg)
 
 </details>
+
+<a id="e4"></a>
 
 ### E4 — Which category and store contributions stand out?
 
@@ -96,6 +108,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="e5"></a>
+
 ### E5 — Does the decline remain on a same-store basis?
 
 **Result.** The strict 11-store cohort declines 44.0%, from $4.315M to $2.415M; it covers only 30.1% of 2019 physical-store sales.
@@ -110,6 +124,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![E5 — supporting file excerpt](processed_data/field_guides/images/37f4b0f1fe-1.svg)
 
 </details>
+
+<a id="e6"></a>
 
 ### E6 — How many customers return within 90 days?
 
@@ -126,6 +142,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="e7"></a>
+
 ### E7 — What can delivery dates establish?
 
 **Result.** All 5,580 online orders have delivery dates; all 20,746 store orders lack them. Online mean delivery falls from about 7.17 days in 2016 to 4.03 days in 2020.
@@ -140,6 +158,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![E7 — supporting file excerpt](processed_data/field_guides/images/22d6390870-1.svg)
 
 </details>
+
+<a id="e8"></a>
 
 ### E8 — What reconciles the annual sales fall?
 
@@ -156,6 +176,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="e9"></a>
+
 ### E9 — Which stores warrant management review?
 
 **Result.** Kansas 50 and Connecticut 45 combine material gross profit with sales declines. Alaska 43 needs a coverage check first.
@@ -170,6 +192,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![E9 — supporting file excerpt](processed_data/field_guides/images/4a0c26a3d3-1.svg)
 
 </details>
+
+<a id="e10"></a>
 
 ### E10 — Does the update reproduce the complete totals?
 
