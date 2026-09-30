@@ -12,11 +12,16 @@
 
 ## Analysis questions
 
-- Monthly and YTD variance
-- Full-year reforecast
-- Recovery scenarios
-- Close preparation
-- Cash runway
+Click a question to jump to its answer and evidence.
+
+| Analysis area | Questions |
+|---|---|
+| Prepare a fair comparison | [B1 — Can actuals and budget be compared?](#b1) |
+| Monthly performance | [B2 — Which months generated a surplus?](#b2)<br>[B3 — How did May perform against budget?](#b3) |
+| Explain the budget gap | [B4 — What deserves immediate review?](#b4)<br>[B5 — What explains the YTD gap?](#b5) |
+| Forecast and recovery | [B6 — What is the revised full-year result?](#b6)<br>[B7 — Which recovery scenario improves the model most?](#b7) |
+| Close and management review | [B8 — What should be checked before close?](#b8)<br>[B9 — What should the business review focus on?](#b9) |
+| Cash and funding | [B10 — When could funding be needed?](#b10) |
 
 ## Analysis data and outputs
 
@@ -34,20 +39,21 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 ## Results and evidence
 
+<a id="b1"></a>
+
 ### B1 — Can actuals and budget be compared?
 
-**Result.** All 55 actual records and 108 budget rows are retained; all nine categories map successfully.
+**Yes — compare January–May 2022 by month and category, in USD.** The budget includes those same five months. Both datasets use the same nine income and expense categories.
 
-**How and why.** Map categories and months, exclude budget subtotal rows and reconcile the $170,734 combined transaction control total. This control total includes both income and expenses.
+**What to do.** Take January–May from the budget. Add up the actual transactions for each month and category, then place each total beside its matching budget. Leave June–December out of this comparison.
 
-[View the data](processed_data/field_guides/4710152f65.md)
+**Example.** January Sales actuals total **$5,000**, against a January Sales budget of **$6,000**: **$1,000 below budget**. These amounts are comparable because the month, category and currency match. The two files do not need the same number of records.
 
-<details>
-<summary>View the supporting data excerpt</summary>
+![Why Budget and Actual can be compared: matching months, categories and currency](processed_data/field_guides/images/B1_Why_Comparable.svg)
 
-![B1 — supporting file excerpt](processed_data/field_guides/images/4710152f65-s0-1.svg)
+[See the matching data and how the January example was calculated](processed_data/field_guides/4710152f65.md)
 
-</details>
+<a id="b2"></a>
 
 ### B2 — Which months generated a surplus?
 
@@ -64,6 +70,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="b3"></a>
+
 ### B3 — How did May perform against budget?
 
 **Result.** May income was $1,200 below budget and expenses $811 below budget, leaving a $389 unfavourable net variance.
@@ -78,6 +86,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![B3 — supporting file excerpt](processed_data/field_guides/images/6c9b7e1dbb-s0-1.svg)
 
 </details>
+
+<a id="b4"></a>
 
 ### B4 — What deserves immediate review?
 
@@ -94,6 +104,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="b5"></a>
+
 ### B5 — What explains the YTD gap?
 
 **Result.** The YTD result is $3,734 worse than budget. Sales and Other Income contribute $4,400 and $4,700 of downside, partly offset by $7,470 lower Other Expenses.
@@ -108,6 +120,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![B5 — supporting file excerpt](processed_data/field_guides/images/4f1a41b2e5-s0-1.svg)
 
 </details>
+
+<a id="b6"></a>
 
 ### B6 — What is the revised full-year result?
 
@@ -124,6 +138,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="b7"></a>
+
 ### B7 — Which recovery scenario improves the model most?
 
 **Result.** Service recovery improves the result by $2,250; the cost-control scenario improves it by $4,389. All three scenarios remain in deficit.
@@ -138,6 +154,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![B7 — supporting file excerpt](processed_data/field_guides/images/4a0dce2d95-s1-1.svg)
 
 </details>
+
+<a id="b8"></a>
 
 ### B8 — What should be checked before close?
 
@@ -154,6 +172,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="b9"></a>
+
 ### B9 — What should the business review focus on?
 
 **Result.** The review prioritises Sales, Transport and Other Expenses and links them to the full-year forecast.
@@ -168,6 +188,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![B9 — supporting file excerpt](processed_data/field_guides/images/1a4d21dfdf-s0-1.svg)
 
 </details>
+
+<a id="b10"></a>
 
 ### B10 — When could funding be needed?
 

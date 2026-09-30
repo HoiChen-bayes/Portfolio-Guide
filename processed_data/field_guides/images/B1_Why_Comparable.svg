@@ -1,0 +1,91 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="840" viewBox="0 0 1120 840">
+<defs><marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L8,3 z" fill="#C52E35"/></marker></defs>
+<rect width="1120" height="840" rx="18" fill="#FAFBF8"/>
+<rect x="0" y="0" width="1120" height="100" rx="0" fill="#32634B" stroke="none"/>
+<text x="32" y="42" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#FFFFFF" text-anchor="start">B1 | Can Actual and Budget be compared?</text>
+<text x="32" y="77" font-family="Arial, sans-serif" font-size="23" font-weight="normal" fill="#FFFFFF" text-anchor="start">Yes — match the month, category and currency first.</text>
+<text x="32" y="143" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#233F32" text-anchor="start">1. Use the same five months</text>
+<text x="32" y="178" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#233F32" text-anchor="start">Budget covers the whole year. Actuals cover January–May 2022 only.</text>
+<text x="32" y="239" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#233F32" text-anchor="start">Actual</text>
+<rect x="168" y="209" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="202" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Jan</text>
+<rect x="243" y="209" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="277" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Feb</text>
+<rect x="318" y="209" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="352" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Mar</text>
+<rect x="393" y="209" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="427" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Apr</text>
+<rect x="468" y="209" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="502" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">May</text>
+<rect x="543" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="577" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Jun</text>
+<rect x="618" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="652" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Jul</text>
+<rect x="693" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="727" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Aug</text>
+<rect x="768" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="802" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Sep</text>
+<rect x="843" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="877" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Oct</text>
+<rect x="918" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="952" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Nov</text>
+<rect x="993" y="209" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="1027" y="239" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Dec</text>
+<text x="32" y="322" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#233F32" text-anchor="start">Budget</text>
+<rect x="168" y="292" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="202" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Jan</text>
+<rect x="243" y="292" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="277" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Feb</text>
+<rect x="318" y="292" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="352" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Mar</text>
+<rect x="393" y="292" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="427" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Apr</text>
+<rect x="468" y="292" width="68" height="46" rx="6" fill="#FDE8E8" stroke="#C52E35"/>
+<text x="502" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">May</text>
+<rect x="543" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="577" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Jun</text>
+<rect x="618" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="652" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Jul</text>
+<rect x="693" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="727" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Aug</text>
+<rect x="768" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="802" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Sep</text>
+<rect x="843" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="877" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Oct</text>
+<rect x="918" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="952" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Nov</text>
+<rect x="993" y="292" width="68" height="46" rx="6" fill="#EEF0ED" stroke="#D8DDD8"/>
+<text x="1027" y="322" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#818A82" text-anchor="middle">Dec</text>
+<line x1="202" y1="258" x2="202" y2="285" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="277" y1="258" x2="277" y2="285" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="352" y1="258" x2="352" y2="285" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="427" y1="258" x2="427" y2="285" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="502" y1="258" x2="502" y2="285" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="776" y="277" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#747E76" text-anchor="middle">No actuals for June–December</text>
+<line x1="170" y1="355" x2="535" y2="355" stroke="#C52E35" stroke-width="3"/>
+<line x1="170" y1="349" x2="170" y2="360" stroke="#C52E35" stroke-width="3"/>
+<line x1="535" y1="349" x2="535" y2="360" stroke="#C52E35" stroke-width="3"/>
+<text x="350" y="388" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#C52E35" text-anchor="middle">COMPARE JAN–MAY ONLY</text>
+<text x="795" y="370" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#747E76" text-anchor="middle">Leave June–December out</text>
+<text x="795" y="397" font-family="Arial, sans-serif" font-size="18" font-weight="normal" fill="#747E76" text-anchor="middle">of the actual-versus-budget comparison.</text>
+<text x="32" y="444" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#233F32" text-anchor="start">2. Match the category and currency</text>
+<text x="32" y="478" font-family="Arial, sans-serif" font-size="21" font-weight="normal" fill="#233F32" text-anchor="start">Both datasets use the same 9 categories and US dollars (USD).</text>
+<rect x="32" y="503" width="1056" height="48" rx="10" fill="#EAF1E9" stroke="none"/>
+<text x="560" y="534" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#AC1E28" text-anchor="middle">Example: January 2022  =  January 2022   •   Sales  =  Sales   •   USD  =  USD</text>
+<text x="32" y="592" font-family="Arial, sans-serif" font-size="25" font-weight="bold" fill="#233F32" text-anchor="start">3. Add up actual transactions, then compare with the monthly budget</text>
+<rect x="32" y="616" width="315" height="145" rx="10" fill="#FFFFFF" stroke="#D6DFD5"/>
+<text x="50" y="648" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#233F32" text-anchor="start">Actual · January Sales</text>
+<text x="50" y="701" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#C52E35" text-anchor="start">$5,000</text>
+<text x="50" y="739" font-family="Arial, sans-serif" font-size="17" font-weight="normal" fill="#233F32" text-anchor="start">Sum of actual Sales transactions</text>
+<rect x="387" y="616" width="315" height="145" rx="10" fill="#FFFFFF" stroke="#D6DFD5"/>
+<text x="405" y="648" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#233F32" text-anchor="start">Budget · January Sales</text>
+<text x="405" y="701" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#C52E35" text-anchor="start">$6,000</text>
+<text x="405" y="739" font-family="Arial, sans-serif" font-size="17" font-weight="normal" fill="#233F32" text-anchor="start">Monthly Sales budget</text>
+<rect x="742" y="616" width="346" height="145" rx="10" fill="#FFFFFF" stroke="#D6DFD5"/>
+<text x="760" y="648" font-family="Arial, sans-serif" font-size="21" font-weight="bold" fill="#233F32" text-anchor="start">Actual minus Budget</text>
+<text x="760" y="701" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#C52E35" text-anchor="start">−$1,000</text>
+<text x="760" y="739" font-family="Arial, sans-serif" font-size="17" font-weight="normal" fill="#233F32" text-anchor="start">January Sales is below budget</text>
+<line x1="355" y1="687" x2="379" y2="687" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<line x1="710" y1="687" x2="734" y2="687" stroke="#C52E35" stroke-width="3" marker-end="url(#arrow)"/>
+<text x="32" y="807" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#233F32" text-anchor="start">WHY IT WORKS: the two amounts describe the same month, category and currency.</text>
+</svg>
