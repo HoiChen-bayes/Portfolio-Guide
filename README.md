@@ -17,11 +17,11 @@ Click a question to jump to its answer and evidence.
 
 | Analysis area | Questions |
 |---|---|
-| Check the data | [I1 — Are the source models consistent?](#i1) |
-| Spend and cost drivers | [I2 — How much was spent?](#i2)<br>[I3 — Which area explains the gap?](#i3)<br>[I4 — Can the drivers be traced further?](#i4) |
-| Review forecast versions | [I5 — How do the latest estimates differ?](#i5)<br>[I6 — Does LE2 prove better forecast accuracy?](#i6) |
-| Monthly patterns | [I7 — Is the gap persistent across months?](#i7) |
-| Actions and updated forecast | [I8 — What should budget owners review?](#i8)<br>[I9 — How much could the proposed action save?](#i9)<br>[I10 — What does the updated outlook show?](#i10) |
+| Check the data | [1 — Are the source models consistent?](#i1) |
+| Spend and cost drivers | [2 — How much was spent?](#i2)<br>[3 — Which area explains the gap?](#i3)<br>[4 — Can the drivers be traced further?](#i4) |
+| Review forecast versions | [5 — How do the latest estimates differ?](#i5)<br>[6 — Does LE2 prove better forecast accuracy?](#i6) |
+| Monthly patterns | [7 — Is the gap persistent across months?](#i7) |
+| Actions and updated forecast | [8 — What should budget owners review?](#i8)<br>[9 — How much could the proposed action save?](#i9)<br>[10 — What does the updated outlook show?](#i10) |
 
 ## Analysis data and outputs
 
@@ -41,171 +41,171 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 <a id="i1"></a>
 
-### I1 — Are the source models consistent?
+### 1 — Are the source models consistent?
 
 **Result.** 166,216 fact rows reconcile across the source models; 12 preparation checks show zero differences.
 
 **How and why.** Compare rows and amounts at the natural key and validate dimension joins; retain negative and zero values.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/a9c25443d1.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I1 — supporting file excerpt](processed_data/field_guides/images/a9c25443d1-1.svg)
+![1 — supporting file excerpt](processed_data/field_guides/images/a9c25443d1-1.svg)
 
 </details>
 
 <a id="i2"></a>
 
-### I2 — How much was spent?
+### 2 — How much was spent?
 
 **Result.** Actual spend is $257.53M versus $243.29M plan: $14.24M or 5.85% over plan.
 
 **How and why.** Aggregate monthly source amounts separately by scenario; do not sum cumulative YTD measures across months.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/50d6143c52.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I2 — supporting file excerpt](processed_data/field_guides/images/50d6143c52-1.svg)
+![2 — supporting file excerpt](processed_data/field_guides/images/50d6143c52-1.svg)
 
 </details>
 
 <a id="i3"></a>
 
-### I3 — Which area explains the gap?
+### 3 — Which area explains the gap?
 
 **Result.** Infrastructure is $24.32M above plan. Administrative contains a planned credit of about $25.21M with no Actual records.
 
 **How and why.** Compare the same scope across cost and IT-area dimensions; investigate missing credits or mapping before labelling them additional spending.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/c167c79dbf.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I3 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s3-1.svg)
+![3 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s3-1.svg)
 
 </details>
 
 <a id="i4"></a>
 
-### I4 — Can the drivers be traced further?
+### 4 — Can the drivers be traced further?
 
 **Result.** Telephone contributes +$8.69M and Computer Hardware +$2.94M; Telecom partly offsets Telephone by about $6.04M.
 
 **How and why.** Filter the hierarchy and reconcile department, country and month contributions back to each parent driver.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/061ba80852.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I4 — supporting file excerpt](processed_data/field_guides/images/061ba80852-1.svg)
+![4 — supporting file excerpt](processed_data/field_guides/images/061ba80852-1.svg)
 
 </details>
 
 <a id="i5"></a>
 
-### I5 — How do the latest estimates differ?
+### 5 — How do the latest estimates differ?
 
 **Result.** LE1 totals $242.83M, LE2 $257.37M and LE3 $260.09M, compared with $243.29M plan.
 
 **How and why.** Sum each version over the same year, then calculate its revision versus Plan and its gap to Actual.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/8bcf1c0244.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I5 — supporting file excerpt](processed_data/field_guides/images/8bcf1c0244-1.svg)
+![5 — supporting file excerpt](processed_data/field_guides/images/8bcf1c0244-1.svg)
 
 </details>
 
 <a id="i6"></a>
 
-### I6 — Does LE2 prove better forecast accuracy?
+### 6 — Does LE2 prove better forecast accuracy?
 
 **Result.** No. LE2 matches Actual in eight months and LE3 in six; issue dates and frozen historical versions are absent.
 
 **How and why.** Inspect month-level overlap and absolute errors. Annual closeness alone cannot distinguish forecasting from actualisation.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/8bcf1c0244.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I6 — supporting file excerpt](processed_data/field_guides/images/8bcf1c0244-1.svg)
+![6 — supporting file excerpt](processed_data/field_guides/images/8bcf1c0244-1.svg)
 
 </details>
 
 <a id="i7"></a>
 
-### I7 — Is the gap persistent across months?
+### 7 — Is the gap persistent across months?
 
 **Result.** Infrastructure is above plan in 11 of 12 months; January is the only favourable month.
 
 **How and why.** Compare monthly and cumulative variances. Persistence is observable, but its operational cause still requires evidence.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/f8a92ddc76.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I7 — supporting file excerpt](processed_data/field_guides/images/f8a92ddc76-1.svg)
+![7 — supporting file excerpt](processed_data/field_guides/images/f8a92ddc76-1.svg)
 
 </details>
 
 <a id="i8"></a>
 
-### I8 — What should budget owners review?
+### 8 — What should budget owners review?
 
 **Result.** Seven targeted evidence requests cover credits, telephone costs, hardware, CAPEX, estimate dates, commitments and contract constraints.
 
 **How and why.** Turn each material exception into a question and evidence request; proposed owners are roles, not completed assignments.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/72a5b13ff4.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I8 — supporting file excerpt](processed_data/field_guides/images/72a5b13ff4-1.svg)
+![8 — supporting file excerpt](processed_data/field_guides/images/72a5b13ff4-1.svg)
 
 </details>
 
 <a id="i9"></a>
 
-### I9 — How much could the proposed action save?
+### 9 — How much could the proposed action save?
 
 **Result.** The illustrative telephone action yields $38,807.72 gross benefit and $13,807.72 after a $25,000 one-off cost.
 
 **How and why.** Apply a 10% reduction to a 25% eligible share from November onward. Do not equate total overspend with achievable savings.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/c167c79dbf.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I9 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s1-1.svg)
+![9 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s1-1.svg)
 
 </details>
 
 <a id="i10"></a>
 
-### I10 — What does the updated outlook show?
+### 10 — What does the updated outlook show?
 
 **Result.** The no-action outlook is about $254.31M; the proposal produces $254.292M, still $11.006M above plan.
 
 **How and why.** Combine January–September actuals with October–December LE3, then adjust remaining months for gross benefit and implementation cost.
 
+<details>
+<summary>View evidence</summary>
+
 [View the data](processed_data/field_guides/801098a6d9.md)
 
-<details>
-<summary>View the supporting data excerpt</summary>
-
-![I10 — supporting file excerpt](processed_data/field_guides/images/801098a6d9-1.svg)
+![10 — supporting file excerpt](processed_data/field_guides/images/801098a6d9-1.svg)
 
 </details>
 
