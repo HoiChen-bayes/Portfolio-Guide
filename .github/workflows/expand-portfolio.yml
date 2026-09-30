@@ -1,0 +1,39 @@
+name: Expand portfolio upload
+on:
+  push:
+    branches: [main]
+    paths: [portfolio-upload.zip]
+permissions:
+  contents: write
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+        with:
+          ref: main
+      - name: Validate and unpack the portfolio
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path, PurePosixPath
+          import zipfile, hashlib
+          z = Path("portfolio-upload.zip")
+          if not z.exists():
+              raise SystemExit("Portfolio archive is missing")
+          if hashlib.sha256(z.read_bytes()).hexdigest() != "e6978e2d459e264415ae529185e7cf4b28b5e68e2e519ee21277f4d2bd9e1d4e":
+              raise SystemExit("Archive differs from the approved portfolio")
+          with zipfile.ZipFile(z) as archive:
+              for item in archive.infolist():
+                  p = PurePosixPath(item.filename)
+                  if p.is_absolute() or ".." in p.parts or any(x.startswith(".git") for x in p.parts):
+                      raise SystemExit("Unsafe archive path")
+              archive.extractall(".")
+          z.unlink()
+          PY
+      - name: Publish expanded project pages and data
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md PUBLISHING.md DATA_MANIFEST.csv learning projects raw_data processed_data portfolio-upload.zip
+          git commit -m "Publish four financial analysis case studies, source data, outputs and interactive dashboards"
+          git push origin HEAD:main
