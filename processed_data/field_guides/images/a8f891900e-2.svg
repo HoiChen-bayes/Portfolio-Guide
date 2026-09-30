@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1592" height="446" viewBox="0 0 1592 446">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Orders</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Order Number</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Store</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Channel</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Month</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Year</text>
+<rect x="1316" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1326" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Quantity</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000000</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">38 · United Kingdom ·</text>
+<text x="286" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Belfast</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Store</text>
+<rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017-09</text>
+<rect x="1056" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017</text>
+<rect x="1316" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">18</text>
+<rect x="16" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000001</text>
+<rect x="276" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Online</text>
+<rect x="536" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Online</text>
+<rect x="796" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017-09</text>
+<rect x="1056" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017</text>
+<rect x="1316" y="184" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">20</text>
+<rect x="16" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000002</text>
+<rect x="276" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">56 · United States · New</text>
+<text x="286" y="285" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Hampshire</text>
+<rect x="536" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Store</text>
+<rect x="796" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017-09</text>
+<rect x="1056" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017</text>
+<rect x="1316" y="236" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="263" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">15</text>
+<rect x="16" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000003</text>
+<rect x="276" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">66 · United States ·</text>
+<text x="286" y="349" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Wyoming</text>
+<rect x="536" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Store</text>
+<rect x="796" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017-09</text>
+<rect x="1056" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017</text>
+<rect x="1316" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2</text>
+<rect x="16" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000004</text>
+<rect x="276" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">51 · United States ·</text>
+<text x="286" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Maine</text>
+<rect x="536" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Store</text>
+<rect x="796" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017-09</text>
+<rect x="1056" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2017</text>
+<rect x="1316" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">5</text>
+</svg>

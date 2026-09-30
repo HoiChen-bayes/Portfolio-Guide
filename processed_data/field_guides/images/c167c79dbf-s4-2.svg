@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1592" height="456" viewBox="0 0 1592 456">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">E9 Stores</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Store</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Est. sales 2019</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Est. sales 2020</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Est. GP 2020</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Change</text>
+<rect x="1316" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1326" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Growth</text>
+<rect x="16" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 · Australia ·</text>
+<text x="26" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Australian Capital</text>
+<text x="26" y="191" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Territory</text>
+<rect x="276" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">83,345.18</text>
+<rect x="536" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">59,547.84</text>
+<rect x="796" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">35,576.51</text>
+<rect x="1056" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-23,797.34</text>
+<rect x="1316" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-28.6%</text>
+<rect x="16" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">02 · Australia · Northern</text>
+<text x="26" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Territory</text>
+<rect x="276" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="536" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="796" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1056" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1316" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">n.a.</text>
+<rect x="16" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">03 · Australia · South</text>
+<text x="26" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Australia</text>
+<rect x="276" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="536" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="796" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1056" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1316" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">n.a.</text>
+<rect x="16" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">04 · Australia · Tasmania</text>
+<rect x="276" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">181,319.47</text>
+<rect x="536" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">34,941.02</text>
+<rect x="796" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">21,008.4</text>
+<rect x="1056" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-146,378.45</text>
+<rect x="1316" y="334" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-80.7%</text>
+<rect x="16" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">05 · Australia · Victoria</text>
+<rect x="276" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">277,555.37</text>
+<rect x="536" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">115,533.8</text>
+<rect x="796" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">66,369.91</text>
+<rect x="1056" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-162,021.57</text>
+<rect x="1316" y="386" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">-58.4%</text>
+</svg>

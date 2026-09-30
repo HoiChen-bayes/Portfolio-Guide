@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="480" viewBox="0 0 1332 480">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">E9 Stores</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Store</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Coverage group</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Area sqm</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Months 2019</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Months 2020</text>
+<rect x="16" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">01 · Australia ·</text>
+<text x="26" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Australian Capital</text>
+<text x="26" y="191" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Territory</text>
+<rect x="276" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Established, incomplete</text>
+<text x="286" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">monthly coverage</text>
+<rect x="536" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">595</text>
+<rect x="796" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12</text>
+<rect x="1056" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">9</text>
+<rect x="16" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">02 · Australia · Northern</text>
+<text x="26" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Territory</text>
+<rect x="276" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Established, incomplete</text>
+<text x="286" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">monthly coverage</text>
+<rect x="536" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">665</text>
+<rect x="796" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1056" y="206" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="16" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">03 · Australia · South</text>
+<text x="26" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Australia</text>
+<rect x="276" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Established, incomplete</text>
+<text x="286" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">monthly coverage</text>
+<rect x="536" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2,000</text>
+<rect x="796" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="1056" y="270" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="16" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">04 · Australia · Tasmania</text>
+<rect x="276" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Established, incomplete</text>
+<text x="286" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">monthly coverage</text>
+<rect x="536" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2,000</text>
+<rect x="796" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">11</text>
+<rect x="1056" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">7</text>
+<rect x="16" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">05 · Australia · Victoria</text>
+<rect x="276" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Established, incomplete</text>
+<text x="286" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">monthly coverage</text>
+<rect x="536" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">2,000</text>
+<rect x="796" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12</text>
+<rect x="1056" y="398" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10</text>
+</svg>

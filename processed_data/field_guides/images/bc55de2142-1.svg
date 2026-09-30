@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="502" viewBox="0 0 1332 502">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">SKU Quantity Bridge</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">ProductKey</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">2019</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">2020</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Product Name</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Category</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">12</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">6</text>
+<rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Contoso 512MB MP3 Player</text>
+<text x="806" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">E51 Silver</text>
+<rect x="1056" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Audio</text>
+<rect x="16" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">10</text>
+<rect x="276" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">54</text>
+<rect x="536" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">6</text>
+<rect x="796" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Contoso 4G MP3 Player</text>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">E400 Green</text>
+<rect x="1056" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Audio</text>
+<rect x="16" y="248" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">100</text>
+<rect x="276" y="248" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">79</text>
+<rect x="536" y="248" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">32</text>
+<rect x="796" y="248" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">WWI Wireless Bluetooth</text>
+<text x="806" y="297" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Stereo Headphones M170</text>
+<text x="806" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">White</text>
+<rect x="1056" y="248" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Audio</text>
+<rect x="16" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1000</text>
+<rect x="276" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">8</text>
+<rect x="536" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="796" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">A. Datum Compact Digital</text>
+<text x="806" y="383" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Camera M200 Orange</text>
+<rect x="1056" y="334" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="361" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cameras and camcorders</text>
+<rect x="16" y="398" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">1001</text>
+<rect x="276" y="398" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">18</text>
+<rect x="536" y="398" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">20</text>
+<rect x="796" y="398" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">A. Datum Rangefinder</text>
+<text x="806" y="447" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Digital Camera X200</text>
+<text x="806" y="469" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Orange</text>
+<rect x="1056" y="398" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="425" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cameras and camcorders</text>
+</svg>

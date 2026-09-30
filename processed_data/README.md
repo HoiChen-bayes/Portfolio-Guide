@@ -14,11 +14,11 @@
 
 ## Worksheets and output tables
 
-The links below open illustrated file guides first, with downloads inside each guide. Previews contain actual saved values; ratios, identifiers and dates are explained beside the column definitions.
+The links below open illustrated file guides first, with downloads inside each guide. Each preview shows the data, field names and formats.
 
 
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
@@ -45,8 +45,8 @@ Open a table or workbook below to inspect real rows, column meanings and format 
 | [E8_Contributions.csv](field_guides/93f581656f.md) | Explain the year-on-year revenue decline. |
 | [E8_SKU_Quantity_Bridge.csv](field_guides/bc55de2142.md) | Explain the year-on-year revenue decline. |
 | [E9_Store_Review_Shortlist.csv](field_guides/4a0c26a3d3.md) | Prioritise stores for business review. |
-| [Customers_UTF8.csv](field_guides/ddf0026398.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Analysis.xlsx](field_guides/c167c79dbf.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [Customers_UTF8.csv](field_guides/ddf0026398.md) | View the budget, actual amounts and calculations. |
+| [Analysis.xlsx](field_guides/c167c79dbf.md) | View the calculations and assumptions. |
 
 <details>
 <summary>Browse all downloadable files</summary>

@@ -20,11 +20,11 @@
 - Delivery performance
 - Management review
 
-## Prepared data and outputs
+## Analysis data and outputs
 
 [Explore the processed tables, worksheet contents and calculation evidence →](processed_data/README.md)
 
-The output guide separates prepared inputs, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
+The output guide separates Analysis data, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
 
 ## Visualisation
 
@@ -42,12 +42,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Validate keys and joins, then compare row and quantity totals before and after preparation.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/85d1f2d278.md)
+[View the data](processed_data/field_guides/85d1f2d278.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E1 — supporting file excerpt](processed_data/field_guides/images/85d1f2d278-1.png)
+![E1 — supporting file excerpt](processed_data/field_guides/images/85d1f2d278-1.svg)
 
 </details>
 
@@ -57,12 +57,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Multiply quantities by static product prices and costs; deduct estimated cost from estimated sales.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/70e6712348.md)
+[View the data](processed_data/field_guides/70e6712348.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E2 — supporting file excerpt](processed_data/field_guides/images/70e6712348-1.png)
+![E2 — supporting file excerpt](processed_data/field_guides/images/70e6712348-1.svg)
 
 </details>
 
@@ -72,12 +72,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Count distinct orders, then divide revenue by order count and compare channel totals.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/8a20bf94e0.md)
+[View the data](processed_data/field_guides/8a20bf94e0.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E3 — supporting file excerpt](processed_data/field_guides/images/8a20bf94e0-1.png)
+![E3 — supporting file excerpt](processed_data/field_guides/images/8a20bf94e0-1.svg)
 
 </details>
 
@@ -87,12 +87,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Aggregate by product category and store while retaining separate customer and store geography.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/bd58016c24.md)
+[View the data](processed_data/field_guides/bd58016c24.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E4 — supporting file excerpt](processed_data/field_guides/images/bd58016c24-1.png)
+![E4 — supporting file excerpt](processed_data/field_guides/images/bd58016c24-1.svg)
 
 </details>
 
@@ -102,12 +102,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Require the stated opening and monthly coverage criteria before comparing the same stores.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/37f4b0f1fe.md)
+[View the data](processed_data/field_guides/37f4b0f1fe.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E5 — supporting file excerpt](processed_data/field_guides/images/37f4b0f1fe-1.png)
+![E5 — supporting file excerpt](processed_data/field_guides/images/37f4b0f1fe-1.svg)
 
 </details>
 
@@ -117,12 +117,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Identify each first order and allow a full 90-day observation window before counting a second order.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/d7d3dc200c.md)
+[View the data](processed_data/field_guides/d7d3dc200c.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E6 — supporting file excerpt](processed_data/field_guides/images/d7d3dc200c-1.png)
+![E6 — supporting file excerpt](processed_data/field_guides/images/d7d3dc200c-1.svg)
 
 </details>
 
@@ -132,12 +132,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Measure valid online order-to-delivery intervals. Do not treat missing store delivery dates as zero days.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/22d6390870.md)
+[View the data](processed_data/field_guides/22d6390870.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E7 — supporting file excerpt](processed_data/field_guides/images/22d6390870-1.png)
+![E7 — supporting file excerpt](processed_data/field_guides/images/22d6390870-1.svg)
 
 </details>
 
@@ -147,12 +147,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Bridge orders at prior average order value, then current orders at the change in average order value. The arithmetic explains the movement, not its external cause.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/e49f3d39f6.md)
+[View the data](processed_data/field_guides/e49f3d39f6.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E8 — supporting file excerpt](processed_data/field_guides/images/e49f3d39f6-1.png)
+![E8 — supporting file excerpt](processed_data/field_guides/images/e49f3d39f6-1.svg)
 
 </details>
 
@@ -162,12 +162,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Rank comparable-store evidence and distinguish gross profit from store net profit; rent, payroll and investment data are absent.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/4a0c26a3d3.md)
+[View the data](processed_data/field_guides/4a0c26a3d3.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E9 — supporting file excerpt](processed_data/field_guides/images/4a0c26a3d3-1.png)
+![E9 — supporting file excerpt](processed_data/field_guides/images/4a0c26a3d3-1.svg)
 
 </details>
 
@@ -177,12 +177,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Validate required fields and order-line keys, then reconcile the updated data with the complete-period benchmark.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/04b98f329e.md)
+[View the data](processed_data/field_guides/04b98f329e.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![E10 — supporting file excerpt](processed_data/field_guides/images/04b98f329e-1.png)
+![E10 — supporting file excerpt](processed_data/field_guides/images/04b98f329e-1.svg)
 
 </details>
 

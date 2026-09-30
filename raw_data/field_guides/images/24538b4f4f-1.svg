@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="478" viewBox="0 0 812 478">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Data Dictionary</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Table</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Field</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Description</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Sales</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Order Number</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Unique ID for each order</text>
+<rect x="16" y="172" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Sales</text>
+<rect x="276" y="172" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Line Item</text>
+<rect x="536" y="172" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Identifies individual</text>
+<text x="546" y="221" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">products purchased as</text>
+<text x="546" y="243" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">part of an order</text>
+<rect x="16" y="258" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="285" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Sales</text>
+<rect x="276" y="258" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="285" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Order Date</text>
+<rect x="536" y="258" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="285" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Date the order was placed</text>
+<rect x="16" y="310" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="337" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Sales</text>
+<rect x="276" y="310" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="337" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Delivery Date</text>
+<rect x="536" y="310" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="337" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Date the order was</text>
+<text x="546" y="359" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">delivered</text>
+<rect x="16" y="374" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="401" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Sales</text>
+<rect x="276" y="374" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="401" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">CustomerKey</text>
+<rect x="536" y="374" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="401" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Unique key identifying</text>
+<text x="546" y="423" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">which customer placed the</text>
+<text x="546" y="445" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">order</text>
+</svg>

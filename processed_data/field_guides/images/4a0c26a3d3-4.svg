@@ -1,0 +1,97 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1592" height="590" viewBox="0 0 1592 590">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#153351"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Store Review Shortlist</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">StoreKey</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Revenue per sqm</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">GP per sqm</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Store</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Review priority</text>
+<rect x="1316" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1326" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Proposed next step</text>
+<rect x="16" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">43</text>
+<rect x="276" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">221.3818739496</text>
+<rect x="536" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">131.5686302521</text>
+<rect x="796" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">43 · United States ·</text>
+<text x="806" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Alaska</text>
+<rect x="1056" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Validate trading coverage</text>
+<text x="1066" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">first</text>
+<rect x="1316" y="120" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Validate missing-month</text>
+<text x="1326" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">trading coverage before</text>
+<text x="1326" y="191" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">performance judgement</text>
+<rect x="16" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">45</text>
+<rect x="276" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">138.357555</text>
+<rect x="536" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">82.251505</text>
+<rect x="796" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">45 · United States ·</text>
+<text x="806" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Connecticut</text>
+<rect x="1056" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Comparable operating</text>
+<text x="1066" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">review</text>
+<rect x="1316" y="206" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Investigate orders and</text>
+<text x="1326" y="255" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">trading days before</text>
+<text x="1326" y="277" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">proposing recovery spend</text>
+<rect x="16" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">50</text>
+<rect x="276" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">149.56757</text>
+<rect x="536" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">89.617475</text>
+<rect x="796" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">50 · United States ·</text>
+<text x="806" y="341" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Kansas</text>
+<rect x="1056" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Comparable operating</text>
+<text x="1066" y="341" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">review</text>
+<rect x="1316" y="292" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="319" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Review demand,</text>
+<text x="1326" y="341" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">availability and capacity</text>
+<text x="1326" y="363" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">before considering</text>
+<text x="1326" y="385" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">investment</text>
+<rect x="16" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">53</text>
+<rect x="276" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">189.0493095238</text>
+<rect x="536" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">109.6360714286</text>
+<rect x="796" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">53 · United States ·</text>
+<text x="806" y="449" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Montana</text>
+<rect x="1056" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Comparable operating</text>
+<text x="1066" y="449" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">review</text>
+<rect x="1316" y="400" width="260" height="86" fill="white" stroke="#D8DFE5"/>
+<text x="1326" y="427" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Compare inventory</text>
+<text x="1326" y="449" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">availability and local</text>
+<text x="1326" y="471" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">demand</text>
+<rect x="16" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">64</text>
+<rect x="276" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">179.8539172932</text>
+<rect x="536" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">108.2040601504</text>
+<rect x="796" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">64 · United States ·</text>
+<text x="806" y="535" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Washington DC</text>
+<rect x="1056" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Comparable operating</text>
+<text x="1066" y="535" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">review</text>
+<rect x="1316" y="486" width="260" height="86" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1326" y="513" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Review order recovery</text>
+<text x="1326" y="535" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">options with local</text>
+<text x="1326" y="557" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">operations</text>
+</svg>
