@@ -13,12 +13,15 @@
 
 ## Analysis questions
 
-- Actual versus Plan
-- Cost-driver investigation
-- Estimate-version diagnostics
-- Monthly variance patterns
-- Cost-action scenarios
-- Rolling outlook
+Click a question to jump to its answer and evidence.
+
+| Analysis area | Questions |
+|---|---|
+| Check the data | [I1 — Are the source models consistent?](#i1) |
+| Spend and cost drivers | [I2 — How much was spent?](#i2)<br>[I3 — Which area explains the gap?](#i3)<br>[I4 — Can the drivers be traced further?](#i4) |
+| Review forecast versions | [I5 — How do the latest estimates differ?](#i5)<br>[I6 — Does LE2 prove better forecast accuracy?](#i6) |
+| Monthly patterns | [I7 — Is the gap persistent across months?](#i7) |
+| Actions and updated forecast | [I8 — What should budget owners review?](#i8)<br>[I9 — How much could the proposed action save?](#i9)<br>[I10 — What does the updated outlook show?](#i10) |
 
 ## Analysis data and outputs
 
@@ -36,6 +39,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 ## Results and evidence
 
+<a id="i1"></a>
+
 ### I1 — Are the source models consistent?
 
 **Result.** 166,216 fact rows reconcile across the source models; 12 preparation checks show zero differences.
@@ -50,6 +55,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![I1 — supporting file excerpt](processed_data/field_guides/images/a9c25443d1-1.svg)
 
 </details>
+
+<a id="i2"></a>
 
 ### I2 — How much was spent?
 
@@ -66,6 +73,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="i3"></a>
+
 ### I3 — Which area explains the gap?
 
 **Result.** Infrastructure is $24.32M above plan. Administrative contains a planned credit of about $25.21M with no Actual records.
@@ -80,6 +89,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![I3 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s3-1.svg)
 
 </details>
+
+<a id="i4"></a>
 
 ### I4 — Can the drivers be traced further?
 
@@ -96,6 +107,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="i5"></a>
+
 ### I5 — How do the latest estimates differ?
 
 **Result.** LE1 totals $242.83M, LE2 $257.37M and LE3 $260.09M, compared with $243.29M plan.
@@ -110,6 +123,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![I5 — supporting file excerpt](processed_data/field_guides/images/8bcf1c0244-1.svg)
 
 </details>
+
+<a id="i6"></a>
 
 ### I6 — Does LE2 prove better forecast accuracy?
 
@@ -126,6 +141,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="i7"></a>
+
 ### I7 — Is the gap persistent across months?
 
 **Result.** Infrastructure is above plan in 11 of 12 months; January is the only favourable month.
@@ -140,6 +157,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![I7 — supporting file excerpt](processed_data/field_guides/images/f8a92ddc76-1.svg)
 
 </details>
+
+<a id="i8"></a>
 
 ### I8 — What should budget owners review?
 
@@ -156,6 +175,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 
 </details>
 
+<a id="i9"></a>
+
 ### I9 — How much could the proposed action save?
 
 **Result.** The illustrative telephone action yields $38,807.72 gross benefit and $13,807.72 after a $25,000 one-off cost.
@@ -170,6 +191,8 @@ The output guide separates Analysis data, calculation workbooks and analytical o
 ![I9 — supporting file excerpt](processed_data/field_guides/images/c167c79dbf-s1-1.svg)
 
 </details>
+
+<a id="i10"></a>
 
 ### I10 — What does the updated outlook show?
 
