@@ -27,7 +27,7 @@ Budget variance | May 2022: a preview of the figures in the workbook.
 
 Actual income and expenses recorded by date and category.
 
-![Actual](images/6c9b7e1dbb-s1-1.svg)
+![Actual](images/6c9b7e1dbb-s1-clean-1.svg)
 
 ### Fields
 

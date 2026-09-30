@@ -57,7 +57,7 @@ Forecast: a preview of the figures in the workbook.
 
 Actual income and expenses recorded by date and category.
 
-![Actual](images/1a4d21dfdf-s2-1.svg)
+![Actual](images/1a4d21dfdf-s2-clean-1.svg)
 
 ### Fields
 

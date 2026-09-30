@@ -50,7 +50,7 @@ Planned income and expenses by month and category.
 
 Actual income and expenses recorded by date and category.
 
-![Actual](images/8e4df29fae-s2-1.svg)
+![Actual](images/8e4df29fae-s2-clean-1.svg)
 
 ### Fields
 
