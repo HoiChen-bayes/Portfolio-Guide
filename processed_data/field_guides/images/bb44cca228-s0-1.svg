@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1332" height="446" viewBox="0 0 1332 446">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#32634B"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Month-end exception register</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Evidence</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Issue</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Possible effect</text>
+<rect x="796" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="806" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Request</text>
+<rect x="1056" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="1066" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Suggested owner</text>
+<rect x="16" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Actual rows 10 / 11</text>
+<rect x="276" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Identical insurance</text>
+<text x="286" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">entries</text>
+<rect x="536" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">USD 300 if one is</text>
+<text x="546" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">duplicate</text>
+<rect x="796" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Invoice / payment /</text>
+<text x="806" y="169" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">journal ID</text>
+<rect x="1056" y="120" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Accountant</text>
+<rect x="16" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Actual through May 28</text>
+<rect x="276" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May closure unknown</text>
+<rect x="536" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Missing expense or income</text>
+<rect x="796" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May GL and closing</text>
+<text x="806" y="233" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">checklist</text>
+<rect x="1056" y="184" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="211" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Accountant</text>
+<rect x="16" y="248" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May Other Expenses</text>
+<rect x="276" y="248" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Below budget USD 1,680</text>
+<rect x="536" y="248" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Timing or genuine saving</text>
+<rect x="796" y="248" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Invoices and accruals</text>
+<rect x="1056" y="248" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="275" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Operations</text>
+<rect x="16" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May Transport</text>
+<rect x="276" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Above budget USD 900</text>
+<rect x="536" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Usage, rate or miscoding</text>
+<rect x="796" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="806" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Receipts and travel</text>
+<text x="806" y="349" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">detail</text>
+<rect x="1056" y="300" width="260" height="64" fill="white" stroke="#D8DFE5"/>
+<text x="1066" y="327" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Operations</text>
+<rect x="16" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">May Utilities note</text>
+<rect x="276" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Narrative says higher;</text>
+<text x="286" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">value below plan</text>
+<rect x="536" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Narrative may be stale</text>
+<rect x="796" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="806" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Bill and description</text>
+<text x="806" y="413" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">review</text>
+<rect x="1056" y="364" width="260" height="64" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="1066" y="391" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Accountant</text>
+</svg>

@@ -13,26 +13,26 @@
 
 ## Worksheets and output tables
 
-The links below open illustrated file guides first, with downloads inside each guide. Previews contain actual saved values; ratios, identifiers and dates are explained beside the column definitions.
+The links below open illustrated file guides first, with downloads inside each guide. Each preview shows the data, field names and formats.
 
 
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
-| [Actual_Transactions.csv](field_guides/380a4d6121.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [Budget_Monthly.csv](field_guides/ead12c9b73.md) | Provide a prepared table for consistent joins, filtering and analysis. |
-| [B10_Analysis.xlsx](field_guides/bd66ba59ac.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B1_Analysis.xlsx](field_guides/4710152f65.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B2_Analysis.xlsx](field_guides/6b09eb26ef.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B3_Analysis.xlsx](field_guides/6c9b7e1dbb.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B4_Analysis.xlsx](field_guides/4e494bbe31.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B5_Analysis.xlsx](field_guides/4f1a41b2e5.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B6_Analysis.xlsx](field_guides/340f921e89.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B7_Analysis.xlsx](field_guides/4a0dce2d95.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B8_Analysis.xlsx](field_guides/bb44cca228.md) | Inspect calculations, assumptions and saved worksheet results. |
-| [B9_Analysis.xlsx](field_guides/1a4d21dfdf.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [Actual_Transactions.csv](field_guides/380a4d6121.md) | View the budget, actual amounts and calculations. |
+| [Budget_Monthly.csv](field_guides/ead12c9b73.md) | View the budget, actual amounts and calculations. |
+| [B10_Analysis.xlsx](field_guides/bd66ba59ac.md) | View the calculations and assumptions. |
+| [B1_Analysis.xlsx](field_guides/4710152f65.md) | View the calculations and assumptions. |
+| [B2_Analysis.xlsx](field_guides/6b09eb26ef.md) | View the calculations and assumptions. |
+| [B3_Analysis.xlsx](field_guides/6c9b7e1dbb.md) | View the calculations and assumptions. |
+| [B4_Analysis.xlsx](field_guides/4e494bbe31.md) | View the calculations and assumptions. |
+| [B5_Analysis.xlsx](field_guides/4f1a41b2e5.md) | View the calculations and assumptions. |
+| [B6_Analysis.xlsx](field_guides/340f921e89.md) | View the calculations and assumptions. |
+| [B7_Analysis.xlsx](field_guides/4a0dce2d95.md) | View the calculations and assumptions. |
+| [B8_Analysis.xlsx](field_guides/bb44cca228.md) | View the calculations and assumptions. |
+| [B9_Analysis.xlsx](field_guides/1a4d21dfdf.md) | View the calculations and assumptions. |
 
 <details>
 <summary>Browse all downloadable files</summary>

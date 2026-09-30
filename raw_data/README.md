@@ -10,10 +10,10 @@ Files are copied byte-for-byte from the local downloads. Table exports, encoding
 [Processed data](../processed_data/README.md) · [Project](../README.md)
 
 
-## Illustrated data guide
+## Data previews
 
-Open a table or workbook below to inspect real rows, column meanings and format rules.
+Open a table below to see its data and field names.
 
 | File | What the page explains |
 |---|---|
-| [Budget_vs_Actuals_Original.xlsx](field_guides/8e4df29fae.md) | Inspect calculations, assumptions and saved worksheet results. |
+| [Budget_vs_Actuals_Original.xlsx](field_guides/8e4df29fae.md) | View the calculations and assumptions. |

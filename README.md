@@ -18,11 +18,11 @@
 - Close preparation
 - Cash runway
 
-## Prepared data and outputs
+## Analysis data and outputs
 
 [Explore the processed tables, worksheet contents and calculation evidence →](processed_data/README.md)
 
-The output guide separates prepared inputs, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
+The output guide separates Analysis data, calculation workbooks and analytical outputs. Each illustrated file page explains its purpose and fields.
 
 ## Visualisation
 
@@ -40,12 +40,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Map categories and months, exclude budget subtotal rows and reconcile the $170,734 combined transaction control total. This control total includes both income and expenses.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/4710152f65.md)
+[View the data](processed_data/field_guides/4710152f65.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B1 — supporting file excerpt](processed_data/field_guides/images/4710152f65-s0-1.png)
+![B1 — supporting file excerpt](processed_data/field_guides/images/4710152f65-s0-1.svg)
 
 </details>
 
@@ -55,12 +55,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Sum income and expense categories separately for each month, then subtract expenses from income.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/6b09eb26ef.md)
+[View the data](processed_data/field_guides/6b09eb26ef.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B2 — supporting file excerpt](processed_data/field_guides/images/6b09eb26ef-s0-1.png)
+![B2 — supporting file excerpt](processed_data/field_guides/images/6b09eb26ef-s0-1.svg)
 
 </details>
 
@@ -70,12 +70,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare May with May. Reverse expense variances when calculating their contribution to the net result.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/6c9b7e1dbb.md)
+[View the data](processed_data/field_guides/6c9b7e1dbb.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B3 — supporting file excerpt](processed_data/field_guides/images/6c9b7e1dbb-s0-1.png)
+![B3 — supporting file excerpt](processed_data/field_guides/images/6c9b7e1dbb-s0-1.svg)
 
 </details>
 
@@ -85,12 +85,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Rank material dollar gaps, inspect transaction descriptions and identify evidence needed to distinguish timing from operational changes.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/4e494bbe31.md)
+[View the data](processed_data/field_guides/4e494bbe31.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B4 — supporting file excerpt](processed_data/field_guides/images/4e494bbe31-s0-1.png)
+![B4 — supporting file excerpt](processed_data/field_guides/images/4e494bbe31-s0-1.svg)
 
 </details>
 
@@ -100,12 +100,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Sum January–May actuals and matching budgets by category; reconcile signed contributions to the total net gap.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/4f1a41b2e5.md)
+[View the data](processed_data/field_guides/4f1a41b2e5.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B5 — supporting file excerpt](processed_data/field_guides/images/4f1a41b2e5-s0-1.png)
+![B5 — supporting file excerpt](processed_data/field_guides/images/4f1a41b2e5-s0-1.svg)
 
 </details>
 
@@ -115,12 +115,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Keep January–May actuals and add June–December estimates using the documented category assumptions.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/340f921e89.md)
+[View the data](processed_data/field_guides/340f921e89.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B6 — supporting file excerpt](processed_data/field_guides/images/340f921e89-s0-1.png)
+![B6 — supporting file excerpt](processed_data/field_guides/images/340f921e89-s0-1.svg)
 
 </details>
 
@@ -130,12 +130,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Change only future-period drivers. Compare each evaluated case with the same base; the workbook comparison is a saved scenario snapshot.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/4a0dce2d95.md)
+[View the data](processed_data/field_guides/4a0dce2d95.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B7 — supporting file excerpt](processed_data/field_guides/images/4a0dce2d95-s1-1.png)
+![B7 — supporting file excerpt](processed_data/field_guides/images/4a0dce2d95-s1-1.svg)
 
 </details>
 
@@ -145,12 +145,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Compare record attributes and request invoices, ledger balances and accrual evidence. A duplicate-looking record is not proof of duplicate accounting.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/bb44cca228.md)
+[View the data](processed_data/field_guides/bb44cca228.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B8 — supporting file excerpt](processed_data/field_guides/images/bb44cca228-s0-1.png)
+![B8 — supporting file excerpt](processed_data/field_guides/images/bb44cca228-s0-1.svg)
 
 </details>
 
@@ -160,12 +160,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Combine monthly and YTD evidence with a specific question, proposed owner role and next step; no meeting outcome is invented.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/1a4d21dfdf.md)
+[View the data](processed_data/field_guides/1a4d21dfdf.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B9 — supporting file excerpt](processed_data/field_guides/images/1a4d21dfdf-s0-1.png)
+![B9 — supporting file excerpt](processed_data/field_guides/images/1a4d21dfdf-s0-1.svg)
 
 </details>
 
@@ -175,12 +175,12 @@ The output guide separates prepared inputs, calculation workbooks and analytical
 
 **How and why.** Roll opening cash plus modelled collections less payments, tax and capex. This depends on the stated opening cash and collection assumptions.
 
-[Inspect the supporting file and field definitions](processed_data/field_guides/bd66ba59ac.md)
+[View the data](processed_data/field_guides/bd66ba59ac.md)
 
 <details>
 <summary>View the supporting data excerpt</summary>
 
-![B10 — supporting file excerpt](processed_data/field_guides/images/bd66ba59ac-s0-1.png)
+![B10 — supporting file excerpt](processed_data/field_guides/images/bd66ba59ac-s0-1.svg)
 
 </details>
 

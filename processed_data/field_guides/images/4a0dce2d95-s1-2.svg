@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="812" height="510" viewBox="0 0 812 510">
+<rect width="100%" height="100%" fill="white"/><rect width="100%" height="54" fill="#32634B"/>
+<text x="16" y="35" font-family="Arial" font-size="22" fill="white">Comparison</text>
+<rect x="16" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="26" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Case</text>
+<rect x="276" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="286" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Service uplift</text>
+<rect x="536" y="68" width="260" height="52" fill="#E9EEF3" stroke="#D8DFE5"/>
+<text x="546" y="95" font-family="Arial" font-size="17" font-weight="bold" fill="#172536">Cost assumptions</text>
+<rect x="16" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Base</text>
+<rect x="276" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="536" y="120" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="147" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">No cost reduction</text>
+<rect x="16" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Service recovery</text>
+<rect x="276" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0.1</text>
+<rect x="536" y="172" width="260" height="52" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="199" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">No cost reduction</text>
+<rect x="16" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Cost control</text>
+<rect x="276" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">0</text>
+<rect x="536" y="224" width="260" height="52" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="251" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Transport -15%; Mkt -10%</text>
+<rect x="16" y="276" width="260" height="108" fill="white" stroke="#D8DFE5"/>
+<text x="26" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Active model: B7!C3</text>
+<text x="26" y="325" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">(1/2/3). All cases start</text>
+<text x="26" y="347" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Jun 2022; history</text>
+<text x="26" y="369" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">unchanged.</text>
+<rect x="276" y="276" width="260" height="108" fill="white" stroke="#D8DFE5"/>
+<text x="286" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="536" y="276" width="260" height="108" fill="white" stroke="#D8DFE5"/>
+<text x="546" y="303" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="16" y="384" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="26" y="411" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">Refresh: select each</text>
+<text x="26" y="433" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">case, copy P16:P18 values</text>
+<text x="26" y="455" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">into this comparison,</text>
+<text x="26" y="477" font-family="Arial" font-size="17" font-weight="normal" fill="#172536">date the snapshot.</text>
+<rect x="276" y="384" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="286" y="411" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+<rect x="536" y="384" width="260" height="108" fill="#F6F8FA" stroke="#D8DFE5"/>
+<text x="546" y="411" font-family="Arial" font-size="17" font-weight="normal" fill="#172536"></text>
+</svg>

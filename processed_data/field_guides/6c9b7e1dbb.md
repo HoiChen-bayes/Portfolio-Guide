@@ -1,68 +1,59 @@
-# B3_Analysis.xlsx
+# Budget variance | May 2022
 
-[Download workbook](../worksheets/B3_Analysis.xlsx) · [Back to data guide](../README.md)
+[Download Excel file](<../worksheets/B3_Analysis.xlsx>) · [Back to data](../README.md)
 
-This page renders saved cell values from the actual workbook. Excel workbooks mix schedules, assumptions and tables, so formats are documented by worksheet and column rather than treating the whole file as one dataset. No calculations or source cells were changed for these illustrations.
+## Budget variance | May 2022
 
-## B3
+Budget variance | May 2022: a preview of the figures in the workbook.
 
-Provide a prepared table for consistent joins, filtering and analysis.
+![Budget variance | May 2022](images/6c9b7e1dbb-s0-1.svg)
 
-![B3 worksheet excerpt](images/6c9b7e1dbb-s0-1.png)
+![Budget variance | May 2022](images/6c9b7e1dbb-s0-2.svg)
 
-![B3 worksheet excerpt](images/6c9b7e1dbb-s0-2.png)
+### Fields
 
-| Column | Labels / sample content | Stored type and Excel number format |
+| Field | Format | Example |
 |---|---|---|
-| A | Budget variance  /  May 2022; USD  /  May treated as complete for illustration; closure unconfirmed.; Category | str; General |
-| B | Type; Income; Income | str; General |
-| C | Budget | int, str; #,##0.00;(#,##0.00);"—"; General |
-| D | Actual | int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| E | Actual − Budget | int, str; #,##0.00;(#,##0.00);"—"; General |
-| F | Variance % | float, int, str; 0.0%;(0.0%);"—"; General |
-| G | Net contribution | int, str; #,##0.00;(#,##0.00);"—"; General |
-| H | Assessment; Unfavorable; Favorable | str; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Category | Text | Sales |
+| Type | Text | Income |
+| Budget | Whole number | 6,000 |
+| Actual | Whole number | 3,000 |
+| Actual − Budget | Whole number | -3,000 |
+| Variance % | Percentage | -50.0% |
+| Net contribution | Whole number | -3,000 |
+| Assessment | Text | Unfavorable |
 
 ## Actual
 
-Provide a prepared table for consistent joins, filtering and analysis.
+Actual income and expenses recorded by date and category.
 
-![Actual worksheet excerpt](images/6c9b7e1dbb-s1-1.png)
+![Actual](images/6c9b7e1dbb-s1-1.svg)
 
-![Actual worksheet excerpt](images/6c9b7e1dbb-s1-2.png)
+![Actual](images/6c9b7e1dbb-s1-2.svg)
 
-![Actual worksheet excerpt](images/6c9b7e1dbb-s1-3.png)
+### Fields
 
-| Column | Labels / sample content | Stored type and Excel number format |
+| Field | Format | Example |
 |---|---|---|
-| A | Actual transactions  /  USD; Source: Budget_vs_Actuals_Original.xlsx (2022); original retained; USD; Source row | int, str; General |
-| B | Date | datetime, str; General; yyyy-mm-dd |
-| C | Month no. | int, str; General |
-| D | Category; Rent; Utilities | str; General |
-| E | Type; Expense; Expense | str; General |
-| F | Description; Store space shared with Mall co-renter; Higher month than usual | str; General |
-| G | Amount USD | int, str; #,##0.00;(#,##0.00);"—"; General |
-| H | Identical rows | int, str; General |
-| I | Month valid | bool, str; General |
-| J | Category; Sales; Services | str; General |
-| K | Type; Income; Income | str; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Date | Date | 01 Jan 2022 |
+| Month no. | Whole number | 1 |
+| Category | Text | Rent |
+| Type | Text | Expense |
+| Description | Text | Store space shared with Mall co-renter |
+| Amount USD | US dollars | $7,000.00 |
 
 ## Budget
 
-Provide a prepared table for consistent joins, filtering and analysis.
+Planned income and expenses by month and category.
 
-![Budget worksheet excerpt](images/6c9b7e1dbb-s2-1.png)
+![Budget](images/6c9b7e1dbb-s2-1.svg)
 
-| Column | Labels / sample content | Stored type and Excel number format |
+### Fields
+
+| Field | Format | Example |
 |---|---|---|
-| A | Budget by month and category  /  USD; Source: Budget_vs_Actuals_Original.xlsx (2022); original retained; USD; Month no. | int, str; General |
-| B | Category; Sales; Sales | str; General |
-| C | Type; Income; Income | str; General |
-| D | Budget USD | float, int, str; #,##0.00;(#,##0.00);"—"; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Month no. | Whole number | 1 |
+| Category | Text | Sales |
+| Type | Text | Income |
+| Budget USD | US dollars | $6,000.00 |
 

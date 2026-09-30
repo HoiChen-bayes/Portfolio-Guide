@@ -1,103 +1,95 @@
-# B10_Analysis.xlsx
+# Illustrative cash funding need | USD
 
-[Download workbook](../worksheets/B10_Analysis.xlsx) · [Back to data guide](../README.md)
+[Download Excel file](<../worksheets/B10_Analysis.xlsx>) · [Back to data](../README.md)
 
-This page renders saved cell values from the actual workbook. Excel workbooks mix schedules, assumptions and tables, so formats are documented by worksheet and column rather than treating the whole file as one dataset. No calculations or source cells were changed for these illustrations.
+## Illustrative cash funding need | USD
 
-## B10
+Illustrative cash funding need | USD: a preview of the figures in the workbook.
 
-Provide a prepared table for consistent joins, filtering and analysis.
+![Illustrative cash funding need | USD](images/bd66ba59ac-s0-1.svg)
 
-![B10 worksheet excerpt](images/bd66ba59ac-s0-1.png)
+![Illustrative cash funding need | USD](images/bd66ba59ac-s0-2.svg)
 
-![B10 worksheet excerpt](images/bd66ba59ac-s0-2.png)
+### Fields
 
-| Column | Labels / sample content | Stored type and Excel number format |
+| Field | Format | Example |
 |---|---|---|
-| A | B10  /  Illustrative cash funding need  /  USD; Hypothetical cash assumptions; not the company cash forecast or financing approval.; Opening cash 31-May | str; General |
-| B | Jun | float, int, str; #,##0.00;(#,##0.00);"—"; 0%; 0.00; General |
-| C | Jul | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| D | Fixed at 100%; payment delays require an AP schedule.; Aug | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| E | Sep | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| F | Oct | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| G | Nov | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-| H | Dec | float, int, str; #,##0.00;(#,##0.00);"—"; 0.00; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Cash schedule | Text | Opening cash |
+| Jun | Whole number | 20,000 |
+| Jul | Number (2 decimals) | 17,683.67 |
+| Aug | Number (2 decimals) | 9,207.33 |
+| Sep | Number (2 decimals) | 8,031 |
+| Oct | Number (2 decimals) | 5,954.67 |
+| Nov | Whole number | 5,000 |
+| Dec | Number (2 decimals) | 7,323.67 |
 
 ## Forecast
 
-Provide a prepared table for consistent joins, filtering and analysis.
+Forecast: a preview of the figures in the workbook.
 
-![Forecast worksheet excerpt](images/bd66ba59ac-s1-1.png)
+![Forecast](images/bd66ba59ac-s1-1.svg)
 
-![Forecast worksheet excerpt](images/bd66ba59ac-s1-2.png)
+![Forecast](images/bd66ba59ac-s1-2.svg)
 
-![Forecast worksheet excerpt](images/bd66ba59ac-s1-3.png)
+![Forecast](images/bd66ba59ac-s1-3.svg)
 
-![Forecast worksheet excerpt](images/bd66ba59ac-s1-4.png)
+![Forecast](images/bd66ba59ac-s1-4.svg)
 
-| Column | Labels / sample content | Stored type and Excel number format |
+### Fields
+
+| Field | Format | Example |
 |---|---|---|
-| A | Updated full-year forecast  /  2022 USD; Jan–May treated as actual; Jun–Dec teaching forecast.; Category | str; General |
-| B | Type; Income; Income | str; General |
-| C | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| D | Numeric schedule values | int; #,##0.00;(#,##0.00);"—"; General |
-| E | Numeric schedule values | int; #,##0.00;(#,##0.00);"—"; General |
-| F | Numeric schedule values | int; #,##0.00;(#,##0.00);"—"; General |
-| G | Numeric schedule values | int; #,##0.00;(#,##0.00);"—"; General |
-| H | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| I | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| J | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| K | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| L | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| M | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| N | Numeric schedule values | float, int; #,##0.00;(#,##0.00);"—"; General |
-| O | Numeric schedule values | ;  |
-| P | Full year | float, int, str; #,##0.00;(#,##0.00);"—"; General |
-| Q | YTD actual | int, str; #,##0.00;(#,##0.00);"—"; General |
-| R | Jun–Dec forecast | float, int, str; #,##0.00;(#,##0.00);"—"; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Category | Text | Sales |
+| Type | Text | Income |
+| Jan | Whole number | 5,000 |
+| Feb | Whole number | 3,000 |
+| Mar | Whole number | 8,000 |
+| Apr | Whole number | 6,600 |
+| May | Whole number | 3,000 |
+| Jun | Whole number | 6,000 |
+| Jul | Whole number | 6,000 |
+| Aug | Whole number | 6,000 |
+| Sep | Whole number | 6,000 |
+| Oct | Whole number | 6,000 |
+| Nov | Whole number | 7,000 |
+| Dec | Whole number | 7,000 |
+| Full year | Whole number | 69,600 |
+| YTD actual | Whole number | 25,600 |
+| Jun–Dec forecast | Whole number | 44,000 |
+| Original budget | Whole number | 74,000 |
+| Net contribution | Whole number | -4,400 |
 
 ## Actual
 
-Provide a prepared table for consistent joins, filtering and analysis.
+Actual income and expenses recorded by date and category.
 
-![Actual worksheet excerpt](images/bd66ba59ac-s2-1.png)
+![Actual](images/bd66ba59ac-s2-1.svg)
 
-![Actual worksheet excerpt](images/bd66ba59ac-s2-2.png)
+![Actual](images/bd66ba59ac-s2-2.svg)
 
-![Actual worksheet excerpt](images/bd66ba59ac-s2-3.png)
+### Fields
 
-| Column | Labels / sample content | Stored type and Excel number format |
+| Field | Format | Example |
 |---|---|---|
-| A | Actual transactions  /  USD; Source: Budget_vs_Actuals_Original.xlsx (2022); original retained; USD; Source row | int, str; General |
-| B | Date | datetime, str; General; yyyy-mm-dd |
-| C | Month no. | int, str; General |
-| D | Category; Rent; Utilities | str; General |
-| E | Type; Expense; Expense | str; General |
-| F | Description; Store space shared with Mall co-renter; Higher month than usual | str; General |
-| G | Amount USD | int, str; #,##0.00;(#,##0.00);"—"; General |
-| H | Identical rows | int, str; General |
-| I | Month valid | bool, str; General |
-| J | Category; Sales; Services | str; General |
-| K | Type; Income; Income | str; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Date | Date | 01 Jan 2022 |
+| Month no. | Whole number | 1 |
+| Category | Text | Rent |
+| Type | Text | Expense |
+| Description | Text | Store space shared with Mall co-renter |
+| Amount USD | US dollars | $7,000.00 |
 
 ## Budget
 
-Provide a prepared table for consistent joins, filtering and analysis.
+Planned income and expenses by month and category.
 
-![Budget worksheet excerpt](images/bd66ba59ac-s3-1.png)
+![Budget](images/bd66ba59ac-s3-1.svg)
 
-| Column | Labels / sample content | Stored type and Excel number format |
+### Fields
+
+| Field | Format | Example |
 |---|---|---|
-| A | Budget by month and category  /  USD; Source: Budget_vs_Actuals_Original.xlsx (2022); original retained; USD; Month no. | int, str; General |
-| B | Category; Sales; Sales | str; General |
-| C | Type; Income; Income | str; General |
-| D | Budget USD | float, int, str; #,##0.00;(#,##0.00);"—"; General |
-
-Column labels may change between sections lower in the worksheet. Download the workbook to follow those schedules and formulas; the illustration shows only the opening populated section.
+| Month no. | Whole number | 1 |
+| Category | Text | Sales |
+| Type | Text | Income |
+| Budget USD | US dollars | $6,000.00 |
 
