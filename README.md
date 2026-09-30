@@ -2,11 +2,12 @@
 
 Welcome to my financial portfolio! Here, I document a summary of my projects in the financial field.
 
-Table of contents
-[Financial Analysis](#financial-analysis-projects)
-[Power BI](#power-bi-projects)
-Data Engineering
-SQL
+## 📚 Table of Contents
+
+- [Financial Analysis](#financial-analysis-projects)
+- [Power BI](#power-bi-projects)
+- [Data Engineering](#data-engineering-projects)
+- [SQL](#sql-projects)
 
 
 ## Financial Analysis Projects
@@ -28,7 +29,10 @@ SQL
 | 📈[Commercial Finance](projects/commercial-finance/README.md) | Explore revenue flows, product economics and discount trade-offs alongside FP&A scenarios. Use portfolio bubbles, growth bridges and planning pages to trace headline results to supporting detail. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDcyNmZhMDItYWY0Yy00MDQ4LTgwNDktNzYxNDAxZmRkYzNjIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
 | 🏪[Global Electronics](projects/global-electronics/README.md) | Explore retail performance through revenue flows, channel trends, store comparisons and customer cohorts. Use interactive filters and drill paths to investigate the source of the decline. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjY0ZTExNjctN2RmZC00ZjY5LTk0ODEtMmJhZjQ5ZmQ0YTk2IiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
 
----
+## Data Engineering Projects
+
+## SQL Projects
+
 
 ## Explore the work
 
