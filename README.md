@@ -6,9 +6,10 @@ Welcome to my financial portfolio! Here, I document a summary of my projects in 
 
 - [Financial Analysis](#financial-analysis-projects)
 - [Power BI](#power-bi-projects)
+<!--
 - [Data Engineering](#data-engineering-projects)
 - [SQL](#sql-projects)
-
+-->
 
 ## Financial Analysis Projects
 
@@ -28,9 +29,9 @@ Welcome to my financial portfolio! Here, I document a summary of my projects in 
 | 💻[IT Finance](https://github.com/HoiChen-bayes/finance-powerbi-portfolio/tree/codex/it-spend) | Explore spend, plan variance and the latest estimates across technology and organisational dimensions. Drill through the cost story and compare the available planning scenarios. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiOTMyMjlmZDAtODE2YS00Njc5LTlhMTktMjZhOTFhZDliYmFhIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
 | 📈[Commercial Finance](https://github.com/HoiChen-bayes/finance-powerbi-portfolio/tree/codex/commercial-finance) | Explore revenue flows, product economics and discount trade-offs alongside FP&A scenarios. Use portfolio bubbles, growth bridges and planning pages to trace headline results to supporting detail. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiZDcyNmZhMDItYWY0Yy00MDQ4LTgwNDktNzYxNDAxZmRkYzNjIiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
 | 🏪[Global Electronics](https://github.com/HoiChen-bayes/finance-powerbi-portfolio/tree/codex/global-electronics) | Explore retail performance through revenue flows, channel trends, store comparisons and customer cohorts. Use interactive filters and drill paths to investigate the source of the decline. | [Dashboard](https://app.powerbi.com/view?r=eyJrIjoiMjY0ZTExNjctN2RmZC00ZjY5LTk0ODEtMmJhZjQ5ZmQ0YTk2IiwidCI6IjljNzNiMWYxLWY0ZGYtNDhkYy05ZDg5LWE0M2NjNjQ4YmJhNSJ9&language=en-US) |
-
+<!--
 ## Data Engineering Projects
 
 ## SQL Projects
-
+-->
 
