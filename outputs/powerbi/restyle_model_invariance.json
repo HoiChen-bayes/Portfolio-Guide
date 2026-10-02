@@ -1,0 +1,28 @@
+[
+  {
+    "company": "PG",
+    "all_existing_table_partitions_identical": true,
+    "all_existing_measure_expressions_identical": true,
+    "all_relationships_identical": true,
+    "display_only_additions": [
+      "History.QuarterLabel",
+      "VintageCompare.CompactLabel",
+      "Comparison.ForecastVersion",
+      "Forecast.Profit variance color"
+    ],
+    "checked_at_utc": "2026-10-02T15:24:25.160763+00:00"
+  },
+  {
+    "company": "TRV",
+    "all_existing_table_partitions_identical": true,
+    "all_existing_measure_expressions_identical": true,
+    "all_relationships_identical": true,
+    "display_only_additions": [
+      "History.QuarterLabel",
+      "VintageCompare.CompactLabel",
+      "Comparison.ForecastVersion",
+      "Forecast.Profit variance color"
+    ],
+    "checked_at_utc": "2026-10-02T15:24:25.168462+00:00"
+  }
+]

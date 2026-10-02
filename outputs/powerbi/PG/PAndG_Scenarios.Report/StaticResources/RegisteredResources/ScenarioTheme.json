@@ -1,15 +1,15 @@
 {
   "name": "PAndG_Scenarios",
   "dataColors": [
-    "#1459D9",
-    "#3EA5D9",
+    "#0067D9",
+    "#18A8A4",
     "#E6A23C",
     "#168A70",
     "#936DCC"
   ],
-  "background": "#F2F6FC",
-  "foreground": "#142F66",
-  "tableAccent": "#1459D9",
+  "background": "#F3F6FA",
+  "foreground": "#09244A",
+  "tableAccent": "#0067D9",
   "good": "#168A70",
   "bad": "#C71932"
 }

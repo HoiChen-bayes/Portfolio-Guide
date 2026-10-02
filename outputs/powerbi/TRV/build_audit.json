@@ -1,6 +1,6 @@
 {
   "company": "TRV",
-  "built_at_utc": "2026-10-02T13:24:47.224517+00:00",
+  "built_at_utc": "2026-10-02T15:16:19.298184+00:00",
   "analysis_sha256": "cd58954f29e8e43f65d88859f4283a4f63162c31462b2f7f3294f8626128f67d",
   "tables": {
     "Vintage": 4,
@@ -19,8 +19,8 @@
     "Sources": 27
   },
   "pages": 6,
-  "visuals": 47,
-  "measures": 26,
+  "visuals": 65,
+  "measures": 27,
   "bindings": 68,
   "native_desktop_validation": "pending"
 }

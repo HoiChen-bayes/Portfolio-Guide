@@ -1,6 +1,6 @@
 {
   "company": "PG",
-  "built_at_utc": "2026-10-02T13:24:47.205911+00:00",
+  "built_at_utc": "2026-10-02T15:16:19.252378+00:00",
   "analysis_sha256": "cd58954f29e8e43f65d88859f4283a4f63162c31462b2f7f3294f8626128f67d",
   "tables": {
     "Vintage": 4,
@@ -19,8 +19,8 @@
     "Sources": 26
   },
   "pages": 6,
-  "visuals": 48,
-  "measures": 26,
-  "bindings": 68,
+  "visuals": 96,
+  "measures": 27,
+  "bindings": 71,
   "native_desktop_validation": "pending"
 }

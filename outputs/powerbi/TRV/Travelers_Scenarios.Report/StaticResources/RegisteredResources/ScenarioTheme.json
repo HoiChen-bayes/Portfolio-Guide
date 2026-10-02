@@ -1,15 +1,15 @@
 {
   "name": "Travelers_Scenarios",
   "dataColors": [
-    "#C71932",
-    "#5B6570",
+    "#C8102E",
+    "#78757A",
     "#E6A23C",
     "#168A70",
     "#936DCC"
   ],
-  "background": "#F4F4F4",
-  "foreground": "#242A30",
-  "tableAccent": "#C71932",
+  "background": "#FAF7F2",
+  "foreground": "#26262C",
+  "tableAccent": "#C8102E",
   "good": "#168A70",
   "bad": "#C71932"
 }

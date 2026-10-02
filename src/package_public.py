@@ -29,7 +29,8 @@ def main():
     source_definition=any(part.endswith(('.Report','.SemanticModel')) for part in rel.parts)
     audit_names={'build_audit.json','expected_native.json','native_model.json','native_totals.json','native_forecasts.json','native_vintage_comparison.json','visual_validation.json','final_validation.json'}
     final_audit=len(rel.parts)==2 and rel.parts[0] in {'PG','TRV'} and f.name in audit_names
-    if not (source_definition or final_audit):continue
+    restyle_audit=str(rel)=='restyle_model_invariance.json'
+    if not (source_definition or final_audit or restyle_audit):continue
    if f.suffix=='.png':
     rel=f.relative_to(ROOT/'outputs'/folder)
     excel_names={'Summary','Financial_Health','Scenario_Model','Assumptions','Forecast_Comparison','Variance_Drivers','Research_Changes','Market_Evidence','Historical_Financials','Sources_and_Checks'}

@@ -2,37 +2,19 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "v0010",
   "position": {
-    "x": 380,
-    "y": 585,
+    "x": 44,
+    "y": 658,
     "z": 10,
-    "height": 240,
-    "width": 1030,
+    "height": 135,
+    "width": 465,
     "tabOrder": 10
   },
   "visual": {
-    "visualType": "lineChart",
+    "visualType": "card",
     "drillFilterOtherVisuals": true,
     "query": {
       "queryState": {
-        "Category": {
-          "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "History"
-                    }
-                  },
-                  "Property": "Quarter"
-                }
-              },
-              "queryRef": "History.Quarter",
-              "nativeQueryRef": "Quarter"
-            }
-          ]
-        },
-        "Y": {
+        "Values": {
           "projections": [
             {
               "field": {
@@ -42,31 +24,15 @@
                       "Entity": "Forecast"
                     }
                   },
-                  "Property": "History revenue"
+                  "Property": "Profit error"
                 }
               },
-              "queryRef": "Forecast.History revenue",
-              "nativeQueryRef": "History revenue"
+              "queryRef": "Forecast.Profit error",
+              "nativeQueryRef": "Profit error",
+              "displayName": "Profit error"
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "History"
-                  }
-                },
-                "Property": "Quarter"
-              }
-            },
-            "direction": "Ascending"
-          }
-        ]
       }
     },
     "visualContainerObjects": {
@@ -83,7 +49,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'EARNED PREMIUMS | nine-quarter operating scale'"
+                  "Value": "'ACTUAL \u2212 FORECAST'"
                 }
               }
             },
@@ -92,7 +58,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#242A30'"
+                      "Value": "'#26262C'"
                     }
                   }
                 }
@@ -101,7 +67,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "15D"
                 }
               }
             }
@@ -123,7 +89,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FFFFFF'"
+                      "Value": "'#FAF7F2'"
                     }
                   }
                 }
@@ -149,17 +115,6 @@
                 }
               }
             },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#E0E8F6'"
-                    }
-                  }
-                }
-              }
-            },
             "radius": {
               "expr": {
                 "Literal": {
@@ -172,37 +127,29 @@
       ]
     },
     "objects": {
-      "categoryAxis": [
+      "labels": [
         {
           "properties": {
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "40D"
                 }
               }
             },
-            "fontColor": {
+            "color": {
               "solid": {
                 "color": {
                   "expr": {
-                    "Literal": {
-                      "Value": "'#242A30'"
+                    "Measure": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "Forecast"
+                        }
+                      },
+                      "Property": "Profit variance color"
                     }
                   }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
                 }
               }
             },
@@ -216,13 +163,13 @@
           }
         }
       ],
-      "legend": [
+      "categoryLabels": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "false"
                 }
               }
             }

@@ -67,6 +67,13 @@
             "sourceColumn": "[Sort]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn"
+          },
+          {
+            "name": "CompactLabel",
+            "dataType": "string",
+            "type": "calculated",
+            "expression": "SWITCH(VintageCompare[Vintage],\"pre_history\",\"Mar hist\",\"pre_market\",\"Mar res.\",\"mid_history\",\"May hist\",\"mid_market\",\"May res.\")",
+            "sortByColumn": "Sort"
           }
         ],
         "partitions": [
@@ -133,7 +140,7 @@
             "sourceColumn": "[Revenue]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Profit",
@@ -141,7 +148,7 @@
             "sourceColumn": "[Profit]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Operating",
@@ -149,7 +156,7 @@
             "sourceColumn": "[Operating]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Margin",
@@ -165,7 +172,7 @@
             "sourceColumn": "[Liquidity]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           }
         ],
         "partitions": [
@@ -182,32 +189,32 @@
           {
             "name": "Selected Revenue",
             "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Revenue]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual Revenue",
             "expression": "MAX(Actual[Revenue])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Selected Profit",
             "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Profit]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual Profit",
             "expression": "MAX(Actual[Profit])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Selected Operating",
             "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Operating]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual Operating",
             "expression": "MAX(Actual[Operating])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Selected Margin",
@@ -222,17 +229,17 @@
           {
             "name": "Selected Liquidity",
             "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Liquidity]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Vintage profit",
             "expression": "CALCULATE([Selected Profit],REMOVEFILTERS(Vintage),TREATAS(VALUES(VintageCompare[Vintage]),Vintage[Vintage]))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Profit error",
             "expression": "[Actual Profit]-[Selected Profit]",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Profit error %",
@@ -242,22 +249,22 @@
           {
             "name": "History revenue",
             "expression": "SUM(History[Revenue])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "History profit",
             "expression": "SUM(History[Profit])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "History operating",
             "expression": "SUM(History[Operating])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "History cash flow",
             "expression": "SUM(History[CashFlow])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "History ratio",
@@ -267,37 +274,37 @@
           {
             "name": "Segment value",
             "expression": "SUM(Segments[Amount])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Bridge impact",
             "expression": "CALCULATE(SUM(Bridge[ProfitChange]),KEEPFILTERS(Bridge[Window]=SELECTEDVALUE(Bridge[Window],\"mid\")))",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual bridge impact",
             "expression": "SUM(ActualBridge[ProfitChange])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Sensitivity impact",
             "expression": "SUM(Sensitivity[ProfitChange])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Forecast comparison",
             "expression": "SUM(Comparison[Forecast])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual comparison",
             "expression": "SUM(Comparison[Actual])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Difference comparison",
             "expression": "SUM(Comparison[Difference])",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "QA rows",
@@ -307,7 +314,12 @@
           {
             "name": "Free cash flow",
             "expression": "[Selected Liquidity]",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
+          },
+          {
+            "name": "Profit variance color",
+            "expression": "IF([Profit error]>=0,\"#168269\",\"#C8102E\")",
+            "formatString": ""
           }
         ]
       },
@@ -320,7 +332,7 @@
             "sourceColumn": "[Revenue]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Profit",
@@ -328,7 +340,7 @@
             "sourceColumn": "[Profit]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Operating",
@@ -336,7 +348,7 @@
             "sourceColumn": "[Operating]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Margin",
@@ -374,7 +386,7 @@
             "sourceColumn": "[Revenue]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Profit",
@@ -382,7 +394,7 @@
             "sourceColumn": "[Profit]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Operating",
@@ -390,7 +402,7 @@
             "sourceColumn": "[Operating]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Ratio",
@@ -406,7 +418,14 @@
             "sourceColumn": "[CashFlow]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
+          },
+          {
+            "name": "QuarterLabel",
+            "dataType": "string",
+            "type": "calculated",
+            "expression": "LEFT(RIGHT(History[Quarter],4),2)&\" \"&RIGHT(History[Quarter],2)",
+            "sortByColumn": "Quarter"
           }
         ],
         "partitions": [
@@ -436,7 +455,7 @@
             "sourceColumn": "[Amount]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           }
         ],
         "partitions": [
@@ -474,7 +493,7 @@
             "sourceColumn": "[ProfitChange]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Sort",
@@ -512,7 +531,7 @@
             "sourceColumn": "[ProfitChange]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Sort",
@@ -556,7 +575,7 @@
             "sourceColumn": "[ProfitChange]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           }
         ],
         "partitions": [
@@ -600,7 +619,7 @@
             "sourceColumn": "[Forecast]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Actual",
@@ -608,7 +627,7 @@
             "sourceColumn": "[Actual]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "Difference",
@@ -616,7 +635,7 @@
             "sourceColumn": "[Difference]",
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
-            "formatString": "$#,0.0;($#,0.0);$0.0"
+            "formatString": "$#,0.0\"M\";($#,0.0\"M\");$0.0\"M\""
           },
           {
             "name": "ErrorPercent",
@@ -625,6 +644,12 @@
             "summarizeBy": "none",
             "type": "calculatedTableColumn",
             "formatString": "0.0%"
+          },
+          {
+            "name": "ForecastVersion",
+            "dataType": "string",
+            "type": "calculated",
+            "expression": "SWITCH(Comparison[Vintage],\"pre_history\",\"March history\",\"pre_market\",\"March research\",\"mid_history\",\"May history\",\"mid_market\",\"May research\")"
           }
         ],
         "partitions": [

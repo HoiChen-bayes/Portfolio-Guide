@@ -2,52 +2,20 @@
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.1.0/schema.json",
   "name": "v0009",
   "position": {
-    "x": 380,
-    "y": 210,
+    "x": 44,
+    "y": 499,
     "z": 9,
-    "height": 350,
-    "width": 1030,
+    "height": 135,
+    "width": 465,
     "tabOrder": 9
   },
   "visual": {
-    "visualType": "clusteredColumnChart",
+    "visualType": "card",
     "drillFilterOtherVisuals": true,
     "query": {
       "queryState": {
-        "Category": {
+        "Values": {
           "projections": [
-            {
-              "field": {
-                "Column": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "VintageCompare"
-                    }
-                  },
-                  "Property": "VintageLabel"
-                }
-              },
-              "queryRef": "VintageCompare.VintageLabel",
-              "nativeQueryRef": "VintageLabel"
-            }
-          ]
-        },
-        "Y": {
-          "projections": [
-            {
-              "field": {
-                "Measure": {
-                  "Expression": {
-                    "SourceRef": {
-                      "Entity": "Forecast"
-                    }
-                  },
-                  "Property": "Vintage profit"
-                }
-              },
-              "queryRef": "Forecast.Vintage profit",
-              "nativeQueryRef": "Vintage profit"
-            },
             {
               "field": {
                 "Measure": {
@@ -60,27 +28,11 @@
                 }
               },
               "queryRef": "Forecast.Actual Profit",
-              "nativeQueryRef": "Actual Profit"
+              "nativeQueryRef": "Actual Profit",
+              "displayName": "Actual profit"
             }
           ]
         }
-      },
-      "sortDefinition": {
-        "sort": [
-          {
-            "field": {
-              "Column": {
-                "Expression": {
-                  "SourceRef": {
-                    "Entity": "VintageCompare"
-                  }
-                },
-                "Property": "VintageLabel"
-              }
-            },
-            "direction": "Ascending"
-          }
-        ]
       }
     },
     "visualContainerObjects": {
@@ -97,7 +49,7 @@
             "text": {
               "expr": {
                 "Literal": {
-                  "Value": "'UNDERWRITING OUTLOOK | four information sets vs actual'"
+                  "Value": "'ACTUAL CORE INCOME'"
                 }
               }
             },
@@ -106,7 +58,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#242A30'"
+                      "Value": "'#26262C'"
                     }
                   }
                 }
@@ -115,7 +67,7 @@
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "13D"
+                  "Value": "15D"
                 }
               }
             }
@@ -137,7 +89,7 @@
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#FFFFFF'"
+                      "Value": "'#FAF7F2'"
                     }
                   }
                 }
@@ -163,17 +115,6 @@
                 }
               }
             },
-            "color": {
-              "solid": {
-                "color": {
-                  "expr": {
-                    "Literal": {
-                      "Value": "'#E0E8F6'"
-                    }
-                  }
-                }
-              }
-            },
             "radius": {
               "expr": {
                 "Literal": {
@@ -186,37 +127,24 @@
       ]
     },
     "objects": {
-      "categoryAxis": [
+      "labels": [
         {
           "properties": {
             "fontSize": {
               "expr": {
                 "Literal": {
-                  "Value": "12D"
+                  "Value": "40D"
                 }
               }
             },
-            "fontColor": {
+            "color": {
               "solid": {
                 "color": {
                   "expr": {
                     "Literal": {
-                      "Value": "'#242A30'"
+                      "Value": "'#26262C'"
                     }
                   }
-                }
-              }
-            }
-          }
-        }
-      ],
-      "valueAxis": [
-        {
-          "properties": {
-            "fontSize": {
-              "expr": {
-                "Literal": {
-                  "Value": "11D"
                 }
               }
             },
@@ -230,13 +158,13 @@
           }
         }
       ],
-      "legend": [
+      "categoryLabels": [
         {
           "properties": {
-            "fontSize": {
+            "show": {
               "expr": {
                 "Literal": {
-                  "Value": "11D"
+                  "Value": "false"
                 }
               }
             }

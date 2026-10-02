@@ -1,5 +1,5 @@
 {
-  "validated_at_utc": "2026-10-02T14:12:40.961424+00:00",
+  "validated_at_utc": "2026-10-02T15:29:02.560952+00:00",
   "company": "PG",
   "native_dax_checks": [
     {
@@ -502,19 +502,19 @@
   ],
   "pages": [
     {
-      "Page": "01 Summary",
+      "Page": "01 Financial perspective",
       "Errors": []
     },
     {
-      "Page": "02 History & segments",
+      "Page": "02 The operating engine",
       "Errors": []
     },
     {
-      "Page": "03 Scenario range",
+      "Page": "03 Three possible paths",
       "Errors": []
     },
     {
-      "Page": "04 Market revisions",
+      "Page": "04 What research changed",
       "Errors": []
     },
     {
@@ -522,14 +522,14 @@
       "Errors": []
     },
     {
-      "Page": "06 Method & QA",
+      "Page": "06 Evidence & discipline",
       "Errors": []
     }
   ],
   "pbix": {
-    "bytes": 134270,
-    "datamodel_bytes": 89500,
-    "sha256": "d645442a6e05187f37f413167ec7ecc85f1005025c5d27580b7dafabfc16adb5",
+    "bytes": 173264,
+    "datamodel_bytes": 94488,
+    "sha256": "5635bd6c98ad1e323e8923aa7514cce948e9fb510bc88755729f43e016094971",
     "zip_crc": "pass"
   },
   "all_passed": true

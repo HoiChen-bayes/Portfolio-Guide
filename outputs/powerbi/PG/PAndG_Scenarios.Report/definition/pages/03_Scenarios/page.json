@@ -1,7 +1,7 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/page/2.0.0/schema.json",
   "name": "03_Scenarios",
-  "displayName": "03  Scenario range",
+  "displayName": "03 Three possible paths",
   "displayOption": "FitToPage",
   "width": 1440,
   "height": 960,
@@ -14,7 +14,7 @@
               "color": {
                 "expr": {
                   "Literal": {
-                    "Value": "'#F2F6FC'"
+                    "Value": "'#F3F6FA'"
                   }
                 }
               }
