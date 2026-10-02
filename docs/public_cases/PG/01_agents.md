@@ -53,10 +53,6 @@ The agents check and propose inputs; the calculation engine performs the arithme
 <a id="revenue-extraction"></a>
 ### 1. Revenue extraction: How do we transfer reported revenue into Excel accurately?
 
-**Meaning:** Revenue extraction means taking the revenue amount from the original financial report and recording it in Excel under the correct period and unit.
-
-**Task:** Read the original report's NET SALES row, then check the same figure in the Historical Financials worksheet.
-
 **Answer:** The report's **$20,889 million** of April–June 2025 net sales matches **$20,889.0M** in Excel under **FY2025Q4**.
 
 <details>
