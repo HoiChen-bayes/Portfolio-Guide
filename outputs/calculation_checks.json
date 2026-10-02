@@ -1,0 +1,35 @@
+{
+  "checks": {
+    "revenue_change": 2748,
+    "operating_profit_change": -703,
+    "bridge_check": 0,
+    "revenue_growth": 0.03260405296378899,
+    "operating_growth": -0.034374847195736136
+  },
+  "formula_scan": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "wq6it0",
+      "target": {
+        "id": "wb/he4uzp",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "propagation_test": "Revenue input +10 changes derived gross profit +10; input restored."
+}

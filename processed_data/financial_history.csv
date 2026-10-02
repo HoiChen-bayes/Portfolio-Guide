@@ -1,0 +1,46 @@
+metric,fiscal_year,value,unit,classification,source_page,source_excel_row
+NET SALES,2024,84039,USD million,Reported,37,5
+NET SALES,2025,84284,USD million,Reported,37,5
+NET SALES,2026,87032,USD million,Reported,37,5
+Cost of products sold,2024,40848,USD million,Reported,37,6
+Cost of products sold,2025,41164,USD million,Reported,37,6
+Cost of products sold,2026,43362,USD million,Reported,37,6
+"Selling, general and administrative expense",2024,23305,USD million,Reported,37,7
+"Selling, general and administrative expense",2025,22669,USD million,Reported,37,7
+"Selling, general and administrative expense",2026,23922,USD million,Reported,37,7
+Indefinite-lived intangible asset impairment charge,2024,1341,USD million,Reported,37,8
+Indefinite-lived intangible asset impairment charge,2025,0,USD million,Reported,37,8
+Indefinite-lived intangible asset impairment charge,2026,0,USD million,Reported,37,8
+OPERATING INCOME,2024,18545,USD million,Reported,37,9
+OPERATING INCOME,2025,20451,USD million,Reported,37,9
+OPERATING INCOME,2026,19748,USD million,Reported,37,9
+Interest expense,2024,-925,USD million,Reported,37,10
+Interest expense,2025,-907,USD million,Reported,37,10
+Interest expense,2026,-877,USD million,Reported,37,10
+Interest income,2024,473,USD million,Reported,37,11
+Interest income,2025,469,USD million,Reported,37,11
+Interest income,2026,430,USD million,Reported,37,11
+"Other non-operating income/(expense), net",2024,668,USD million,Reported,37,12
+"Other non-operating income/(expense), net",2025,154,USD million,Reported,37,12
+"Other non-operating income/(expense), net",2026,1076,USD million,Reported,37,12
+EARNINGS BEFORE INCOME TAXES,2024,18761,USD million,Reported,37,13
+EARNINGS BEFORE INCOME TAXES,2025,20167,USD million,Reported,37,13
+EARNINGS BEFORE INCOME TAXES,2026,20377,USD million,Reported,37,13
+Income taxes,2024,3787,USD million,Reported,37,14
+Income taxes,2025,4102,USD million,Reported,37,14
+Income taxes,2026,4233,USD million,Reported,37,14
+NET EARNINGS,2024,14974,USD million,Reported,37,15
+NET EARNINGS,2025,16065,USD million,Reported,37,15
+NET EARNINGS,2026,16144,USD million,Reported,37,15
+Less: Net earnings attributable to noncontrolling interests,2024,95,USD million,Reported,37,16
+Less: Net earnings attributable to noncontrolling interests,2025,91,USD million,Reported,37,16
+Less: Net earnings attributable to noncontrolling interests,2026,98,USD million,Reported,37,16
+NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE,2024,14879,USD million,Reported,37,17
+NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE,2025,15974,USD million,Reported,37,17
+NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE,2026,16046,USD million,Reported,37,17
+Basic EPS,2024,6.18,USD/share,Reported,37,20
+Basic EPS,2025,6.67,USD/share,Reported,37,20
+Basic EPS,2026,6.75,USD/share,Reported,37,20
+Diluted EPS,2024,6.02,USD/share,Reported,37,21
+Diluted EPS,2025,6.51,USD/share,Reported,37,21
+Diluted EPS,2026,6.62,USD/share,Reported,37,21

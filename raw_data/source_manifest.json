@@ -1,0 +1,24 @@
+{
+  "sources": [
+    {
+      "file": "raw_data/PG_2026_Annual_Report.pdf",
+      "sha256": "87f301b8584e18a632ee63d6787c9282f57a96aa933bf24c831364be03600715"
+    },
+    {
+      "file": "raw_data/PG_2026_Company_Financials.xlsx",
+      "sha256": "28b651e7b4c76dd57287e77998fad38f194da5ea7ad085a61999f2693737af44"
+    }
+  ],
+  "report_url": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/2026_annual_report.pdf",
+  "company_excel_url": "https://s204.q4cdn.com/332108499/files/doc_financials/2026/ar/PG-2026-Financial-Statements-for-IR-site.xlsx",
+  "printed_page": 37,
+  "pdf_page": 49,
+  "periods": [
+    2024,
+    2025,
+    2026
+  ],
+  "fiscal_year_end": "June 30",
+  "reported_values": 45,
+  "normalisation": "Source em dashes on impairment become numeric zero; negatives retained; years reordered chronologically. No adjusted earnings calculated."
+}
