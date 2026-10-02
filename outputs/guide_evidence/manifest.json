@@ -1,0 +1,162 @@
+{
+  "purpose": "Disposable evidence workbook; reported source figures transcribed with provenance, paired with actual existing processed outputs. Original financial files unchanged.",
+  "capture_status": "Complete: genuine Microsoft Excel for Mac screenshots; worksheet content cropped, no visual re-creation. Workbook opened without repair, recalculated and saved natively.",
+  "examples": [
+    [
+      "Revenue",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "table[2]/row[3] (zero based); NET SALES",
+      "NET SALES | $ | 20,889 | $ | 20,532 | 2% | $ | 84,284 | $ | 84,039 | \u2014%",
+      "E7; J7"
+    ],
+    [
+      "Revenue",
+      "Finance Agent",
+      "outputs/runs_reviewed/PG_mid_history/finance/output.json",
+      "mappings: net_sales, FY2025 Q4",
+      "Reported quarterly baseline for target sales = 20,889*(1+sales_growth). Use the first quarterly column, not fiscal-year sales of 84,284.",
+      "J7"
+    ],
+    [
+      "Margins",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "table[2]/row[3] (zero based); NET SALES",
+      "NET SALES | $ | 20,889 | $ | 20,532 | 2% | $ | 84,284 | $ | 84,039 | \u2014%",
+      "E7:E10; J7:J10; J12:J13"
+    ],
+    [
+      "Margins",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "table[2]/row[5] (zero based); GROSS PROFIT",
+      "GROSS PROFIT | 10,258 | 10,183 | 1% | 43,120 | 43,191 | \u2014%",
+      "E7:E10; J7:J10; J12:J13"
+    ],
+    [
+      "Margins",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "table[2]/row[6] (zero based); Selling, general and administrative expense",
+      "Selling, general and administrative expense | 5,903 | 6,299 | (6)% | 22,669 | 23,305 | (3)%",
+      "E7:E10; J7:J10; J12:J13"
+    ],
+    [
+      "Margins",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+      "table[2]/row[8] (zero based); OPERATING INCOME",
+      "OPERATING INCOME | 4,355 | 3,884 | 12% | 20,451 | 18,545 | 10%",
+      "E7:E10; J7:J10; J12:J13"
+    ],
+    [
+      "Cutoff",
+      "Company release",
+      "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx",
+      "publication 2026-04-24; period ended 2026-03-31",
+      "History flags: false / true",
+      "E7,E9,E11,E13; J7,J9,J11,J13"
+    ],
+    [
+      "Scenarios",
+      "Analyst inputs",
+      "outputs/runs_reviewed/PG_pre_history/scenario/output.json",
+      "assumptions",
+      "All nine model driver assumptions retained in original source; selected rows illustrated",
+      "E7,E9:E11,E13:E15"
+    ],
+    [
+      "Scenarios",
+      "Frozen forecast results",
+      "outputs/analysis.json",
+      "PG.forecasts: vintage=pre_history",
+      "net_income_attributable; net_sales",
+      "J7,J9:J11,J13:J15"
+    ]
+  ],
+  "screenshots": [
+    {
+      "file": "revenue.png",
+      "native_source": "native_revenue.png",
+      "sheet": "1 Revenue",
+      "zoom": "125%",
+      "headers_visible": false,
+      "crop_only": true
+    },
+    {
+      "file": "timing.png",
+      "native_source": "native_timing.png",
+      "sheet": "2 Cutoff",
+      "zoom": "125%",
+      "headers_visible": false,
+      "crop_only": true
+    },
+    {
+      "file": "margin.png",
+      "native_source": "native_margin.png",
+      "sheet": "3 Margins",
+      "zoom": "125%",
+      "headers_visible": false,
+      "crop_only": true
+    },
+    {
+      "file": "scenarios.png",
+      "native_source": "native_scenarios.png",
+      "sheet": "4 Scenarios",
+      "zoom": "125%",
+      "headers_visible": false,
+      "crop_only": true
+    }
+  ],
+  "native_validation": {
+    "formula_errors": [],
+    "checked_cells": [
+      {
+        "sheet": 1,
+        "cell": "E7",
+        "value": "20889",
+        "formula": null
+      },
+      {
+        "sheet": 1,
+        "cell": "J7",
+        "value": "20889",
+        "formula": null
+      },
+      {
+        "sheet": 3,
+        "cell": "J10",
+        "value": "4355",
+        "formula": "J8-J9"
+      },
+      {
+        "sheet": 3,
+        "cell": "J12",
+        "value": "0.49109999999999998",
+        "formula": "ROUND(J8/J7,4)"
+      },
+      {
+        "sheet": 3,
+        "cell": "J13",
+        "value": "0.28260000000000002",
+        "formula": "ROUND(J9/J7,4)"
+      },
+      {
+        "sheet": 4,
+        "cell": "E10",
+        "value": "1.4999999999999999E-2",
+        "formula": null
+      },
+      {
+        "sheet": 4,
+        "cell": "J14",
+        "value": "3799.6109599999995",
+        "formula": null
+      }
+    ]
+  },
+  "analysis_sha256": "cd58954f29e8e43f65d88859f4283a4f63162c31462b2f7f3294f8626128f67d",
+  "workbook_sha256": "31ce05f55ce2587ca9bd704e137af253dc45afab062cd2f793eaaa4d928b6c7f",
+  "notes": "Red is an evidence correspondence highlight, not favorability. Only this disposable workbook was edited. Source tables are labeled transcriptions. Scenario input subset illustrated; all nine assumptions remain in original agent output. Finance ratio outputs rounded to four decimal places."
+}

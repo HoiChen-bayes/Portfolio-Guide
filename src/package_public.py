@@ -21,6 +21,10 @@ def main():
  copy(ROOT/'data/README.md','data/README.md')
  for f in (ROOT/'outputs').glob('*'):
   if f.is_file() and f.suffix in {'.xlsx','.pbix','.json','.csv','.md'}:copy(f,f.relative_to(ROOT))
+ # Publish only the approved native evidence captures and editable workbook.
+ for filename in ['Finance_Evidence.xlsx','revenue.png','timing.png','margin.png','scenarios.png','manifest.json']:
+  f=ROOT/'outputs/guide_evidence'/filename
+  if f.is_file():copy(f,f.relative_to(ROOT))
  for folder in ['screenshots','qa','powerbi']:
   for f in (ROOT/'outputs'/folder).rglob('*'):
    if not f.is_file():continue
