@@ -47,7 +47,11 @@ The agents check and propose inputs; the calculation engine performs the arithme
 ## Answers and evidence
 
 <a id="revenue-baseline"></a>
-### 1. Revenue baseline
+### 1. Revenue baseline: Which past quarter’s revenue should we use to forecast April–June 2026?
+
+**Meaning:** Revenue baseline is the historical revenue amount we use as the starting point before applying forecast growth assumptions.
+
+**Why this quarter:** April–June 2025 covers the same three calendar months as the forecast quarter, giving us a prior-year seasonal reference.
 
 **Answer:** Use **$20,889M** of April–June 2025 sales as the seasonal starting point, rather than **$84,284M** of full-year sales.
 
