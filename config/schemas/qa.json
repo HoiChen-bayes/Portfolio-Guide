@@ -1,0 +1,72 @@
+{
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "decision": {
+      "type": "string",
+      "enum": [
+        "pass",
+        "revise",
+        "insufficient_evidence"
+      ]
+    },
+    "source_accuracy": {
+      "type": "string",
+      "enum": [
+        "checked_against_provided_excerpts",
+        "not_verified"
+      ]
+    },
+    "findings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "severity": {
+            "type": "string",
+            "enum": [
+              "blocker",
+              "warning",
+              "note"
+            ]
+          },
+          "subject": {
+            "type": "string"
+          },
+          "finding": {
+            "type": "string"
+          },
+          "source_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        },
+        "required": [
+          "severity",
+          "subject",
+          "finding",
+          "source_ids"
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": [
+    "role",
+    "limitations",
+    "decision",
+    "source_accuracy",
+    "findings"
+  ],
+  "additionalProperties": false
+}

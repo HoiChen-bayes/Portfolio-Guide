@@ -1,0 +1,75 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized original packet and prior outputs. No tools, files, webpages or external verification were used; excerpt-to-webpage fidelity cannot be certified.",
+    "Some material research details depend on curator transcriptions rather than original quotations. Provenance statements and links are not independent corroboration.",
+    "The 2026-03-31 cutoff was treated as an information-availability boundary for this retrospective reconstruction. No remembered target-period results were used.",
+    "This review covers mappings, causal interpretations and scenario assumptions. No computed target financial outputs were supplied, so implementation of the required reconciliation cannot be certified."
+  ],
+  "decision": "pass",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "warning",
+      "subject": "Transcription-dependent source support",
+      "finding": "TRV01 retention and new business, TRV02 long-term fixed-income attribution, TRV03 maintained-policy decision, TRV04 estimate scope and publication date, and TRV05 drought severity, timing and expansion geography depend partly on supplied factual transcriptions. The located factual records support the narrowly stated interpretations, and no quotation/transcription contradiction was identified, but independent source accuracy remains unverified.",
+      "source_ids": [
+        "TRV01",
+        "TRV02",
+        "TRV03",
+        "TRV04",
+        "TRV05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Finance mappings and reconciliation",
+      "finding": "Material historical mappings agree with supplied table excerpts. Quarterly versus annual/YTD amounts, percent-to-decimal conversions, positive catastrophe-loss normalization, favorable-development signs and core effective-tax calculations are coherent. The required Q2 historical underwriting adjustment is correctly derived as -36.913 USD million and must be added once across all scenarios. Its decimal precision is arithmetic from rounded inputs, not forecast accuracy.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Counterfactual and scenario ranges",
+      "finding": "All nine scenario drivers remain within contract bounds. Every base and unrelated control value is preserved; the only incremental change is bear underlying combined ratio from 0.88 to 0.89. This one-percentage-point widening lies within the supplied illustrative sensitivity and is explicitly judgment rather than a calibrated Travelers observation. Scenario orientation is consistent with adverse/favorable profitability.",
+      "source_ids": [
+        "TRV04",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Insurance specificity and double counting",
+      "finding": "The outputs appropriately distinguish Business Insurance renewal premium change from total-company growth and pure rate change; avoid stacking duplicated investment-income evidence; separate underlying underwriting, catastrophes and prior-year development; and decline to convert drought coverage into insured losses. Written premiums, claims expense and included interest are not added or deducted a second time.",
+      "source_ids": [
+        "TRV01",
+        "TRV02",
+        "TRV03",
+        "TRV04",
+        "TRV05",
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Operating cash-flow column assignments",
+      "finding": "The quoted cash-flow row contains the assigned values but lacks date headers. Its displayed annual total is consistent with the serialized quarterly sum, which does not verify individual quarter assignments. Finance discloses this limitation and uses the amount only as historical context; those assignments are not independently attested.",
+      "source_ids": [
+        "trv_2025q4_supplement"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Model coverage and execution",
+      "finding": "Nonnegative favorable-development bounds exclude adverse reserve development, and absent exposure, portfolio, debt and capital details limit risk coverage. These limitations are disclosed. No target arithmetic was supplied to verify that the fixed residual is actually applied; the pass is limited to the supplied model design and evidence-to-assumption checks.",
+      "source_ids": []
+    }
+  ]
+}

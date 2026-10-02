@@ -1,0 +1,31 @@
+{
+  "frozen_at": "2026-10-02T13:23:48.135088+00:00",
+  "status": "assumptions_frozen_after_source_review",
+  "packet_sha256": "3c18ae80a29947b304b886eb545eafb1b951e31aebf9bda067ce40d69d17d092",
+  "files": {
+    "packet.json": "617f1a62155e859de8238a65507da236bc22982c62242a67400538bd2b268bd9",
+    "qa_supplement.json": "295bcc389472e74578ca1ad02cdd6cddb74eebc72c1ed3448bd6cda4a36c3de8",
+    "finance/input.json": "d0e33d96a6f5e3eaa6d25afda23bb655a586450eff402c4c3d1344e5860223ad",
+    "finance/prompt.txt": "cabcc6a44752cc55a75795cb2a2d24ea8bb13da09641336e8c88a7edd463115d",
+    "finance/output.json": "22fb21c89fff1568e1663649ca1be97eadf182925a97ace95e194b3d8a9670d0",
+    "finance/run.json": "51957f8293fbef376f84bfcb42726ba96cb36287b5b6981754f2bbec6ebf7d08",
+    "research/input.json": "2a1727d610ec1d41ba1481569852d0233901ab868e77b6b7f9d52a8470f46c06",
+    "research/prompt.txt": "8704f44570e778bb144d7029a894d45bea308da3f4e7c043a413ca5f169a5463",
+    "research/output.json": "f45eeb715c80b1ee371d752d61c7c03c826e9e86a5172caf5281cd3fe1a0405b",
+    "research/run.json": "387f8d12dd4019b1c19b081062dc5c9a12c795f3400c9a1ce41f219d978cff3e",
+    "scenario/input.json": "1d3a1d5dacc14ac9c68e2b66c4e8df270a2b4911188401942ff06eeaa6363328",
+    "scenario/prompt.txt": "211e65864e28c445f0d6f67e22718db35618a60280f577e8c6e7375ea7e21575",
+    "scenario/output.json": "f8bef3ee8fe628435a91d6a41966eadff2435754707199fc15f83b80efef7365",
+    "scenario/run.json": "549b11ed586f48851b3685a7309c1bee85be1475d2b5c1526d530f85be919db3",
+    "qa/input.json": "bce6005dcdb4a27f149e28cf3c839236a4cdf254025f7dca7c2a9f98453d8c0a",
+    "qa/prompt.txt": "4073d6db2c069394b5cc5de395a27f92be91ed1a0f0fc1a5adde07db70a77124",
+    "qa/output.json": "530d435494ea1d2012e7fb7b629ce3b5e72eb29025fc5e3b1793fc11f3fb08b2",
+    "qa/run.json": "8b77b5b7c612315cd09b196ad74c15a6780113cd70d82b9707e68244194bb1c6",
+    "qa_initial/input.json": "93cf83c3948e77015d1bc1dd8370a98ceb354a735cf12fae4741f2862979a637",
+    "qa_initial/prompt.txt": "adef3f779a50401820d5ee85c8a6afacd0256ea40ac7267970dcb946794f4220",
+    "qa_initial/output.json": "d2a8120070912e8ffcc1fd9fd34aa336db59293df83a89e87d1da56fb2bad157",
+    "qa_initial/run.json": "5b925bd852d60de3b4c07f6290bc435f24b66bac3242fb2e12942dbb04a01e3f"
+  },
+  "review_lineage": "Initial rejected QA retained; one additional genuine model call reviewed supplemental original-source evidence. The three upstream role outputs and numeric assumptions were not changed.",
+  "disclosure": "Retrospective execution; date-filtered inputs do not erase model pretraining."
+}

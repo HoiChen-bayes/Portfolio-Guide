@@ -1,0 +1,89 @@
+{
+  "reviewed_at_utc": "2026-10-02T13:41:35.660270+00:00",
+  "review_type": "Independent implementation review and deterministic tests; separate from model QA role",
+  "scope": [
+    "financial units",
+    "historical reconstruction",
+    "insurance sign conventions",
+    "freeze-before-actual gate",
+    "forecast comparison and bridges",
+    "spreadsheet formula design"
+  ],
+  "status": "calculator_tests_passed_and_workbook_runtime_reports_inspected",
+  "target_actuals_used_by_tests": false,
+  "test_command": "python -m unittest discover -s tests -p calculation_test.py -v",
+  "tests_run": 8,
+  "tests_passed": 8,
+  "synthetic_pipeline_reconciliation_checks": 30,
+  "file_sha256": {
+    "src/calculate.py": "f751e16547580c0aeadba67ccfda77afec9dbdbaad1f895341e7ea6e11633687",
+    "src/build_workbooks.mjs": "c6448c52dd6605d6864f773a68fb402d11b04c5f283068a01897d1abe0d36189",
+    "tests/calculation_test.py": "e66d21953d19b3e45950b2a28d68ce77c841a18e85515403b5db97ab1ac98edf"
+  },
+  "resolved_findings": [
+    {
+      "id": "Q01",
+      "issue": "Actual data was read before freeze checks",
+      "resolution": "All eight freezes verified first; invalid eighth-freeze test confirms no actual read."
+    },
+    {
+      "id": "Q02",
+      "issue": "Travelers diluted shares had no output effect",
+      "resolution": "Core income per diluted share proxy added and tested; explicitly not reported core EPS."
+    },
+    {
+      "id": "Q03",
+      "issue": "Currency/ratio/share formatting inferred from names",
+      "resolution": "Workbook formatting now uses exact unit: decimals, percent-point values, million shares and USD/share."
+    },
+    {
+      "id": "Q04",
+      "issue": "Signed forecast-relative variance ambiguously called error percent",
+      "resolution": "Workbook label names forecast denominator; separate APE uses actual denominator; synthetic tests verify both."
+    },
+    {
+      "id": "Q05",
+      "issue": "Single-case profit parity and passive formula-error logging were insufficient",
+      "resolution": "Code now checks all twelve cases, all displayed metrics, every driver propagation, finite numeric results and spreadsheet error strings; execution not yet independently observed."
+    },
+    {
+      "id": "Q06",
+      "issue": "Screenshot ranges omitted chart and assumption regions",
+      "resolution": "Render ranges expanded in code; visual review awaits generated images."
+    }
+  ],
+  "remaining_limitations": [
+    "Carried Travelers accounting-basis offset is an illustrative fixed-dollar assumption.",
+    "Written and earned premiums are independently assumed, not a policy-level earning model.",
+    "P&G cash conversion is a proxy, not a working-capital schedule.",
+    "Core-income/share proxy is not reported Travelers core EPS.",
+    "Sequential driver bridges are order-dependent arithmetic attribution, not causal estimates.",
+    "Actual workbook export/recalculation and screenshots pending complete analysis; code review alone does not establish their success.",
+    "Accuracy evidence from two company-quarters cannot establish general predictive superiority."
+  ],
+  "test_fixture_note": "Synthetic reader recognizes new historical balance-sheet read; returns empty synthetic balance history. All8 tests rerun and passed after addition.",
+  "workbook_runtime_review": {
+    "PG": {
+      "parity_rows": 144,
+      "all_parity_zero": true,
+      "driver_propagation_checks": 9,
+      "all_drivers_change_output": true,
+      "source": "outputs/PG_workbook_verification.json"
+    },
+    "TRV": {
+      "parity_rows": 120,
+      "all_parity_zero": true,
+      "driver_propagation_checks": 9,
+      "all_drivers_change_output": true,
+      "source": "outputs/TRV_workbook_verification.json"
+    },
+    "limitation": "Inspected builder-generated verification reports, not native Excel opening; screenshots and native application validation owned by coordinator."
+  },
+  "workbook_artifact_sha256": {
+    "outputs/PG_workbook_verification.json": "9483d6f39123170035c4d8e0e2bc9f3b036bb1801590e07d8c9e7072fae3c46a",
+    "outputs/PG_Financial_Scenarios.xlsx": "f98115525d09519fc80f5912b2397711563eb3067aa99fa007085535a633d87d",
+    "outputs/TRV_workbook_verification.json": "9dcdb439829577101d887e0e1820c273da43b52c2e012dc4e80c564588462696",
+    "outputs/TRV_Financial_Scenarios.xlsx": "f1c7708bdc41d8bc7b804e98a2f9980a905c00ba1b8788b92c10e71c481a46c6"
+  },
+  "presentation_rebuild_review": "Refreshed workbook/source hashes and inspected final rebuilt verification reports: 264 zero-difference parity rows and 18 successful driver-propagation checks. Presentation-only changes did not require repeating the independent arithmetic tests. No native application-opening claim."
+}

@@ -1,0 +1,30 @@
+{
+  "created_at": "2026-10-02T13:10:39.076104+00:00",
+  "controls": [
+    {
+      "case": "PG_pre_history",
+      "action": "byte_identical_reuse_of_previously_frozen_control",
+      "origin": "outputs/runs/PG_pre_history",
+      "new_model_calls": 0
+    },
+    {
+      "case": "PG_mid_history",
+      "action": "byte_identical_reuse_of_previously_frozen_control",
+      "origin": "outputs/runs/PG_mid_history",
+      "new_model_calls": 0
+    },
+    {
+      "case": "TRV_pre_history",
+      "action": "byte_identical_reuse_of_previously_frozen_control",
+      "origin": "outputs/runs/TRV_pre_history",
+      "new_model_calls": 0
+    },
+    {
+      "case": "TRV_mid_history",
+      "action": "byte_identical_reuse_of_previously_frozen_control",
+      "origin": "outputs/runs/TRV_mid_history",
+      "new_model_calls": 0
+    }
+  ],
+  "market_plan": "Four fresh four-role pipelines; failed initial market assumptions are not reused. Original failed runs retained."
+}

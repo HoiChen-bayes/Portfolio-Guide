@@ -1,0 +1,835 @@
+{
+  "name": "PAndG_Scenarios",
+  "compatibilityLevel": 1606,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "defaultMode": "import",
+    "tables": [
+      {
+        "name": "Vintage",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "VintageLabel",
+            "dataType": "string",
+            "sourceColumn": "[VintageLabel]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Vintage",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"VintageLabel\",STRING,\"Sort\",INTEGER,{{\"pre_history\",\"March | History only\",1},{\"pre_market\",\"March | Market informed\",2},{\"mid_history\",\"May | History only\",3},{\"mid_market\",\"May | Market informed\",4}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "VintageCompare",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "VintageLabel",
+            "dataType": "string",
+            "sourceColumn": "[VintageLabel]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "VintageCompare",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"VintageLabel\",STRING,\"Sort\",INTEGER,{{\"pre_history\",\"March | History only\",1},{\"pre_market\",\"March | Market informed\",2},{\"mid_history\",\"May | History only\",3},{\"mid_market\",\"May | Market informed\",4}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Scenario",
+        "columns": [
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Scenario",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Case\",STRING,\"Sort\",INTEGER,{{\"bear\",1},{\"base\",2},{\"bull\",3}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Forecast",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Margin",
+            "dataType": "double",
+            "sourceColumn": "[Margin]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Liquidity",
+            "dataType": "double",
+            "sourceColumn": "[Liquidity]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Forecast",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Margin\",DOUBLE,\"Liquidity\",DOUBLE,{{\"pre_history\",\"bear\",20471.22,2866.3111675000005,3787.1757000000007,0.18500000000000003,1812.8535258750007},{\"pre_history\",\"base\",21202.335,3799.6109599999995,4664.5136999999995,0.21999999999999997,3894.9774979999993},{\"pre_history\",\"bull\",21724.56,4581.379100000001,5431.140000000001,0.25000000000000006,5906.463450000001},{\"pre_market\",\"bear\",20366.774999999998,2772.4151125000003,3666.0195000000003,0.18000000000000005,1720.5293681250007},{\"pre_market\",\"base\",21202.335,3799.6109599999995,4664.5136999999995,0.21999999999999997,3894.9774979999993},{\"pre_market\",\"bull\",21724.56,4581.379100000001,5431.140000000001,0.25000000000000006,5906.463450000001},{\"mid_history\",\"bear\",20889.0,2845.2654999999995,3760.0199999999995,0.17999999999999997,1765.6887749999999},{\"mid_history\",\"base\",21724.56,3693.6232416000003,4518.70848,0.208,3738.8822140800003},{\"mid_history\",\"bull\",22351.23,4487.556630499999,5252.5390499999985,0.23499999999999993,5740.529595749999},{\"mid_market\",\"bear\",20889.0,2715.7537,3592.9080000000004,0.17200000000000001,1629.7013850000005},{\"mid_market\",\"base\",21724.56,3624.5391408,4431.81024,0.204,3649.0728830400003},{\"mid_market\",\"bull\",22351.23,4451.3476379,5207.83659,0.233,5686.216106850001}})"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Selected Revenue",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Revenue]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Revenue",
+            "expression": "MAX(Actual[Revenue])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Profit",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Profit]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Profit",
+            "expression": "MAX(Actual[Profit])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Operating",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Operating]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Operating",
+            "expression": "MAX(Actual[Operating])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Margin",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Margin]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Actual Margin",
+            "expression": "MAX(Actual[Margin])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Selected Liquidity",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Liquidity]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Vintage profit",
+            "expression": "CALCULATE([Selected Profit],REMOVEFILTERS(Vintage),TREATAS(VALUES(VintageCompare[Vintage]),Vintage[Vintage]))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit error",
+            "expression": "[Actual Profit]-[Selected Profit]",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit error %",
+            "expression": "DIVIDE([Profit error],[Selected Profit])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "History revenue",
+            "expression": "SUM(History[Revenue])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History profit",
+            "expression": "SUM(History[Profit])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History operating",
+            "expression": "SUM(History[Operating])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History cash flow",
+            "expression": "SUM(History[CashFlow])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History ratio",
+            "expression": "AVERAGE(History[Ratio])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Segment value",
+            "expression": "SUM(Segments[Amount])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Bridge impact",
+            "expression": "CALCULATE(SUM(Bridge[ProfitChange]),KEEPFILTERS(Bridge[Window]=SELECTEDVALUE(Bridge[Window],\"mid\")))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual bridge impact",
+            "expression": "SUM(ActualBridge[ProfitChange])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sensitivity impact",
+            "expression": "SUM(Sensitivity[ProfitChange])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Forecast comparison",
+            "expression": "SUM(Comparison[Forecast])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual comparison",
+            "expression": "SUM(Comparison[Actual])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Difference comparison",
+            "expression": "SUM(Comparison[Difference])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "QA rows",
+            "expression": "COUNTROWS(QA)",
+            "formatString": "0"
+          },
+          {
+            "name": "Free cash flow",
+            "expression": "[Selected Liquidity]",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ]
+      },
+      {
+        "name": "Actual",
+        "columns": [
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Margin",
+            "dataType": "double",
+            "sourceColumn": "[Margin]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Actual",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Margin\",DOUBLE,{{21203.0,3044.0,3949.0,0.1862472291656841}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "History",
+        "columns": [
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Ratio",
+            "dataType": "double",
+            "sourceColumn": "[Ratio]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "CashFlow",
+            "dataType": "double",
+            "sourceColumn": "[CashFlow]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "History",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Quarter\",STRING,\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Ratio\",DOUBLE,\"CashFlow\",DOUBLE,{{\"2024Q1\",20195.0,3754.0,4460.0,0.5120079227531568,BLANK()},{\"2024Q2\",20532.0,3137.0,3884.0,0.4959575297097214,5754.0},{\"2024Q3\",21737.0,3959.0,5797.0,0.5205870175277177,4302.0},{\"2024Q4\",21882.0,4630.0,5741.0,0.5239009231331688,4825.0},{\"2025Q1\",19776.0,3769.0,4558.0,0.5097593042071198,3705.0},{\"2025Q2\",20889.0,3615.0,4355.0,0.49107185600076597,4985.0},{\"2025Q3\",22386.0,4750.0,5856.0,0.5136692575716966,5408.0},{\"2025Q4\",22208.0,4319.0,5366.0,0.5121577809798271,4972.0},{\"2026Q1\",21235.0,3932.0,4576.0,0.4950788792088533,4045.0}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Segments",
+        "columns": [
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "sourceColumn": "[Segment]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Amount",
+            "dataType": "double",
+            "sourceColumn": "[Amount]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Segments",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Segment\",STRING,\"Amount\",DOUBLE,{{\"Beauty\",3866.0},{\"Grooming\",1608.0},{\"Health Care\",3073.0},{\"Fabric & Home Care\",7403.0},{\"Baby, Feminine & Family Care\",5058.0},{\"Corporate\",225.0}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bridge",
+        "columns": [
+          {
+            "name": "Window",
+            "dataType": "string",
+            "sourceColumn": "[Window]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Bridge",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Window\",STRING,\"Driver\",STRING,\"ProfitChange\",DOUBLE,\"Sort\",INTEGER,{{\"pre\",\"sales growth\",0.0,0},{\"pre\",\"gross margin\",0.0,1},{\"pre\",\"sga ratio\",0.0,2},{\"pre\",\"net nonoperating income\",0.0,3},{\"pre\",\"effective tax rate\",0.0,4},{\"pre\",\"noncontrolling income\",0.0,5},{\"pre\",\"diluted shares\",0.0,6},{\"pre\",\"ocf to net income\",0.0,7},{\"pre\",\"capex ratio\",0.0,8},{\"mid\",\"sales growth\",0.0,0},{\"mid\",\"gross margin\",-69.08410080000021,1},{\"mid\",\"sga ratio\",0.0,2},{\"mid\",\"net nonoperating income\",0.0,3},{\"mid\",\"effective tax rate\",0.0,4},{\"mid\",\"noncontrolling income\",0.0,5},{\"mid\",\"diluted shares\",0.0,6},{\"mid\",\"ocf to net income\",0.0,7},{\"mid\",\"capex ratio\",0.0,8}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ActualBridge",
+        "columns": [
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "ActualBridge",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Driver\",STRING,\"ProfitChange\",DOUBLE,\"Sort\",INTEGER,{{\"sales growth\",-84.58660079999981,0},{\"gross margin\",-17.218109999999797,1},{\"sga ratio\",-282.0294300000005,2},{\"net nonoperating income\",-132.76499999999987,3},{\"effective tax rate\",-45.72337147215876,4},{\"noncontrolling income\",-19.0,5},{\"diluted shares\",0.0,6},{\"ocf to net income\",0.0,7},{\"capex ratio\",0.0,8},{\"Reported rounding and basis residual\",0.7833714721587057,9}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sensitivity",
+        "columns": [
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Shock",
+            "dataType": "double",
+            "sourceColumn": "[Shock]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sensitivity",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Driver\",STRING,\"Shock\",DOUBLE,\"ProfitChange\",DOUBLE,{{\"sales growth\",0.01,33.877780199999506},{\"gross margin\",0.01,172.71025199999985},{\"sga ratio\",0.01,-172.7102520000003},{\"effective tax rate\",0.01,-45.81810240000004}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Comparison",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Metric",
+            "dataType": "string",
+            "sourceColumn": "[Metric]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Forecast",
+            "dataType": "double",
+            "sourceColumn": "[Forecast]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual",
+            "dataType": "double",
+            "sourceColumn": "[Actual]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Difference",
+            "dataType": "double",
+            "sourceColumn": "[Difference]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "ErrorPercent",
+            "dataType": "double",
+            "sourceColumn": "[ErrorPercent]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Comparison",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Metric\",STRING,\"Forecast\",DOUBLE,\"Actual\",DOUBLE,\"Difference\",DOUBLE,\"ErrorPercent\",DOUBLE,{{\"pre_history\",\"bear\",\"net sales\",20471.22,21203.0,731.7799999999988,0.03574677034392668},{\"pre_history\",\"bear\",\"gross profit\",9826.1856,10283.0,456.8143999999993,0.04648949435679286},{\"pre_history\",\"bear\",\"sga\",6039.0099,6334.0,294.9901,0.04884742778779018},{\"pre_history\",\"bear\",\"operating income\",3787.1757000000007,3949.0,161.8242999999993,0.04272954645331065},{\"pre_history\",\"bear\",\"pretax income\",3737.1757000000007,3933.0,195.8242999999993,0.052399008160092464},{\"pre_history\",\"bear\",\"income taxes\",840.8645325000002,852.0,11.135467499999777,0.01324287928626574},{\"pre_history\",\"bear\",\"net income\",2896.3111675000005,3081.0,184.68883249999953,0.06376691654281635},{\"pre_history\",\"bear\",\"net income attributable\",2866.3111675000005,3044.0,177.68883249999953,0.06199216418466524},{\"pre_history\",\"bear\",\"operating cash flow\",3041.126725875001,5131.0,2089.873274124999,0.6872036131686342},{\"pre_history\",\"bear\",\"capital expenditures\",1228.2732,1023.0,-205.2732000000001,-0.1671234054443263},{\"pre_history\",\"bear\",\"free cash flow\",1812.8535258750007,4108.0,2295.1464741249993,1.2660407701814809},{\"pre_history\",\"base\",\"net sales\",21202.335,21203.0,0.6650000000008731,3.1364469998274864e-05},{\"pre_history\",\"base\",\"gross profit\",10601.1675,10283.0,-318.16749999999956,-0.030012496265151886},{\"pre_history\",\"base\",\"sga\",5936.6538,6334.0,397.34619999999995,0.06693100412895897},{\"pre_history\",\"base\",\"operating income\",4664.5136999999995,3949.0,-715.5136999999995,-0.1533951331303839},{\"pre_history\",\"base\",\"pretax income\",4764.5136999999995,3933.0,-831.5136999999995,-0.17452226026761128},{\"pre_history\",\"base\",\"income taxes\",952.90274,852.0,-100.90274,-0.1058898623798689},{\"pre_history\",\"base\",\"net income\",3811.6109599999995,3081.0,-730.6109599999995,-0.19168035973954686},{\"pre_history\",\"base\",\"net income attributable\",3799.6109599999995,3044.0,-755.6109599999995,-0.1988653490987929},{\"pre_history\",\"base\",\"operating cash flow\",4955.094247999999,5131.0,175.90575200000058,0.03549998106917957},{\"pre_history\",\"base\",\"capital expenditures\",1060.11675,1023.0,-37.11674999999991,-0.035011945618253756},{\"pre_history\",\"base\",\"free cash flow\",3894.9774979999993,4108.0,213.0225020000007,0.05469158733507034},{\"pre_history\",\"bull\",\"net sales\",21724.56,21203.0,-521.5600000000013,-0.02400785102206909},{\"pre_history\",\"bull\",\"gross profit\",11188.148400000002,10283.0,-905.1484000000019,-0.08090243064705878},{\"pre_history\",\"bull\",\"sga\",5757.008400000001,6334.0,576.9915999999994,0.10022420672514554},{\"pre_history\",\"bull\",\"operating income\",5431.140000000001,3949.0,-1482.1400000000012,-0.2728966662615953},{\"pre_history\",\"bull\",\"pretax income\",5631.140000000001,3933.0,-1698.1400000000012,-0.30156238346054276},{\"pre_history\",\"bull\",\"income taxes\",1041.7609000000002,852.0,-189.76090000000022,-0.18215398562184487},{\"pre_history\",\"bull\",\"net income\",4589.379100000001,3081.0,-1508.379100000001,-0.3286673572030693},{\"pre_history\",\"bull\",\"net income attributable\",4581.379100000001,3044.0,-1537.379100000001,-0.3355712475311202},{\"pre_history\",\"bull\",\"operating cash flow\",6884.068650000001,5131.0,-1753.068650000001,-0.2546558930669584},{\"pre_history\",\"bull\",\"capital expenditures\",977.6052,1023.0,45.39480000000003,0.046434695723795286},{\"pre_history\",\"bull\",\"free cash flow\",5906.463450000001,4108.0,-1798.463450000001,-0.3044907439493257},{\"pre_market\",\"bear\",\"net sales\",20366.774999999998,21203.0,836.2250000000022,0.04105829224312648},{\"pre_market\",\"bear\",\"gross profit\",9674.218125,10283.0,608.7818750000006,0.06292827669729646},{\"pre_market\",\"bear\",\"sga\",6008.198624999999,6334.0,325.8013750000009,0.054226132545676445},{\"pre_market\",\"bear\",\"operating income\",3666.0195000000003,3949.0,282.98049999999967,0.07719012405689595},{\"pre_market\",\"bear\",\"pretax income\",3616.0195000000003,3933.0,316.98049999999967,0.0876600637800763},{\"pre_market\",\"bear\",\"income taxes\",813.6043875000001,852.0,38.39561249999986,0.047191992926660375},{\"pre_market\",\"bear\",\"net income\",2802.4151125000003,3081.0,278.5848874999997,0.0994088585439712},{\"pre_market\",\"bear\",\"net income attributable\",2772.4151125000003,3044.0,271.5848874999997,0.0979596764840531},{\"pre_market\",\"bear\",\"operating cash flow\",2942.5358681250004,5131.0,2188.4641318749996,0.7437340545552977},{\"pre_market\",\"bear\",\"capital expenditures\",1222.0064999999997,1023.0,-199.00649999999973,-0.1628522434209636},{\"pre_market\",\"bear\",\"free cash flow\",1720.5293681250007,4108.0,2387.4706318749995,1.3876372447375416},{\"pre_market\",\"base\",\"net sales\",21202.335,21203.0,0.6650000000008731,3.1364469998274864e-05},{\"pre_market\",\"base\",\"gross profit\",10601.1675,10283.0,-318.16749999999956,-0.030012496265151886},{\"pre_market\",\"base\",\"sga\",5936.6538,6334.0,397.34619999999995,0.06693100412895897},{\"pre_market\",\"base\",\"operating income\",4664.5136999999995,3949.0,-715.5136999999995,-0.1533951331303839},{\"pre_market\",\"base\",\"pretax income\",4764.5136999999995,3933.0,-831.5136999999995,-0.17452226026761128},{\"pre_market\",\"base\",\"income taxes\",952.90274,852.0,-100.90274,-0.1058898623798689},{\"pre_market\",\"base\",\"net income\",3811.6109599999995,3081.0,-730.6109599999995,-0.19168035973954686},{\"pre_market\",\"base\",\"net income attributable\",3799.6109599999995,3044.0,-755.6109599999995,-0.1988653490987929},{\"pre_market\",\"base\",\"operating cash flow\",4955.094247999999,5131.0,175.90575200000058,0.03549998106917957},{\"pre_market\",\"base\",\"capital expenditures\",1060.11675,1023.0,-37.11674999999991,-0.035011945618253756},{\"pre_market\",\"base\",\"free cash flow\",3894.9774979999993,4108.0,213.0225020000007,0.05469158733507034},{\"pre_market\",\"bull\",\"net sales\",21724.56,21203.0,-521.5600000000013,-0.02400785102206909},{\"pre_market\",\"bull\",\"gross profit\",11188.148400000002,10283.0,-905.1484000000019,-0.08090243064705878},{\"pre_market\",\"bull\",\"sga\",5757.008400000001,6334.0,576.9915999999994,0.10022420672514554},{\"pre_market\",\"bull\",\"operating income\",5431.140000000001,3949.0,-1482.1400000000012,-0.2728966662615953},{\"pre_market\",\"bull\",\"pretax income\",5631.140000000001,3933.0,-1698.1400000000012,-0.30156238346054276},{\"pre_market\",\"bull\",\"income taxes\",1041.7609000000002,852.0,-189.76090000000022,-0.18215398562184487},{\"pre_market\",\"bull\",\"net income\",4589.379100000001,3081.0,-1508.379100000001,-0.3286673572030693},{\"pre_market\",\"bull\",\"net income attributable\",4581.379100000001,3044.0,-1537.379100000001,-0.3355712475311202},{\"pre_market\",\"bull\",\"operating cash flow\",6884.068650000001,5131.0,-1753.068650000001,-0.2546558930669584},{\"pre_market\",\"bull\",\"capital expenditures\",977.6052,1023.0,45.39480000000003,0.046434695723795286},{\"pre_market\",\"bull\",\"free cash flow\",5906.463450000001,4108.0,-1798.463450000001,-0.3044907439493257},{\"mid_history\",\"bear\",\"net sales\",20889.0,21203.0,314.0,0.015031834937048207},{\"mid_history\",\"bear\",\"gross profit\",9922.275,10283.0,360.72500000000036,0.03635506977986403},{\"mid_history\",\"bear\",\"sga\",6162.255,6334.0,171.7449999999999,0.027870479232034357},{\"mid_history\",\"bear\",\"operating income\",3760.0199999999995,3949.0,188.98000000000047,0.050260370955473775},{\"mid_history\",\"bear\",\"pretax income\",3710.0199999999995,3933.0,222.98000000000047,0.06010210187546172},{\"mid_history\",\"bear\",\"income taxes\",834.7544999999999,852.0,17.245500000000106,0.02065936751464066},{\"mid_history\",\"bear\",\"net income\",2875.2654999999995,3081.0,205.73450000000048,0.07155321830279691},{\"mid_history\",\"bear\",\"net income attributable\",2845.2654999999995,3044.0,198.73450000000048,0.06984743603013516},{\"mid_history\",\"bear\",\"operating cash flow\",3019.0287749999998,5131.0,2111.9712250000002,0.6995531948846696},{\"mid_history\",\"bear\",\"capital expenditures\",1253.34,1023.0,-230.33999999999992,-0.18378093733543965},{\"mid_history\",\"bear\",\"free cash flow\",1765.6887749999999,4108.0,2342.3112250000004,1.326570830694668},{\"mid_history\",\"base\",\"net sales\",21724.56,21203.0,-521.5600000000013,-0.02400785102206909},{\"mid_history\",\"base\",\"gross profit\",10645.0344,10283.0,-362.03440000000046,-0.03400969751680656},{\"mid_history\",\"base\",\"sga\",6126.32592,6334.0,207.67407999999978,0.0338986339793035},{\"mid_history\",\"base\",\"operating income\",4518.70848,3949.0,-569.7084800000002,-0.12607772387210964},{\"mid_history\",\"base\",\"pretax income\",4668.70848,3933.0,-735.7084800000002,-0.15758286968476562},{\"mid_history\",\"base\",\"income taxes\",957.0852384,852.0,-105.08523839999998,-0.1097971572267434},{\"mid_history\",\"base\",\"net income\",3711.6232416000003,3081.0,-630.6232416000003,-0.16990497163934998},{\"mid_history\",\"base\",\"net income attributable\",3693.6232416000003,3044.0,-649.6232416000003,-0.175876963920824},{\"mid_history\",\"base\",\"operating cash flow\",4825.11021408,5131.0,305.88978591999967,0.06339539872631146},{\"mid_history\",\"base\",\"capital expenditures\",1086.228,1023.0,-63.228000000000065,-0.05820877384858433},{\"mid_history\",\"base\",\"free cash flow\",3738.8822140800003,4108.0,369.11778591999973,0.0987241011578178},{\"mid_history\",\"bull\",\"net sales\",22351.23,21203.0,-1148.2299999999996,-0.05137211688126334},{\"mid_history\",\"bull\",\"gross profit\",11287.371149999999,10283.0,-1004.371149999999,-0.08898184853255216},{\"mid_history\",\"bull\",\"sga\",6034.8321000000005,6334.0,299.16789999999946,0.04957352500328873},{\"mid_history\",\"bull\",\"operating income\",5252.5390499999985,3949.0,-1303.5390499999985,-0.2481731287652205},{\"mid_history\",\"bull\",\"pretax income\",5552.5390499999985,3933.0,-1619.5390499999985,-0.29167540028376726},{\"mid_history\",\"bull\",\"income taxes\",1054.9824194999997,852.0,-202.98241949999965,-0.19240360384033842},{\"mid_history\",\"bull\",\"net income\",4497.556630499999,3081.0,-1416.5566304999993,-0.31496137722728773},{\"mid_history\",\"bull\",\"net income attributable\",4487.556630499999,3044.0,-1443.5566304999993,-0.3216798693277236},{\"mid_history\",\"bull\",\"operating cash flow\",6746.334945749999,5131.0,-1615.334945749999,-0.2394388892249731},{\"mid_history\",\"bull\",\"capital expenditures\",1005.80535,1023.0,17.194650000000024,0.017095405189483256},{\"mid_history\",\"bull\",\"free cash flow\",5740.529595749999,4108.0,-1632.5295957499993,-0.2843865828962266},{\"mid_market\",\"bear\",\"net sales\",20889.0,21203.0,314.0,0.015031834937048207},{\"mid_market\",\"bear\",\"gross profit\",9755.163,10283.0,527.8369999999995,0.05410847568615711},{\"mid_market\",\"bear\",\"sga\",6162.255,6334.0,171.7449999999999,0.027870479232034357},{\"mid_market\",\"bear\",\"operating income\",3592.9080000000004,3949.0,356.09199999999964,0.09910969053479789},{\"mid_market\",\"bear\",\"pretax income\",3542.9080000000004,3933.0,390.09199999999964,0.110105032363245},{\"mid_market\",\"bear\",\"income taxes\",797.1543000000001,852.0,54.84569999999985,0.068801861822736},{\"mid_market\",\"bear\",\"net income\",2745.7537,3081.0,335.2462999999998,0.12209627542339277},{\"mid_market\",\"bear\",\"net income attributable\",2715.7537,3044.0,328.2462999999998,0.12086747778342335},{\"mid_market\",\"bear\",\"operating cash flow\",2883.0413850000004,5131.0,2247.9586149999996,0.7797177753658917},{\"mid_market\",\"bear\",\"capital expenditures\",1253.34,1023.0,-230.33999999999992,-0.18378093733543965},{\"mid_market\",\"bear\",\"free cash flow\",1629.7013850000005,4108.0,2478.2986149999997,1.520707190783911},{\"mid_market\",\"base\",\"net sales\",21724.56,21203.0,-521.5600000000013,-0.02400785102206909},{\"mid_market\",\"base\",\"gross profit\",10558.13616,10283.0,-275.13616,-0.026059160047809046},{\"mid_market\",\"base\",\"sga\",6126.32592,6334.0,207.67407999999978,0.0338986339793035},{\"mid_market\",\"base\",\"operating income\",4431.81024,3949.0,-482.8102399999998,-0.1089419929676411},{\"mid_market\",\"base\",\"pretax income\",4581.81024,3933.0,-648.8102399999998,-0.14160565497361144},{\"mid_market\",\"base\",\"income taxes\",939.2710991999999,852.0,-87.27109919999987,-0.09291364258341472},{\"mid_market\",\"base\",\"net income\",3642.5391408,3081.0,-561.5391408,-0.1541614569107062},{\"mid_market\",\"base\",\"net income attributable\",3624.5391408,3044.0,-580.5391408,-0.16016909136532728},{\"mid_market\",\"base\",\"operating cash flow\",4735.30088304,5131.0,395.6991169599996,0.0835636692859876},{\"mid_market\",\"base\",\"capital expenditures\",1086.228,1023.0,-63.228000000000065,-0.05820877384858433},{\"mid_market\",\"base\",\"free cash flow\",3649.0728830400003,4108.0,458.9271169599997,0.12576540169777942},{\"mid_market\",\"bull\",\"net sales\",22351.23,21203.0,-1148.2299999999996,-0.05137211688126334},{\"mid_market\",\"bull\",\"gross profit\",11242.66869,10283.0,-959.6686900000004,-0.08535950995812902},{\"mid_market\",\"bull\",\"sga\",6034.8321000000005,6334.0,299.16789999999946,0.04957352500328873},{\"mid_market\",\"bull\",\"operating income\",5207.83659,3949.0,-1258.83659,-0.24171967922672472},{\"mid_market\",\"bull\",\"pretax income\",5507.83659,3933.0,-1574.83659,-0.2859265274607575},{\"mid_market\",\"bull\",\"income taxes\",1046.4889521,852.0,-194.4889521,-0.1858490256487821},{\"mid_market\",\"bull\",\"net income\",4461.3476379,3081.0,-1380.3476379000003,-0.3094014970215913},{\"mid_market\",\"bull\",\"net income attributable\",4451.3476379,3044.0,-1407.3476379000003,-0.31616214961901756},{\"mid_market\",\"bull\",\"operating cash flow\",6692.0214568500005,5131.0,-1561.0214568500005,-0.23326605673867468},{\"mid_market\",\"bull\",\"capital expenditures\",1005.80535,1023.0,17.194650000000024,0.017095405189483256},{\"mid_market\",\"bull\",\"free cash flow\",5686.216106850001,4108.0,-1578.2161068500009,-0.27755120051606463}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Value",
+            "dataType": "double",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Drivers",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Driver\",STRING,\"Value\",DOUBLE,{{\"pre_history\",\"bear\",\"sales growth\",-0.02},{\"pre_history\",\"bear\",\"gross margin\",0.48},{\"pre_history\",\"bear\",\"sga ratio\",0.295},{\"pre_history\",\"bear\",\"net nonoperating income\",-50},{\"pre_history\",\"bear\",\"effective tax rate\",0.225},{\"pre_history\",\"bear\",\"noncontrolling income\",30},{\"pre_history\",\"bear\",\"diluted shares\",2445},{\"pre_history\",\"bear\",\"ocf to net income\",1.05},{\"pre_history\",\"bear\",\"capex ratio\",0.06},{\"pre_history\",\"base\",\"sales growth\",0.015},{\"pre_history\",\"base\",\"gross margin\",0.5},{\"pre_history\",\"base\",\"sga ratio\",0.28},{\"pre_history\",\"base\",\"net nonoperating income\",100},{\"pre_history\",\"base\",\"effective tax rate\",0.2},{\"pre_history\",\"base\",\"noncontrolling income\",12},{\"pre_history\",\"base\",\"diluted shares\",2420},{\"pre_history\",\"base\",\"ocf to net income\",1.3},{\"pre_history\",\"base\",\"capex ratio\",0.05},{\"pre_history\",\"bull\",\"sales growth\",0.04},{\"pre_history\",\"bull\",\"gross margin\",0.515},{\"pre_history\",\"bull\",\"sga ratio\",0.265},{\"pre_history\",\"bull\",\"net nonoperating income\",200},{\"pre_history\",\"bull\",\"effective tax rate\",0.185},{\"pre_history\",\"bull\",\"noncontrolling income\",8},{\"pre_history\",\"bull\",\"diluted shares\",2395},{\"pre_history\",\"bull\",\"ocf to net income\",1.5},{\"pre_history\",\"bull\",\"capex ratio\",0.045},{\"pre_market\",\"bear\",\"sales growth\",-0.025},{\"pre_market\",\"bear\",\"gross margin\",0.475},{\"pre_market\",\"bear\",\"sga ratio\",0.295},{\"pre_market\",\"bear\",\"net nonoperating income\",-50},{\"pre_market\",\"bear\",\"effective tax rate\",0.225},{\"pre_market\",\"bear\",\"noncontrolling income\",30},{\"pre_market\",\"bear\",\"diluted shares\",2445},{\"pre_market\",\"bear\",\"ocf to net income\",1.05},{\"pre_market\",\"bear\",\"capex ratio\",0.06},{\"pre_market\",\"base\",\"sales growth\",0.015},{\"pre_market\",\"base\",\"gross margin\",0.5},{\"pre_market\",\"base\",\"sga ratio\",0.28},{\"pre_market\",\"base\",\"net nonoperating income\",100},{\"pre_market\",\"base\",\"effective tax rate\",0.2},{\"pre_market\",\"base\",\"noncontrolling income\",12},{\"pre_market\",\"base\",\"diluted shares\",2420},{\"pre_market\",\"base\",\"ocf to net income\",1.3},{\"pre_market\",\"base\",\"capex ratio\",0.05},{\"pre_market\",\"bull\",\"sales growth\",0.04},{\"pre_market\",\"bull\",\"gross margin\",0.515},{\"pre_market\",\"bull\",\"sga ratio\",0.265},{\"pre_market\",\"bull\",\"net nonoperating income\",200},{\"pre_market\",\"bull\",\"effective tax rate\",0.185},{\"pre_market\",\"bull\",\"noncontrolling income\",8},{\"pre_market\",\"bull\",\"diluted shares\",2395},{\"pre_market\",\"bull\",\"ocf to net income\",1.5},{\"pre_market\",\"bull\",\"capex ratio\",0.045},{\"mid_history\",\"bear\",\"sales growth\",0},{\"mid_history\",\"bear\",\"gross margin\",0.475},{\"mid_history\",\"bear\",\"sga ratio\",0.295},{\"mid_history\",\"bear\",\"net nonoperating income\",-50},{\"mid_history\",\"bear\",\"effective tax rate\",0.225},{\"mid_history\",\"bear\",\"noncontrolling income\",30},{\"mid_history\",\"bear\",\"diluted shares\",2440},{\"mid_history\",\"bear\",\"ocf to net income\",1.05},{\"mid_history\",\"bear\",\"capex ratio\",0.06},{\"mid_history\",\"base\",\"sales growth\",0.04},{\"mid_history\",\"base\",\"gross margin\",0.49},{\"mid_history\",\"base\",\"sga ratio\",0.282},{\"mid_history\",\"base\",\"net nonoperating income\",150},{\"mid_history\",\"base\",\"effective tax rate\",0.205},{\"mid_history\",\"base\",\"noncontrolling income\",18},{\"mid_history\",\"base\",\"diluted shares\",2405},{\"mid_history\",\"base\",\"ocf to net income\",1.3},{\"mid_history\",\"base\",\"capex ratio\",0.05},{\"mid_history\",\"bull\",\"sales growth\",0.07},{\"mid_history\",\"bull\",\"gross margin\",0.505},{\"mid_history\",\"bull\",\"sga ratio\",0.27},{\"mid_history\",\"bull\",\"net nonoperating income\",300},{\"mid_history\",\"bull\",\"effective tax rate\",0.19},{\"mid_history\",\"bull\",\"noncontrolling income\",10},{\"mid_history\",\"bull\",\"diluted shares\",2380},{\"mid_history\",\"bull\",\"ocf to net income\",1.5},{\"mid_history\",\"bull\",\"capex ratio\",0.045},{\"mid_market\",\"bear\",\"sales growth\",0},{\"mid_market\",\"bear\",\"gross margin\",0.467},{\"mid_market\",\"bear\",\"sga ratio\",0.295},{\"mid_market\",\"bear\",\"net nonoperating income\",-50},{\"mid_market\",\"bear\",\"effective tax rate\",0.225},{\"mid_market\",\"bear\",\"noncontrolling income\",30},{\"mid_market\",\"bear\",\"diluted shares\",2440},{\"mid_market\",\"bear\",\"ocf to net income\",1.05},{\"mid_market\",\"bear\",\"capex ratio\",0.06},{\"mid_market\",\"base\",\"sales growth\",0.04},{\"mid_market\",\"base\",\"gross margin\",0.486},{\"mid_market\",\"base\",\"sga ratio\",0.282},{\"mid_market\",\"base\",\"net nonoperating income\",150},{\"mid_market\",\"base\",\"effective tax rate\",0.205},{\"mid_market\",\"base\",\"noncontrolling income\",18},{\"mid_market\",\"base\",\"diluted shares\",2405},{\"mid_market\",\"base\",\"ocf to net income\",1.3},{\"mid_market\",\"base\",\"capex ratio\",0.05},{\"mid_market\",\"bull\",\"sales growth\",0.07},{\"mid_market\",\"bull\",\"gross margin\",0.503},{\"mid_market\",\"bull\",\"sga ratio\",0.27},{\"mid_market\",\"bull\",\"net nonoperating income\",300},{\"mid_market\",\"bull\",\"effective tax rate\",0.19},{\"mid_market\",\"bull\",\"noncontrolling income\",10},{\"mid_market\",\"bull\",\"diluted shares\",2380},{\"mid_market\",\"bull\",\"ocf to net income\",1.5},{\"mid_market\",\"bull\",\"capex ratio\",0.045}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "QA",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Check",
+            "dataType": "string",
+            "sourceColumn": "[Check]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "[Status]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Detail",
+            "dataType": "string",
+            "sourceColumn": "[Detail]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "QA",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Check\",STRING,\"Status\",STRING,\"Detail\",STRING,{{\"pre_history\",\"QA approval\",\"pass\",\"checked_against_provided_excerpts\"},{\"pre_history\",\"Unresolved source inconsistencies\",\"warning\",\"Original excerpts support the disclosed USD 1 million FY2025 Q3 reconciliation differences and FY2026 Q1 component total of 179 versus pretax-minus-operating of 178. Other-income labels vary. Contract placement is transparent, but neither the discrepancies nor external source classifications are resolved.\"},{\"pre_history\",\"Quotation fidelity\",\"warning\",\"Several finance fields labeled source_excerpt concatenate or truncate original rows. Their numerical content is supported by the original packet, but those assembled strings are not single verbatim excerpts.\"},{\"pre_market\",\"QA approval\",\"pass\",\"not_verified\"},{\"pre_market\",\"Transcription-dependent market support\",\"warning\",\"PG01's quotation supports commodity neutrality; its 0\u20134% organic guidance and annual after-tax tariff/FX amounts depend on factual transcriptions. PG02\u2013PG04 numerical quotation fragments agree with the extracted facts, but complete labels, periods and adjustment bases are partly transcription-dependent. PG05 quotes the rate range, while the maintained decision and date depend on transcription. No supplied quotation contradicts these records, but independent source accuracy remains unverified.\"},{\"pre_market\",\"Other-income classification\",\"warning\",\"Original labels say operating in Q3 and FY2026 Q1/Q2, versus non-operating in FY2025 Q4. The outputs preserve this ambiguity and use the explicit contract aggregate as a model bridge. Q2's 55 USD million bridge reconciles exactly. This supports model aggregation, not certification of the accounting classification.\"},{\"pre_market\",\"Unsupported interest/tax overlap statement\",\"warning\",\"PG05's packet overlap note claims PG01 contains annual interest/tax headwinds, which neither PG01 evidence surface supports. Reviewed outputs explicitly exclude that claim, so it supplies no modeled adjustment. Policy rates also remain separate from company borrowing costs and unquantified debt exposure.\"},{\"mid_history\",\"QA approval\",\"pass\",\"checked_against_provided_excerpts\"},{\"mid_history\",\"Reconciliation and other-income classification\",\"warning\",\"Original excerpts confirm the disclosed USD 1 million reconciliation differences and inconsistent operating/nonoperating labels. The conditional contract mapping is transparent, but neither exact historical reconciliation nor recurring classification of other income is established. These discrepancies were acknowledged without correction or certainty claims.\"},{\"mid_history\",\"Precision and missing supporting detail\",\"warning\",\"Four-decimal share approximations are computational precision, not observed denominator precision; the rounding limitation is disclosed. Cash seasonality, other-income recurrence and absent exposure or financing detail appropriately limit inference. No insurance-specific assumptions or unsupported insurance claims appear.\"},{\"mid_market\",\"QA approval\",\"pass\",\"not_verified\"},{\"mid_market\",\"Accounting labels versus model bridge\",\"warning\",\"Original excerpts continue to label other income operating in FY2025 Q3 and FY2026 Q1\u2013Q3, while FY2025 Q4 labels it non-operating. Supplemental evidence does not resolve that literal classification difference. The narrowly scoped mapping is nevertheless coherent as the explicitly defined bridge between displayed operating and pretax income, preserving original labels and disclosing the conflict. Pass does not certify that these amounts are accounting non-operating income.\"},{\"mid_market\",\"Transcription-dependent support\",\"warning\",\"Short quotations support selected facts but do not establish all annual guidance amounts and scopes, macro metric details, or peer category figures. Located factual extracts supply those missing details without an apparent quotation/transcription contradiction. Supplemental historical rounding quotations do not independently verify these market facts; source_accuracy remains not_verified.\"},{\"All\",\"Source dates\",\"Passed\",\"Financial periods through March 2026; publication gates March 31 / May 15\"},{\"All\",\"Retrospective reconstruction\",\"Disclosed\",\"Runs executed today; do not claim forecasts were authored before the target\"},{\"All\",\"Accounting identity\",\"Passed\",\"72 historical checks; rounding tolerance retained\"},{\"All\",\"Actual holdout\",\"Separated\",\"Targets loaded only after model assumption freeze\"},{\"All\",\"Model basis\",\"Illustrative\",\"Analyst scenarios, not company guidance or official budget\"},{\"All\",\"Liquidity boundary\",\"Limited\",\"PG cash conversion assumption; TRV liquidity is not a retail cash budget\"}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sources",
+        "columns": [
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Metric",
+            "dataType": "string",
+            "sourceColumn": "[Metric]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Published",
+            "dataType": "string",
+            "sourceColumn": "[Published]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "SourceURL",
+            "dataType": "string",
+            "sourceColumn": "[SourceURL]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "dataCategory": "WebUrl"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sources",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Quarter\",STRING,\"Metric\",STRING,\"Published\",STRING,\"SourceURL\",STRING,{{\"2025Q1\",\"net sales\",\"2025-04-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx\"},{\"2024Q1\",\"net sales\",\"2025-04-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx\"},{\"2025Q1\",\"net income attributable\",\"2025-04-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx\"},{\"2024Q1\",\"net income attributable\",\"2025-04-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx\"},{\"2025Q1\",\"operating cash flow\",\"2025-04-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx\"},{\"2025Q2\",\"net sales\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2024Q2\",\"net sales\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2025Q2\",\"net income attributable\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2024Q2\",\"net income attributable\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2025Q2\",\"operating cash flow\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2024Q2\",\"operating cash flow\",\"2025-07-29\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx\"},{\"2025Q3\",\"net sales\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2024Q3\",\"net sales\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2025Q3\",\"net income attributable\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2024Q3\",\"net income attributable\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2025Q3\",\"operating cash flow\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2024Q3\",\"operating cash flow\",\"2025-10-24\",\"https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx\"},{\"2025Q4\",\"net sales\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2024Q4\",\"net sales\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2025Q4\",\"net income attributable\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2024Q4\",\"net income attributable\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2025Q4\",\"operating cash flow\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2024Q4\",\"operating cash flow\",\"2026-01-22\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx\"},{\"2026Q1\",\"net sales\",\"2026-04-24\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx\"},{\"2026Q1\",\"net income attributable\",\"2026-04-24\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx\"},{\"2026Q1\",\"operating cash flow\",\"2026-04-24\",\"https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx\"}})"
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "071d6d80-c2f0-5629-a4fb-199b455e1c26",
+        "fromTable": "Forecast",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "2b5164f8-485a-51fd-a682-0e01f242fffa",
+        "fromTable": "Forecast",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "439400d0-9724-5466-af74-2f138b7e3ed9",
+        "fromTable": "Comparison",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "c33053f0-64f8-5ec3-8dc0-5aabda96c372",
+        "fromTable": "Comparison",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "8506bf3e-5d84-5b65-a20b-232ec9d694d9",
+        "fromTable": "Drivers",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "efd940b3-6a18-5757-8a00-f42807ebf82f",
+        "fromTable": "Drivers",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      }
+    ]
+  }
+}

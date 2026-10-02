@@ -1,0 +1,30 @@
+[
+  {
+    "source_id": "trv_2025q4_supplement",
+    "publication_date": "2026-01-21",
+    "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm",
+    "format": "SEC Exhibit 99.2 web text extracts; direct SEC download returned HTTP403",
+    "extracts": [
+      {
+        "path": "sources/trv_2025q4_supplement_cash_web_extract.txt",
+        "sha256": "3c46f14e2307de3317d62f4cb94c3ca722b7f6b7ec5a372d90ef86d48d8cf351"
+      },
+      {
+        "path": "sources/trv_2025q4_supplement_web_extract.txt",
+        "sha256": "5f89cefd6f796b3a61f630b13337a89eea7068d842839c47ed973312b039f8f5"
+      }
+    ]
+  },
+  {
+    "source_id": "trv_2026q1_supplement",
+    "publication_date": "2026-04-16",
+    "url": "https://www.sec.gov/Archives/edgar/data/86312/000008631226000110/a992finsupp33126.htm",
+    "format": "SEC Exhibit 99.2 web text extracts; direct SEC download returned HTTP403",
+    "extracts": [
+      {
+        "path": "sources/trv_2026q1_supplement_web_extract.txt",
+        "sha256": "cdfa642fc66f3636be7d9f911b364382a9606ac87fa5b709438fdddda4c97297"
+      }
+    ]
+  }
+]

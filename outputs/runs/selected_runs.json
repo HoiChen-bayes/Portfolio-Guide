@@ -1,0 +1,296 @@
+{
+  "selected_at_utc": "2026-10-02T13:25:46.181727+00:00",
+  "cases": [
+    {
+      "case": "PG_pre_history",
+      "run_path": "outputs/runs_reviewed/PG_pre_history",
+      "cutoff": "2026-03-31",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "checked_against_provided_excerpts",
+      "freeze_sha256": "6b93ad11d704be903198d88293311e1687172894ced5b82c28ccce41eb6a7abd",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Unresolved source inconsistencies",
+          "finding": "Original excerpts support the disclosed USD 1 million FY2025 Q3 reconciliation differences and FY2026 Q1 component total of 179 versus pretax-minus-operating of 178. Other-income labels vary. Contract placement is transparent, but neither the discrepancies nor external source classifications are resolved.",
+          "source_ids": [
+            "pg_2025q3",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Quotation fidelity",
+          "finding": "Several finance fields labeled source_excerpt concatenate or truncate original rows. Their numerical content is supported by the original packet, but those assembled strings are not single verbatim excerpts.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        }
+      ],
+      "additional_qa_review": false
+    },
+    {
+      "case": "PG_pre_market",
+      "run_path": "outputs/runs_reviewed/PG_pre_market",
+      "cutoff": "2026-03-31",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "not_verified",
+      "freeze_sha256": "cd19ee6473537dcc57ee6ac5a7c3fd12f4264bd5904dae54e0a72b73cb8a7b8d",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Transcription-dependent market support",
+          "finding": "PG01's quotation supports commodity neutrality; its 0\u20134% organic guidance and annual after-tax tariff/FX amounts depend on factual transcriptions. PG02\u2013PG04 numerical quotation fragments agree with the extracted facts, but complete labels, periods and adjustment bases are partly transcription-dependent. PG05 quotes the rate range, while the maintained decision and date depend on transcription. No supplied quotation contradicts these records, but independent source accuracy remains unverified.",
+          "source_ids": [
+            "PG01",
+            "PG02",
+            "PG03",
+            "PG04",
+            "PG05"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Other-income classification",
+          "finding": "Original labels say operating in Q3 and FY2026 Q1/Q2, versus non-operating in FY2025 Q4. The outputs preserve this ambiguity and use the explicit contract aggregate as a model bridge. Q2's 55 USD million bridge reconciles exactly. This supports model aggregation, not certification of the accounting classification.",
+          "source_ids": [
+            "pg_2025q3",
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Unsupported interest/tax overlap statement",
+          "finding": "PG05's packet overlap note claims PG01 contains annual interest/tax headwinds, which neither PG01 evidence surface supports. Reviewed outputs explicitly exclude that claim, so it supplies no modeled adjustment. Policy rates also remain separate from company borrowing costs and unquantified debt exposure.",
+          "source_ids": [
+            "PG01",
+            "PG05"
+          ]
+        }
+      ],
+      "additional_qa_review": true
+    },
+    {
+      "case": "PG_mid_history",
+      "run_path": "outputs/runs_reviewed/PG_mid_history",
+      "cutoff": "2026-05-15",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "checked_against_provided_excerpts",
+      "freeze_sha256": "4a5ac8c647832925b5d1c2f83e81f236270c3c21f679f2bb028b998460de4779",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Reconciliation and other-income classification",
+          "finding": "Original excerpts confirm the disclosed USD 1 million reconciliation differences and inconsistent operating/nonoperating labels. The conditional contract mapping is transparent, but neither exact historical reconciliation nor recurring classification of other income is established. These discrepancies were acknowledged without correction or certainty claims.",
+          "source_ids": [
+            "pg_2025q3",
+            "pg_2026q1",
+            "pg_2026q2",
+            "pg_2026q3"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Precision and missing supporting detail",
+          "finding": "Four-decimal share approximations are computational precision, not observed denominator precision; the rounding limitation is disclosed. Cash seasonality, other-income recurrence and absent exposure or financing detail appropriately limit inference. No insurance-specific assumptions or unsupported insurance claims appear.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q3"
+          ]
+        }
+      ],
+      "additional_qa_review": false
+    },
+    {
+      "case": "PG_mid_market",
+      "run_path": "outputs/runs_reviewed/PG_mid_market",
+      "cutoff": "2026-05-15",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "not_verified",
+      "freeze_sha256": "985e8fc5d8ed71d2b2e12516e598cdd13069b84997ab5069914110580d5a59b3",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Accounting labels versus model bridge",
+          "finding": "Original excerpts continue to label other income operating in FY2025 Q3 and FY2026 Q1\u2013Q3, while FY2025 Q4 labels it non-operating. Supplemental evidence does not resolve that literal classification difference. The narrowly scoped mapping is nevertheless coherent as the explicitly defined bridge between displayed operating and pretax income, preserving original labels and disclosing the conflict. Pass does not certify that these amounts are accounting non-operating income.",
+          "source_ids": [
+            "pg_2025q3",
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2",
+            "pg_2026q3"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Transcription-dependent support",
+          "finding": "Short quotations support selected facts but do not establish all annual guidance amounts and scopes, macro metric details, or peer category figures. Located factual extracts supply those missing details without an apparent quotation/transcription contradiction. Supplemental historical rounding quotations do not independently verify these market facts; source_accuracy remains not_verified.",
+          "source_ids": [
+            "PG01",
+            "PG05",
+            "PG06",
+            "PG07",
+            "PG08",
+            "PG09",
+            "PG10"
+          ]
+        }
+      ],
+      "additional_qa_review": true
+    },
+    {
+      "case": "TRV_pre_history",
+      "run_path": "outputs/runs_reviewed/TRV_pre_history",
+      "cutoff": "2026-03-31",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "checked_against_provided_excerpts",
+      "freeze_sha256": "d8f3fc19f088faecb1f6647c7c5b62ac6e13caeeb4804d4327725d65735bfce5",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Operating cash-flow period attribution",
+          "finding": "The excerpt contains the cited cash amounts but omits period headers. The assigned 2025 quarters sum to 10,606 USD million, which supports internal consistency but does not establish column attribution. Finance acknowledges this limitation; cash-period mapping receives no independent source attestation.",
+          "source_ids": [
+            "trv_2025q4_supplement"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Scope of scenario coverage and precision",
+          "finding": "Passing these narrowly stated checks does not validate forecast accuracy, probabilities or final financial outputs. Contract limits exclude adverse reserve development and constrain underwriting stress. Historical ratios are rounded, target residuals and realized gains are unspecified, and precise scenario inputs should remain illustrative rather than presented as calibrated estimates.",
+          "source_ids": [
+            "trv_2025q2",
+            "trv_2025q4"
+          ]
+        }
+      ],
+      "additional_qa_review": false
+    },
+    {
+      "case": "TRV_pre_market",
+      "run_path": "outputs/runs_reviewed/TRV_pre_market",
+      "cutoff": "2026-03-31",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "not_verified",
+      "freeze_sha256": "2d6bdac9f84fb1132e649382d6c2a618e4080a54c4ae297b45b49055915c1858",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Transcription-dependent source support",
+          "finding": "TRV01 retention and new business, TRV02 long-term fixed-income attribution, TRV03 maintained-policy decision, TRV04 estimate scope and publication date, and TRV05 drought severity, timing and expansion geography depend partly on supplied factual transcriptions. The located factual records support the narrowly stated interpretations, and no quotation/transcription contradiction was identified, but independent source accuracy remains unverified.",
+          "source_ids": [
+            "TRV01",
+            "TRV02",
+            "TRV03",
+            "TRV04",
+            "TRV05"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Operating cash-flow column assignments",
+          "finding": "The quoted cash-flow row contains the assigned values but lacks date headers. Its displayed annual total is consistent with the serialized quarterly sum, which does not verify individual quarter assignments. Finance discloses this limitation and uses the amount only as historical context; those assignments are not independently attested.",
+          "source_ids": [
+            "trv_2025q4_supplement"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Model coverage and execution",
+          "finding": "Nonnegative favorable-development bounds exclude adverse reserve development, and absent exposure, portfolio, debt and capital details limit risk coverage. These limitations are disclosed. No target arithmetic was supplied to verify that the fixed residual is actually applied; the pass is limited to the supplied model design and evidence-to-assumption checks.",
+          "source_ids": []
+        }
+      ],
+      "additional_qa_review": false
+    },
+    {
+      "case": "TRV_mid_history",
+      "run_path": "outputs/runs_reviewed/TRV_mid_history",
+      "cutoff": "2026-05-15",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "checked_against_provided_excerpts",
+      "freeze_sha256": "d724dddcf4c2b41a4d1237540e9f8864ac20f073e797ad292d29f79c0a92f57c",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Cash-flow column attribution",
+          "finding": "The supplied cash-flow excerpts contain the mapped numbers but omit period headers. Their quarterly attribution cannot be established from the excerpts alone. Finance discloses reliance on packet attribution and derives no cash-flow forecast; that limitation must remain.",
+          "source_ids": [
+            "trv_2025q4_supplement",
+            "trv_2026q1_supplement"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Excerpt presentation and numerical precision",
+          "finding": "Some finance source_excerpt fields concatenate separate rows or normalize whitespace rather than reproduce one verbatim excerpt. Their numerical components are supported by original packet rows, but the assembled strings should not be represented as verbatim quotations. Long derived decimals and the three-decimal residual express arithmetic precision, not forecast accuracy or a verified component breakdown.",
+          "source_ids": [
+            "trv_2025q2",
+            "trv_2026q1",
+            "trv_2026q1_supplement"
+          ]
+        }
+      ],
+      "additional_qa_review": false
+    },
+    {
+      "case": "TRV_mid_market",
+      "run_path": "outputs/runs_reviewed/TRV_mid_market",
+      "cutoff": "2026-05-15",
+      "status": "accepted_and_frozen",
+      "qa_decision": "pass",
+      "qa_source_accuracy": "not_verified",
+      "freeze_sha256": "e277c3f21df026b5d7841d361361fbd888d32b4c83928da85646367f2de3e168",
+      "warnings": [
+        {
+          "severity": "warning",
+          "subject": "Transcription-dependent evidence",
+          "finding": "Retention, personal-lines growth excluding disposal, workers-compensation sample and frequency, goods PPI, NOAA forecast details and April policy bounds depend on located curator factual records. Those records support the narrowly stated interpretations and do not contradict the supplied quotations, but provenance and links are not independent verification.",
+          "source_ids": [
+            "TRV01",
+            "TRV07",
+            "TRV08",
+            "TRV09",
+            "TRV05",
+            "TRV10"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Insurance specificity and excluded risks",
+          "finding": "Drought and broad price indicators do not establish Travelers insured-loss magnitudes. The outputs appropriately avoid calibrated catastrophe or portfolio adjustments. Zero favorable releases cannot represent adverse reserve strengthening, and share reductions lack funding support; these restrictions are disclosed rather than presented as observed company forecasts.",
+          "source_ids": [
+            "TRV04",
+            "TRV05",
+            "TRV08",
+            "TRV09",
+            "trv_2026q1"
+          ]
+        },
+        {
+          "severity": "warning",
+          "subject": "Cash-flow column attribution",
+          "finding": "Cash-flow quotations omit column headers, so period attribution depends on serialized notes. Finance discloses this ambiguity and uses the figures only as historical context. The excerpts cannot independently establish quarterly alignment or repurchase capacity.",
+          "source_ids": [
+            "trv_2025q4_supplement",
+            "trv_2026q1_supplement"
+          ]
+        }
+      ],
+      "additional_qa_review": false
+    }
+  ],
+  "selection_policy": "Four original frozen history controls plus four corrected market runs; PG market QA re-reviewed original rounding evidence without modifying forecast assumptions. Original failed market outputs are not selected."
+}

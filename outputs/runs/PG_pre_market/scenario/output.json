@@ -1,0 +1,136 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Used only the serialized JSON; sources and curator transcriptions were not independently verified. Finance and research outputs are challengeable interpretations.",
+    "March 31, 2026 is the information-availability boundary. No target-period actuals or remembered target results were used; FY2026 Q3 results are absent.",
+    "Annual organic-sales guidance is not quarterly reported-sales guidance. Annual after-tax tariff and FX amounts do not establish quarterly pretax margin effects.",
+    "Demand and cost sensitivities are uncalibrated analyst judgments. Company elasticities, procurement lags, currency exposures and debt repricing balances are unavailable.",
+    "Diluted shares inferred from rounded EPS are approximate; exact share counts, EPS numerator reconciliation and repurchase details are unavailable.",
+    "Cash conversion and capex are seasonal. Detailed working capital, cash, debt, ownership and project breakdowns are unavailable.",
+    "Historical USD 1 million reconciliation differences and inconsistent other-income labels remain unresolved; the supplied contract aggregation is retained."
+  ],
+  "assumptions": [
+    {
+      "driver": "sales_growth",
+      "bear": -0.025,
+      "base": 0.015,
+      "bull": 0.04,
+      "unit": "decimal",
+      "basis": "Preserve the frozen base and bull: prior-year Q4 reported growth was approximately 2%, recent Q1 3% and Q2 1%, with Q2 organic growth flat. Lower the control bear of -2% by one combined 0.5 percentage-point demand sensitivity for PG02 affordability pressure and PG04 weak spending. This is an illustrative reported-sales effect, not measured company volume elasticity; the two signals are not added separately. PG01 annual organic guidance provides context only, without imposing its range on quarterly reported growth or adding historical FX again.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2",
+        "PG01",
+        "PG02",
+        "PG04"
+      ]
+    },
+    {
+      "driver": "gross_margin",
+      "bear": 0.475,
+      "base": 0.5,
+      "bull": 0.515,
+      "unit": "decimal",
+      "basis": "Preserve the control base and bull, anchored by approximately 49.11% prior-year Q4 margin and 51.37%/51.22% recent Q1/Q2 margins. Lower the control bear of 48% by a single combined 50 basis-point residual cost sensitivity reflecting PG01 tariff uncertainty and PG03 upstream inflation. PPI stress is contained within this budget, not stacked separately. Commodity neutrality and annual FX guidance temper the interpretation and support no base change. This additional adverse stress is a judgment about possible deterioration beyond historical margins, not an allocation of annual after-tax guidance; procurement timing is unknown.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2",
+        "PG01",
+        "PG03"
+      ]
+    },
+    {
+      "driver": "sga_ratio",
+      "bear": 0.295,
+      "base": 0.28,
+      "bull": 0.265,
+      "unit": "decimal",
+      "basis": "Unchanged from control: approximately 28.26% prior-year Q4, 25.21% recent Q1 and 27.05% Q2 support a seasonal base near 28%. Bear assumes weaker expense absorption; bull assumes improved efficiency. Higher ratios reduce profitability. No specific eligible evidence supports an incremental SG&A adjustment.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "bear": -50,
+      "base": 100,
+      "bull": 200,
+      "unit": "USD million",
+      "basis": "Unchanged from control: contract component totals of 166 in prior-year Q4, 179 in Q1 and 55 in Q2 support a cautious positive base. Bear allows net expense; bull stronger income. PG05's maintained policy range does not establish company repricing exposure, so no monetary rate adjustment is added. Its unsupported claim about PG01 interest/tax guidance is excluded.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2",
+        "PG05"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.225,
+      "base": 0.2,
+      "bull": 0.185,
+      "unit": "decimal",
+      "basis": "Unchanged from control: reported rates of 19.8% in prior-year Q4, 20.8% in Q1 and 20.1% in Q2 support a 20% base. Bear increases the tax burden; bull is near the historical 18.6% Q3 rate. No supplied evidence establishes a specific incremental tax benefit, charge or jurisdictional change.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "driver": "noncontrolling_income",
+      "bear": 30,
+      "base": 12,
+      "bull": 8,
+      "unit": "USD million",
+      "basis": "Unchanged from control: total less attributable income was 11 in prior-year Q4, 31 in Q1 and 12 in Q2. Base follows latest and seasonal references. A larger deduction is adverse to attributable earnings; a smaller deduction is favorable. Subsidiary and ownership details do not support further adjustment.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 2445,
+      "base": 2420,
+      "bull": 2395,
+      "unit": "million shares",
+      "basis": "Unchanged from control: attributable income divided by rounded EPS implies approximately 2442.6 million prior-year Q4 shares and 2426.4 million latest Q2 shares. Base assumes modest further decline, bear a denominator near the prior-year level and bull a larger decline. Lower shares favor EPS, rather than operating profit. These are approximate scenario denominators, not evidence of an authorized repurchase program.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "driver": "ocf_to_net_income",
+      "bear": 1.05,
+      "base": 1.3,
+      "bull": 1.5,
+      "unit": "decimal",
+      "basis": "Unchanged from control: quarterly OCF/total net income was approximately 1.375 in prior-year Q4 and 1.148 in latest Q2. Base emphasizes Q4 seasonality while discounting repeatability; bear and bull represent weaker and stronger cash conversion. Market evidence does not quantify incremental working-capital effects. Higher conversion favors cash generation; ratios are not annualized.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "driver": "capex_ratio",
+      "bear": 0.06,
+      "base": 0.05,
+      "bull": 0.045,
+      "unit": "decimal",
+      "basis": "Unchanged from control: positive capex outflow/sales was approximately 4.77% in prior-year Q4 and 5.25% in latest Q2. Base lies between these references. Bear assumes greater spending intensity and bull lower near-term cash outflow; this orientation concerns free cash flow, not immediate earnings or long-term investment quality. No project pipeline supports an incremental change.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2"
+      ]
+    }
+  ],
+  "narrative": "Illustrative FY2026 Q4 scenarios retain every frozen history-control base and all unrelated assumptions. Eligible market evidence widens only the adverse sales and gross-margin scenarios by 0.5 percentage points and 50 basis points, respectively; favorable scenarios remain unchanged. These are explicit, challengeable sensitivities, not calibrated forecasts, observed actuals or company budgets. Overlapping household signals share one demand budget, and tariff/PPI signals share one cost budget. Same-quarter prior-year history supplies the seasonal anchor. No target statements, earnings, EPS or cash-flow totals are computed."
+}

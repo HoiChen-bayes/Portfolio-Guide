@@ -1,0 +1,13 @@
+{
+  "scope": "Initial market pipelines are rejected, not accepted forecasts. Original files retained unchanged.",
+  "actual_model_calls": 32,
+  "runtime_completions": 32,
+  "history_pipelines_frozen": 4,
+  "market_pipelines_frozen": 0,
+  "defects": [
+    "Independent QA identified material market claims missing original excerpt support in all four market cases.",
+    "PG pre-market packet also contained a future May PPI revision value in a free-text overlap note. Publication-date filtering alone did not remove this look-ahead text.",
+    "TRV mid-market Research mislabeled underlying combined ratio as combined ratio."
+  ],
+  "remediation": "Expand independently located original source support or remove unsupported claims, audit all text for future-vintage leakage, and perform fresh model calls. Never tune assumptions against target results."
+}

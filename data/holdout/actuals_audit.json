@@ -1,0 +1,105 @@
+{
+  "executed_at_utc": "2026-10-02T12:52:48.202712+00:00",
+  "authorization": "Coordinator explicitly authorized independent holdout extraction after historical completion; scenario roles remain isolated.",
+  "source_hashes": {
+    "PG": "fe8b3ffb7ad13a83c1b9a571e0f32e21a438ed2fe0f91284d6b10078c679ddb9",
+    "TRV": "f068f5277990cba5e4550a39a62494b198db7a0820ef69c31a5fe862b74645c0"
+  },
+  "checks": [
+    {
+      "check": "PG gross bridge",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG operating bridge",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG pretax bridge",
+      "residual": -1.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG tax bridge",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG attributable bridge",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG EPS rounded",
+      "residual": 0.0016570646992997151,
+      "tolerance": 0.005,
+      "passed": true
+    },
+    {
+      "check": "PG segment net_sales",
+      "residual": 1.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG segment pretax_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "PG segment net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "passed": true
+    },
+    {
+      "check": "TRV corepretax",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "TRV coretax",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "TRV GAAP",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "TRV underlying underwriting",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    },
+    {
+      "check": "TRV statutory-to-underwriting bridge fee dividends",
+      "residual": 0.0,
+      "tolerance": 0,
+      "passed": true
+    }
+  ],
+  "all_checks_pass": true,
+  "model_basis_residuals": {
+    "TRV_underlying_ratio_proxy_minus_reported_underwriting": 31.727000000000317,
+    "TRV_reported_ratio_proxy_minus_reported_underwriting": 25.492000000000417,
+    "explanation": "Ratio-based underwriting differs because of statutory allocations and rounded ratios. Exact adjusted-numerator bridge is policyholder dividends plus billing and policy fees; retain an explicit model-basis residual, do not silently overwrite actual underwriting."
+  },
+  "limitations": [
+    "PG USD2m rounding tolerance, EPS USD0.005 tolerance.",
+    "PG OCF and capex are discrete-quarter derivations from annual less nine-month actuals.",
+    "No target actual is written into data/history."
+  ]
+}

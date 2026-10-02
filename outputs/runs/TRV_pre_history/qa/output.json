@@ -1,0 +1,70 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Review used only the serialized JSON and original supplied excerpts. External webpage authenticity, publication dates and omitted table headers could not be independently verified.",
+    "The cutoff is an information-availability boundary for this retrospective review. No remembered target results were used.",
+    "No calculated target financial outputs were supplied; this review covers mappings, causal restraint and scenario inputs, not final output arithmetic.",
+    "Cash-flow column assignments cannot be independently established from the headerless excerpt. Detailed exposure, reinsurance, portfolio, debt and capital information is unavailable."
+  ],
+  "decision": "pass",
+  "source_accuracy": "checked_against_provided_excerpts",
+  "findings": [
+    {
+      "severity": "note",
+      "subject": "Historical finance mappings and cutoff",
+      "finding": "Material Q2 baseline, Q4 latest-history and supporting-trend values agree with the original supplied excerpts. Supplied publication dates precede 2026-03-31. Quarterly values are distinguished from YTD/full-year values; premium growth uses same-quarter-prior-year denominators, ratios become decimals, and shares remain million diluted weighted average shares.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Insurance specificity and double counting",
+      "finding": "Mappings retain catastrophe losses net of reinsurance, convert them to positive losses for subtraction, add favorable development once, and retain interest within other income. Written premiums do not enter core pretax directly. Claims and expense components are reconciliation references rather than additional deductions. After-tax realized gains are distinguished from pretax investment income and core earnings.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Historical reconciliation",
+      "finding": "Independent arithmetic confirms Q2 and Q4 reported-minus-proxy underwriting residuals of -36.913 and -40.344 USD million. Reported underwriting plus investment and other income ties to reported core pretax; tax and after-tax realized gains reconcile the cited core and net income figures. The outputs appropriately avoid claiming an exact underwriting tie.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Research and scenario assumptions",
+      "finding": "The empty evidence array supports returning no incremental causal signals. All nine scenario drivers satisfy contract bounds and units. Assumptions are explicitly illustrative judgments anchored to supplied history, without unsupported actuarial, portfolio or buyback certainty. Under the supplied formula, pretax income remains positive across scenarios, supporting the stated tax and share-count profitability orientations.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Operating cash-flow period attribution",
+      "finding": "The excerpt contains the cited cash amounts but omits period headers. The assigned 2025 quarters sum to 10,606 USD million, which supports internal consistency but does not establish column attribution. Finance acknowledges this limitation; cash-period mapping receives no independent source attestation.",
+      "source_ids": [
+        "trv_2025q4_supplement"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Scope of scenario coverage and precision",
+      "finding": "Passing these narrowly stated checks does not validate forecast accuracy, probabilities or final financial outputs. Contract limits exclude adverse reserve development and constrain underwriting stress. Historical ratios are rounded, target residuals and realized gains are unspecified, and precise scenario inputs should remain illustrative rather than presented as calibrated estimates.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    }
+  ]
+}

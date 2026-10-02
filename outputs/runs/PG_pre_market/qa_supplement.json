@@ -1,0 +1,225 @@
+{
+  "reviewed_at_utc": "2026-10-02T13:22:26.084316+00:00",
+  "review_type": "Independent agent source-extraction and arithmetic verification; not a human or external accounting audit",
+  "scope": "Only original source material published by 2026-03-31; no forecast numbers changed. Review timestamp is actual execution time, not source availability.",
+  "validation_policy": {
+    "absolute_tolerance_usd_million": 2,
+    "reason": "Practical validation tolerance for rounded million-dollar source identities; not a company-issued tolerance or correction. Preserve original amounts and residuals, and flag larger discrepancies for investigation.",
+    "do_not_adjust_reported_values": true
+  },
+  "classification_note": "Retain each original row label. The combined amount between operating income and pretax income is a model bridge; this does not relabel the literal original source. Preserve displayed residuals.",
+  "reviews": [
+    {
+      "source_id": "pg_2025q3",
+      "publication_date": "2025-04-24",
+      "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+      "source_html": "sources/pg_2025q3.html",
+      "source_tables": "sources/pg_2025q3_tables.json",
+      "sha256_html": "6fd06be37ca839bd24d4e6abaebcdafd1a856b46264c0bbb98ca5a181fee557b",
+      "source_rows": [
+        {
+          "locator": "table[2]/row[5] (zero based)",
+          "source_excerpt": "NET SALES | $ | 19,776 | $ | 20,195 | (2)%"
+        },
+        {
+          "locator": "table[2]/row[6] (zero based)",
+          "source_excerpt": "Cost of products sold | 9,694 | 9,855 | (2)%"
+        },
+        {
+          "locator": "table[2]/row[7] (zero based)",
+          "source_excerpt": "GROSS PROFIT | 10,081 | 10,340 | (3)%"
+        },
+        {
+          "locator": "table[2]/row[8] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 5,524 | 5,880 | (6)%"
+        },
+        {
+          "locator": "table[2]/row[9] (zero based)",
+          "source_excerpt": "OPERATING INCOME | 4,558 | 4,460 | 2%"
+        },
+        {
+          "locator": "table[2]/row[10] (zero based)",
+          "source_excerpt": "Interest expense | (217 | ) | (233 | ) | (7)%"
+        },
+        {
+          "locator": "table[2]/row[11] (zero based)",
+          "source_excerpt": "Interest income | 111 | 104 | 7%"
+        },
+        {
+          "locator": "table[2]/row[12] (zero based)",
+          "source_excerpt": "Other operating income, net | 210 | 260 | (19)%"
+        },
+        {
+          "locator": "table[2]/row[13] (zero based)",
+          "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 4,661 | 4,592 | 2%"
+        },
+        {
+          "locator": "table[2]/row[30] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 27.9 | % | 29.1 | % | (120)"
+        },
+        {
+          "locator": "table[2]/row[37] (zero based)",
+          "source_excerpt": "Certain columns and rows may not add due to rounding."
+        }
+      ],
+      "checks": [
+        {
+          "identity": "Net sales minus cost of products sold minus gross profit",
+          "calculation": "19776 - 9694 - 10081",
+          "residual_usd_million": 1
+        },
+        {
+          "identity": "Gross profit minus SG&A minus operating income",
+          "calculation": "10081 - 5524 - 4558",
+          "residual_usd_million": -1
+        },
+        {
+          "identity": "Operating income plus interest expense/income plus other income minus pretax income",
+          "calculation": "4558 - 217 + 111 + 210 - 4661",
+          "residual_usd_million": 1
+        }
+      ]
+    },
+    {
+      "source_id": "pg_2026q1",
+      "publication_date": "2025-10-24",
+      "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+      "source_html": "sources/pg_2026q1.html",
+      "source_tables": "sources/pg_2026q1_tables.json",
+      "sha256_html": "3ca2d94e87980a21f93d61c6cb5db70dde9545e265dd50eac5400a23e04b8cc2",
+      "source_rows": [
+        {
+          "locator": "table[2]/row[7] (zero based)",
+          "source_excerpt": "NET SALES | $ | 22,386 | $ | 21,737 | 3%"
+        },
+        {
+          "locator": "table[2]/row[8] (zero based)",
+          "source_excerpt": "Cost of products sold | 10,887 | 10,421 | 4%"
+        },
+        {
+          "locator": "table[2]/row[9] (zero based)",
+          "source_excerpt": "GROSS PROFIT | 11,499 | 11,316 | 2%"
+        },
+        {
+          "locator": "table[2]/row[10] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 5,643 | 5,519 | 2%"
+        },
+        {
+          "locator": "table[2]/row[11] (zero based)",
+          "source_excerpt": "OPERATING INCOME | 5,856 | 5,797 | 1%"
+        },
+        {
+          "locator": "table[2]/row[12] (zero based)",
+          "source_excerpt": "Interest expense | (197 | ) | (238 | ) | (17)%"
+        },
+        {
+          "locator": "table[2]/row[13] (zero based)",
+          "source_excerpt": "Interest income | 108 | 135 | (20)%"
+        },
+        {
+          "locator": "table[2]/row[14] (zero based)",
+          "source_excerpt": "Other operating income/(expense), net | 268 | (554 | ) | (148)%"
+        },
+        {
+          "locator": "table[2]/row[15] (zero based)",
+          "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 6,034 | 5,140 | 17%"
+        },
+        {
+          "locator": "table[2]/row[32] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 25.2% | 25.4% | (20)"
+        },
+        {
+          "locator": "table[2]/row[40] (zero based)",
+          "source_excerpt": "Certain columns and rows may not add due to rounding."
+        }
+      ],
+      "checks": [
+        {
+          "identity": "Other-income component sum versus pretax less operating income",
+          "calculation": "(108 - 197 + 268) - (6034 - 5856)",
+          "residual_usd_million": 1
+        }
+      ]
+    },
+    {
+      "source_id": "pg_2026q2",
+      "publication_date": "2026-01-22",
+      "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+      "source_html": "sources/pg_2026q2.html",
+      "source_tables": "sources/pg_2026q2_tables.json",
+      "sha256_html": "8cc03b7734ae68687caddfd5c301b0de9a367a33db6cd2066103dd090706386c",
+      "source_rows": [
+        {
+          "locator": "table[2]/row[6] (zero based)",
+          "source_excerpt": "NET SALES | $ | 22,208 | $ | 21,882 | 1%"
+        },
+        {
+          "locator": "table[2]/row[7] (zero based)",
+          "source_excerpt": "Cost of products sold | 10,834 | 10,418 | 4%"
+        },
+        {
+          "locator": "table[2]/row[8] (zero based)",
+          "source_excerpt": "GROSS PROFIT | 11,374 | 11,464 | (1)%"
+        },
+        {
+          "locator": "table[2]/row[9] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 6,008 | 5,723 | 5%"
+        },
+        {
+          "locator": "table[2]/row[10] (zero based)",
+          "source_excerpt": "OPERATING INCOME | 5,366 | 5,741 | (7)%"
+        },
+        {
+          "locator": "table[2]/row[11] (zero based)",
+          "source_excerpt": "Interest expense | (220 | ) | (240 | ) | (8)%"
+        },
+        {
+          "locator": "table[2]/row[12] (zero based)",
+          "source_excerpt": "Interest income | 115 | 119 | (3)%"
+        },
+        {
+          "locator": "table[2]/row[13] (zero based)",
+          "source_excerpt": "Other operating income, net | 160 | 224 | (29)%"
+        },
+        {
+          "locator": "table[2]/row[14] (zero based)",
+          "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 5,421 | 5,845 | (7)%"
+        },
+        {
+          "locator": "table[2]/row[15] (zero based)",
+          "source_excerpt": "Income taxes | 1,090 | 1,187 | (8)%"
+        },
+        {
+          "locator": "table[2]/row[16] (zero based)",
+          "source_excerpt": "NET EARNINGS | 4,331 | 4,659 | (7)%"
+        },
+        {
+          "locator": "table[2]/row[31] (zero based)",
+          "source_excerpt": "Selling, general and administrative expense | 27.1% | 26.2% | 90"
+        },
+        {
+          "locator": "table[2]/row[39] (zero based)",
+          "source_excerpt": "Certain columns and rows may not add due to rounding."
+        }
+      ],
+      "checks": [
+        {
+          "identity": "Gross less SG&A less operating income",
+          "calculation": "11374.0 + -6008.0 + -5366.0",
+          "residual_usd_million": 0.0
+        },
+        {
+          "identity": "Operating plus signed below-OI components less pretax",
+          "calculation": "5366.0 + -220.0 + 115.0 + 160.0 + -5421.0",
+          "residual_usd_million": 0.0
+        },
+        {
+          "identity": "Pretax less tax less net income",
+          "calculation": "5421.0 + -1090.0 + -4331.0",
+          "residual_usd_million": 0.0
+        }
+      ]
+    }
+  ],
+  "forecast_assumptions_changed": false
+}

@@ -1,0 +1,46 @@
+{
+  "role": "research",
+  "limitations": [
+    "Used only the serialized packet, without tools, source inspection, external supplementation or remembered target results. March 31, 2026 is the information-availability boundary; all five market evidence records precede it. No target-quarter outcomes are supplied.",
+    "Inspected the supplied quotations and labeled factual extracts. PG01 organic-growth, tariff and FX guidance depend on curator transcription; its quotation supports only commodity neutrality. PG02\u2013PG04 quotations contain the stated numerical fragments, but detailed metric labels, periods and adjustment bases depend partly on transcription. PG05's quotation supports the rate range; the maintained decision and date depend on transcription. These extracts are not independent verification of source accuracy.",
+    "No numerical contradiction appears between the supplied market quotations and factual extracts. However, PG05's overlap note claims PG01 includes annual interest/tax headwinds; neither PG01 evidence surface supports that claim, so it is excluded.",
+    "Annual organic-growth guidance is not target-quarter reported-sales guidance. Annual after-tax tariff and FX amounts cannot establish quarterly pretax margin changes without timing, exposure and tax information.",
+    "Company demand elasticities, procurement lags, currency exposures, floating or refinancing debt balances, detailed cash and working capital are unavailable. Proposed numerical sensitivities are illustrative analyst judgments, not measured transmission.",
+    "Preserve the frozen history-control base and unrelated drivers. Existing historical demand weakness, pricing, FX and margins must not be counted again as incremental market effects. Evidence can widen adverse scenarios without compelling a base change."
+  ],
+  "signals": [
+    {
+      "driver": "sales_growth",
+      "direction": "mixed",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG04"
+      ],
+      "mechanism": "Transcribed PG01 FY2026 organic-sales guidance is 0\u20134%, providing an outlook envelope rather than a Q4 reported-sales forecast. PG02 reports February CPI increases of 0.3% monthly seasonally adjusted and 2.4% annually unadjusted. PG04 reports January real PCE growth of 0.1%, a USD 24.6 billion decline in current-dollar goods spending and a 4.5% saving rate. Analyst interpretation: affordability pressure and modest real spending support downside volume uncertainty, while positive real PCE and the guidance range do not establish contraction. Keep the 1.5% reported-growth base; optionally apply one combined adverse sensitivity of 0\u20130.5 percentage points relative to the frozen control. This range is uncalibrated, and CPI is not P&G realized pricing.",
+      "confidence": "low",
+      "double_count_risk": "PG02 and PG04 describe overlapping household-demand channels; use one demand stress budget. Latest history already includes negative volume and flat organic growth. Do not add historical price or FX contributions again, or impose annual organic guidance directly on quarterly reported growth."
+    },
+    {
+      "driver": "gross_margin",
+      "direction": "mixed",
+      "source_ids": [
+        "PG01",
+        "PG03"
+      ],
+      "mechanism": "PG01 quotes commodity-cost neutrality; its factual transcription additionally reports a USD 400 million annual after-tax tariff headwind and USD 200 million annual after-tax FX tailwind. PG03 reports first-published February final-demand PPI increases of 0.7% monthly seasonally adjusted and 3.4% annually unadjusted. Analyst interpretation: tariff and upstream inflation uncertainty can pressure costs, while company commodity neutrality and FX guidance temper a uniformly adverse interpretation. Preserve the 50% base. A single combined adverse margin sensitivity of 0\u201350 basis points relative to the control is illustrative; PG03's suggested 0\u201330 basis points belongs within that budget. Neither annual after-tax amount is a measured quarterly gross-margin effect.",
+      "confidence": "low",
+      "double_count_risk": "Company guidance already incorporates commodity, tariff and FX considerations. Do not stack full PPI stress onto full guidance stress, allocate annual amounts mechanically to Q4, or repeat cost effects already embedded in historical margins. FX may affect multiple financial lines; no supplied allocation supports separate additive benefits."
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "direction": "neutral",
+      "source_ids": [
+        "PG05"
+      ],
+      "mechanism": "The supplied quotation supports a 3.50\u20133.75% federal funds target range; the factual transcription states it was maintained on March 18, 2026. Analyst interpretation: this supplies a financing backdrop, but no incremental company earnings change is established without repricing, refinancing or cash-balance evidence. Preserve the USD 100 million base and existing scenarios. A hypothetical 25-basis-point sensitivity cannot be monetized without an exposed balance. Equity discount-rate effects are outside this operating forecast.",
+      "confidence": "low",
+      "double_count_risk": "Historical interest income and expense are already represented in the control. Do not apply the policy rate to all debt or add an unsupported interest/tax headwind attributed to PG01."
+    }
+  ]
+}

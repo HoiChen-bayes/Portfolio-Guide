@@ -1,0 +1,83 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Review used only the serialized JSON and original packet excerpts; no tools, external webpages or remembered target outcomes were used.",
+    "Cannot attest that supplied excerpts match external sources or independently verify publication dates.",
+    "The 2026-03-31 cutoff is an information-availability boundary, not the execution date.",
+    "Short excerpts permit arithmetic and partial factual checks, but do not establish every associated research claim."
+  ],
+  "decision": "insufficient_evidence",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "blocker",
+      "subject": "Incomplete excerpt support for research assertions",
+      "finding": "Research states that Marsh's decline was the sixth consecutive quarter and that renewal premium change includes exposure effects. Neither assertion appears in the supplied verbatim excerpts. TRV01 retention/new-business figures and TRV02 asset-volume attribution also lack excerpt support, although those gaps are disclosed. Packet assertions alone cannot establish source accuracy; full factual attestation remains unsupported.",
+      "source_ids": [
+        "TRV01",
+        "TRV02",
+        "TRV06"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Historical finance mapping and reconciliation",
+      "finding": "Material mapped earnings values agree with the original supplied excerpts. Quarterly versus cumulative amounts, percent-to-decimal conversions, catastrophe signs and pretax investment income are handled consistently. The contracted fixed adjustment is correctly calculated as 1022 - 315 + 927 - 10921*(1-0.847) = -36.913 million. The historical core earnings bridges also reconcile.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Cutoff, units and scenario bounds",
+      "finding": "All supplied publication dates precede the cutoff. Q2 2025 is correctly used as the seasonal baseline for Q2 2026. All scenario values fall within contract bounds. Only bear written growth, underlying combined ratio and catastrophe losses change relative to the frozen control; all base and bull values remain unchanged.",
+      "source_ids": [
+        "trv_2025q2",
+        "TRV04",
+        "TRV05",
+        "TRV06"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Causal interpretation and incremental stresses",
+      "finding": "The additional 1 percentage-point underlying-ratio stress and 400 million catastrophe stress are explicitly illustrative judgments. The latter equals approximately 3.66 percentage points of bear earned premiums, within the stated optional 3\u20138-point range. Neither social inflation nor drought is presented as a calibrated Travelers loss forecast.",
+      "source_ids": [
+        "TRV04",
+        "TRV05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Double counting and insurance specificity",
+      "finding": "The supplied model keeps catastrophe losses outside the underlying ratio, separates current-year severity from prior-year development, includes interest once and adds no duplicate investment-income uplift. Written growth does not enter core earnings directly. Global pricing, policy rates and drought prevalence are appropriately qualified as imperfect company-specific transmission evidence.",
+      "source_ids": [
+        "TRV01",
+        "TRV02",
+        "TRV03",
+        "TRV04",
+        "TRV05",
+        "TRV06"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Cash-flow period verification",
+      "finding": "The cash-flow excerpt contains the mapped numbers but omits column headers. Their assignment to Q2 and Q4 cannot be independently established from the excerpt. The finance output discloses this limitation; the annual sum alone does not verify quarterly assignments.",
+      "source_ids": [
+        "trv_2025q4_supplement"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Precision and model coverage",
+      "finding": "Detailed tax-rate decimals and the fixed offset are arithmetic precision, not evidence of forecast certainty. Scenario outputs acknowledge missing exposures, portfolio detail and capital projections, exclude adverse reserve development, and distinguish modeled core EPS from reported EPS. No unsupported final-period outcome is supplied.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    }
+  ]
+}

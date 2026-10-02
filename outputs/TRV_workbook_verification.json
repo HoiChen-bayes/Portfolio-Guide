@@ -1,0 +1,921 @@
+{
+  "initial": 1435.5016956,
+  "expected": 1435.5016956,
+  "parity": [
+    {
+      "case": "March · history only · bear",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "net_earned_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "net_written_premiums",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "basis_adjustment",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "underlying_underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "underwriting_gain",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "investment_income_pretax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "core_pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "core_income_tax",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "core_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "core_income_per_diluted_share_proxy",
+      "difference": 0
+    }
+  ],
+  "sensitivities": [
+    {
+      "driver": "earned_premium_growth",
+      "changed": true
+    },
+    {
+      "driver": "written_premium_growth",
+      "changed": true
+    },
+    {
+      "driver": "underlying_combined_ratio",
+      "changed": true
+    },
+    {
+      "driver": "catastrophe_losses",
+      "changed": true
+    },
+    {
+      "driver": "favorable_reserve_development",
+      "changed": true
+    },
+    {
+      "driver": "investment_income",
+      "changed": true
+    },
+    {
+      "driver": "other_income_including_interest",
+      "changed": true
+    },
+    {
+      "driver": "effective_tax_rate",
+      "changed": true
+    },
+    {
+      "driver": "diluted_shares",
+      "changed": true
+    }
+  ],
+  "formula_scan": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "u6c9rr",
+      "target": {
+        "id": "wb/bfybxy",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "inspections": [
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "91rf3q",
+        "target": {
+          "id": "wb/8n4pfr",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "8h66w8",
+        "target": {
+          "id": "wb/g3fmes",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "aebb9k",
+        "target": {
+          "id": "wb/eks3st",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "m9dacw",
+        "target": {
+          "id": "wb/7t3sz1",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "lgj6u6",
+        "target": {
+          "id": "wb/ma9410",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "adxip0",
+        "target": {
+          "id": "wb/tdvdym",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "po8m6a",
+        "target": {
+          "id": "wb/fomxj1",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": true,
+      "metadata": {
+        "revision": "mgjl77",
+        "target": {
+          "id": "wb/q1gkdc",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "41d6mx",
+        "target": {
+          "id": "wb/hnmxlx",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "v7ydud",
+        "target": {
+          "id": "wb/tlly08",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    }
+  ]
+}

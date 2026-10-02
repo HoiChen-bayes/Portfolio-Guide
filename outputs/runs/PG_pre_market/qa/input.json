@@ -1,0 +1,2564 @@
+{
+  "packet": {
+    "company": "PG",
+    "sector": "consumer products",
+    "vintage": "pre_market",
+    "cutoff": "2026-03-31",
+    "target_period": {
+      "start": "2026-04-01",
+      "end": "2026-06-30"
+    },
+    "history": [
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "volume_growth",
+        "value": -1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "fx_sales_impact",
+        "value": -2.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "price_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "mix_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "other_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "sales_growth",
+        "value": -2.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "organic_volume_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | (2)% | 1% | \u2014% | \u2014% | (2)% | \u2014% | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "organic_sales_growth",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[5] (zero based); NET SALES",
+        "source_excerpt": "NET SALES | $ | 19,776 | $ | 20,195 | (2)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "net_sales",
+        "value": 19776.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[6] (zero based); Cost of products sold",
+        "source_excerpt": "Cost of products sold | 9,694 | 9,855 | (2)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "cost_of_products_sold",
+        "value": 9694.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[7] (zero based); GROSS PROFIT",
+        "source_excerpt": "GROSS PROFIT | 10,081 | 10,340 | (3)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "gross_profit",
+        "value": 10081.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[8] (zero based); Selling, general and administrative expense",
+        "source_excerpt": "Selling, general and administrative expense | 5,524 | 5,880 | (6)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "sga",
+        "value": 5524.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[9] (zero based); OPERATING INCOME",
+        "source_excerpt": "OPERATING INCOME | 4,558 | 4,460 | 2%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "operating_income",
+        "value": 4558.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[10] (zero based); Interest expense",
+        "source_excerpt": "Interest expense | (217 | ) | (233 | ) | (7)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "interest_expense_signed",
+        "value": -217.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[11] (zero based); Interest income",
+        "source_excerpt": "Interest income | 111 | 104 | 7%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "interest_income",
+        "value": 111.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[12] (zero based); Other operating income, net",
+        "source_excerpt": "Other operating income, net | 210 | 260 | (19)%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "other_income",
+        "value": 210.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[13] (zero based); EARNINGS BEFORE INCOME TAXES",
+        "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 4,661 | 4,592 | 2%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "pretax_income",
+        "value": 4661.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[14] (zero based); Income taxes",
+        "source_excerpt": "Income taxes | 868 | 812 | 7%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "income_taxes",
+        "value": 868.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[15] (zero based); NET EARNINGS",
+        "source_excerpt": "NET EARNINGS | 3,793 | 3,781 | \u2014%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "net_income",
+        "value": 3793.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[17] (zero based); NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE",
+        "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,769 | $ | 3,754 | \u2014%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "net_income_attributable",
+        "value": 3769.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[19] (zero based); EFFECTIVE TAX RATE",
+        "source_excerpt": "EFFECTIVE TAX RATE | 18.6 | % | 17.7 | %",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "effective_tax_rate",
+        "value": 18.6,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[23] (zero based); Diluted",
+        "source_excerpt": "Diluted | $ | 1.54 | $ | 1.52 | 1%",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "diluted_eps",
+        "value": 1.54,
+        "unit": "USD/share",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[12]/row[2] (zero based); Operating Cash Flow",
+        "source_excerpt": "$3,705 | $(859) | $2,846",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "operating_cash_flow",
+        "value": 3705.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q3",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_locator": "table[12]/row[2] (zero based); Capital Spending",
+        "source_excerpt": "$3,705 | $(859) | $2,846",
+        "period_start": "2025-01-01",
+        "period_end": "2025-03-31",
+        "metric": "capital_expenditures_signed",
+        "value": -859.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-04-24"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "volume_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "fx_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "price_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "mix_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "other_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "sales_growth",
+        "value": 2.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "organic_volume_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "organic_sales_growth",
+        "value": 2.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[3] (zero based); NET SALES",
+        "source_excerpt": "NET SALES | $ | 20,889 | $ | 20,532 | 2% | $ | 84,284 | $ | 84,039 | \u2014%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "net_sales",
+        "value": 20889.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[4] (zero based); Cost of products sold",
+        "source_excerpt": "Cost of products sold | 10,631 | 10,348 | 3% | 41,164 | 40,848 | 1%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "cost_of_products_sold",
+        "value": 10631.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[5] (zero based); GROSS PROFIT",
+        "source_excerpt": "GROSS PROFIT | 10,258 | 10,183 | 1% | 43,120 | 43,191 | \u2014%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "gross_profit",
+        "value": 10258.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[6] (zero based); Selling, general and administrative expense",
+        "source_excerpt": "Selling, general and administrative expense | 5,903 | 6,299 | (6)% | 22,669 | 23,305 | (3)%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "sga",
+        "value": 5903.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[8] (zero based); OPERATING INCOME",
+        "source_excerpt": "OPERATING INCOME | 4,355 | 3,884 | 12% | 20,451 | 18,545 | 10%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "operating_income",
+        "value": 4355.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[9] (zero based); Interest expense",
+        "source_excerpt": "Interest expense | (212 | ) | (220 | ) | (4)% | (907 | ) | (925 | ) | (2)%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "interest_expense_signed",
+        "value": -212.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[10] (zero based); Interest income",
+        "source_excerpt": "Interest income | 104 | 107 | (3)% | 469 | 473 | (1)%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "interest_income",
+        "value": 104.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[11] (zero based); Other non-operating income, net",
+        "source_excerpt": "Other non-operating income, net | 274 | 98 | 180% | 154 | 668 | (77)%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "other_income",
+        "value": 274.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[12] (zero based); EARNINGS BEFORE INCOME TAXES",
+        "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 4,521 | 3,870 | 17% | 20,167 | 18,761 | 7%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "pretax_income",
+        "value": 4521.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[13] (zero based); Income taxes",
+        "source_excerpt": "Income taxes | 895 | 726 | 23% | 4,102 | 3,787 | 8%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "income_taxes",
+        "value": 895.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[14] (zero based); NET EARNINGS",
+        "source_excerpt": "NET EARNINGS | 3,626 | 3,144 | 15% | 16,065 | 14,974 | 7%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "net_income",
+        "value": 3626.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[16] (zero based); NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE",
+        "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,615 | $ | 3,137 | 15% | $ | 15,974 | $ | 14,879 | 7%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "net_income_attributable",
+        "value": 3615.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[18] (zero based); EFFECTIVE TAX RATE",
+        "source_excerpt": "EFFECTIVE TAX RATE | 19.8 | % | 18.8 | % | 20.3 | % | 20.2 | %",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "effective_tax_rate",
+        "value": 19.8,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[2]/row[22] (zero based); Diluted",
+        "source_excerpt": "Diluted | $ | 1.48 | $ | 1.27 | 17% | $ | 6.51 | $ | 6.02 | 8%",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "diluted_eps",
+        "value": 1.48,
+        "unit": "USD/share",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[15]/row[2] (zero based); Operating Cash Flow",
+        "source_excerpt": "$4,985 | $(996) | $3,989",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "operating_cash_flow",
+        "value": 4985.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2025q4",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+        "source_locator": "table[15]/row[2] (zero based); Capital Spending",
+        "source_excerpt": "$4,985 | $(996) | $3,989",
+        "period_start": "2025-04-01",
+        "period_end": "2025-06-30",
+        "metric": "capital_expenditures_signed",
+        "value": -996.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-07-29"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "volume_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "fx_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "price_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "mix_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "other_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "sales_growth",
+        "value": 3.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "organic_volume_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "organic_sales_growth",
+        "value": 2.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[7] (zero based); NET SALES",
+        "source_excerpt": "NET SALES | $ | 22,386 | $ | 21,737 | 3%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "net_sales",
+        "value": 22386.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[8] (zero based); Cost of products sold",
+        "source_excerpt": "Cost of products sold | 10,887 | 10,421 | 4%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "cost_of_products_sold",
+        "value": 10887.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[9] (zero based); GROSS PROFIT",
+        "source_excerpt": "GROSS PROFIT | 11,499 | 11,316 | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "gross_profit",
+        "value": 11499.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[10] (zero based); Selling, general and administrative expense",
+        "source_excerpt": "Selling, general and administrative expense | 5,643 | 5,519 | 2%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "sga",
+        "value": 5643.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[11] (zero based); OPERATING INCOME",
+        "source_excerpt": "OPERATING INCOME | 5,856 | 5,797 | 1%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "operating_income",
+        "value": 5856.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[12] (zero based); Interest expense",
+        "source_excerpt": "Interest expense | (197 | ) | (238 | ) | (17)%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "interest_expense_signed",
+        "value": -197.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[13] (zero based); Interest income",
+        "source_excerpt": "Interest income | 108 | 135 | (20)%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "interest_income",
+        "value": 108.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[14] (zero based); Other operating income/(expense), net",
+        "source_excerpt": "Other operating income/(expense), net | 268 | (554 | ) | (148)%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "other_income",
+        "value": 268.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[15] (zero based); EARNINGS BEFORE INCOME TAXES",
+        "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 6,034 | 5,140 | 17%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "pretax_income",
+        "value": 6034.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[16] (zero based); Income taxes",
+        "source_excerpt": "Income taxes | 1,253 | 1,152 | 9%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "income_taxes",
+        "value": 1253.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[17] (zero based); NET EARNINGS",
+        "source_excerpt": "NET EARNINGS | 4,781 | 3,987 | 20%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "net_income",
+        "value": 4781.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[19] (zero based); NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE",
+        "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,750 | $ | 3,959 | 20%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "net_income_attributable",
+        "value": 4750.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[21] (zero based); EFFECTIVE TAX RATE",
+        "source_excerpt": "EFFECTIVE TAX RATE | 20.8 | % | 22.4 | %",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "effective_tax_rate",
+        "value": 20.8,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[25] (zero based); Diluted",
+        "source_excerpt": "Diluted | $ | 1.95 | $ | 1.61 | 21%",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "diluted_eps",
+        "value": 1.95,
+        "unit": "USD/share",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[5]/row[19] (zero based); TOTAL OPERATING ACTIVITIES",
+        "source_excerpt": "TOTAL OPERATING ACTIVITIES | 5,408 | 4,302",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "operating_cash_flow",
+        "value": 5408.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q1",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_locator": "table[5]/row[21] (zero based); Capital expenditures",
+        "source_excerpt": "Capital expenditures | (1,200 | ) | (993 | )",
+        "period_start": "2025-07-01",
+        "period_end": "2025-09-30",
+        "metric": "capital_expenditures_signed",
+        "value": -1200.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2025-10-24"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "volume_growth",
+        "value": -1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "fx_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "price_sales_impact",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "mix_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "other_sales_impact",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "sales_growth",
+        "value": 1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "organic_volume_growth",
+        "value": -1.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[1]/row[7] (zero based); Total P&G",
+        "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "organic_sales_growth",
+        "value": 0.0,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "Approximate contribution/growth percentages as reported; not unit counts or absolute prices.",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[6] (zero based); NET SALES",
+        "source_excerpt": "NET SALES | $ | 22,208 | $ | 21,882 | 1%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "net_sales",
+        "value": 22208.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[7] (zero based); Cost of products sold",
+        "source_excerpt": "Cost of products sold | 10,834 | 10,418 | 4%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "cost_of_products_sold",
+        "value": 10834.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[8] (zero based); GROSS PROFIT",
+        "source_excerpt": "GROSS PROFIT | 11,374 | 11,464 | (1)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "gross_profit",
+        "value": 11374.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[9] (zero based); Selling, general and administrative expense",
+        "source_excerpt": "Selling, general and administrative expense | 6,008 | 5,723 | 5%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "sga",
+        "value": 6008.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[10] (zero based); OPERATING INCOME",
+        "source_excerpt": "OPERATING INCOME | 5,366 | 5,741 | (7)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "operating_income",
+        "value": 5366.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[11] (zero based); Interest expense",
+        "source_excerpt": "Interest expense | (220 | ) | (240 | ) | (8)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "interest_expense_signed",
+        "value": -220.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[12] (zero based); Interest income",
+        "source_excerpt": "Interest income | 115 | 119 | (3)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "interest_income",
+        "value": 115.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[13] (zero based); Other operating income, net",
+        "source_excerpt": "Other operating income, net | 160 | 224 | (29)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "other_income",
+        "value": 160.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[14] (zero based); EARNINGS BEFORE INCOME TAXES",
+        "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 5,421 | 5,845 | (7)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "pretax_income",
+        "value": 5421.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[15] (zero based); Income taxes",
+        "source_excerpt": "Income taxes | 1,090 | 1,187 | (8)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "income_taxes",
+        "value": 1090.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[16] (zero based); NET EARNINGS",
+        "source_excerpt": "NET EARNINGS | 4,331 | 4,659 | (7)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "net_income",
+        "value": 4331.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[18] (zero based); NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE",
+        "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,319 | $ | 4,630 | (7)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "net_income_attributable",
+        "value": 4319.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[20] (zero based); EFFECTIVE TAX RATE",
+        "source_excerpt": "EFFECTIVE TAX RATE | 20.1 | % | 20.3 | %",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "effective_tax_rate",
+        "value": 20.1,
+        "unit": "percent",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[2]/row[24] (zero based); Diluted",
+        "source_excerpt": "Diluted | $ | 1.78 | $ | 1.88 | (5)%",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "diluted_eps",
+        "value": 1.78,
+        "unit": "USD/share",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[12]/row[2] (zero based); Operating Cash Flow",
+        "source_excerpt": "$4,972 | $(1,167) | $3,805",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "operating_cash_flow",
+        "value": 4972.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      },
+      {
+        "source_id": "pg_2026q2",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_locator": "table[12]/row[2] (zero based); Capital Spending",
+        "source_excerpt": "$4,972 | $(1,167) | $3,805",
+        "period_start": "2025-10-01",
+        "period_end": "2025-12-31",
+        "metric": "capital_expenditures_signed",
+        "value": -1167.0,
+        "unit": "USD million",
+        "value_status": "reported",
+        "notes": "",
+        "published_at": "2026-01-22"
+      }
+    ],
+    "evidence": [
+      {
+        "id": "PG01",
+        "company": "PG",
+        "driver": "organic_sales_and_cost_guidance",
+        "published_at": "2026-01-22",
+        "observation_period": "FY2026 guidance; quarter ended 2025-12-31",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "factual_datapoint": "FY organic sales growth guidance 0\u20134%; commodity impact neutral; tariffs $400m after-tax headwind; FX $200m after-tax tailwind.",
+        "rationale": "Company-specific outlook anchors demand and input-cost assumptions.",
+        "suggested_adjustment_analyst_judgment": "Keep organic-growth scenario envelope near 0\u20134%; downside commodity/tariff margin stress 0\u201350bp relative to history. Do not allocate the entire annual tariff cost to Q4.",
+        "confidence": "High on guidance; medium on mapping",
+        "duplicate_overlap_risk": "Cost guidance already incorporates commodities/tariffs/FX; do not add full macro shocks again.",
+        "evidence_type": "management_guidance",
+        "eligible_pre_quarter": true,
+        "eligible_mid_quarter": true,
+        "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+        "source_excerpt": "commodity costs to be neutral for the year",
+        "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+        "source_quote_fragments": [
+          "commodity costs to be neutral for the year"
+        ],
+        "source_factual_extract": [
+          {
+            "label": "Organic sales growth guidance",
+            "source_value": "0 to 4",
+            "unit_or_scope": "percent YoY; fiscal 2026"
+          },
+          {
+            "label": "Commodity-cost guidance",
+            "source_value": "neutral",
+            "unit_or_scope": "fiscal 2026"
+          },
+          {
+            "label": "Tariff cost guidance",
+            "source_value": 400,
+            "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+          },
+          {
+            "label": "FX guidance",
+            "source_value": 200,
+            "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+          }
+        ],
+        "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+        "source_locator": "Fiscal Year 2026 Guidance, first and third paragraphs (archived release lines 95 and 98).",
+        "local_source_file": "data/research/raw/PG01.html",
+        "source_capture_status": "Official source downloaded; original file available for human verification.",
+        "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+        "claim_support": {
+          "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+          "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+          "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+          "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+        },
+        "admission_status": "admitted",
+        "excluded_from_model": false,
+        "external_source_review_id": "SRC_PG01",
+        "source_factual_extract_count": 4,
+        "source_id": "PG01"
+      },
+      {
+        "id": "PG02",
+        "company": "PG",
+        "driver": "consumer_price_pressure",
+        "published_at": "2026-03-11",
+        "observation_period": "February 2026",
+        "source_url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+        "factual_datapoint": "CPI +0.3% month-on-month seasonally adjusted; +2.4% year-on-year unadjusted.",
+        "rationale": "General household affordability backdrop, not P&G realized pricing.",
+        "suggested_adjustment_analyst_judgment": "Consider volume-growth downside 0\u20130.5 percentage points; do not directly apply CPI as price growth.",
+        "confidence": "High observation; low company elasticity",
+        "duplicate_overlap_risk": "Overlaps real spending and PPI; use one demand stress budget.",
+        "evidence_type": "reported_observation",
+        "eligible_pre_quarter": true,
+        "eligible_mid_quarter": true,
+        "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+        "source_excerpt": "increased 0.3 percent on a seasonally adjusted basis [\u2026] increased 2.4 percent",
+        "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+        "source_quote_fragments": [
+          "increased 0.3 percent on a seasonally adjusted basis",
+          "increased 2.4 percent"
+        ],
+        "source_factual_extract": [
+          {
+            "label": "All-items CPI monthly change",
+            "source_value": 0.3,
+            "unit_or_scope": "percent; seasonally adjusted; February 2026"
+          },
+          {
+            "label": "All-items CPI annual change",
+            "source_value": 2.4,
+            "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+          }
+        ],
+        "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+        "source_locator": "Official PDF page 1, opening paragraph lines 5\u20138; monthly 0.3% SA and annual 2.4% unadjusted. PDF page 9 Table 1 All items row corroborates.",
+        "local_source_file": null,
+        "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+        "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+        "claim_support": {
+          "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+          "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+          "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+          "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+        },
+        "admission_status": "admitted",
+        "excluded_from_model": false,
+        "source_support_urls": [
+          "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+          "https://www.bls.gov/news.release/archives/cpi_03112026.pdf"
+        ],
+        "local_web_review_file": "data/research/raw/cpi_noaa_review_web_review.json",
+        "external_source_review_id": "SRC_PG02",
+        "source_factual_extract_count": 2,
+        "source_id": "PG02"
+      },
+      {
+        "id": "PG03",
+        "company": "PG",
+        "driver": "input_cost_pressure",
+        "published_at": "2026-03-18",
+        "observation_period": "February 2026 first-published vintage",
+        "source_url": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+        "factual_datapoint": "Final-demand PPI +0.7% month-on-month seasonally adjusted; +3.4% year-on-year.",
+        "rationale": "Upstream inflation is an imperfect signal for packaging, freight and raw materials.",
+        "suggested_adjustment_analyst_judgment": "Gross-margin downside 0\u201330bp beyond baseline, subject to company guidance and procurement lag.",
+        "confidence": "High observation; low quantitative transmission",
+        "duplicate_overlap_risk": "Overlaps PG01 company cost guidance. Preserve the March 18 release vintage; later revisions must not overwrite this pre-quarter observation.",
+        "evidence_type": "reported_observation",
+        "eligible_pre_quarter": true,
+        "eligible_mid_quarter": true,
+        "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+        "source_excerpt": "increased 0.7 percent in February [\u2026] rose 3.4 percent",
+        "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+        "source_quote_fragments": [
+          "increased 0.7 percent in February",
+          "rose 3.4 percent"
+        ],
+        "source_factual_extract": [
+          {
+            "label": "Final-demand PPI monthly change",
+            "source_value": 0.7,
+            "unit_or_scope": "percent; seasonally adjusted; February 2026; March 18 vintage"
+          },
+          {
+            "label": "Final-demand PPI annual change",
+            "source_value": 3.4,
+            "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+          }
+        ],
+        "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+        "source_locator": "Opening PPI paragraph and Table A, February 2026 row; March 18 publication.",
+        "local_source_file": null,
+        "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+        "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+        "claim_support": {
+          "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+          "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+          "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+          "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+        },
+        "admission_status": "admitted",
+        "excluded_from_model": false,
+        "local_web_review_file": "data/research/raw/bls_review_web_review.json",
+        "external_source_review_id": "SRC_PG03",
+        "source_factual_extract_count": 2,
+        "source_id": "PG03"
+      },
+      {
+        "id": "PG04",
+        "company": "PG",
+        "driver": "real_consumer_demand",
+        "published_at": "2026-03-13",
+        "observation_period": "January 2026 first release",
+        "source_url": "https://www.bea.gov/sites/default/files/2026-03/pi0126.pdf",
+        "factual_datapoint": "Real PCE +0.1% month-on-month; nominal goods spending fell $24.6bn; saving rate 4.5%.",
+        "rationale": "Weak real spending argues against inferring strong unit growth from nominal sales.",
+        "suggested_adjustment_analyst_judgment": "Volume-growth adjustment -0.5 to 0 percentage points relative to history-only.",
+        "confidence": "High observation; medium directional",
+        "duplicate_overlap_risk": "Same household demand channel as PG02; do not sum mechanically.",
+        "evidence_type": "reported_observation",
+        "eligible_pre_quarter": true,
+        "eligible_mid_quarter": true,
+        "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+        "source_excerpt": "Real PCE increased $17.0 billion (0.1 percent at a monthly rate) [\u2026] decrease of $24.6 billion [\u2026] was 4.5 percent",
+        "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+        "source_quote_fragments": [
+          "Real PCE increased $17.0 billion (0.1 percent at a monthly rate)",
+          "decrease of $24.6 billion",
+          "was 4.5 percent"
+        ],
+        "source_factual_extract": [
+          {
+            "label": "Real PCE monthly change",
+            "source_value": 0.1,
+            "unit_or_scope": "percent; January 2026"
+          },
+          {
+            "label": "Current-dollar goods PCE monthly change",
+            "source_value": -24.6,
+            "unit_or_scope": "USD billion; January 2026"
+          },
+          {
+            "label": "Personal saving rate",
+            "source_value": 4.5,
+            "unit_or_scope": "percent of disposable personal income; January 2026"
+          }
+        ],
+        "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+        "source_locator": "Release page 1: PCE, saving, spending-on-goods and real PCE paragraphs.",
+        "local_source_file": "data/research/raw/PG04.pdf",
+        "source_capture_status": "Official source downloaded; original file available for human verification.",
+        "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+        "claim_support": {
+          "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+          "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+          "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+          "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+        },
+        "admission_status": "admitted",
+        "excluded_from_model": false,
+        "external_source_review_id": "SRC_PG04",
+        "source_factual_extract_count": 3,
+        "source_id": "PG04"
+      },
+      {
+        "id": "PG05",
+        "company": "PG",
+        "driver": "interest_rates_and_equity_valuation",
+        "published_at": "2026-03-18",
+        "observation_period": "March 2026 policy decision",
+        "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+        "factual_datapoint": "Federal funds target maintained at 3.50\u20133.75%.",
+        "rationale": "Financing and valuation anchor; policy rate is not P&G borrowing cost or a stock-return forecast.",
+        "suggested_adjustment_analyst_judgment": "Base immediate interest-expense change zero without refinancing evidence; sensitivity +/-25bp on floating/repriced debt only. Equity discount-rate sensitivity separate from operating forecast.",
+        "confidence": "High fact; low firm-specific pass-through",
+        "duplicate_overlap_risk": "PG01 already includes annual interest/tax headwind; no duplicate earnings charge.",
+        "evidence_type": "reported_observation",
+        "eligible_pre_quarter": true,
+        "eligible_mid_quarter": true,
+        "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+        "source_excerpt": "3\u20111/2 to 3\u20113/4 percent",
+        "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+        "source_quote_fragments": [
+          "3\u20111/2 to 3\u20113/4 percent"
+        ],
+        "source_factual_extract": [
+          {
+            "label": "Federal funds target lower bound",
+            "source_value": 3.5,
+            "unit_or_scope": "percent"
+          },
+          {
+            "label": "Federal funds target upper bound",
+            "source_value": 3.75,
+            "unit_or_scope": "percent"
+          },
+          {
+            "label": "Decision",
+            "source_value": "maintained",
+            "unit_or_scope": "March 18, 2026"
+          }
+        ],
+        "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+        "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+        "local_source_file": "data/research/raw/PG05_TRV03.html",
+        "source_capture_status": "Official source downloaded; original file available for human verification.",
+        "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+        "claim_support": {
+          "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+          "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+          "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+          "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+        },
+        "admission_status": "admitted",
+        "excluded_from_model": false,
+        "external_source_review_id": "SRC_PG05",
+        "source_factual_extract_count": 3,
+        "source_id": "PG05"
+      }
+    ],
+    "driver_contract": [
+      {
+        "driver": "sales_growth",
+        "unit": "decimal",
+        "min": -0.15,
+        "max": 0.2
+      },
+      {
+        "driver": "gross_margin",
+        "unit": "decimal",
+        "min": 0.35,
+        "max": 0.6
+      },
+      {
+        "driver": "sga_ratio",
+        "unit": "decimal",
+        "min": 0.2,
+        "max": 0.35
+      },
+      {
+        "driver": "net_nonoperating_income",
+        "unit": "USD million",
+        "min": -500,
+        "max": 800
+      },
+      {
+        "driver": "effective_tax_rate",
+        "unit": "decimal",
+        "min": 0.1,
+        "max": 0.35
+      },
+      {
+        "driver": "noncontrolling_income",
+        "unit": "USD million",
+        "min": 0,
+        "max": 100
+      },
+      {
+        "driver": "diluted_shares",
+        "unit": "million shares",
+        "min": 2200,
+        "max": 2700
+      },
+      {
+        "driver": "ocf_to_net_income",
+        "unit": "decimal",
+        "min": 0.5,
+        "max": 2.5
+      },
+      {
+        "driver": "capex_ratio",
+        "unit": "decimal",
+        "min": 0.03,
+        "max": 0.1
+      }
+    ],
+    "model_contract": "Sales are same-quarter prior-year net_sales*(1+sales_growth). Operating income=sales*(gross_margin-sga_ratio); pretax=operating+net_nonoperating_income; attributable net income=pretax*(1-effective_tax_rate)-noncontrolling_income; EPS=attributable NI/diluted shares. OCF=total net income*ocf_to_net_income; capex=sales*capex_ratio, positive outflow. Historical diluted shares may be approximated by NI attributable/diluted EPS; disclose rounding. Gross margin and SG&A are fractions of sales. Noncontrolling interest=total NI-NI attributable. Net nonoperating=interest_income+signed interest_expense+other_income. Cash conversion and capex require seasonality caveats; no debt/cash bridge or operational units/headcount forecast is supported.",
+    "analysis_scope": "Analyst-defined illustrative scenario model, not official company budget. Derive defensible base from eligible history; bear/bull are adverse/favorable profitability scenarios, not numeric ascending for every driver. Contract bounds are broad guardrails, not prescribed forecast estimates. All market-to-financial mappings are analyst judgments. Finance should map only financially material reference rows (latest history, same-quarter-prior-year baseline, and supporting trends), not repeat every row. No final-period outcomes are supplied. Missing detailed cash, debt, exposure, or portfolio breakdowns must be limitations, not invented observed facts. QA evaluates a transparent illustrative model; uncertainty alone is not an error, but unsupported claims of certainty are.",
+    "history_control_assumptions": [
+      {
+        "driver": "sales_growth",
+        "bear": -0.02,
+        "base": 0.015,
+        "bull": 0.04,
+        "unit": "decimal",
+        "basis": "Reported growth was approximately 2% in prior-year Q4, 3% in FY2026 Q1 and 1% in Q2, with Q2 organic growth flat. Base assumes modest growth between the seasonal reference and latest reading; bear assumes contraction and bull a recovery above recent growth. These are total reported-growth assumptions, without separately adding historical FX, price or mix contributions.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "gross_margin",
+        "bear": 0.48,
+        "base": 0.5,
+        "bull": 0.515,
+        "unit": "decimal",
+        "basis": "Prior-year Q4 gross margin was approximately 49.11%, versus 51.37% and 51.22% in recent Q1 and Q2. Base allows partial retention of recent margins while respecting the lower Q4 seasonal reference. Bear assumes deterioration below prior-year Q4; bull assumes recent margin strength persists. Cost and mix mechanisms are illustrative judgments without supplied market evidence.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "sga_ratio",
+        "bear": 0.295,
+        "base": 0.28,
+        "bull": 0.265,
+        "unit": "decimal",
+        "basis": "Prior-year Q4 SG&A/sales was approximately 28.26%, versus 25.21% in recent Q1 and 27.05% in Q2. Base stays close to the seasonal Q4 reference rather than extrapolating Q1's low ratio. Bear assumes expense pressure and weaker sales absorption; bull assumes improved expense efficiency. Higher ratios are adverse.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "net_nonoperating_income",
+        "bear": -50,
+        "base": 100,
+        "bull": 200,
+        "unit": "USD million",
+        "basis": "Contract-defined historical component totals were 166 in prior-year Q4, 179 in recent Q1 and 55 in Q2. Base rounds to a cautious positive contribution between the latest and seasonal references; bear allows a net expense and bull a stronger positive contribution. No interest-rate, debt-balance or exceptional-gain forecast is asserted.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "effective_tax_rate",
+        "bear": 0.225,
+        "base": 0.2,
+        "bull": 0.185,
+        "unit": "decimal",
+        "basis": "Reported rates were 19.8% in prior-year Q4, 20.8% in recent Q1 and 20.1% in Q2. Base rounds near the seasonal and latest references; bear assumes a higher tax burden and bull a lower burden, near the supplied FY2025 Q3 rate of 18.6%. No specific tax benefit or jurisdictional mix change is forecast.",
+        "source_ids": [
+          "pg_2025q3",
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "noncontrolling_income",
+        "bear": 30,
+        "base": 12,
+        "bull": 8,
+        "unit": "USD million",
+        "basis": "Total less attributable net income gives 11 in prior-year Q4, 31 in recent Q1 and 12 in Q2. Base follows the latest reading and seasonal reference. Bear assumes a larger deduction from total earnings, near Q1; bull assumes a modestly smaller deduction. Ownership and subsidiary earnings details are unavailable.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "diluted_shares",
+        "bear": 2445,
+        "base": 2420,
+        "bull": 2395,
+        "unit": "million shares",
+        "basis": "Attributable earnings divided by rounded diluted EPS imply approximately 2442.6 million shares in prior-year Q4 and 2426.4 million in latest Q2. Base assumes only a modest further decline; bear allows the denominator to remain near the prior-year level and bull assumes a larger decline. Lower shares favor EPS; none of these values establishes an observed or authorized repurchase program.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "ocf_to_net_income",
+        "bear": 1.05,
+        "base": 1.3,
+        "bull": 1.5,
+        "unit": "decimal",
+        "basis": "Quarterly OCF/total net income was approximately 1.375 in prior-year Q4 and 1.148 in latest Q2. Base gives greater weight to the same-quarter seasonal reference but discounts its repeatability. Bear assumes weaker cash conversion; bull assumes stronger conversion above prior-year Q4. Working-capital timing is uncertain and these ratios are not annualized.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "driver": "capex_ratio",
+        "bear": 0.06,
+        "base": 0.05,
+        "bull": 0.045,
+        "unit": "decimal",
+        "basis": "Positive capex outflow/sales was approximately 4.77% in prior-year Q4 and 5.25% in latest Q2. Base lies between these references. Bear assumes greater spending intensity and bull lower near-term cash outflow. Capital-spending timing is seasonal; no project pipeline or deferred-investment claim is supported.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q2"
+        ]
+      }
+    ],
+    "comparison_instruction": "Use this frozen history-only control as the counterfactual. Explain incremental changes driven by eligible market evidence; leave unrelated drivers unchanged unless a specific justified correction is necessary. Market research uncertainty can widen scenarios without forcing base changes."
+  },
+  "prior_outputs": {
+    "finance": {
+      "role": "finance",
+      "limitations": [
+        "Used only the serialized input; source URLs, files, excerpts and curator transcriptions were not independently verified. No remembered target-period results were used.",
+        "The cutoff of 2026-03-31 is the information-availability boundary. Latest supplied financial history is FY2026 Q2; FY2026 Q3 results are absent and were not inferred.",
+        "Target period is FY2026 Q4, April\u2013June 2026. FY2025 Q4 is the same-quarter prior-year sales baseline; recent Q1/Q2 are supporting trends, not substitutes for that seasonal baseline.",
+        "Financial statement inputs are treated as reported GAAP history. Organic growth is a separately reported adjusted sales measure; no core/non-GAAP earnings reconciliation is supplied.",
+        "Derived ratios below are rounded. Diluted shares inferred from attributable income and rounded EPS are approximate and may also differ because the exact diluted EPS numerator is unavailable.",
+        "Quarterly cash conversion and capex intensity are seasonal and were not annualized. Detailed working capital, cash, debt, refinancing, geographical exposure, operational units and headcount are unavailable.",
+        "The frozen history-control assumptions are illustrative analyst scenarios, not observed results or management budgets. Market evidence supports directional sensitivities but supplies no calibrated company elasticities."
+      ],
+      "mappings": [
+        {
+          "metric": "net_sales",
+          "value": 20889,
+          "unit": "USD million",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "NET SALES | $ | 20,889 | $ | 20,532 | 2% | $ | 84,284 | $ | 84,039 | \u2014%",
+          "treatment": "Reported quarterly sales; select 20,889, not the annual 84,284. Target FY2026 Q4 sales equal 20,889*(1+scenario sales_growth)."
+        },
+        {
+          "metric": "gross_margin",
+          "value": 0.491072,
+          "unit": "decimal",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "GROSS PROFIT | 10,258 | 10,183 | 1% | 43,120 | 43,191 | \u2014%",
+          "treatment": "Derived quarterly GAAP gross profit/net sales = 10,258/20,889. Seasonal reference for the frozen 0.50 base."
+        },
+        {
+          "metric": "sga_ratio",
+          "value": 0.282589,
+          "unit": "decimal",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "Selling, general and administrative expense | 5,903 | 6,299 | (6)% | 22,669 | 23,305 | (3)%",
+          "treatment": "Derived quarterly SG&A/net sales = 5,903/20,889. Higher ratios reduce operating profitability."
+        },
+        {
+          "metric": "net_nonoperating_income",
+          "value": 166,
+          "unit": "USD million",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "Interest expense | (212 | ) | (220 | ) | (4)% | (907 | ) | (925 | ) | (2)%; Interest income | 104 | 107 | (3)% | 469 | 473 | (1)%; Other non-operating income, net | 274 | 98 | 180% | 154 | 668 | (77)%",
+          "treatment": "Derived contract aggregate = -212+104+274. Reconciles operating income 4,355 to pretax income 4,521; do not include annual columns."
+        },
+        {
+          "metric": "effective_tax_rate",
+          "value": 0.198,
+          "unit": "decimal",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "EFFECTIVE TAX RATE | 19.8 | % | 18.8 | % | 20.3 | % | 20.2 | %",
+          "treatment": "Reported quarterly 19.8% divided by 100; distinguish annual 20.3%. Reported rate is rounded."
+        },
+        {
+          "metric": "noncontrolling_income",
+          "value": 11,
+          "unit": "USD million",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "NET EARNINGS | 3,626 | 3,144 | 15% | 16,065 | 14,974 | 7%; NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,615 | $ | 3,137 | 15% | $ | 15,974 | $ | 14,879 | 7%",
+          "treatment": "Derived total less attributable income = 3,626-3,615; deduction after total net income."
+        },
+        {
+          "metric": "diluted_shares",
+          "value": 2442.568,
+          "unit": "million shares",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,615 | $ | 3,137 | 15% | $ | 15,974 | $ | 14,879 | 7%; Diluted | $ | 1.48 | $ | 1.27 | 17% | $ | 6.51 | $ | 6.02 | 8%",
+          "treatment": "Approximate derived denominator = 3,615/1.48; not reported weighted-average shares or evidence of repurchases."
+        },
+        {
+          "metric": "ocf_to_net_income",
+          "value": 1.374793,
+          "unit": "decimal",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "$4,985 | $(996) | $3,989; NET EARNINGS | 3,626 | 3,144 | 15% | 16,065 | 14,974 | 7%",
+          "treatment": "Derived quarterly OCF/total net income = 4,985/3,626. Use total, not attributable, income; preserve seasonality."
+        },
+        {
+          "metric": "capex_ratio",
+          "value": 0.047681,
+          "unit": "decimal",
+          "period": "2025-04-01/2025-06-30; FY2025 Q4",
+          "source_id": "pg_2025q4",
+          "source_excerpt": "$4,985 | $(996) | $3,989",
+          "treatment": "Derived positive capex outflow/net sales = abs(-996)/20,889. Model capex is positive and subtracted from OCF."
+        },
+        {
+          "metric": "net_sales",
+          "value": 22208,
+          "unit": "USD million",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "NET SALES | $ | 22,208 | $ | 21,882 | 1%",
+          "treatment": "Latest reported quarterly sales; supporting trend only, not the target same-quarter denominator."
+        },
+        {
+          "metric": "sales_growth",
+          "value": 0.01,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+          "treatment": "Reported approximate YoY growth of 1% converted to decimal. Do not silently replace with the unrounded sales-table growth or add FX/price/mix again."
+        },
+        {
+          "metric": "organic_sales_growth",
+          "value": 0,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+          "treatment": "Reported adjusted organic growth is flat, versus reported sales growth of 1%; organic volume -1% and price +1% are approximate contributions, not unit counts."
+        },
+        {
+          "metric": "gross_margin",
+          "value": 0.512158,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "GROSS PROFIT | 11,374 | 11,464 | (1)%",
+          "treatment": "Derived GAAP gross profit/net sales = 11,374/22,208; reconciles sales less product costs of 10,834."
+        },
+        {
+          "metric": "sga_ratio",
+          "value": 0.270533,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "Selling, general and administrative expense | 6,008 | 5,723 | 5%",
+          "treatment": "Derived SG&A/net sales = 6,008/22,208. Gross profit less SG&A reconciles to operating income of 5,366."
+        },
+        {
+          "metric": "net_nonoperating_income",
+          "value": 55,
+          "unit": "USD million",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "Interest expense | (220 | ) | (240 | ) | (8)%; Interest income | 115 | 119 | (3)%; Other operating income, net | 160 | 224 | (29)%",
+          "treatment": "Contract aggregate = -220+115+160; reconciles 5,366 operating income to 5,421 pretax income. Preserve the supplied 'operating' label and flag classification ambiguity."
+        },
+        {
+          "metric": "effective_tax_rate",
+          "value": 0.201,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "EFFECTIVE TAX RATE | 20.1 | % | 20.3 | %",
+          "treatment": "Reported rounded 20.1% converted to decimal; taxes of 1,090 and pretax income of 5,421 support approximately this rate."
+        },
+        {
+          "metric": "noncontrolling_income",
+          "value": 12,
+          "unit": "USD million",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "NET EARNINGS | 4,331 | 4,659 | (7)%; NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,319 | $ | 4,630 | (7)%",
+          "treatment": "Derived = 4,331-4,319; latest reference for frozen base of 12."
+        },
+        {
+          "metric": "diluted_shares",
+          "value": 2426.404,
+          "unit": "million shares",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,319 | $ | 4,630 | (7)%; Diluted | $ | 1.78 | $ | 1.88 | (5)%",
+          "treatment": "Approximate derived denominator = 4,319/1.78; frozen 2,420 target base remains an analyst assumption."
+        },
+        {
+          "metric": "ocf_to_net_income",
+          "value": 1.148003,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "$4,972 | $(1,167) | $3,805; NET EARNINGS | 4,331 | 4,659 | (7)%",
+          "treatment": "Derived quarterly ratio = 4,972/4,331; cash-flow excerpt is treated as quarterly according to the serialized period and locator."
+        },
+        {
+          "metric": "capex_ratio",
+          "value": 0.052549,
+          "unit": "decimal",
+          "period": "2025-10-01/2025-12-31; FY2026 Q2",
+          "source_id": "pg_2026q2",
+          "source_excerpt": "$4,972 | $(1,167) | $3,805",
+          "treatment": "Derived positive outflow ratio = abs(-1,167)/22,208; no annualization or project-level interpretation."
+        },
+        {
+          "metric": "sales_growth",
+          "value": 0.03,
+          "unit": "decimal",
+          "period": "2025-07-01/2025-09-30; FY2026 Q1",
+          "source_id": "pg_2026q1",
+          "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+          "treatment": "Reported approximate YoY growth converted to decimal; organic growth was 2%. Supporting trend for frozen 1.5% target base."
+        },
+        {
+          "metric": "gross_margin",
+          "value": 0.513669,
+          "unit": "decimal",
+          "period": "2025-07-01/2025-09-30; FY2026 Q1",
+          "source_id": "pg_2026q1",
+          "source_excerpt": "GROSS PROFIT | 11,499 | 11,316 | 2%",
+          "treatment": "Derived = 11,499/22,386; corroborates recent margin strength without extrapolating it mechanically into Q4."
+        },
+        {
+          "metric": "sga_ratio",
+          "value": 0.252077,
+          "unit": "decimal",
+          "period": "2025-07-01/2025-09-30; FY2026 Q1",
+          "source_id": "pg_2026q1",
+          "source_excerpt": "Selling, general and administrative expense | 5,643 | 5,519 | 2%",
+          "treatment": "Derived = 5,643/22,386; supporting low-expense-ratio observation, not a seasonal Q4 forecast."
+        },
+        {
+          "metric": "net_nonoperating_income",
+          "value": 179,
+          "unit": "USD million",
+          "period": "2025-07-01/2025-09-30; FY2026 Q1",
+          "source_id": "pg_2026q1",
+          "source_excerpt": "Interest expense | (197 | ) | (238 | ) | (17)%; Interest income | 108 | 135 | (20)%; Other operating income/(expense), net | 268 | (554 | ) | (148)%",
+          "treatment": "Contract component sum = -197+108+268. Retain this derivation; reported pretax less operating income is 178, a flagged USD 1 million discrepancy."
+        },
+        {
+          "metric": "effective_tax_rate",
+          "value": 0.186,
+          "unit": "decimal",
+          "period": "2025-01-01/2025-03-31; FY2025 Q3",
+          "source_id": "pg_2025q3",
+          "source_excerpt": "EFFECTIVE TAX RATE | 18.6 | % | 17.7 | %",
+          "treatment": "Reported 18.6% converted to decimal; supporting historical reference for the frozen favorable tax scenario, not the target same-quarter baseline."
+        }
+      ],
+      "issues": [
+        "FY2025 Q3 has USD 1 million reconciliation discrepancies: sales 19,776 less product costs 9,694 equals 10,082 versus reported gross profit 10,081; gross profit less SG&A 5,524 equals 4,557 versus operating income 4,558; operating income plus component net nonoperating income 104 equals 4,662 versus pretax income 4,661. Preserve supplied observations; rounding or transcription cannot be resolved from this input.",
+        "FY2026 Q1 component net nonoperating income is 179, while pretax 6,034 less operating income 5,856 is 178. Do not silently substitute one for the other.",
+        "Other-income excerpts say 'operating' in FY2025 Q3 and FY2026 Q1/Q2 but 'non-operating' in FY2025 Q4. Contract aggregation places these amounts below modeled operating income, consistent with the supplied bridges apart from noted discrepancies; original classification requires verification.",
+        "No incremental base change is quantitatively compelled by the supplied market evidence. Preserve the frozen history-control base and unrelated drivers; any modified bear/bull values must be explicitly labeled incremental analyst sensitivities.",
+        "PG01 fiscal-year organic growth guidance of 0\u20134% is not target-quarter reported sales guidance. Annual after-tax tariff headwind of USD 400 million and FX tailwind of USD 200 million cannot be allocated wholly to Q4, divided mechanically by four, or inserted directly into pretax gross margin.",
+        "PG02 CPI and PG04 spending observations overlap in household-demand transmission. A combined downside demand sensitivity of up to 0.5 percentage points can illustrate uncertainty, but cannot establish observed P&G pricing, volume or elasticity. PG04 goods-spending change is USD billion, not USD million or company revenue.",
+        "PG03 first-published February PPI vintage is eligible by cutoff. Its suggested 0\u201330 basis-point margin stress overlaps PG01 cost guidance; do not mechanically stack it onto the full 0\u201350 basis-point company-cost stress. One combined cost sensitivity requires analyst justification and procurement-lag caveats.",
+        "PG05 policy range of 3.50\u20133.75% is not P&G's borrowing cost. Preserve zero incremental base interest change without refinancing or floating-debt evidence; the proposed 25 basis-point sensitivity cannot be monetized without an exposed balance.",
+        "PG05's overlap note asserts PG01 includes annual interest/tax headwinds, but the supplied PG01 factual extract does not contain that guidance. This assertion has absent support and must not create an earnings adjustment.",
+        "Curator numeric fact cells support the evidence records within this packet but are not verbatim quotations. Short source excerpts alone do not substantiate every numeric fact; no independent source inspection was performed.",
+        "No exact diluted share counts, EPS numerator reconciliation, repurchase authorization, detailed debt/cash bridge or working-capital forecast is supplied. These must remain limitations rather than invented observed facts."
+      ]
+    },
+    "research": {
+      "role": "research",
+      "limitations": [
+        "Used only the serialized packet, without tools, source inspection, external supplementation or remembered target results. March 31, 2026 is the information-availability boundary; all five market evidence records precede it. No target-quarter outcomes are supplied.",
+        "Inspected the supplied quotations and labeled factual extracts. PG01 organic-growth, tariff and FX guidance depend on curator transcription; its quotation supports only commodity neutrality. PG02\u2013PG04 quotations contain the stated numerical fragments, but detailed metric labels, periods and adjustment bases depend partly on transcription. PG05's quotation supports the rate range; the maintained decision and date depend on transcription. These extracts are not independent verification of source accuracy.",
+        "No numerical contradiction appears between the supplied market quotations and factual extracts. However, PG05's overlap note claims PG01 includes annual interest/tax headwinds; neither PG01 evidence surface supports that claim, so it is excluded.",
+        "Annual organic-growth guidance is not target-quarter reported-sales guidance. Annual after-tax tariff and FX amounts cannot establish quarterly pretax margin changes without timing, exposure and tax information.",
+        "Company demand elasticities, procurement lags, currency exposures, floating or refinancing debt balances, detailed cash and working capital are unavailable. Proposed numerical sensitivities are illustrative analyst judgments, not measured transmission.",
+        "Preserve the frozen history-control base and unrelated drivers. Existing historical demand weakness, pricing, FX and margins must not be counted again as incremental market effects. Evidence can widen adverse scenarios without compelling a base change."
+      ],
+      "signals": [
+        {
+          "driver": "sales_growth",
+          "direction": "mixed",
+          "source_ids": [
+            "PG01",
+            "PG02",
+            "PG04"
+          ],
+          "mechanism": "Transcribed PG01 FY2026 organic-sales guidance is 0\u20134%, providing an outlook envelope rather than a Q4 reported-sales forecast. PG02 reports February CPI increases of 0.3% monthly seasonally adjusted and 2.4% annually unadjusted. PG04 reports January real PCE growth of 0.1%, a USD 24.6 billion decline in current-dollar goods spending and a 4.5% saving rate. Analyst interpretation: affordability pressure and modest real spending support downside volume uncertainty, while positive real PCE and the guidance range do not establish contraction. Keep the 1.5% reported-growth base; optionally apply one combined adverse sensitivity of 0\u20130.5 percentage points relative to the frozen control. This range is uncalibrated, and CPI is not P&G realized pricing.",
+          "confidence": "low",
+          "double_count_risk": "PG02 and PG04 describe overlapping household-demand channels; use one demand stress budget. Latest history already includes negative volume and flat organic growth. Do not add historical price or FX contributions again, or impose annual organic guidance directly on quarterly reported growth."
+        },
+        {
+          "driver": "gross_margin",
+          "direction": "mixed",
+          "source_ids": [
+            "PG01",
+            "PG03"
+          ],
+          "mechanism": "PG01 quotes commodity-cost neutrality; its factual transcription additionally reports a USD 400 million annual after-tax tariff headwind and USD 200 million annual after-tax FX tailwind. PG03 reports first-published February final-demand PPI increases of 0.7% monthly seasonally adjusted and 3.4% annually unadjusted. Analyst interpretation: tariff and upstream inflation uncertainty can pressure costs, while company commodity neutrality and FX guidance temper a uniformly adverse interpretation. Preserve the 50% base. A single combined adverse margin sensitivity of 0\u201350 basis points relative to the control is illustrative; PG03's suggested 0\u201330 basis points belongs within that budget. Neither annual after-tax amount is a measured quarterly gross-margin effect.",
+          "confidence": "low",
+          "double_count_risk": "Company guidance already incorporates commodity, tariff and FX considerations. Do not stack full PPI stress onto full guidance stress, allocate annual amounts mechanically to Q4, or repeat cost effects already embedded in historical margins. FX may affect multiple financial lines; no supplied allocation supports separate additive benefits."
+        },
+        {
+          "driver": "net_nonoperating_income",
+          "direction": "neutral",
+          "source_ids": [
+            "PG05"
+          ],
+          "mechanism": "The supplied quotation supports a 3.50\u20133.75% federal funds target range; the factual transcription states it was maintained on March 18, 2026. Analyst interpretation: this supplies a financing backdrop, but no incremental company earnings change is established without repricing, refinancing or cash-balance evidence. Preserve the USD 100 million base and existing scenarios. A hypothetical 25-basis-point sensitivity cannot be monetized without an exposed balance. Equity discount-rate effects are outside this operating forecast.",
+          "confidence": "low",
+          "double_count_risk": "Historical interest income and expense are already represented in the control. Do not apply the policy rate to all debt or add an unsupported interest/tax headwind attributed to PG01."
+        }
+      ]
+    },
+    "scenario": {
+      "role": "scenario",
+      "limitations": [
+        "Used only the serialized JSON; sources and curator transcriptions were not independently verified. Finance and research outputs are challengeable interpretations.",
+        "March 31, 2026 is the information-availability boundary. No target-period actuals or remembered target results were used; FY2026 Q3 results are absent.",
+        "Annual organic-sales guidance is not quarterly reported-sales guidance. Annual after-tax tariff and FX amounts do not establish quarterly pretax margin effects.",
+        "Demand and cost sensitivities are uncalibrated analyst judgments. Company elasticities, procurement lags, currency exposures and debt repricing balances are unavailable.",
+        "Diluted shares inferred from rounded EPS are approximate; exact share counts, EPS numerator reconciliation and repurchase details are unavailable.",
+        "Cash conversion and capex are seasonal. Detailed working capital, cash, debt, ownership and project breakdowns are unavailable.",
+        "Historical USD 1 million reconciliation differences and inconsistent other-income labels remain unresolved; the supplied contract aggregation is retained."
+      ],
+      "assumptions": [
+        {
+          "driver": "sales_growth",
+          "bear": -0.025,
+          "base": 0.015,
+          "bull": 0.04,
+          "unit": "decimal",
+          "basis": "Preserve the frozen base and bull: prior-year Q4 reported growth was approximately 2%, recent Q1 3% and Q2 1%, with Q2 organic growth flat. Lower the control bear of -2% by one combined 0.5 percentage-point demand sensitivity for PG02 affordability pressure and PG04 weak spending. This is an illustrative reported-sales effect, not measured company volume elasticity; the two signals are not added separately. PG01 annual organic guidance provides context only, without imposing its range on quarterly reported growth or adding historical FX again.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2",
+            "PG01",
+            "PG02",
+            "PG04"
+          ]
+        },
+        {
+          "driver": "gross_margin",
+          "bear": 0.475,
+          "base": 0.5,
+          "bull": 0.515,
+          "unit": "decimal",
+          "basis": "Preserve the control base and bull, anchored by approximately 49.11% prior-year Q4 margin and 51.37%/51.22% recent Q1/Q2 margins. Lower the control bear of 48% by a single combined 50 basis-point residual cost sensitivity reflecting PG01 tariff uncertainty and PG03 upstream inflation. PPI stress is contained within this budget, not stacked separately. Commodity neutrality and annual FX guidance temper the interpretation and support no base change. This additional adverse stress is a judgment about possible deterioration beyond historical margins, not an allocation of annual after-tax guidance; procurement timing is unknown.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2",
+            "PG01",
+            "PG03"
+          ]
+        },
+        {
+          "driver": "sga_ratio",
+          "bear": 0.295,
+          "base": 0.28,
+          "bull": 0.265,
+          "unit": "decimal",
+          "basis": "Unchanged from control: approximately 28.26% prior-year Q4, 25.21% recent Q1 and 27.05% Q2 support a seasonal base near 28%. Bear assumes weaker expense absorption; bull assumes improved efficiency. Higher ratios reduce profitability. No specific eligible evidence supports an incremental SG&A adjustment.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "driver": "net_nonoperating_income",
+          "bear": -50,
+          "base": 100,
+          "bull": 200,
+          "unit": "USD million",
+          "basis": "Unchanged from control: contract component totals of 166 in prior-year Q4, 179 in Q1 and 55 in Q2 support a cautious positive base. Bear allows net expense; bull stronger income. PG05's maintained policy range does not establish company repricing exposure, so no monetary rate adjustment is added. Its unsupported claim about PG01 interest/tax guidance is excluded.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2",
+            "PG05"
+          ]
+        },
+        {
+          "driver": "effective_tax_rate",
+          "bear": 0.225,
+          "base": 0.2,
+          "bull": 0.185,
+          "unit": "decimal",
+          "basis": "Unchanged from control: reported rates of 19.8% in prior-year Q4, 20.8% in Q1 and 20.1% in Q2 support a 20% base. Bear increases the tax burden; bull is near the historical 18.6% Q3 rate. No supplied evidence establishes a specific incremental tax benefit, charge or jurisdictional change.",
+          "source_ids": [
+            "pg_2025q3",
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "driver": "noncontrolling_income",
+          "bear": 30,
+          "base": 12,
+          "bull": 8,
+          "unit": "USD million",
+          "basis": "Unchanged from control: total less attributable income was 11 in prior-year Q4, 31 in Q1 and 12 in Q2. Base follows latest and seasonal references. A larger deduction is adverse to attributable earnings; a smaller deduction is favorable. Subsidiary and ownership details do not support further adjustment.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q1",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "driver": "diluted_shares",
+          "bear": 2445,
+          "base": 2420,
+          "bull": 2395,
+          "unit": "million shares",
+          "basis": "Unchanged from control: attributable income divided by rounded EPS implies approximately 2442.6 million prior-year Q4 shares and 2426.4 million latest Q2 shares. Base assumes modest further decline, bear a denominator near the prior-year level and bull a larger decline. Lower shares favor EPS, rather than operating profit. These are approximate scenario denominators, not evidence of an authorized repurchase program.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "driver": "ocf_to_net_income",
+          "bear": 1.05,
+          "base": 1.3,
+          "bull": 1.5,
+          "unit": "decimal",
+          "basis": "Unchanged from control: quarterly OCF/total net income was approximately 1.375 in prior-year Q4 and 1.148 in latest Q2. Base emphasizes Q4 seasonality while discounting repeatability; bear and bull represent weaker and stronger cash conversion. Market evidence does not quantify incremental working-capital effects. Higher conversion favors cash generation; ratios are not annualized.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q2"
+          ]
+        },
+        {
+          "driver": "capex_ratio",
+          "bear": 0.06,
+          "base": 0.05,
+          "bull": 0.045,
+          "unit": "decimal",
+          "basis": "Unchanged from control: positive capex outflow/sales was approximately 4.77% in prior-year Q4 and 5.25% in latest Q2. Base lies between these references. Bear assumes greater spending intensity and bull lower near-term cash outflow; this orientation concerns free cash flow, not immediate earnings or long-term investment quality. No project pipeline supports an incremental change.",
+          "source_ids": [
+            "pg_2025q4",
+            "pg_2026q2"
+          ]
+        }
+      ],
+      "narrative": "Illustrative FY2026 Q4 scenarios retain every frozen history-control base and all unrelated assumptions. Eligible market evidence widens only the adverse sales and gross-margin scenarios by 0.5 percentage points and 50 basis points, respectively; favorable scenarios remain unchanged. These are explicit, challengeable sensitivities, not calibrated forecasts, observed actuals or company budgets. Overlapping household signals share one demand budget, and tariff/PPI signals share one cost budget. Same-quarter prior-year history supplies the seasonal anchor. No target statements, earnings, EPS or cash-flow totals are computed."
+    }
+  },
+  "initial_qa": {
+    "role": "qa",
+    "limitations": [
+      "Reviewed only the serialized JSON, including original history excerpts, market quotations and located factual transcriptions. No tools, files, browsing or messaging were used; external webpage accuracy cannot be attested.",
+      "Material guidance facts and some market metric labels, periods and adjustment bases depend on curator transcriptions rather than complete original quotations. Source accuracy remains not_verified.",
+      "This is a retrospective reconstruction with March 31, 2026 as the information-availability boundary. No remembered target results were used.",
+      "No target financial totals were supplied, so calculated scenario earnings, EPS and cash-flow outputs cannot be checked."
+    ],
+    "decision": "revise",
+    "source_accuracy": "not_verified",
+    "findings": [
+      {
+        "severity": "blocker",
+        "subject": "Unresolved historical reconciliation contradictions",
+        "finding": "Original supplied excerpts confirm unresolved USD million inconsistencies: FY2025 Q3 sales less costs equals 10,082 versus gross profit 10,081; gross profit less SG&A equals 4,557 versus operating income 4,558; operating income plus component nonoperating income equals 4,662 versus pretax 4,661. FY2026 Q1 component nonoperating income equals 179, whereas pretax less operating income equals 178. Prior outputs disclose these discrepancies, but disclosure does not resolve them. Under the requested rule blocking unresolved contradictions, the supplied material cannot receive a pass.",
+        "source_ids": [
+          "pg_2025q3",
+          "pg_2026q1"
+        ]
+      },
+      {
+        "severity": "warning",
+        "subject": "Transcription-dependent source support",
+        "finding": "PG01's quotation supports commodity neutrality, but its 0\u20134% organic guidance, USD 400 million tariff headwind and USD 200 million FX tailwind depend on factual transcriptions. PG02\u2013PG04 numerical quotation fragments agree with the extracts, while full labels, dates and adjustment bases require the located record. PG05 quotes the rate range but not the maintained decision or date. These support narrowly scoped evidence-to-assumption checks, not independent source certification.",
+        "source_ids": [
+          "PG01",
+          "PG02",
+          "PG03",
+          "PG04",
+          "PG05"
+        ]
+      },
+      {
+        "severity": "warning",
+        "subject": "Other-income classification",
+        "finding": "Original excerpts label other income as operating in FY2025 Q3 and FY2026 Q1/Q2, versus non-operating in FY2025 Q4. Contract aggregation is explicit and Q2 reconciles numerically, but the inconsistent original labels prevent certification of the accounting classification.",
+        "source_ids": [
+          "pg_2025q3",
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2"
+        ]
+      },
+      {
+        "severity": "note",
+        "subject": "Dates, units and finance mappings",
+        "finding": "All supplied publication dates precede the cutoff. FY2025 Q4 sales of USD 20,889 million correctly anchor April\u2013June 2026; annual columns are excluded. Reviewed ratios, signed interest aggregation, noncontrolling deductions and approximate share denominators agree with supplied history, apart from the flagged reconciliations. Percent-to-decimal conversions and positive capex treatment are consistent. Share estimates disclose rounded-EPS dependence.",
+        "source_ids": [
+          "pg_2025q4",
+          "pg_2026q1",
+          "pg_2026q2",
+          "PG01",
+          "PG02",
+          "PG03",
+          "PG04",
+          "PG05"
+        ]
+      },
+      {
+        "severity": "note",
+        "subject": "Scenario coherence and double counting",
+        "finding": "All nine scenario drivers remain within contractual bounds. Every base and all unrelated bear/bull drivers match the frozen control. Only bear sales growth decreases by 0.005 and bear gross margin by 0.005. Demand signals share one stress budget; tariff/PPI signals share another. These magnitudes are explicitly uncalibrated sensitivities, not source-derived precision. Annual organic guidance is not imposed on quarterly reported growth, and annual after-tax costs are not mechanically allocated to quarterly pretax margins.",
+        "source_ids": [
+          "PG01",
+          "PG02",
+          "PG03",
+          "PG04"
+        ]
+      },
+      {
+        "severity": "note",
+        "subject": "Unsupported rate-guidance overlap claim",
+        "finding": "PG05's assertion that PG01 includes annual interest/tax headwinds has no support in either supplied PG01 evidence surface. Finance, research and scenario explicitly exclude it, so it creates no modeled charge. Policy rates are appropriately kept separate from company borrowing costs and unquantified debt exposure.",
+        "source_ids": [
+          "PG01",
+          "PG05"
+        ]
+      },
+      {
+        "severity": "note",
+        "subject": "Sector specificity and missing exposures",
+        "finding": "The reviewed outputs use consumer-products demand and cost channels and introduce no insurance underwriting, reserve or investment-portfolio assumptions. Missing debt, cash, working-capital, ownership and project details remain limitations rather than invented observations.",
+        "source_ids": []
+      }
+    ]
+  },
+  "supplemental_source_review": {
+    "reviewed_at_utc": "2026-10-02T13:22:26.084316+00:00",
+    "review_type": "Independent agent source-extraction and arithmetic verification; not a human or external accounting audit",
+    "scope": "Only original source material published by 2026-03-31; no forecast numbers changed. Review timestamp is actual execution time, not source availability.",
+    "validation_policy": {
+      "absolute_tolerance_usd_million": 2,
+      "reason": "Practical validation tolerance for rounded million-dollar source identities; not a company-issued tolerance or correction. Preserve original amounts and residuals, and flag larger discrepancies for investigation.",
+      "do_not_adjust_reported_values": true
+    },
+    "classification_note": "Retain each original row label. The combined amount between operating income and pretax income is a model bridge; this does not relabel the literal original source. Preserve displayed residuals.",
+    "reviews": [
+      {
+        "source_id": "pg_2025q3",
+        "publication_date": "2025-04-24",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+        "source_html": "sources/pg_2025q3.html",
+        "source_tables": "sources/pg_2025q3_tables.json",
+        "sha256_html": "6fd06be37ca839bd24d4e6abaebcdafd1a856b46264c0bbb98ca5a181fee557b",
+        "source_rows": [
+          {
+            "locator": "table[2]/row[5] (zero based)",
+            "source_excerpt": "NET SALES | $ | 19,776 | $ | 20,195 | (2)%"
+          },
+          {
+            "locator": "table[2]/row[6] (zero based)",
+            "source_excerpt": "Cost of products sold | 9,694 | 9,855 | (2)%"
+          },
+          {
+            "locator": "table[2]/row[7] (zero based)",
+            "source_excerpt": "GROSS PROFIT | 10,081 | 10,340 | (3)%"
+          },
+          {
+            "locator": "table[2]/row[8] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 5,524 | 5,880 | (6)%"
+          },
+          {
+            "locator": "table[2]/row[9] (zero based)",
+            "source_excerpt": "OPERATING INCOME | 4,558 | 4,460 | 2%"
+          },
+          {
+            "locator": "table[2]/row[10] (zero based)",
+            "source_excerpt": "Interest expense | (217 | ) | (233 | ) | (7)%"
+          },
+          {
+            "locator": "table[2]/row[11] (zero based)",
+            "source_excerpt": "Interest income | 111 | 104 | 7%"
+          },
+          {
+            "locator": "table[2]/row[12] (zero based)",
+            "source_excerpt": "Other operating income, net | 210 | 260 | (19)%"
+          },
+          {
+            "locator": "table[2]/row[13] (zero based)",
+            "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 4,661 | 4,592 | 2%"
+          },
+          {
+            "locator": "table[2]/row[30] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 27.9 | % | 29.1 | % | (120)"
+          },
+          {
+            "locator": "table[2]/row[37] (zero based)",
+            "source_excerpt": "Certain columns and rows may not add due to rounding."
+          }
+        ],
+        "checks": [
+          {
+            "identity": "Net sales minus cost of products sold minus gross profit",
+            "calculation": "19776 - 9694 - 10081",
+            "residual_usd_million": 1
+          },
+          {
+            "identity": "Gross profit minus SG&A minus operating income",
+            "calculation": "10081 - 5524 - 4558",
+            "residual_usd_million": -1
+          },
+          {
+            "identity": "Operating income plus interest expense/income plus other income minus pretax income",
+            "calculation": "4558 - 217 + 111 + 210 - 4661",
+            "residual_usd_million": 1
+          }
+        ]
+      },
+      {
+        "source_id": "pg_2026q1",
+        "publication_date": "2025-10-24",
+        "source_url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+        "source_html": "sources/pg_2026q1.html",
+        "source_tables": "sources/pg_2026q1_tables.json",
+        "sha256_html": "3ca2d94e87980a21f93d61c6cb5db70dde9545e265dd50eac5400a23e04b8cc2",
+        "source_rows": [
+          {
+            "locator": "table[2]/row[7] (zero based)",
+            "source_excerpt": "NET SALES | $ | 22,386 | $ | 21,737 | 3%"
+          },
+          {
+            "locator": "table[2]/row[8] (zero based)",
+            "source_excerpt": "Cost of products sold | 10,887 | 10,421 | 4%"
+          },
+          {
+            "locator": "table[2]/row[9] (zero based)",
+            "source_excerpt": "GROSS PROFIT | 11,499 | 11,316 | 2%"
+          },
+          {
+            "locator": "table[2]/row[10] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 5,643 | 5,519 | 2%"
+          },
+          {
+            "locator": "table[2]/row[11] (zero based)",
+            "source_excerpt": "OPERATING INCOME | 5,856 | 5,797 | 1%"
+          },
+          {
+            "locator": "table[2]/row[12] (zero based)",
+            "source_excerpt": "Interest expense | (197 | ) | (238 | ) | (17)%"
+          },
+          {
+            "locator": "table[2]/row[13] (zero based)",
+            "source_excerpt": "Interest income | 108 | 135 | (20)%"
+          },
+          {
+            "locator": "table[2]/row[14] (zero based)",
+            "source_excerpt": "Other operating income/(expense), net | 268 | (554 | ) | (148)%"
+          },
+          {
+            "locator": "table[2]/row[15] (zero based)",
+            "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 6,034 | 5,140 | 17%"
+          },
+          {
+            "locator": "table[2]/row[32] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 25.2% | 25.4% | (20)"
+          },
+          {
+            "locator": "table[2]/row[40] (zero based)",
+            "source_excerpt": "Certain columns and rows may not add due to rounding."
+          }
+        ],
+        "checks": [
+          {
+            "identity": "Other-income component sum versus pretax less operating income",
+            "calculation": "(108 - 197 + 268) - (6034 - 5856)",
+            "residual_usd_million": 1
+          }
+        ]
+      },
+      {
+        "source_id": "pg_2026q2",
+        "publication_date": "2026-01-22",
+        "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+        "source_html": "sources/pg_2026q2.html",
+        "source_tables": "sources/pg_2026q2_tables.json",
+        "sha256_html": "8cc03b7734ae68687caddfd5c301b0de9a367a33db6cd2066103dd090706386c",
+        "source_rows": [
+          {
+            "locator": "table[2]/row[6] (zero based)",
+            "source_excerpt": "NET SALES | $ | 22,208 | $ | 21,882 | 1%"
+          },
+          {
+            "locator": "table[2]/row[7] (zero based)",
+            "source_excerpt": "Cost of products sold | 10,834 | 10,418 | 4%"
+          },
+          {
+            "locator": "table[2]/row[8] (zero based)",
+            "source_excerpt": "GROSS PROFIT | 11,374 | 11,464 | (1)%"
+          },
+          {
+            "locator": "table[2]/row[9] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 6,008 | 5,723 | 5%"
+          },
+          {
+            "locator": "table[2]/row[10] (zero based)",
+            "source_excerpt": "OPERATING INCOME | 5,366 | 5,741 | (7)%"
+          },
+          {
+            "locator": "table[2]/row[11] (zero based)",
+            "source_excerpt": "Interest expense | (220 | ) | (240 | ) | (8)%"
+          },
+          {
+            "locator": "table[2]/row[12] (zero based)",
+            "source_excerpt": "Interest income | 115 | 119 | (3)%"
+          },
+          {
+            "locator": "table[2]/row[13] (zero based)",
+            "source_excerpt": "Other operating income, net | 160 | 224 | (29)%"
+          },
+          {
+            "locator": "table[2]/row[14] (zero based)",
+            "source_excerpt": "EARNINGS BEFORE INCOME TAXES | 5,421 | 5,845 | (7)%"
+          },
+          {
+            "locator": "table[2]/row[15] (zero based)",
+            "source_excerpt": "Income taxes | 1,090 | 1,187 | (8)%"
+          },
+          {
+            "locator": "table[2]/row[16] (zero based)",
+            "source_excerpt": "NET EARNINGS | 4,331 | 4,659 | (7)%"
+          },
+          {
+            "locator": "table[2]/row[31] (zero based)",
+            "source_excerpt": "Selling, general and administrative expense | 27.1% | 26.2% | 90"
+          },
+          {
+            "locator": "table[2]/row[39] (zero based)",
+            "source_excerpt": "Certain columns and rows may not add due to rounding."
+          }
+        ],
+        "checks": [
+          {
+            "identity": "Gross less SG&A less operating income",
+            "calculation": "11374.0 + -6008.0 + -5366.0",
+            "residual_usd_million": 0.0
+          },
+          {
+            "identity": "Operating plus signed below-OI components less pretax",
+            "calculation": "5366.0 + -220.0 + 115.0 + 160.0 + -5421.0",
+            "residual_usd_million": 0.0
+          },
+          {
+            "identity": "Pretax less tax less net income",
+            "calculation": "5421.0 + -1090.0 + -4331.0",
+            "residual_usd_million": 0.0
+          }
+        ]
+      }
+    ],
+    "forecast_assumptions_changed": false
+  },
+  "review_instruction": "Independently decide whether new original-source evidence resolves the initial blockers. Numerical Finance/Research/Scenario outputs are unchanged. Source rounding footnotes may explain display residuals only within justified precision; do not waive material contradictions or invent reconciliations. Cite original packet source IDs."
+}

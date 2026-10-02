@@ -1,0 +1,536 @@
+{
+  "validated_at_utc": "2026-10-02T14:12:40.961424+00:00",
+  "company": "PG",
+  "native_dax_checks": [
+    {
+      "metric": "Revenue",
+      "expected": 21724.56,
+      "observed": 21724.56,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "Profit",
+      "expected": 3624.5391408,
+      "observed": 3624.5391408,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "Operating",
+      "expected": 4431.81024,
+      "observed": 4431.81024,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "Margin",
+      "expected": 0.204,
+      "observed": 0.204,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "ActualRevenue",
+      "expected": 21203.0,
+      "observed": 21203,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "ActualProfit",
+      "expected": 3044.0,
+      "observed": 3044,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "HistoryRevenue",
+      "expected": 190840.0,
+      "observed": 190840,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bear/net_sales",
+      "expected": 20471.22,
+      "observed": 20471.22,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bear/net_income_attributable",
+      "expected": 2866.3111675000005,
+      "observed": 2866.3111675000005,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bear/operating_income",
+      "expected": 3787.1757000000007,
+      "observed": 3787.1757000000007,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bear/operating_margin",
+      "expected": 0.18500000000000003,
+      "observed": 0.18500000000000003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bear/free_cash_flow",
+      "expected": 1812.8535258750007,
+      "observed": 1812.8535258750007,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/base/net_sales",
+      "expected": 21202.335,
+      "observed": 21202.335,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/base/net_income_attributable",
+      "expected": 3799.6109599999995,
+      "observed": 3799.6109599999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/base/operating_income",
+      "expected": 4664.5136999999995,
+      "observed": 4664.5136999999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/base/operating_margin",
+      "expected": 0.21999999999999997,
+      "observed": 0.21999999999999997,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/base/free_cash_flow",
+      "expected": 3894.9774979999993,
+      "observed": 3894.9774979999993,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bull/net_sales",
+      "expected": 21724.56,
+      "observed": 21724.56,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bull/net_income_attributable",
+      "expected": 4581.379100000001,
+      "observed": 4581.379100000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bull/operating_income",
+      "expected": 5431.140000000001,
+      "observed": 5431.140000000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bull/operating_margin",
+      "expected": 0.25000000000000006,
+      "observed": 0.25000000000000006,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_history/bull/free_cash_flow",
+      "expected": 5906.463450000001,
+      "observed": 5906.463450000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bear/net_sales",
+      "expected": 20366.774999999998,
+      "observed": 20366.774999999998,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bear/net_income_attributable",
+      "expected": 2772.4151125000003,
+      "observed": 2772.4151125000003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bear/operating_income",
+      "expected": 3666.0195000000003,
+      "observed": 3666.0195000000003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bear/operating_margin",
+      "expected": 0.18000000000000005,
+      "observed": 0.18000000000000005,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bear/free_cash_flow",
+      "expected": 1720.5293681250007,
+      "observed": 1720.5293681250007,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/base/net_sales",
+      "expected": 21202.335,
+      "observed": 21202.335,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/base/net_income_attributable",
+      "expected": 3799.6109599999995,
+      "observed": 3799.6109599999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/base/operating_income",
+      "expected": 4664.5136999999995,
+      "observed": 4664.5136999999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/base/operating_margin",
+      "expected": 0.21999999999999997,
+      "observed": 0.21999999999999997,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/base/free_cash_flow",
+      "expected": 3894.9774979999993,
+      "observed": 3894.9774979999993,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bull/net_sales",
+      "expected": 21724.56,
+      "observed": 21724.56,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bull/net_income_attributable",
+      "expected": 4581.379100000001,
+      "observed": 4581.379100000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bull/operating_income",
+      "expected": 5431.140000000001,
+      "observed": 5431.140000000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bull/operating_margin",
+      "expected": 0.25000000000000006,
+      "observed": 0.25000000000000006,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "pre_market/bull/free_cash_flow",
+      "expected": 5906.463450000001,
+      "observed": 5906.463450000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bear/net_sales",
+      "expected": 20889.0,
+      "observed": 20889,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bear/net_income_attributable",
+      "expected": 2845.2654999999995,
+      "observed": 2845.2654999999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bear/operating_income",
+      "expected": 3760.0199999999995,
+      "observed": 3760.0199999999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bear/operating_margin",
+      "expected": 0.17999999999999997,
+      "observed": 0.17999999999999997,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bear/free_cash_flow",
+      "expected": 1765.6887749999999,
+      "observed": 1765.6887749999999,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/base/net_sales",
+      "expected": 21724.56,
+      "observed": 21724.56,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/base/net_income_attributable",
+      "expected": 3693.6232416000003,
+      "observed": 3693.6232416000003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/base/operating_income",
+      "expected": 4518.70848,
+      "observed": 4518.70848,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/base/operating_margin",
+      "expected": 0.208,
+      "observed": 0.208,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/base/free_cash_flow",
+      "expected": 3738.8822140800003,
+      "observed": 3738.8822140800003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bull/net_sales",
+      "expected": 22351.23,
+      "observed": 22351.23,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bull/net_income_attributable",
+      "expected": 4487.556630499999,
+      "observed": 4487.556630499999,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bull/operating_income",
+      "expected": 5252.5390499999985,
+      "observed": 5252.5390499999985,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bull/operating_margin",
+      "expected": 0.23499999999999993,
+      "observed": 0.23499999999999993,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_history/bull/free_cash_flow",
+      "expected": 5740.529595749999,
+      "observed": 5740.529595749999,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bear/net_sales",
+      "expected": 20889.0,
+      "observed": 20889,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bear/net_income_attributable",
+      "expected": 2715.7537,
+      "observed": 2715.7537,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bear/operating_income",
+      "expected": 3592.9080000000004,
+      "observed": 3592.9080000000004,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bear/operating_margin",
+      "expected": 0.17200000000000001,
+      "observed": 0.17200000000000001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bear/free_cash_flow",
+      "expected": 1629.7013850000005,
+      "observed": 1629.7013850000005,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/base/net_sales",
+      "expected": 21724.56,
+      "observed": 21724.56,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/base/net_income_attributable",
+      "expected": 3624.5391408,
+      "observed": 3624.5391408,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/base/operating_income",
+      "expected": 4431.81024,
+      "observed": 4431.81024,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/base/operating_margin",
+      "expected": 0.204,
+      "observed": 0.204,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/base/free_cash_flow",
+      "expected": 3649.0728830400003,
+      "observed": 3649.0728830400003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bull/net_sales",
+      "expected": 22351.23,
+      "observed": 22351.23,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bull/net_income_attributable",
+      "expected": 4451.3476379,
+      "observed": 4451.3476379,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bull/operating_income",
+      "expected": 5207.83659,
+      "observed": 5207.83659,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bull/operating_margin",
+      "expected": 0.233,
+      "observed": 0.233,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "mid_market/bull/free_cash_flow",
+      "expected": 5686.216106850001,
+      "observed": 5686.216106850001,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "All-vintage independence/pre_history",
+      "expected": 3799.6109599999995,
+      "observed": 3799.6109599999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "All-vintage independence/pre_market",
+      "expected": 3799.6109599999995,
+      "observed": 3799.6109599999995,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "All-vintage independence/mid_history",
+      "expected": 3693.6232416000003,
+      "observed": 3693.6232416000003,
+      "difference": 0.0,
+      "passed": true
+    },
+    {
+      "metric": "All-vintage independence/mid_market",
+      "expected": 3624.5391408,
+      "observed": 3624.5391408,
+      "difference": 0.0,
+      "passed": true
+    }
+  ],
+  "pages": [
+    {
+      "Page": "01 Summary",
+      "Errors": []
+    },
+    {
+      "Page": "02 History & segments",
+      "Errors": []
+    },
+    {
+      "Page": "03 Scenario range",
+      "Errors": []
+    },
+    {
+      "Page": "04 Market revisions",
+      "Errors": []
+    },
+    {
+      "Page": "05 Forecast vs actual",
+      "Errors": []
+    },
+    {
+      "Page": "06 Method & QA",
+      "Errors": []
+    }
+  ],
+  "pbix": {
+    "bytes": 134270,
+    "datamodel_bytes": 89500,
+    "sha256": "d645442a6e05187f37f413167ec7ecc85f1005025c5d27580b7dafabfc16adb5",
+    "zip_crc": "pass"
+  },
+  "all_passed": true
+}

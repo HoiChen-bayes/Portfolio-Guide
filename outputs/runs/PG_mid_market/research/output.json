@@ -1,0 +1,63 @@
+{
+  "role": "research",
+  "limitations": [
+    "Used only the serialized packet, including supplied quotations and labeled factual transcriptions. No tools, source links, local files, external knowledge, or remembered target results were used; source accuracy and extraction provenance were not independently verified.",
+    "The information boundary is 2026-05-15. All admitted evidence was published before it; PG06\u2013PG10 are eligible for this mid-market vintage but not the pre-quarter vintage. No target-quarter outcomes are supplied.",
+    "Short quotations corroborate selected facts, not every transcribed value. Guidance amounts, release-specific metric labels, and several macro and peer details depend on curator transcriptions. These are supplied factual support, not independent verification or calibrated forecast assumptions. No direct quotation/transcription numerical contradiction is apparent.",
+    "PG05's overlap note claims PG01 includes an annual interest/tax headwind, but neither PG01's quotation nor its factual extract supports that claim; it is excluded.",
+    "The frozen control already incorporates latest Q3 sales momentum, FX contributions, margin compression and expense trends. Their historical effects must not be added again as market adjustments.",
+    "Company demand elasticities, procurement and inventory lags, geographic exposures, debt repricing, and detailed working capital are absent. Numeric sensitivities are illustrative analyst judgments; uncertainty can widen scenarios without changing the base.",
+    "No eligible evidence establishes incremental changes to effective_tax_rate, noncontrolling_income, diluted_shares, ocf_to_net_income or capex_ratio. Leave these control drivers unchanged. Historical arithmetic residuals and other-income classification conflicts remain unresolved."
+  ],
+  "signals": [
+    {
+      "driver": "gross_margin",
+      "direction": "negative",
+      "source_ids": [
+        "PG01",
+        "PG03",
+        "PG06",
+        "PG08"
+      ],
+      "mechanism": "Reported guidance changed from neutral annual commodity costs in PG01 to a $150 million annual after-tax headwind in PG06; the quotations support neutral costs and the later amount, while its commodity classification and annual scope depend on transcription. PG06 also positions EPS toward the lower end. April PPI increased 1.4% monthly in the quotation; transcribed goods and transportation/warehousing increases corroborate potential input and freight pressure. Interpretation: costs could pressure future gross margin beyond the refreshed control, subject to procurement lags. The supplied 20\u201380 basis-point downside is an illustrative scenario range, not a measured quarterly effect; a base reduction is not compelled without establishing the unrecognized portion.",
+      "confidence": "medium",
+      "double_count_risk": "Use one combined cost sensitivity. PG08 corroborates PG06 rather than supplying an additive full shock; PG03 is earlier context. Exclude Q3 compression already represented in history. Unchanged annual tariff and FX guidance are not new shocks; do not allocate annual after-tax amounts wholly to Q4 or mechanically convert them into pretax COGS."
+    },
+    {
+      "driver": "sales_growth",
+      "direction": "mixed",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG04",
+        "PG06",
+        "PG07",
+        "PG09",
+        "PG10"
+      ],
+      "mechanism": "Transcribed PG01 annual organic-growth guidance is 0\u20134%; PG06's 3% Q3 organic growth is corroborated by supplied history and already represented in the control. Quotations support earlier CPI increases, January real PCE growth of 0.1%, April monthly CPI growth of 0.6% and personal-care inflation of 0.7%, and March real PCE growth of 0.2%. Transcribed March real disposable income declined 0.1%, while nominal PCE rose 0.9%. Interpretation: modest real spending and affordability pressure limit volume upside, while category inflation may permit some pricing; peer volume growth supports resilience. These opposing channels support a joint scenario sensitivity, with no necessary base change. CPI is not P&G realized pricing, and annual organic guidance is not a quarterly reported-sales constraint.",
+      "confidence": "low",
+      "double_count_risk": "Combine affordability, real spending and pricing into one demand budget rather than summing PG02/PG04 and PG07/PG09 shocks. Do not add nominal and real spending as independent boosts, repeat historical Q3 growth, or treat annual FX earnings guidance as incremental sales translation. Peer growth establishes no P&G share change."
+    },
+    {
+      "driver": "sga_ratio",
+      "direction": "mixed",
+      "source_ids": [
+        "PG10"
+      ],
+      "mechanism": "PG10's quotation reports Unilever volume growth of 2.9% and price growth of 0.9%; transcriptions add group underlying sales growth of 3.8% and Home Care underlying volume growth of 6.2% with underlying price growth of -0.1%. Interpretation: performance in overlapping categories could motivate competitive selling expenditure, but geography, product mix and P&G's response are unknown. A higher SG&A ratio is an optional adverse scenario, not an observed P&G spending increase; retain the frozen base.",
+      "confidence": "low",
+      "double_count_risk": "Do not infer peer gains are P&G losses. Any competitive expense sensitivity must be coordinated with the sales sensitivity, avoiding a second full charge for the same assumed competitive pressure or weaker sales absorption already included in the control."
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "direction": "neutral",
+      "source_ids": [
+        "PG05"
+      ],
+      "mechanism": "PG05's quotation supports a federal funds target of 3.50\u20133.75%; the maintained decision and date depend on transcription. Interpretation: this provides financing context but establishes no incremental P&G borrowing-cost change. Without floating-rate balances or refinancing timing, retain the control and do not calculate an immediate interest charge. Equity discount-rate effects lie outside this operating scenario contract.",
+      "confidence": "low",
+      "double_count_risk": "Do not reprice all debt at the policy rate or duplicate historical interest expense. PG05's claim of an interest/tax headwind already included in PG01 is unsupported by the supplied evidence surfaces and is not used."
+    }
+  ]
+}

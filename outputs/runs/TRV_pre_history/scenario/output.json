@@ -1,0 +1,128 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Only serialized JSON was used; source documents were not independently verified. No external information or remembered target-period results were used.",
+    "The cutoff of 2026-03-31 is an information-availability boundary. No target-period actuals are assumed known.",
+    "Only four historical quarters are supplied, and the evidence array and research signals are empty. Scenario magnitudes are challengeable analyst judgments, not company guidance, budget, calibrated probabilities or observed outcomes.",
+    "Exposure, reinsurance, investment portfolio, cash balances, debt and capital detail are insufficient for causal decomposition or supported balance-sheet and cash-flow projections.",
+    "Contract bounds exclude adverse reserve development and limit underlying underwriting stress; these scenarios do not cover every possible outcome.",
+    "The underlying-ratio model has historical reconciliation residuals and does not exactly reproduce reported underwriting dollars. No target residual or realized-gain assumption is supplied, so an exact GAAP reconciliation is unsupported."
+  ],
+  "assumptions": [
+    {
+      "driver": "earned_premium_growth",
+      "bear": 0,
+      "base": 0.03,
+      "bull": 0.06,
+      "unit": "decimal",
+      "basis": "Same-quarter-prior-year growth against Q2 2025 earned premiums. Historical growth slowed from approximately 6.6% in Q2 to 2.6% in Q4. Base assumes modest growth near the latest pace; bear assumes stagnation and bull a recovery toward the earlier pace. Higher growth is favorable within the contract's positive underlying underwriting margins; no pricing-volume decomposition is supported.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "written_premium_growth",
+      "bear": -0.02,
+      "base": 0.015,
+      "bull": 0.04,
+      "unit": "decimal",
+      "basis": "Same-quarter-prior-year growth against Q2 2025 written premiums. Historical growth slowed from approximately 3.9% in Q2 to 1.1% in Q4. Base assumes continued subdued growth, bear modest contraction and bull recovery toward Q2's pace. Written growth represents business momentum and does not directly enter the core pretax equation; earned growth is modeled separately because recognition can lag writing.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "underlying_combined_ratio",
+      "bear": 0.88,
+      "base": 0.84,
+      "bull": 0.82,
+      "unit": "decimal",
+      "basis": "Q2 2025 was 84.7%, Q3 83.9% and Q4 82.2%. Base retains some improvement while avoiding automatic extrapolation of the strongest quarter into Q2. Bear assumes underwriting deterioration to 88%; bull broadly sustains Q4 performance. Lower ratios favor profitability. Catastrophes and reserve development remain separate drivers.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "catastrophe_losses",
+      "bear": 1800,
+      "base": 1000,
+      "bull": 500,
+      "unit": "USD million",
+      "basis": "Positive quarterly losses, net of reinsurance. Q2 2025 losses were 927, versus its excerpted prior-year comparator of 1509; Q1 2025 losses were 2266 and Q4 only 95. Base stays near the same-quarter baseline rather than extrapolating Q4's unusually low amount. Bear assumes substantial losses below the supplied Q1 stress reference; bull assumes a lighter quarter with meaningful losses remaining. These are illustrative severities, not actuarial expected-loss estimates.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "favorable_reserve_development",
+      "bear": 50,
+      "base": 275,
+      "bull": 375,
+      "unit": "USD million",
+      "basis": "Positive favorable development increases pretax income. Q2 and Q4 releases were 315 and 321, but Q3 was only 22; Q1 was 378. Base discounts the larger recurring references for uncertainty, bear assumes minimal releases and bull approaches the strongest supplied quarterly observation. No reserve adequacy analysis establishes that releases will continue.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "investment_income",
+      "bear": 950,
+      "base": 1080,
+      "bull": 1150,
+      "unit": "USD million",
+      "basis": "Quarterly pretax net investment income rose from 942 in Q2 to 1033 in Q3 and 1054 in Q4. Base assumes modest further growth from the latest quarter; bear falls toward Q2's level and bull extends the improvement more strongly. Higher income favors profitability. Portfolio balances, yields and alternative-investment contributions are unavailable, so these extensions have no supported causal decomposition.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "other_income_including_interest",
+      "bear": -125,
+      "base": -100,
+      "bull": -85,
+      "unit": "USD million",
+      "basis": "Retains the signed expense convention and includes interest once. Q2 expense was 89 and Q4 expense 101, with the supplied quarters clustered around that range. Base approximates the latest expense; bear assumes a larger expense burden and bull a modest improvement. No separate debt or interest-rate projection is inferred.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.22,
+      "base": 0.197,
+      "bull": 0.18,
+      "unit": "decimal",
+      "basis": "Historical core tax expense divided by core pretax income was approximately 19.8% in Q2 and 19.6% in Q4. Base centers on those references. Bear assumes a higher effective burden and bull a lower burden as profitability sensitivities, without claiming supported changes in tax law or income mix. The orientation assumes positive pretax income; higher tax rates would not necessarily be adverse in a loss scenario.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 224,
+      "base": 222,
+      "bull": 219,
+      "unit": "million shares",
+      "basis": "Quarterly diluted weighted average shares declined from 229.3 in Q2 to 227.5 in Q3 and 224 in Q4. Base assumes modest continuation, bear holds at the latest level and bull assumes a larger further decline. Lower shares favor EPS when income is positive, without changing total income. This is a denominator sensitivity, not an observed or funded future buyback schedule.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    }
+  ],
+  "narrative": "Illustrative scenarios for Q2 2026 use eligible Q2 2025 seasonal references and later 2025 trends. Finance mappings were checked against supplied history and used as challengeable references; research supplied no incremental market signals. Bear combines weaker premium momentum, higher underwriting and catastrophe costs, smaller reserve releases and investment income, and a less favorable EPS denominator; bull reverses those judgments. Base preserves recent underwriting strength while moderating extrapolation and retaining meaningful catastrophe losses. All assumptions satisfy the stated units and bounds. They are scenario inputs, not target actuals or company budgets; final financial statements and EPS arithmetic are left to deterministic code."
+}

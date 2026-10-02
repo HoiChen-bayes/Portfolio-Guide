@@ -1,0 +1,240 @@
+{
+  "role": "finance",
+  "limitations": [
+    "Used only the supplied JSON; source excerpts and classifications were not independently verified. No remembered target results were used.",
+    "All supplied publications precede the 2026-03-31 information cutoff. Latest supplied history is fiscal Q2 2026; no target-period outcomes are supplied.",
+    "Mappings are historical references for an illustrative scenario model, not official guidance or forecast estimates. Contract bounds do not establish scenario values.",
+    "Financial statement amounts are USD million, EPS is USD/share, and approximate diluted shares are million shares. Percentage inputs are converted to decimals.",
+    "Reported earnings are retained without core/non-GAAP adjustments. No adjustment reconciliation is supplied; organic sales growth is distinct from reported sales growth.",
+    "Quarterly cash conversion and capital spending are seasonal references and are not annualized. Detailed cash, debt, working-capital, exposure, portfolio, operational-unit and headcount support is absent.",
+    "Derived ratios are rounded. Diluted shares inferred from attributable earnings divided by rounded EPS may differ from actual weighted-average diluted shares."
+  ],
+  "mappings": [
+    {
+      "metric": "net_sales",
+      "value": 20889,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "NET SALES | $ | 20,889 | $ | 20,532 | 2% | $ | 84,284 | $ | 84,039 | \u2014%",
+      "treatment": "Reported same-quarter-prior-year baseline for target FY2026 Q4. Target sales = 20,889*(1+scenario sales_growth). Use quarterly 20,889, not annual 84,284."
+    },
+    {
+      "metric": "sales_growth",
+      "value": 0.02,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "Total P&G | \u2014% | \u2014% | 1% | 1% | \u2014% | 2% | \u2014% | 2%",
+      "treatment": "Reported approximate year-over-year growth converted from 2%; historical seasonal reference, not target forecast."
+    },
+    {
+      "metric": "gross_margin",
+      "value": 0.491072,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "GROSS PROFIT | 10,258 | 10,183 | 1% | 43,120 | 43,191 | \u2014%; NET SALES | $ | 20,889 | $ | 20,532 | 2%",
+      "treatment": "Derived quarterly reported gross profit/net sales = 10,258/20,889; seasonal profitability baseline."
+    },
+    {
+      "metric": "sga_ratio",
+      "value": 0.282589,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "Selling, general and administrative expense | 5,903 | 6,299 | (6)% | 22,669 | 23,305 | (3)%; NET SALES | $ | 20,889",
+      "treatment": "Derived quarterly SG&A/net sales = 5,903/20,889; retain reported expense basis."
+    },
+    {
+      "metric": "net_nonoperating_income",
+      "value": 166,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "Interest expense | (212 | ); Interest income | 104; Other non-operating income, net | 274; EARNINGS BEFORE INCOME TAXES | 4,521",
+      "treatment": "Derived 104-212+274=166; reconciles operating income 4,355 to pretax income 4,521."
+    },
+    {
+      "metric": "effective_tax_rate",
+      "value": 0.198,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "EFFECTIVE TAX RATE | 19.8 | % | 18.8 | % | 20.3 | % | 20.2 | %",
+      "treatment": "Reported quarterly rate converted from 19.8%; annual 20.3% is a different period. Rounded rate need not reproduce reported taxes exactly."
+    },
+    {
+      "metric": "noncontrolling_income",
+      "value": 11,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "NET EARNINGS | 3,626; NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,615",
+      "treatment": "Derived total NI minus attributable NI = 3,626-3,615; subtract after tax in the model."
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 2442.567568,
+      "unit": "million shares",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 3,615; Diluted | $ | 1.48",
+      "treatment": "Approximate derived denominator = 3,615/1.48; not reported shares, and subject to EPS rounding and numerator-definition limitations."
+    },
+    {
+      "metric": "ocf_to_net_income",
+      "value": 1.374793,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "$4,985 | $(996) | $3,989; NET EARNINGS | 3,626",
+      "treatment": "Derived quarterly OCF/total NI = 4,985/3,626; same-quarter seasonal reference, not adjusted free-cash-flow productivity."
+    },
+    {
+      "metric": "capex_ratio",
+      "value": 0.047681,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30 (FY2025 Q4)",
+      "source_id": "pg_2025q4",
+      "source_excerpt": "$4,985 | $(996) | $3,989; NET SALES | $ | 20,889",
+      "treatment": "Derived positive capex outflow/net sales = 996/20,889. Explicit sign conversion from reported signed capital spending -996."
+    },
+    {
+      "metric": "net_sales",
+      "value": 22208,
+      "unit": "USD million",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "NET SALES | $ | 22,208 | $ | 21,882 | 1%",
+      "treatment": "Latest reported quarterly sales; supporting trend only, not the target's same-quarter baseline."
+    },
+    {
+      "metric": "sales_growth",
+      "value": 0.01,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+      "treatment": "Reported approximate growth converted from 1%; bridge contributions are volume -1%, FX +1%, price +1%, mix and other approximately zero."
+    },
+    {
+      "metric": "organic_sales_growth",
+      "value": 0,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "Total P&G | (1)% | 1% | 1% | \u2014% | \u2014% | 1% | (1)% | \u2014%",
+      "treatment": "Reported approximate organic growth of zero; keep separate from FX-inclusive reported growth. Contributions do not supply absolute units or prices."
+    },
+    {
+      "metric": "gross_margin",
+      "value": 0.512158,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "GROSS PROFIT | 11,374 | 11,464 | (1)%; NET SALES | $ | 22,208",
+      "treatment": "Derived 11,374/22,208; reconciles sales less reported cost of products sold 10,834."
+    },
+    {
+      "metric": "sga_ratio",
+      "value": 0.270533,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "Selling, general and administrative expense | 6,008 | 5,723 | 5%; NET SALES | $ | 22,208",
+      "treatment": "Derived 6,008/22,208; gross profit less SG&A equals reported operating income 5,366."
+    },
+    {
+      "metric": "net_nonoperating_income",
+      "value": 55,
+      "unit": "USD million",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "Interest expense | (220 | ); Interest income | 115; Other operating income, net | 160; EARNINGS BEFORE INCOME TAXES | 5,421",
+      "treatment": "Contract-derived 115-220+160=55; reconciles operating 5,366 to pretax 5,421. Preserve the excerpt's 'operating' label and flag the classification ambiguity."
+    },
+    {
+      "metric": "effective_tax_rate",
+      "value": 0.201,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "EFFECTIVE TAX RATE | 20.1 | % | 20.3 | %",
+      "treatment": "Reported latest rate converted from 20.1%; rounded historical model reference."
+    },
+    {
+      "metric": "noncontrolling_income",
+      "value": 12,
+      "unit": "USD million",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "NET EARNINGS | 4,331; NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,319",
+      "treatment": "Derived 4,331-4,319=12; OCF conversion uses total NI 4,331, while EPS uses attributable NI."
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 2426.404494,
+      "unit": "million shares",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "NET EARNINGS ATTRIBUTABLE TO PROCTER & GAMBLE | $ | 4,319; Diluted | $ | 1.78",
+      "treatment": "Approximate derived denominator = 4,319/1.78; rounding-sensitive proxy, not an observed share count or repurchase forecast."
+    },
+    {
+      "metric": "ocf_to_net_income",
+      "value": 1.147999,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "$4,972 | $(1,167) | $3,805; NET EARNINGS | 4,331",
+      "treatment": "Derived quarterly OCF/total NI = 4,972/4,331; latest reference, with seasonal and working-capital uncertainty."
+    },
+    {
+      "metric": "capex_ratio",
+      "value": 0.052549,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31 (FY2026 Q2)",
+      "source_id": "pg_2026q2",
+      "source_excerpt": "$4,972 | $(1,167) | $3,805; NET SALES | $ | 22,208",
+      "treatment": "Derived positive capex/net sales = 1,167/22,208; explicitly reverse reported outflow sign."
+    },
+    {
+      "metric": "sales_growth",
+      "value": 0.03,
+      "unit": "decimal",
+      "period": "2025-07-01/2025-09-30 (FY2026 Q1)",
+      "source_id": "pg_2026q1",
+      "source_excerpt": "Total P&G | \u2014% | 1% | 1% | 1% | \u2014% | 3% | \u2014% | 2%",
+      "treatment": "Supporting reported growth trend: 3% in Q1 followed by approximately 1% in Q2; organic growth was 2% in Q1."
+    },
+    {
+      "metric": "gross_margin",
+      "value": 0.513669,
+      "unit": "decimal",
+      "period": "2025-07-01/2025-09-30 (FY2026 Q1)",
+      "source_id": "pg_2026q1",
+      "source_excerpt": "GROSS PROFIT | 11,499 | 11,316 | 2%; NET SALES | $ | 22,386",
+      "treatment": "Derived 11,499/22,386; supports recent gross-margin trend without assuming Q4 has identical seasonality."
+    },
+    {
+      "metric": "sga_ratio",
+      "value": 0.252079,
+      "unit": "decimal",
+      "period": "2025-07-01/2025-09-30 (FY2026 Q1)",
+      "source_id": "pg_2026q1",
+      "source_excerpt": "Selling, general and administrative expense | 5,643 | 5,519 | 2%; NET SALES | $ | 22,386",
+      "treatment": "Derived 5,643/22,386; recent expense-ratio reference preceding Q2's higher ratio."
+    }
+  ],
+  "issues": [
+    "Other income is labeled 'operating' in FY2025 Q3 and FY2026 Q1/Q2 excerpts but 'non-operating' in FY2025 Q4. The contract places it below operating income; this model placement is explicit and does not resolve the source-label ambiguity.",
+    "FY2025 Q3 has USD 1 million reconciliation differences: sales 19,776 minus cost 9,694 equals 10,082 versus gross profit 10,081; gross profit minus SG&A 5,524 equals 4,557 versus operating income 4,558; operating income plus component nonoperating income 104 equals 4,662 versus pretax 4,661. Preserve reported amounts; rounding or transcription cannot be distinguished.",
+    "FY2026 Q1 component net nonoperating income is 108-197+268=179, but pretax 6,034 minus operating 5,856 is 178. Do not silently substitute either figure; USD 1 million discrepancy remains.",
+    "Growth-bridge excerpts omit column headers. Metric assignments rely on serialized labels; dash values and growth contributions are approximate, not exact operational measurements.",
+    "No reported diluted-share denominator or EPS numerator reconciliation is supplied. Inferred shares cannot establish actual weighted-average shares or future buybacks.",
+    "Evidence is empty. Market-to-financial sensitivities, exceptional-item normalization and target-quarter scenario assumptions have no additional supplied support.",
+    "FY2026 Q3 history is absent. No missing-quarter values were inferred, and no quarter was annualized.",
+    "Historical mapped drivers fall within the supplied guardrails, but guardrails alone do not justify a base, bear or bull estimate. Adverse profitability generally involves lower growth/margins or higher expense/tax ratios; every driver need not increase from bear to bull."
+  ]
+}

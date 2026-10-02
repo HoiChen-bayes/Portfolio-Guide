@@ -1,0 +1,22 @@
+{
+  "role": "scenario",
+  "status": "completed",
+  "started_at": "2026-10-02T13:13:47.645316+00:00",
+  "input_sha256": "6f5e65e19a88be7bc7ef5e482bfca6991ab07bff85419e5d16e27ff1ed9e3336",
+  "prompt_sha256": "d8e13784892069f579e969965fa2446bd45df4fb4a137b74f9b553f0d3d2c046",
+  "schema_sha256": "465e1a4bf97aa04e866a4f3a2efb4cdfa6c1b778eb3ff19bea28609ee8329c3c",
+  "requested_model": "gpt-6.1-sol",
+  "execution": "genuine_codex_exec",
+  "tool_policy": "disabled",
+  "retrospective": true,
+  "returncode": 0,
+  "usage": {
+    "input_tokens": 39462,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 1591,
+    "reasoning_output_tokens": 0
+  },
+  "output_sha256": "5df28c702b4613016facf164e8436073d95a143bb4743aa6b151625bc836958e",
+  "finished_at": "2026-10-02T13:14:39.885288+00:00"
+}

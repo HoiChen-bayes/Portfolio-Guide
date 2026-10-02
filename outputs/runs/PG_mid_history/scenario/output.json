@@ -1,0 +1,127 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Only the serialized input was used; sources and prior finance/research outputs were not independently verified. No external information or remembered target results were used.",
+    "The 2026-05-15 cutoff is an information-availability boundary. No April\u2013June 2026 actuals are assumed known; all target values are illustrative analyst assumptions, not company budgets or guidance.",
+    "The evidence array is empty. Scenario spreads are judgmental sensitivities, without independently supported market effects or probabilities.",
+    "Historical statements contain unresolved USD 1 million reconciliation differences and inconsistent operating/nonoperating labels for other income. Its composition and recurrence are unknown.",
+    "Diluted share references are approximations from attributable income divided by rounded EPS; actual denominators and potential EPS numerator adjustments are absent.",
+    "Cash conversion and capex are seasonal. Detailed working capital, cash, debt, currency exposures, portfolio composition and cost drivers are unavailable; no financing bridge is inferred."
+  ],
+  "assumptions": [
+    {
+      "driver": "sales_growth",
+      "bear": 0,
+      "base": 0.04,
+      "bull": 0.07,
+      "unit": "decimal",
+      "basis": "Year-over-year reported sales growth applied to FY2025 Q4 sales. Base moderates latest Q3 growth of 7%, including four percentage points of FX support, against Q2 growth of 1% and prior-year Q4 growth of 2%. Bear assumes stalled growth; bull sustains latest momentum. These are aggregate assumptions; historical volume, pricing and FX contributions are not added again.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "gross_margin",
+      "bear": 0.475,
+      "base": 0.49,
+      "bull": 0.505,
+      "unit": "decimal",
+      "basis": "Gross profit as a fraction of sales. Base is close to prior-year Q4's 0.4911 and slightly below latest Q3's 0.4951, reflecting seasonal caution and recent compression from Q2's 0.5122. Bear assumes further compression; bull assumes partial recovery. Specific commodity, tariff or productivity causes are not established.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "sga_ratio",
+      "bear": 0.295,
+      "base": 0.282,
+      "bull": 0.27,
+      "unit": "decimal",
+      "basis": "SG&A as a fraction of sales. Base anchors to prior-year Q4's 0.2826 and latest Q3's 0.2795. Bear assumes expense pressure and weaker sales absorption; bull assumes better absorption and spending efficiency. Higher ratios are adverse; no headcount or spending plan is inferred.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "bear": -50,
+      "base": 150,
+      "bull": 300,
+      "unit": "USD million",
+      "basis": "Quarterly signed interest expense plus interest income plus other income under the model contract. Base normalizes near prior-year Q4's 166 rather than carrying latest Q3's 414, which includes unusually high other income of 537. Q2's component total was 55. Bear allows a net expense; bull allows stronger contributions without fully repeating Q3. Classification conflicts and recurrence remain unresolved.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.225,
+      "base": 0.205,
+      "bull": 0.19,
+      "unit": "decimal",
+      "basis": "Tax expense as a fraction of pretax income. Base lies between prior-year Q4's 0.198 and latest Q3's 0.208, with Q2 at 0.201. Bear assumes a less favorable tax mix; bull assumes a favorable mix. These sensitivities do not assert specific tax events; higher tax rates are adverse.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "noncontrolling_income",
+      "bear": 30,
+      "base": 18,
+      "bull": 10,
+      "unit": "USD million",
+      "basis": "Quarterly total net income attributable to noncontrolling interests, subtracted after tax. Base is near latest Q3's 19, with prior-year Q4 at 11 and Q1 at 31. Bear increases the deduction from parent earnings; bull reduces it. The scenario orientation concerns parent profitability, not a forecast of subsidiary performance.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 2440,
+      "base": 2405,
+      "bull": 2380,
+      "unit": "million shares",
+      "basis": "Quarterly diluted weighted-average denominator. Historical NI/EPS approximations decline from about 2443 in prior-year Q4 to 2412 in latest Q3. Base assumes a modest further decline; bear allows a higher denominator and bull a larger decline. Lower shares favor EPS, not operating profit. No authorized repurchase volume or financing capacity is established.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "ocf_to_net_income",
+      "bear": 1.05,
+      "base": 1.3,
+      "bull": 1.5,
+      "unit": "decimal",
+      "basis": "Quarterly operating cash flow divided by total net income. Base gives substantial weight to prior-year Q4's seasonal 1.3748 but tempers it toward latest Q3's 1.0238. Bear assumes limited seasonal cash conversion improvement; bull assumes stronger conversion. Higher ratios favor cash generation without directly increasing accounting profit; working-capital detail is absent.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "capex_ratio",
+      "bear": 0.06,
+      "base": 0.05,
+      "bull": 0.045,
+      "unit": "decimal",
+      "basis": "Positive capital expenditure outflow as a fraction of sales. Base is close to prior-year Q4's 0.0477 and latest Q3's 0.0480, allowing modest spending pressure. Bear assumes heavier cash investment; bull assumes lower cash intensity. Lower capex favors near-term free cash flow, without establishing superior long-term investment economics or directly changing modeled earnings.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    }
+  ],
+  "narrative": "The base combines the target quarter's prior-year seasonal references with the latest eligible history, moderating FX-supported sales momentum and elevated other income. Bear and bull are coordinated adverse and favorable cases for parent earnings, EPS and cash generation; expense ratios, taxes, minority deductions, shares and capex therefore move in the opposite numerical direction to favorable revenue and margin assumptions. Finance mappings are challengeable historical anchors, and research supplies no incremental signals. No target financial statements or final outcomes are computed."
+}

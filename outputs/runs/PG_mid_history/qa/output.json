@@ -1,0 +1,73 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized original history, excerpts, contracts and prior outputs; no tools, external sources or remembered target results were used.",
+    "Cannot attest that excerpts match external webpages. Publication dates, period assignments and units rely on packet metadata; several excerpts omit table headers.",
+    "No market evidence, insurance-specific evidence, detailed exposures, financing bridge or target-period outcomes are supplied.",
+    "This review supports only internal historical mapping and transparent illustrative assumptions; it does not validate forecast accuracy, probabilities or causal market effects."
+  ],
+  "decision": "pass",
+  "source_accuracy": "checked_against_provided_excerpts",
+  "findings": [
+    {
+      "severity": "note",
+      "subject": "Dates and seasonal baseline",
+      "finding": "All supplied publication dates precede the 2026-05-15 availability cutoff. The target is April\u2013June 2026; finance correctly uses April\u2013June 2025 sales of USD 20,889 million as its seasonal baseline rather than latest-quarter sales or annual sales.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Finance calculations and units",
+      "finding": "Mapped ratios, signed nonoperating components, minority deductions and approximate diluted shares agree with original packet values at the stated rounding precision. Percent-to-decimal conversions and positive modeled capex outflows follow the contract. Cash conversion uses total net income rather than parent-attributable income.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Reconciliation and other-income classification",
+      "finding": "Original excerpts confirm the disclosed USD 1 million reconciliation differences and inconsistent operating/nonoperating labels. The conditional contract mapping is transparent, but neither exact historical reconciliation nor recurring classification of other income is established. These discrepancies were acknowledged without correction or certainty claims.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2026q1",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Research causality and double counting",
+      "finding": "Returning no research signals is justified by the empty evidence array. Historical FX, price and volume contributions describe reported growth without proving incremental causal effects. Scenario sales growth is aggregate, and the supplied assumptions do not add those contributions again or separately duplicate other income.",
+      "source_ids": [
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Scenario bounds and orientation",
+      "finding": "All nine drivers in all three scenarios fall within contractual bounds and use the required units. Adverse and favorable directions are consistent with parent earnings, EPS and near-term cash generation. Exact spreads remain explicitly judgmental sensitivities rather than sourced estimates or official guidance.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Precision and missing supporting detail",
+      "finding": "Four-decimal share approximations are computational precision, not observed denominator precision; the rounding limitation is disclosed. Cash seasonality, other-income recurrence and absent exposure or financing detail appropriately limit inference. No insurance-specific assumptions or unsupported insurance claims appear.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    }
+  ]
+}

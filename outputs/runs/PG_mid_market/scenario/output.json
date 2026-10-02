@@ -1,0 +1,136 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Used only the serialized input. Source quotations, curator transcriptions, and finance/research interpretations were not independently verified.",
+    "The 2026-05-15 cutoff governs information availability. No target-quarter actuals or remembered target results are used.",
+    "These are illustrative analyst assumptions for April\u2013June 2026, not company budget or observed outcomes. Market-to-financial sensitivities are uncalibrated judgments.",
+    "Commodity guidance is annual and after tax; its unrecognized quarterly portion, procurement lags, currency exposures, and company demand elasticities are unknown.",
+    "Cash, debt repricing, working-capital detail, repurchase plans, and investment commitments are absent. Cash conversion and capex are seasonal; inferred historical diluted shares depend on rounded EPS.",
+    "Supplied historical figures contain unresolved USD 1 million arithmetic residuals and inconsistent other-income labels. Contract classification is retained without silently correcting history."
+  ],
+  "assumptions": [
+    {
+      "driver": "sales_growth",
+      "bear": 0,
+      "base": 0.04,
+      "bull": 0.07,
+      "unit": "decimal",
+      "basis": "Reported YoY sales growth applied to same-quarter-prior-year sales. Retain the frozen control in all scenarios: base moderates Q3's 7% reported growth, including approximately four points of FX, against Q2's 1% and prior-year Q4's 2%. PG07/PG09 affordability and modest real spending offset possible pricing support and PG10 demand resilience; no calibrated net adjustment is justified. Use one joint demand assessment, without adding historical contributions again. Annual organic guidance of 0\u20134% does not constrain quarterly reported growth.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3",
+        "PG01",
+        "PG07",
+        "PG09",
+        "PG10"
+      ]
+    },
+    {
+      "driver": "gross_margin",
+      "bear": 0.467,
+      "base": 0.486,
+      "bull": 0.503,
+      "unit": "decimal",
+      "basis": "Gross profit divided by sales. Frozen control bear/base/bull of 0.475/0.490/0.505 already reflects historical compression and Q4 seasonality. Apply incremental reductions of 80/40/20 basis points respectively for the changed commodity outlook in PG06, corroborated by PG08 input and freight inflation. The base assumes some additional cost pressure reaches Q4; bear assumes greater recognition and weaker mitigation, while bull assumes procurement lag and offsets. These magnitudes are illustrative, not measured elasticities. Treat PG06/PG08 as one capped cost adjustment; do not repeat Q3 compression or allocate annual after-tax commodity, tariff, or FX amounts mechanically.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3",
+        "PG01",
+        "PG06",
+        "PG08"
+      ]
+    },
+    {
+      "driver": "sga_ratio",
+      "bear": 0.295,
+      "base": 0.282,
+      "bull": 0.27,
+      "unit": "decimal",
+      "basis": "SG&A divided by sales; higher ratios are adverse. Retain all frozen scenarios, anchored near prior-year Q4's 0.2826 and latest Q3's 0.2795. Bear captures expense pressure and weaker absorption; bull captures improved efficiency and absorption. PG10 establishes peer performance but no P&G spending response, so an additional competitive expense charge would be unsupported and could duplicate existing downside.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3",
+        "PG10"
+      ]
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "bear": -50,
+      "base": 150,
+      "bull": 300,
+      "unit": "USD million",
+      "basis": "Quarterly signed interest expense plus interest income plus other income under the contract. Retain the frozen scenarios: base normalizes near prior-year Q4's 166 rather than repeating Q3's 414, which contains other income of 537; Q2's component sum was 55. Bear permits net expense and bull stronger contributions. PG05 supplies policy-rate context but no debt repricing exposure, so no incremental interest adjustment is justified. Other-income recurrence and classification remain uncertain.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3",
+        "PG05"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.225,
+      "base": 0.205,
+      "bull": 0.19,
+      "unit": "decimal",
+      "basis": "Tax expense divided by pretax income; higher rates are adverse. Retain all frozen scenarios. Base lies between prior-year Q4's 0.198 and latest Q3's 0.208, with Q2 at 0.201. Bear/bull reflect unfavorable/favorable tax-mix uncertainty without asserting specific tax events. Eligible market evidence supplies no supported incremental tax change.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "noncontrolling_income",
+      "bear": 30,
+      "base": 18,
+      "bull": 10,
+      "unit": "USD million",
+      "basis": "Quarterly noncontrolling earnings deducted after tax from total net income. Retain the frozen scenarios: base is near latest Q3's 19, with prior-year Q4 at 11 and Q1 at 31. A larger deduction is adverse to parent earnings. No supplied market evidence supports changing these assumptions or establishes subsidiary profitability.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 2440,
+      "base": 2405,
+      "bull": 2380,
+      "unit": "million shares",
+      "basis": "Quarterly diluted weighted-average EPS denominator. Retain the frozen scenarios, informed by approximate historical denominators declining from 2443 in prior-year Q4 to 2412 in latest Q3. Base assumes a modest further decline; bear/bull use higher/lower denominators, adverse/favorable to EPS. Historical estimates use attributable income divided by rounded EPS and are not reported share counts. No incremental repurchase or financing evidence supports a change.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "ocf_to_net_income",
+      "bear": 1.05,
+      "base": 1.3,
+      "bull": 1.5,
+      "unit": "decimal",
+      "basis": "Quarterly OCF divided by total net income. Retain the frozen scenarios: base weights prior-year Q4's seasonal 1.3748 while tempering toward latest Q3's 1.0238. Bear/bull reflect weaker/stronger cash conversion, affecting cash generation rather than accounting profitability. Input-cost evidence does not quantify working-capital effects, so no additional cash-conversion adjustment is made.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "driver": "capex_ratio",
+      "bear": 0.06,
+      "base": 0.05,
+      "bull": 0.045,
+      "unit": "decimal",
+      "basis": "Positive capital expenditure outflow divided by sales. Retain all frozen scenarios, with base near prior-year Q4's 0.0477 and latest Q3's 0.0480. Bear assumes heavier cash investment; bull lower near-term cash intensity. Lower capex favors modeled free cash flow without directly improving earnings or establishing better long-term economics. No eligible investment-plan evidence supports an incremental change.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q3"
+      ]
+    }
+  ],
+  "narrative": "The frozen history-only control remains the counterfactual. Only gross margin changes: the joint company-guidance and producer-price signal supports an illustrative incremental cost allowance of 80/40/20 basis points in bear/base/bull. Latest Q3 history is already incorporated and is not counted as a market adjustment. Mixed demand and peer evidence does not justify a net sales-growth change; unrelated drivers remain unchanged. Bear/bull orientation follows parent earnings, EPS, or near-term cash generation as applicable. All values remain within contract bounds. No final financial statements are computed."
+}

@@ -1,0 +1,69 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Review used only the serialized JSON and original supplied excerpts. No tools, external webpages, files, messaging or remembered target results were used.",
+    "External source authenticity, publication dates, omitted table headers and units cannot be independently verified. Cutoff checks use packet metadata; the cutoff is an information-availability boundary.",
+    "No target-period calculations or final statements were supplied, so implementation of the fixed adjustment and resulting earnings cannot be approved.",
+    "Market evidence is absent. Scenario values are analyst sensitivities, not empirically established forecasts or probabilities."
+  ],
+  "decision": "pass",
+  "source_accuracy": "checked_against_provided_excerpts",
+  "findings": [
+    {
+      "severity": "note",
+      "subject": "Historical mapping, dates and units",
+      "finding": "Material mapped values agree with supplied history excerpts. All attributed publication dates precede 2026-05-15. Q2 quarterly baselines are distinguished from YTD amounts; percent-to-decimal and catastrophe sign conversions are correct. Derived growth and core tax rates agree with the supplied numbers.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Underwriting reconciliation and double counting",
+      "finding": "The mandated Q2 prior-year adjustment calculates to -36.913 USD million; the latest Q1 residual is separately -37.935. The outputs correctly require the former to remain fixed across scenarios. Claims, interest and catastrophes are not proposed as duplicate deductions, and after-tax realized gains are distinguished from core income.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Causal interpretation and scenario bounds",
+      "finding": "All nine scenario drivers fall within contract bounds and have defensible historical anchors for illustrative sensitivities. Profitability directions are coherent. Lower catastrophe losses explain much of latest underwriting improvement while the underlying ratio deteriorated. Research appropriately supplies no incremental causal signals. Reserve strengthening outside the nonnegative development bound is explicitly disclosed.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Cash-flow column attribution",
+      "finding": "The supplied cash-flow excerpts contain the mapped numbers but omit period headers. Their quarterly attribution cannot be established from the excerpts alone. Finance discloses reliance on packet attribution and derives no cash-flow forecast; that limitation must remain.",
+      "source_ids": [
+        "trv_2025q4_supplement",
+        "trv_2026q1_supplement"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Excerpt presentation and numerical precision",
+      "finding": "Some finance source_excerpt fields concatenate separate rows or normalize whitespace rather than reproduce one verbatim excerpt. Their numerical components are supported by original packet rows, but the assembled strings should not be represented as verbatim quotations. Long derived decimals and the three-decimal residual express arithmetic precision, not forecast accuracy or a verified component breakdown.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2026q1",
+        "trv_2026q1_supplement"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Approval scope",
+      "finding": "No blocker was found for the supplied historical mappings, history-only research interpretation and explicitly illustrative assumptions. This pass does not attest external webpage accuracy, forecast reliability, repurchase funding capacity or execution of the earnings model.",
+      "source_ids": []
+    }
+  ]
+}

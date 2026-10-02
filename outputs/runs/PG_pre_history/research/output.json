@@ -1,0 +1,12 @@
+{
+  "role": "research",
+  "limitations": [
+    "The evidence array is empty: this history-only packet contains no market evidence, so no driver-level causal signals are returned.",
+    "Reported historical facts and finance-derived ratios are baseline references, not evidence of incremental market effects. Adding their embedded price, volume, mix, FX or expense effects again would risk double counting.",
+    "All supplied historical publication dates precede the 2026-03-31 information-availability cutoff. No target-period outcomes are supplied or inferred; no external sources or remembered results were used.",
+    "Historical trends alone do not establish causal mechanisms, market sensitivities or target-quarter scenario estimates. Contract bounds are guardrails, not forecast evidence.",
+    "Detailed cash, debt, working-capital, exposure and portfolio breakdowns are absent. Quarterly cash conversion and capex are subject to seasonality; inferred diluted shares are sensitive to rounded EPS.",
+    "Source excerpts were not independently verified. Other-income classification ambiguity, approximate growth bridges and the reconciliation discrepancies identified in the supplied finance output remain unresolved."
+  ],
+  "signals": []
+}

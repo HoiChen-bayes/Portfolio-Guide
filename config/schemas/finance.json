@@ -1,0 +1,66 @@
+{
+  "type": "object",
+  "properties": {
+    "role": {
+      "type": "string"
+    },
+    "limitations": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "mappings": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "metric": {
+            "type": "string"
+          },
+          "value": {
+            "type": "number"
+          },
+          "unit": {
+            "type": "string"
+          },
+          "period": {
+            "type": "string"
+          },
+          "source_id": {
+            "type": "string"
+          },
+          "source_excerpt": {
+            "type": "string"
+          },
+          "treatment": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "metric",
+          "value",
+          "unit",
+          "period",
+          "source_id",
+          "source_excerpt",
+          "treatment"
+        ],
+        "additionalProperties": false
+      }
+    },
+    "issues": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  },
+  "required": [
+    "role",
+    "limitations",
+    "mappings",
+    "issues"
+  ],
+  "additionalProperties": false
+}

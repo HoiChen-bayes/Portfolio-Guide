@@ -1,0 +1,81 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized JSON, including original quotations, factual transcriptions and supplemental source rows. No tools, browsing, files or messaging were used. External webpage accuracy cannot be attested.",
+    "Material market guidance, metric labels and publication context partly depend on curator transcriptions. This decision is not source-accuracy certification.",
+    "This retrospective review uses March 31, 2026 as the information-availability boundary. The later review timestamp does not make the quoted historical material look-ahead evidence. No remembered target results were used.",
+    "No calculated target financial statements were supplied; scenario earnings, EPS and cash-flow totals cannot be checked."
+  ],
+  "decision": "pass",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "note",
+      "subject": "Initial reconciliation blockers resolved within displayed precision",
+      "finding": "Supplemental original excerpts for FY2025 Q3 and FY2026 Q1 explicitly state that rows and columns may not add due to rounding. Independently recomputed Q3 residuals are +1, -1 and +1 USD million; Q1 component income of 179 differs from the displayed pretax-minus-operating bridge of 178 by 1 USD million. These residuals are compatible with rounding the participating amounts to whole millions. This resolves the initial blocker for a narrowly scoped illustrative model without changing reported values or asserting an exact reconciliation. The curator's USD 2 million tolerance is not a company-issued rule and is unnecessary to this conclusion.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2026q1"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Transcription-dependent market support",
+      "finding": "PG01's quotation supports commodity neutrality; its 0\u20134% organic guidance and annual after-tax tariff/FX amounts depend on factual transcriptions. PG02\u2013PG04 numerical quotation fragments agree with the extracted facts, but complete labels, periods and adjustment bases are partly transcription-dependent. PG05 quotes the rate range, while the maintained decision and date depend on transcription. No supplied quotation contradicts these records, but independent source accuracy remains unverified.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04",
+        "PG05"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Other-income classification",
+      "finding": "Original labels say operating in Q3 and FY2026 Q1/Q2, versus non-operating in FY2025 Q4. The outputs preserve this ambiguity and use the explicit contract aggregate as a model bridge. Q2's 55 USD million bridge reconciles exactly. This supports model aggregation, not certification of the accounting classification.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Dates, units and finance mapping",
+      "finding": "Supplied publication dates precede the cutoff. FY2025 Q4 quarterly sales of 20,889 USD million correctly anchor April\u2013June 2026, excluding annual columns. Reviewed ratios, signed interest aggregation, noncontrolling deductions, positive capex outflows and percentage conversions agree with supplied history. Share denominators are appropriately disclosed as approximations from rounded EPS.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Scenario ranges, causal interpretation and double counting",
+      "finding": "All nine drivers remain within contractual bounds. Every base and all unrelated scenarios match the frozen control. Only bear sales growth decreases by 0.005 and bear gross margin by 0.005. Overlapping household signals share one demand sensitivity; tariff/PPI signals share one cost sensitivity. Magnitudes are explicitly uncalibrated analyst judgments. Annual organic guidance is not imposed on quarterly reported growth, and annual after-tax costs are not mechanically allocated to quarterly pretax margins.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Unsupported interest/tax overlap statement",
+      "finding": "PG05's packet overlap note claims PG01 contains annual interest/tax headwinds, which neither PG01 evidence surface supports. Reviewed outputs explicitly exclude that claim, so it supplies no modeled adjustment. Policy rates also remain separate from company borrowing costs and unquantified debt exposure.",
+      "source_ids": [
+        "PG01",
+        "PG05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Sector specificity and missing exposures",
+      "finding": "The reviewed model uses consumer-products demand and cost channels and introduces no insurance underwriting, reserve or portfolio assumptions. Missing debt, cash, working-capital, ownership and project details remain disclosed limitations.",
+      "source_ids": []
+    }
+  ]
+}

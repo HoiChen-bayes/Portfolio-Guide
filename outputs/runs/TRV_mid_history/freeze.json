@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-10-02T12:54:45.553226+00:00",
+  "status": "assumptions_frozen",
+  "packet_sha256": "1721e49ec87b9d1a988b939c5ee2bdf74aaf0d97de16346b1682b3a48b653fdf",
+  "files": {
+    "packet.json": "e4d9c545bb5b6e394cc7dc755ba751c7443825be8bbf67898be2231eb47d7fe1",
+    "finance/input.json": "0591c0b2df89f53633ea2ef7452b48875b20ee6619d3b1f0d8d056ab0225108c",
+    "finance/prompt.txt": "419b8ef5e84b51df6cdeefbb6a14cb9e9a66d94d4c23162704f2459f45229d6f",
+    "finance/output.json": "6b1e8cc9b2c46db2d3b9d33d1b576152df49f9141756dbc43f94067c5e60f3dd",
+    "finance/run.json": "20c28e10e8b23e2b429dd8d28ccefbed65cc0df6fa045d6eaa2503a785372ca0",
+    "research/input.json": "4b640497a5cb6f49bb05d078784d8ac91b76a21694808f9623812ba687f8def9",
+    "research/prompt.txt": "9ef38c82de426d61235e2f510bcee53d478a294ab51f2bfc8ea03b987ec9e405",
+    "research/output.json": "9f71806ecd6812a68c434f6045836afbc4767abe3fca0b3041793a6704be6e53",
+    "research/run.json": "5400b5da4b05943a64e6e6a97beb22c5a4a8e2c278ee4b1e67a720f20e32b8ad",
+    "scenario/input.json": "6dedba9721261bb48e910324b79f9881d3bb696beaac1c2fbaf57921c8eed3a5",
+    "scenario/prompt.txt": "400bc47a8709c5b3bdef617e55e3850a68595e4532f630bbd740f1afd4f3f08d",
+    "scenario/output.json": "6fbd040428ad306c49b1ce8dfa0797a8390cd1d29a8643e533c298229075c5b3",
+    "scenario/run.json": "f90d84cde40c47c0b73178ae1740645d3c3e466471a105ad2cc260e8075c20c6",
+    "qa/input.json": "cb114db96047487d9a18958f14950c3f23ff194a26ec9b2bdd27f3c87c652865",
+    "qa/prompt.txt": "70001b684034e43cfd435b5b59717bf52bcc908c819043edfc5d2c5033e9658a",
+    "qa/output.json": "d8a3f151b1875d73f487c68f7c0d2128961cc805a12679906eee5c4418feb6e7",
+    "qa/run.json": "654b03e2f32202da24100a24b369d69a8016ddc8c4faca8e2886d25a6e11c3f2"
+  },
+  "disclosure": "Retrospective execution; date-filtered inputs do not erase model pretraining."
+}

@@ -1,0 +1,25 @@
+{
+  "frozen_at": "2026-10-02T13:15:22.096278+00:00",
+  "status": "assumptions_frozen",
+  "packet_sha256": "ce82e8ccb25ca6558250f01308407f9659e1098e6ec0601d5f4ae3943b9c4c2e",
+  "files": {
+    "packet.json": "fb741ce4171bccf78f544be8180fc26355769ea07bd3da9b85f2c2211030fa5a",
+    "finance/input.json": "30255888d8ed597d5b3d1e5b71119044defa7286c96fab6ae5d36085b6845641",
+    "finance/prompt.txt": "e66f1e4812a8b3a26e0e42f713807a6f4d6edee298b31928d401f79ac2825462",
+    "finance/output.json": "973e125f60da6cd71e0d801015e461ecb3cec6b7a694d4ffa0efb26747a262bd",
+    "finance/run.json": "13c28ce69fe22573cba89c74be2ce04965ba1e175e32b837ee94ad59916b1f82",
+    "research/input.json": "bee90cc6ded1112b044b23ee5679db9b85f1f0b475703d0106074b16f65a1982",
+    "research/prompt.txt": "26801916a81f348bc4e6cc847aca31050377301a53131133a8a3de0053156786",
+    "research/output.json": "323c5a5ce31d2e017f9ad8a4dd9306a0d52156c923da7ab6d065d7fd632ebde4",
+    "research/run.json": "ac52b5b6fa5a00ca498b7f3fd31783c2786967220e7dffaf8996bac9a5666f0e",
+    "scenario/input.json": "6abfb6898679913d900a4d9e3437ce3aea943e3784e0a752fed57416d0e0b425",
+    "scenario/prompt.txt": "11722834e3e6edda6a2aee54e672f2a70a53935dce1cdfbb50195b9a1d228dfd",
+    "scenario/output.json": "c42e87a639daa0dad1ec53580c8c66f07c29ea9b135ebf28297cb00eb7877ae2",
+    "scenario/run.json": "87e045dc70d35d7af8f7195f26f97079cc804b1b3abb5001da05c3b8a5c6e151",
+    "qa/input.json": "22cf2003bc75385d12a8e68bab0db628f7d1d215c153d50eff460c3c739bb3cf",
+    "qa/prompt.txt": "58c98031f31920fa5aeac922325b1a33803c82bfe49ab24f21999b6566042b4a",
+    "qa/output.json": "1b38dfedf0f1361365c6d603207af3edfa27bd2f98cbc8fabf8c17410fb5a219",
+    "qa/run.json": "ad8d376d1470e24fa141cf692011f5b9950057e2c5bcbb7555fb3d410fcb2f4a"
+  },
+  "disclosure": "Retrospective execution; date-filtered inputs do not erase model pretraining."
+}

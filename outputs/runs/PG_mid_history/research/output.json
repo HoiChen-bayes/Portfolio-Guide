@@ -1,0 +1,11 @@
+{
+  "role": "research",
+  "limitations": [
+    "The evidence array is empty: this history-only packet contains no eligible market evidence, so no research signals are returned.",
+    "Historical reported facts and finance-derived ratios can inform the financial baseline; they do not establish incremental market effects or causal explanations. Adding their FX, pricing, volume or margin effects again would risk double counting.",
+    "Only the serialized input was used. Sources were not independently verified; no tools, external information or remembered target results were used. The 2026-05-15 cutoff is the information-availability boundary; no target-period outcomes are supplied.",
+    "Detailed cash, debt, currency exposure, portfolio composition, cost drivers and other-income recurrence evidence are absent. Historical share estimates involve rounded EPS, and cash conversion and capex require seasonality caveats.",
+    "The supplied finance output identifies reconciliation and other-income classification discrepancies. These remain unresolved; scenario mappings would be analyst judgments rather than measured market facts."
+  ],
+  "signals": []
+}

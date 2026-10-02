@@ -1,0 +1,584 @@
+{
+  "executed_at_utc": "2026-10-02T12:49:22.123715+00:00",
+  "observations": 1083,
+  "checks": [
+    {
+      "company": "PG",
+      "period_end": "2024-03-31",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-03-31",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-03-31",
+      "check": "pretax_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-03-31",
+      "check": "net_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-06-30",
+      "check": "gross_profit",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-06-30",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-06-30",
+      "check": "pretax_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-06-30",
+      "check": "net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-09-30",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-09-30",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-09-30",
+      "check": "pretax_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-09-30",
+      "check": "net_income",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-12-31",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-12-31",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-12-31",
+      "check": "pretax_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2024-12-31",
+      "check": "net_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-03-31",
+      "check": "gross_profit",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-03-31",
+      "check": "operating_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-03-31",
+      "check": "pretax_income",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-03-31",
+      "check": "net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-06-30",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-06-30",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-06-30",
+      "check": "pretax_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-06-30",
+      "check": "net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-09-30",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-09-30",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-09-30",
+      "check": "pretax_income",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-09-30",
+      "check": "net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-12-31",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-12-31",
+      "check": "operating_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-12-31",
+      "check": "pretax_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2025-12-31",
+      "check": "net_income",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2026-03-31",
+      "check": "gross_profit",
+      "residual": 0.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2026-03-31",
+      "check": "operating_income",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2026-03-31",
+      "check": "pretax_income",
+      "residual": 1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "PG",
+      "period_end": "2026-03-31",
+      "check": "net_income",
+      "residual": -1.0,
+      "tolerance": 2,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-03-31",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-03-31",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-03-31",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-03-31",
+      "check": "combined_ratio",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-06-30",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-06-30",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-06-30",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-06-30",
+      "check": "combined_ratio",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-09-30",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-09-30",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-09-30",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-09-30",
+      "check": "combined_ratio",
+      "residual": -1.4210854715202004e-14,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-12-31",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-12-31",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-12-31",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2024-12-31",
+      "check": "combined_ratio",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-03-31",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-03-31",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-03-31",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-03-31",
+      "check": "combined_ratio",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-06-30",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-06-30",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-06-30",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-06-30",
+      "check": "combined_ratio",
+      "residual": 1.4210854715202004e-14,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-09-30",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-09-30",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-09-30",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-09-30",
+      "check": "combined_ratio",
+      "residual": 1.4210854715202004e-14,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-12-31",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-12-31",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-12-31",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2025-12-31",
+      "check": "combined_ratio",
+      "residual": -1.4210854715202004e-14,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2026-03-31",
+      "check": "core_pretax",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2026-03-31",
+      "check": "core_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2026-03-31",
+      "check": "gaap_net",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    },
+    {
+      "company": "TRV",
+      "period_end": "2026-03-31",
+      "check": "combined_ratio",
+      "residual": 0.0,
+      "tolerance": 0.11,
+      "pass_check": true
+    }
+  ],
+  "all_checks_pass": true,
+  "rounding_note": "PG release explicitly warns rows may not add due to rounding. USD2m tolerance; TRV ratio tolerance0.11pp; all core-dollar bridges exact."
+}

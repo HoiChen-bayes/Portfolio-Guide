@@ -1,0 +1,291 @@
+{
+  "role": "finance",
+  "limitations": [
+    "Used only serialized history and excerpts; no external verification or remembered results. All supplied publication dates precede the 2026-05-15 availability cutoff.",
+    "Mappings support an illustrative 2026 Q2 scenario model, not an official budget. No target-period results are supplied.",
+    "Currency and scale follow packet metadata: USD million, except million shares and decimal ratios. Excerpts omit some table headers, limiting independent verification of scale and column labels.",
+    "No supported cash, debt, capital, exposure, investment portfolio, unit or headcount projections. Historical operating cash flow does not establish future cash conversion.",
+    "Core income and underlying combined ratio are adjusted measures; full non-GAAP definitions and reconciliation disclosures are absent. Simple modeled core EPS excludes participating/preferred adjustments.",
+    "No quarters were inferred and no quarterly observations were annualized. Scenario choices and market-to-financial relationships remain analyst judgments."
+  ],
+  "mappings": [
+    {
+      "metric": "net_earned_premiums",
+      "value": 10921,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Earned premium | $ | 10,921 | $ | 10,243 | $ | 21,631 | $ | 20,369",
+      "treatment": "Reported discrete Q2 amount; same-quarter-prior-year denominator for target earned premium growth. Target NEP=10921*(1+earned_premium_growth); do not use the YTD column."
+    },
+    {
+      "metric": "net_written_premiums",
+      "value": 11543,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Net written premiums | $ | 11,543 | $ | 11,115 | 4 | % | $ | 22,058 | $ | 21,297 | 4 | %",
+      "treatment": "Reported discrete Q2 baseline. Target NWP=11543*(1+written_premium_growth); written premiums are not earned revenue and do not directly enter core pretax."
+    },
+    {
+      "metric": "underlying_combined_ratio",
+      "value": 0.847,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Underlying combined ratio | 84.7 | % | 87.7 | % | (3.0 | ) | pts",
+      "treatment": "Explicit conversion of reported 84.7% to decimal; seasonal underwriting reference excluding separately modeled catastrophes and reserve development."
+    },
+    {
+      "metric": "catastrophe_losses",
+      "value": 927,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Catastrophes, net of reinsurance | (927 | ) | (1,509 | ) | 582",
+      "treatment": "Explicit sign conversion from reported -927 to positive loss magnitude; subtract once in core pretax. Same-quarter seasonal reference, not a forecast."
+    },
+    {
+      "metric": "favorable_reserve_development",
+      "value": 315,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Net favorable prior year reserve development | 315 | 230 | 85",
+      "treatment": "Rename favorable_prior_year_development to contract driver; positive amount adds to underwriting profit."
+    },
+    {
+      "metric": "investment_income",
+      "value": 942,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Net investment income | 942 | 885 | 57",
+      "treatment": "Reported pretax investment income; add separately from underwriting and realized gains."
+    },
+    {
+      "metric": "other_income_including_interest",
+      "value": -89,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Other income (expense), including interest expense | (89 | ) | (99 | ) | 10",
+      "treatment": "Preserve expense sign; already includes interest, so do not subtract interest again."
+    },
+    {
+      "metric": "effective_tax_rate",
+      "value": 0.1978666667,
+      "unit": "decimal",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Income tax expense | 371 | 136 | 235; Core income before income taxes | 1,875 | 721 | 1,154",
+      "treatment": "Derived core effective tax rate=371/1875; not a GAAP consolidated tax rate."
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 229.3,
+      "unit": "million shares",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Diluted weighted average shares outstanding | 229.3 | 231.5 | (1 | )",
+      "treatment": "Reported quarterly weighted average denominator; distinguish from period-end shares."
+    },
+    {
+      "metric": "underwriting_basis_adjustment",
+      "value": -36.913,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Underwriting gain (loss): | $ | 1,022; Net favorable prior year reserve development | 315; Catastrophes, net of reinsurance | (927 | ); Earned premium | $ | 10,921; Underlying combined ratio | 84.7 | %",
+      "treatment": "Derived per contract: 1022-315-(-927)-10921*(1-0.847)=-36.913. Add this fixed Q2-prior-year offset to core pretax in every target scenario; never fit it to target outcomes. Captures aggregate reporting-basis differences and ratio rounding, without claiming a verified component breakdown."
+    },
+    {
+      "metric": "core_income",
+      "value": 1504,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Core income | $ | 1,504 | $ | 585 | 157",
+      "treatment": "Non-GAAP historical check: corrected underwriting 1022+942-89=1875 pretax; 1875-371=1504 core income."
+    },
+    {
+      "metric": "claims_expenses",
+      "value": 6789,
+      "unit": "USD million",
+      "period": "2025-04-01/2025-06-30",
+      "source_id": "trv_2025q2",
+      "source_excerpt": "Claims and claim adjustment expenses | $ | 6,789 | $ | 7,373",
+      "treatment": "Insurance claims reference, not retail cost of goods. Claims effects already enter combined-ratio underwriting; do not subtract this amount again."
+    },
+    {
+      "metric": "net_earned_premiums",
+      "value": 10605,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Earned premium | $ | 10,605 | $ | 10,710",
+      "treatment": "Latest reported history; the comparison column supplies 2025 Q1=10710. Use Q1 as trend evidence, not the target Q2 growth denominator."
+    },
+    {
+      "metric": "earned_premium_growth",
+      "value": -0.0098039216,
+      "unit": "decimal",
+      "period": "2026 Q1 versus 2025 Q1",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Earned premium | $ | 10,605 | $ | 10,710",
+      "treatment": "Derived same-quarter growth=10605/10710-1. A possible analyst trend anchor, not an observed target growth rate."
+    },
+    {
+      "metric": "net_written_premiums",
+      "value": 10338,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Net written premiums | $ | 10,338 | $ | 10,515 | (2 | )%",
+      "treatment": "Latest reported written premiums; 2025 Q1 comparison=10515."
+    },
+    {
+      "metric": "written_premium_growth",
+      "value": -0.0168330956,
+      "unit": "decimal",
+      "period": "2026 Q1 versus 2025 Q1",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Net written premiums | $ | 10,338 | $ | 10,515 | (2 | )%",
+      "treatment": "Derived=10338/10515-1; differs from rounded reported -2%, with no correction to the reported dollars."
+    },
+    {
+      "metric": "underlying_combined_ratio",
+      "value": 0.853,
+      "unit": "decimal",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Underlying combined ratio | 85.3 | % | 84.8 | % | 0.5 | pts",
+      "treatment": "Convert 85.3% to decimal. Latest underlying profitability deteriorated 0.5 percentage points versus Q1 prior year despite improved total combined ratio."
+    },
+    {
+      "metric": "combined_ratio",
+      "value": 0.886,
+      "unit": "decimal",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Combined ratio | 88.6 | % | 102.5 | % | (13.9 | ) | pts",
+      "treatment": "Convert reported total ratio; comparison baseline=1.025. Diagnostic only: using total ratio and subtracting catastrophes again would double count losses."
+    },
+    {
+      "metric": "catastrophe_losses",
+      "value": 761,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Catastrophes, net of reinsurance | (761 | ) | (2,266 | ) | 1,505",
+      "treatment": "Explicit sign conversion; Q1-prior-year loss magnitude=2266. Large loss reduction explains much of reported profitability improvement and is not evidence of equivalent underlying improvement."
+    },
+    {
+      "metric": "favorable_reserve_development",
+      "value": 413,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Net favorable prior year reserve development | 413 | 378 | 35",
+      "treatment": "Positive favorable development; prior-year Q1=378. Do not assume releases recur mechanically."
+    },
+    {
+      "metric": "investment_income",
+      "value": 1008,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Net investment income | 1,008 | 930 | 78",
+      "treatment": "Latest pretax reference; Q1-prior-year=930. No portfolio yield or asset-balance decomposition is supported."
+    },
+    {
+      "metric": "other_income_including_interest",
+      "value": -111,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Other income (expense), including interest expense | (111 | ) | (96 | ) | (15 | )",
+      "treatment": "Latest signed expense reference; prior-year Q1=-96."
+    },
+    {
+      "metric": "effective_tax_rate",
+      "value": 0.1806763285,
+      "unit": "decimal",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Income tax expense | 374 | 86 | 288; Core income before income taxes | 2,070 | 529 | 1,541",
+      "treatment": "Derived core rate=374/2070; Q1-prior-year rate=86/529, approximately 16.26%. Rates depend on earnings mix and are not statutory rates."
+    },
+    {
+      "metric": "diluted_shares",
+      "value": 218.4,
+      "unit": "million shares",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Diluted weighted average shares outstanding | 218.4 | 230.4 | (5 | )",
+      "treatment": "Latest quarterly weighted average; prior-year Q1=230.4. Target share choices require an explicit assumption; no buyback funding projection is supported."
+    },
+    {
+      "metric": "claims_expenses",
+      "value": 6382,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Claims and claim adjustment expenses | $ | 6,382 | $ | 8,006",
+      "treatment": "Latest insurance claims reference; prior-year Q1=8006. Includes effects captured in underwriting ratios; separate additive forecasting would double count."
+    },
+    {
+      "metric": "core_income",
+      "value": 1696,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Core income | $ | 1,696 | $ | 443 | 283",
+      "treatment": "Non-GAAP check: reported underwriting 1173+investment 1008+other (-111)=2070 pretax; less tax 374=1696."
+    },
+    {
+      "metric": "net_income",
+      "value": 1711,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1",
+      "source_excerpt": "Net income | $ | 1,711 | $ | 395 | 333; Net realized investment gains (losses) after income taxes | 15 | (48 | ) | 63",
+      "treatment": "GAAP check: core income 1696+after-tax realized gains 15=1711. Do not treat core income as GAAP net income or tax realized gains again."
+    },
+    {
+      "metric": "underlying_combined_ratio",
+      "value": 0.822,
+      "unit": "decimal",
+      "period": "2025-10-01/2025-12-31",
+      "source_id": "trv_2025q4",
+      "source_excerpt": "Underlying combined ratio | 82.2 | % | 84.0 | % | (1.8 | ) | pts | 83.9 | % | 86.2 | %",
+      "treatment": "Supporting trend, converted from percent. Strong Q4 profitability is not automatically transferable to Q2; full-year 83.9% is a separate period."
+    },
+    {
+      "metric": "investment_income",
+      "value": 1054,
+      "unit": "USD million",
+      "period": "2025-10-01/2025-12-31",
+      "source_id": "trv_2025q4",
+      "source_excerpt": "Net investment income | 1,054 | 955 | 99 | 3,959 | 3,590 | 369",
+      "treatment": "Supporting trend: Q4 pretax income exceeded latest Q1 1008. Do not assume monotonic sequential growth or use annual 3959 as quarterly income."
+    },
+    {
+      "metric": "operating_cash_flow",
+      "value": 2198,
+      "unit": "USD million",
+      "period": "2026-01-01/2026-03-31",
+      "source_id": "trv_2026q1_supplement",
+      "source_excerpt": "L1236: Net cash provided by operating activities | 1,360 | 2,334 | 4,227 | 2,685 | 2,198",
+      "treatment": "Packet identifies directly reported discrete quarters; latest=2198, prior-year Q1=1360 and target prior-year Q2=2334. Column headers are absent from excerpt; accept packet attribution with that limitation. No cash-flow forecast derived."
+    }
+  ],
+  "issues": [
+    "The bare ratio-based core pretax equation omits the separately mandated basis adjustment. Apply the fixed -36.913 Q2-prior-year offset: otherwise historical Q2 pretax is overstated by 36.913.",
+    "Latest Q1 ratio-based underwriting is 10605*(1-0.853)-761+413=1210.935 versus reported 1173, a -37.935 residual. Preserve this discrepancy; do not replace the target's fixed Q2-prior-year adjustment with a latest-quarter or target-fitted residual.",
+    "Reported loss and expense ratio numerators do not exactly reconcile to reported underwriting dollars: latest Q1 10605-6322-3073=1210 versus 1173; Q2 2025 10921-6734-3126=1061 versus 1022. Reporting-basis differences require reconciliation, not silent correction.",
+    "No evidence rows provide market assumptions, exposure changes, premium price/volume splits, catastrophe distributions, reserve adequacy or investment portfolio detail. Historical references support illustrative assumptions, not certainty.",
+    "Driver bounds are guardrails, not estimates. The nonnegative favorable-reserve-development bound excludes adverse reserve development, limiting the bear scenario's ability to represent reserve strengthening.",
+    "Bear/bull ordering should reflect profitability: higher underlying ratio and catastrophes are adverse; higher favorable development and investment income are favorable. Premium growth, taxes and shares require explicit assumptions rather than uniformly ascending scenario values."
+  ]
+}

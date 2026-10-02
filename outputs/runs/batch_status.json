@@ -1,0 +1,42 @@
+[
+  {
+    "case": "PG_pre_history",
+    "status": "reused_frozen_control",
+    "new_model_calls": 0
+  },
+  {
+    "case": "PG_mid_history",
+    "status": "reused_frozen_control",
+    "new_model_calls": 0
+  },
+  {
+    "case": "TRV_pre_history",
+    "status": "reused_frozen_control",
+    "new_model_calls": 0
+  },
+  {
+    "case": "TRV_mid_history",
+    "status": "reused_frozen_control",
+    "new_model_calls": 0
+  },
+  {
+    "case": "TRV_pre_market",
+    "status": "frozen",
+    "new_model_calls": 4
+  },
+  {
+    "case": "PG_pre_market",
+    "status": "failed",
+    "error": "QA did not pass; outputs retained, no freeze written"
+  },
+  {
+    "case": "PG_mid_market",
+    "status": "failed",
+    "error": "QA did not pass; outputs retained, no freeze written"
+  },
+  {
+    "case": "TRV_mid_market",
+    "status": "frozen",
+    "new_model_calls": 4
+  }
+]

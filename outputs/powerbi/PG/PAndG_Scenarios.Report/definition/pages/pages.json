@@ -1,0 +1,12 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/pagesMetadata/1.0.0/schema.json",
+  "pageOrder": [
+    "01_Summary",
+    "02_History",
+    "03_Scenarios",
+    "04_Market",
+    "05_Actual",
+    "06_Method"
+  ],
+  "activePageName": "01_Summary"
+}

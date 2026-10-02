@@ -1,0 +1,678 @@
+{
+  "repaired_at_utc": "2026-10-02T13:09:58.147502+00:00",
+  "support_version": 2,
+  "extracts": [
+    {
+      "id": "PG01",
+      "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+      "published_at": "2026-01-22",
+      "source_locator": "Fiscal Year 2026 Guidance, first and third paragraphs (archived release lines 95 and 98).",
+      "source_quote_fragments": [
+        "commodity costs to be neutral for the year"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Organic sales growth guidance",
+          "source_value": "0 to 4",
+          "unit_or_scope": "percent YoY; fiscal 2026"
+        },
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": "neutral",
+          "unit_or_scope": "fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG01.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG02",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "published_at": "2026-03-11",
+      "source_locator": "Official PDF page 1, opening paragraph lines 5\u20138; monthly 0.3% SA and annual 2.4% unadjusted. PDF page 9 Table 1 All items row corroborates.",
+      "source_quote_fragments": [
+        "increased 0.3 percent on a seasonally adjusted basis",
+        "increased 2.4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.3,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 2.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG03",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+      "published_at": "2026-03-18",
+      "source_locator": "Opening PPI paragraph and Table A, February 2026 row; March 18 publication.",
+      "source_quote_fragments": [
+        "increased 0.7 percent in February",
+        "rose 3.4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026; March 18 vintage"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 3.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG04",
+      "source_url": "https://www.bea.gov/sites/default/files/2026-03/pi0126.pdf",
+      "published_at": "2026-03-13",
+      "source_locator": "Release page 1: PCE, saving, spending-on-goods and real PCE paragraphs.",
+      "source_quote_fragments": [
+        "Real PCE increased $17.0 billion (0.1 percent at a monthly rate)",
+        "decrease of $24.6 billion",
+        "was 4.5 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.1,
+          "unit_or_scope": "percent; January 2026"
+        },
+        {
+          "label": "Current-dollar goods PCE monthly change",
+          "source_value": -24.6,
+          "unit_or_scope": "USD billion; January 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 4.5,
+          "unit_or_scope": "percent of disposable personal income; January 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG04.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG05",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "published_at": "2026-03-18",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "source_quote_fragments": [
+        "3\u20111/2 to 3\u20113/4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG05_TRV03.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG06",
+      "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx",
+      "published_at": "2026-04-24",
+      "source_locator": "Opening results paragraph and Fiscal Year 2026 Guidance, commodity/tariff/FX and lower-end EPS paragraphs.",
+      "source_quote_fragments": [
+        "toward the lower-end of the guidance range",
+        "approximately $150 million after tax"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": 150,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        },
+        {
+          "label": "EPS outlook positioning",
+          "source_value": "toward lower end",
+          "unit_or_scope": "fiscal 2026 guidance range"
+        },
+        {
+          "label": "Organic sales growth",
+          "source_value": 3,
+          "unit_or_scope": "percent YoY; quarter ended March 31, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG06.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG07",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm",
+      "published_at": "2026-05-12",
+      "source_locator": "Opening CPI paragraphs and All items less food and energy paragraph (personal care); Table A April column.",
+      "source_quote_fragments": [
+        "the personal care index rose 0.7 percent",
+        "increased 0.6 percent on a seasonally adjusted basis"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.6,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Energy CPI monthly change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Personal-care CPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG08",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "published_at": "2026-05-13",
+      "source_locator": "Opening PPI paragraph; Final demand goods paragraph; Final demand services transportation/warehousing paragraph.",
+      "source_quote_fragments": [
+        "The Producer Price Index for final demand increased 1.4 percent in April",
+        "5.0 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 1.4,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 6.0,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Final-demand transportation and warehousing services monthly change",
+          "source_value": 5.0,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG09",
+      "source_url": "https://www.bea.gov/sites/default/files/2026-04/pi0326.pdf",
+      "published_at": "2026-04-30",
+      "source_locator": "Release page 1: saving and PCE paragraphs; Personal Income and Related Measures table, March column.",
+      "source_quote_fragments": [
+        "Real PCE increased $39.6 billion (0.2 percent at a monthly rate)"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.2,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Real disposable personal income monthly change",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 3.6,
+          "unit_or_scope": "percent of disposable personal income; March 2026"
+        },
+        {
+          "label": "Current-dollar PCE monthly change",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; March 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG09.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "PG10",
+      "source_url": "https://www.unilever.com/files/unilever-q1-2026-full-announcement.pdf",
+      "published_at": "2026-04-30",
+      "source_locator": "PDF page 2 First Quarter Review: Group Growth; PDF page 5 business-group table; publication time PDF page 4.",
+      "source_quote_fragments": [
+        "volume growth of 2.9% and price growth of 0.9%"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Group underlying sales growth",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying volume growth",
+          "source_value": 2.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying price growth",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying volume growth",
+          "source_value": 6.2,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying price growth",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG10_alternate.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV01",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "published_at": "2026-01-21",
+      "source_locator": "CEO marketplace paragraph; Operating Statistics definitions for renewal premium and renewal rate.",
+      "source_quote_fragments": [
+        "renewal premium change was 6.1%",
+        "including rate and exposure changes"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 6.1,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 85,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance new business",
+          "source_value": 675,
+          "unit_or_scope": "USD million; Q4 2025"
+        },
+        {
+          "label": "Renewal premium change definition",
+          "source_value": "includes rate and exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        },
+        {
+          "label": "Renewal rate change definition",
+          "source_value": "excludes exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV01_TRV02.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV02",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "published_at": "2026-01-21",
+      "source_locator": "Fourth Quarter 2025 Results: Net investment income paragraph.",
+      "source_quote_fragments": [
+        "a higher average yield",
+        "growth in average invested assets"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Net investment income",
+          "source_value": 1054,
+          "unit_or_scope": "USD million; pretax; Q4 2025"
+        },
+        {
+          "label": "Net investment income growth",
+          "source_value": 10,
+          "unit_or_scope": "percent YoY; Q4 2025"
+        },
+        {
+          "label": "Company explanation of growth",
+          "source_value": "larger average invested assets and higher average long-term fixed-income yield",
+          "unit_or_scope": "Quarterly results commentary"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV01_TRV02.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV03",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "published_at": "2026-03-18",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "source_quote_fragments": [
+        "3\u20111/2 to 3\u20113/4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/PG05_TRV03.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV04",
+      "source_url": "https://www.swissre.com/dam/jcr%3A6bc7d3b7-0f42-4209-a01a-e22787b98685/sri-sigma4-2024-litigation-costs-claims-inflation-final.pdf",
+      "published_at": "2024-09-07",
+      "source_locator": "PDF page 2 Executive summary, social inflation index paragraph; publication date from Swiss Re September 7 launch page.",
+      "source_quote_fragments": [
+        "reached around 7% in 2023",
+        "a 20-year high"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "US social-inflation index estimate",
+          "source_value": 7,
+          "unit_or_scope": "percent approximately; 2023"
+        },
+        {
+          "label": "Historical comparison",
+          "source_value": "twenty-year high",
+          "unit_or_scope": "Swiss Re estimate published September 7, 2024"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV04.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV05",
+      "source_url": "https://www.noaa.gov/news-release/spring-outlook-drought-forecasted-to-expand-in-us-west-parts-of-plains",
+      "published_at": "2026-03-20",
+      "source_locator": "Canonical NOAA page: March 20 date, line 35; April\u2013June outlook line 39; mid-March 55% drought line 46.",
+      "source_quote_fragments": [
+        "across 55% of the continental United States"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Continental US drought coverage",
+          "source_value": 55,
+          "unit_or_scope": "percent; moderate-to-exceptional drought; mid-March 2026"
+        },
+        {
+          "label": "Seasonal outlook",
+          "source_value": "drought worsening or developing in many areas of West and south-central Plains",
+          "unit_or_scope": "Forecast for April\u2013June 2026; not observed target-period weather"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV06",
+      "source_url": "https://www.marsh.com/ph/about/media/global-commercial-insurance-rates-fall-4-percent-in-q4-2025.html",
+      "published_at": "2026-02-11",
+      "source_locator": "Release opening paragraphs for global rate and sixth consecutive decrease; primary media index for February 11, 2026 date.",
+      "source_quote_fragments": [
+        "global commercial insurance rates fell, on average, by 4%",
+        "sixth consecutive global quarterly decreases"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Global commercial insurance rate change",
+          "source_value": -4,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Consecutive quarters of global rate decreases",
+          "source_value": 6,
+          "unit_or_scope": "quarters through Q4 2025"
+        },
+        {
+          "label": "Primary media-index publication date",
+          "source_value": "2026-02-11",
+          "unit_or_scope": "Index date; release body date label is inconsistent"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV06.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "excluded_pending_publication_date_resolution",
+      "excluded_from_model": true
+    },
+    {
+      "id": "TRV07",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx",
+      "published_at": "2026-04-16",
+      "source_locator": "CEO marketplace paragraph; Consolidated Highlights underlying combined-ratio row; Personal Insurance final written-premium paragraph.",
+      "source_quote_fragments": [
+        "Renewal premium change in Business Insurance was 5.8%"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 5.8,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 86,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio",
+          "source_value": 85.3,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio prior-year comparison",
+          "source_value": 84.8,
+          "unit_or_scope": "percent; Q1 2025"
+        },
+        {
+          "label": "Personal Insurance written-premium growth excluding Canadian disposal",
+          "source_value": -5,
+          "unit_or_scope": "percent YoY; Q1 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV07.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV08",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Injury-Impact-Report-Highlights-Longer-Recovery-Times-Amid-Declining-Injury-Rates/default.aspx",
+      "published_at": "2026-05-04",
+      "source_locator": "Release subtitle and first two body paragraphs, including quoted workdays statistic.",
+      "source_quote_fragments": [
+        "missing an average of 80 workdays"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Workers compensation claims analyzed",
+          "source_value": "more than 1.2 million",
+          "unit_or_scope": "claims received 2021\u20132025"
+        },
+        {
+          "label": "Average workdays missed",
+          "source_value": 80,
+          "unit_or_scope": "workdays; injured workers in report"
+        },
+        {
+          "label": "Injury frequency direction",
+          "source_value": "declining",
+          "unit_or_scope": "Company report description; not a quantified forecast"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV08.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV09",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "published_at": "2026-05-13",
+      "source_locator": "Final demand goods first paragraph; Final demand services Product detail paragraph mentioning legal services.",
+      "source_quote_fragments": [
+        "legal services also moved higher"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Legal-services price direction",
+          "source_value": "increased",
+          "unit_or_scope": "April 2026 release narrative"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    },
+    {
+      "id": "TRV10",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "published_at": "2026-04-29",
+      "source_locator": "FOMC statement first paragraph for inflation; policy decision paragraph for maintained range.",
+      "source_quote_fragments": [
+        "maintain the target range for the federal funds rate",
+        "Inflation is elevated"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "April 29, 2026"
+        },
+        {
+          "label": "Fed inflation assessment",
+          "source_value": "elevated, partly reflecting recent increase in global energy prices",
+          "unit_or_scope": "April 29 statement"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "local_source_file": "data/research/raw/TRV10.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "admission_status": "admitted",
+      "excluded_from_model": false
+    }
+  ]
+}

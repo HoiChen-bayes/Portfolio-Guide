@@ -1,0 +1,135 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Used only serialized input; source documents, quotations, transcriptions and provenance were not independently verified.",
+    "This retrospective reconstruction respects the 2026-03-31 information boundary. No target-period actuals or remembered Q2 2026 results were used.",
+    "All scenarios are illustrative analyst assumptions, not company budgets, guidance, calibrated elasticities or probability estimates. Finance and research interpretations remain challengeable.",
+    "Detailed insured exposures, reinsurance terms, reserve adequacy, portfolio composition, reinvestment fractions, cash, debt and capital information are unavailable.",
+    "The nonnegative reserve-development bounds exclude adverse reserve development, limiting bear-case coverage. Tax and share-count orientations assume positive earnings.",
+    "Core income is non-GAAP; simple modeled EPS excludes participating/preferred adjustments. Deterministic code must apply the fixed historical underwriting reconciliation; no final financial statements are computed here."
+  ],
+  "assumptions": [
+    {
+      "driver": "earned_premium_growth",
+      "bear": 0,
+      "base": 0.03,
+      "bull": 0.06,
+      "unit": "decimal",
+      "basis": "Retain the frozen control for same-quarter-prior-year earned growth. Q2 historical growth was approximately 6.6%, slowing to 2.6% in Q4, supporting a modest 3% base. TRV01's 6.1% Business Insurance renewal premium change includes exposure and overlaps historical momentum; segment weights and earning lags do not support an incremental total-company adjustment. Bear stagnation and bull recovery remain illustrative profitability sensitivities.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV01"
+      ]
+    },
+    {
+      "driver": "written_premium_growth",
+      "bear": -0.02,
+      "base": 0.015,
+      "bull": 0.04,
+      "unit": "decimal",
+      "basis": "Retain the frozen same-quarter-prior-year control: historical written growth slowed from approximately 3.9% in Q2 to 1.1% in Q4. TRV01 supports qualitative renewal persistence but provides no incremental total-company growth calibration. Bear contraction and bull recovery reflect business momentum; written premiums do not independently add to current core earnings.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV01"
+      ]
+    },
+    {
+      "driver": "underlying_combined_ratio",
+      "bear": 0.89,
+      "base": 0.84,
+      "bull": 0.82,
+      "unit": "decimal",
+      "basis": "Retain control base and bull against Q2/Q3/Q4 underlying ratios of 84.7%/83.9%/82.2%. Increase only the control bear from 88% to 89%, an illustrative additional one-percentage-point current-accident-year severity stress informed by TRV04's structural litigation-risk evidence. Its 2023 industry estimate is stale and does not establish current Travelers inflation. Lower ratios favor profitability. This incremental stress is not repeated in catastrophe losses or prior-year reserve development.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4",
+        "TRV04"
+      ]
+    },
+    {
+      "driver": "catastrophe_losses",
+      "bear": 1800,
+      "base": 1000,
+      "bull": 500,
+      "unit": "USD million",
+      "basis": "Retain all control values as positive quarterly pretax losses net of reinsurance. Q2 2025 losses of 927 and its prior-year comparator of 1509 support seasonal context; Q1 losses of 2266 and Q4 losses of 95 demonstrate volatility. TRV05 supplies prospective drought uncertainty but no Travelers exposure or insured-loss mapping. The existing wide stress range is retained without an unsupported incremental dollar adjustment. Higher losses are adverse.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV05"
+      ]
+    },
+    {
+      "driver": "favorable_reserve_development",
+      "bear": 50,
+      "base": 275,
+      "bull": 375,
+      "unit": "USD million",
+      "basis": "Retain the frozen control. Q2 and Q4 favorable releases of 315 and 321 support the discounted base, while Q3's 22 demonstrates variability and Q1's 378 anchors the favorable case. Higher positive releases benefit profitability. TRV04 does not establish Travelers reserve strengthening; its incremental stress is assigned solely to underlying underwriting, avoiding duplication. These assumptions do not establish reserve adequacy.",
+      "source_ids": [
+        "trv_2025q1",
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4",
+        "TRV04"
+      ]
+    },
+    {
+      "driver": "investment_income",
+      "bear": 950,
+      "base": 1080,
+      "bull": 1150,
+      "unit": "USD million",
+      "basis": "Retain quarterly pretax control values against income of 942 in Q2, 1033 in Q3 and 1054 in Q4. The base already assumes modest further growth. TRV02 repeats the Q4 observation and attributes historical growth to assets and long-term yield; it does not justify stacking another uplift. TRV03's maintained policy range supports zero immediate policy-change adjustment. Portfolio and reinvestment data cannot calibrate additional dollar sensitivities. Higher income is favorable.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4",
+        "TRV02",
+        "TRV03"
+      ]
+    },
+    {
+      "driver": "other_income_including_interest",
+      "bear": -125,
+      "base": -100,
+      "bull": -85,
+      "unit": "USD million",
+      "basis": "Retain the frozen signed-expense control, anchored by Q2 expense of 89 and Q4 expense of 101. Bear assumes a greater expense burden and bull modest improvement. No incremental evidence supports a change or a separate debt-cost forecast; interest remains included once.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.22,
+      "base": 0.197,
+      "bull": 0.18,
+      "unit": "decimal",
+      "basis": "Retain the control, supported by historical core tax-to-pretax rates of approximately 19.8% in Q2 and 19.6% in Q4. Bear and bull are higher/lower effective-burden sensitivities, without an asserted tax-law or income-mix change. Higher rates are adverse under the positive-pretax-income orientation; the relationship can reverse with losses.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 224,
+      "base": 222,
+      "bull": 219,
+      "unit": "million shares",
+      "basis": "Retain the control against quarterly diluted weighted-average shares of 229.3 in Q2, 227.5 in Q3 and 224 in Q4. Base assumes modest continuation of the decline, bear holds the latest level, and bull assumes a larger decline. No incremental market evidence supports revision. Lower shares favor EPS with positive income; this is a denominator assumption, not a verified or funded buyback schedule.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q3",
+        "trv_2025q4"
+      ]
+    }
+  ],
+  "narrative": "For discrete Q2 2026, preserve every frozen control base and all unrelated scenario values. The sole incremental market-informed change is a one-percentage-point widening of the adverse underlying combined ratio, explicitly an analyst sensitivity to structural liability-severity uncertainty. Overlapping renewal and investment evidence does not compel base uplifts, and drought evidence cannot calibrate insured losses. Catastrophes, current underlying underwriting and prior-year reserve development remain separate. The specified fixed same-quarter historical underwriting basis adjustment belongs in deterministic arithmetic across every scenario; it is neither a forecast driver nor a market adjustment."
+}

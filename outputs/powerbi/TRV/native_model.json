@@ -1,0 +1,58 @@
+﻿[
+    {
+        "Name":  "Vintage",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "VintageCompare",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Scenario",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Forecast",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Actual",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "History",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Segments",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Bridge",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "ActualBridge",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Sensitivity",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Comparison",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Drivers",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "QA",
+        "State":  "Ready"
+    },
+    {
+        "Name":  "Sources",
+        "State":  "Ready"
+    }
+]

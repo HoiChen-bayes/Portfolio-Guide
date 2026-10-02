@@ -1,0 +1,112 @@
+[
+  {
+    "source_id": "pg_2025q3",
+    "company": "PG",
+    "url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2025-Third-Quarter-Results/default.aspx",
+    "publication_date": "2025-04-24",
+    "period_end": "2025-03-31",
+    "html": "sources/pg_2025q3.html",
+    "extract": "sources/pg_2025q3.txt",
+    "tables": "sources/pg_2025q3_tables.json",
+    "sha256_html": "6fd06be37ca839bd24d4e6abaebcdafd1a856b46264c0bbb98ca5a181fee557b"
+  },
+  {
+    "source_id": "pg_2025q4",
+    "company": "PG",
+    "url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx",
+    "publication_date": "2025-07-29",
+    "period_end": "2025-06-30",
+    "html": "sources/pg_2025q4.html",
+    "extract": "sources/pg_2025q4.txt",
+    "tables": "sources/pg_2025q4_tables.json",
+    "sha256_html": "52b6da6bebcefefe8282e1efbf6053bb3ba79783caf2c45bb66696f486f7e8a9"
+  },
+  {
+    "source_id": "pg_2026q1",
+    "company": "PG",
+    "url": "https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fiscal-Year-2026-First-Quarter-Results/default.aspx",
+    "publication_date": "2025-10-24",
+    "period_end": "2025-09-30",
+    "html": "sources/pg_2026q1.html",
+    "extract": "sources/pg_2026q1.txt",
+    "tables": "sources/pg_2026q1_tables.json",
+    "sha256_html": "3ca2d94e87980a21f93d61c6cb5db70dde9545e265dd50eac5400a23e04b8cc2"
+  },
+  {
+    "source_id": "pg_2026q2",
+    "company": "PG",
+    "url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+    "publication_date": "2026-01-22",
+    "period_end": "2025-12-31",
+    "html": "sources/pg_2026q2.html",
+    "extract": "sources/pg_2026q2.txt",
+    "tables": "sources/pg_2026q2_tables.json",
+    "sha256_html": "8cc03b7734ae68687caddfd5c301b0de9a367a33db6cd2066103dd090706386c"
+  },
+  {
+    "source_id": "pg_2026q3",
+    "company": "PG",
+    "url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx",
+    "publication_date": "2026-04-24",
+    "period_end": "2026-03-31",
+    "html": "sources/pg_2026q3.html",
+    "extract": "sources/pg_2026q3.txt",
+    "tables": "sources/pg_2026q3_tables.json",
+    "sha256_html": "b5ee15da6345881547cc117a8b2334301d98a15adf5efeb0658c1c7c89dab9e5"
+  },
+  {
+    "source_id": "trv_2025q1",
+    "company": "TRV",
+    "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-First-Quarter-Net-Income-of-395-Million-and-Core-Income-of-443-Million/default.aspx",
+    "publication_date": "2025-04-16",
+    "period_end": "2025-03-31",
+    "html": "sources/trv_2025q1.html",
+    "extract": "sources/trv_2025q1.txt",
+    "tables": "sources/trv_2025q1_tables.json",
+    "sha256_html": "e631aef0750343a4597dcc5cb4b9090436434df1f6a7f8ed66fa95b8eebd8046"
+  },
+  {
+    "source_id": "trv_2025q2",
+    "company": "TRV",
+    "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx",
+    "publication_date": "2025-07-17",
+    "period_end": "2025-06-30",
+    "html": "sources/trv_2025q2.html",
+    "extract": "sources/trv_2025q2.txt",
+    "tables": "sources/trv_2025q2_tables.json",
+    "sha256_html": "c1f25543548945abb6bd08144320049dc1c2b106ebb75fc97c122c9298742be8"
+  },
+  {
+    "source_id": "trv_2025q3",
+    "company": "TRV",
+    "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx",
+    "publication_date": "2025-10-16",
+    "period_end": "2025-09-30",
+    "html": "sources/trv_2025q3.html",
+    "extract": "sources/trv_2025q3.txt",
+    "tables": "sources/trv_2025q3_tables.json",
+    "sha256_html": "3e7af781d3b8bd7f13660a91b0839f98c3aac36d035b23b6d7f81eef7199cd82"
+  },
+  {
+    "source_id": "trv_2025q4",
+    "company": "TRV",
+    "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+    "publication_date": "2026-01-21",
+    "period_end": "2025-12-31",
+    "html": "sources/trv_2025q4.html",
+    "extract": "sources/trv_2025q4.txt",
+    "tables": "sources/trv_2025q4_tables.json",
+    "sha256_html": "65f3c4fd4cb52919d984009bfe092e6ef966360cfc2ffdf35771c519d1ee307e"
+  },
+  {
+    "source_id": "trv_2026q1",
+    "company": "TRV",
+    "url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx",
+    "publication_date": "2026-04-16",
+    "period_end": "2026-03-31",
+    "html": "sources/trv_2026q1.html",
+    "extract": "sources/trv_2026q1.txt",
+    "tables": "sources/trv_2026q1_tables.json",
+    "sha256_html": "3decae9fbd2b6df2fb7c2c60a9a3ddcc8010ca604c0011da4fc4fe8abf7c4028"
+  }
+]

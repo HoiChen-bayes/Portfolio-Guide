@@ -1,0 +1,796 @@
+{
+  "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+  "support_version": 2,
+  "status": "19_admitted_1_excluded_for_date_conflict",
+  "known_free_text_leak_repaired": "PG03 later-vintage revision was removed from model-eligible fields. Initial failed runs and initial evidence retained for audit.",
+  "quote_policy": "Only source_quote_fragments are quotations; fact tables are non-creative numerical facts and plainly labeled semantic transcriptions. Quotes remain <=25 words per source.",
+  "not_a_gate_waiver": true,
+  "records": [
+    {
+      "review_id": "SRC_PG01",
+      "evidence_id": "PG01",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+      "source_locator": "Fiscal Year 2026 Guidance, first and third paragraphs (archived release lines 95 and 98).",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG01.html",
+          "sha256": "9e2dc94622492869e0a668993e79205a181f07c58d7e214982c12ee9590fead8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Organic sales growth guidance",
+          "source_value": "0 to 4",
+          "unit_or_scope": "percent YoY; fiscal 2026"
+        },
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": "neutral",
+          "unit_or_scope": "fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_PG02",
+      "evidence_id": "PG02",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "source_locator": "Official PDF page 1, opening paragraph lines 5\u20138; monthly 0.3% SA and annual 2.4% unadjusted. PDF page 9 Table 1 All items row corroborates.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/cpi_noaa_review_web_review.json",
+          "sha256": "4090368d6209390186b9552351cab240218f0849bd0b44ee3928966d2ef4765b"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.3,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 2.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_PG03",
+      "evidence_id": "PG03",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+      "source_locator": "Opening PPI paragraph and Table A, February 2026 row; March 18 publication.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/bls_review_web_review.json",
+          "sha256": "3bb8311e92e907911b1cba515bb1f50643f576a6b35ffa20f3640cc23671bb31"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026; March 18 vintage"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 3.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_PG04",
+      "evidence_id": "PG04",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bea.gov/sites/default/files/2026-03/pi0126.pdf",
+      "source_locator": "Release page 1: PCE, saving, spending-on-goods and real PCE paragraphs.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG04.pdf",
+          "sha256": "ecd93966a77134e4b511a5fe4e6233cabf7593c8cb6e2e0d075637c19c86d1dc"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.1,
+          "unit_or_scope": "percent; January 2026"
+        },
+        {
+          "label": "Current-dollar goods PCE monthly change",
+          "source_value": -24.6,
+          "unit_or_scope": "USD billion; January 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 4.5,
+          "unit_or_scope": "percent of disposable personal income; January 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_PG05",
+      "evidence_id": "PG05",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG05_TRV03.html",
+          "sha256": "4095976132da90eb24e7ce6b54ce4d542b0492db798262b7787c67cfebc05cf8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_PG06",
+      "evidence_id": "PG06",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx",
+      "source_locator": "Opening results paragraph and Fiscal Year 2026 Guidance, commodity/tariff/FX and lower-end EPS paragraphs.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG06.html",
+          "sha256": "22fc41725a749e8d44aedd27db9872b3d745e81c6ec2b3ce3211956c28cfae9f"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": 150,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        },
+        {
+          "label": "EPS outlook positioning",
+          "source_value": "toward lower end",
+          "unit_or_scope": "fiscal 2026 guidance range"
+        },
+        {
+          "label": "Organic sales growth",
+          "source_value": 3,
+          "unit_or_scope": "percent YoY; quarter ended March 31, 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_PG07",
+      "evidence_id": "PG07",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm",
+      "source_locator": "Opening CPI paragraphs and All items less food and energy paragraph (personal care); Table A April column.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/bls_detail_web_review.json",
+          "sha256": "10bd4083e6deb4317dfac8cf62cb298231331abda1ded404a3f76c543acc37af"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.6,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Energy CPI monthly change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Personal-care CPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_PG08",
+      "evidence_id": "PG08",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "source_locator": "Opening PPI paragraph; Final demand goods paragraph; Final demand services transportation/warehousing paragraph.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/bls_detail_web_review.json",
+          "sha256": "10bd4083e6deb4317dfac8cf62cb298231331abda1ded404a3f76c543acc37af"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 1.4,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 6.0,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Final-demand transportation and warehousing services monthly change",
+          "source_value": 5.0,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_PG09",
+      "evidence_id": "PG09",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bea.gov/sites/default/files/2026-04/pi0326.pdf",
+      "source_locator": "Release page 1: saving and PCE paragraphs; Personal Income and Related Measures table, March column.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG09.pdf",
+          "sha256": "2077df366915ef4f4a7d61140c11902ae6d405d37d7d341b9f8cd7cece7b7dc3"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.2,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Real disposable personal income monthly change",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 3.6,
+          "unit_or_scope": "percent of disposable personal income; March 2026"
+        },
+        {
+          "label": "Current-dollar PCE monthly change",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; March 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_PG10",
+      "evidence_id": "PG10",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.unilever.com/files/unilever-q1-2026-full-announcement.pdf",
+      "source_locator": "PDF page 2 First Quarter Review: Group Growth; PDF page 5 business-group table; publication time PDF page 4.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG10_alternate.html",
+          "sha256": "7698a0c274a3df1c9faa389561b73135a990c334d58d14bfa49bdc756ae0ddea"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Group underlying sales growth",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying volume growth",
+          "source_value": 2.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying price growth",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying volume growth",
+          "source_value": 6.2,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying price growth",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV01",
+      "evidence_id": "TRV01",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "source_locator": "CEO marketplace paragraph; Operating Statistics definitions for renewal premium and renewal rate.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV01_TRV02.html",
+          "sha256": "c65fec813728833b793b34e33ab2e2b17f44daef71129444513e82bca4425ec8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 6.1,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 85,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance new business",
+          "source_value": 675,
+          "unit_or_scope": "USD million; Q4 2025"
+        },
+        {
+          "label": "Renewal premium change definition",
+          "source_value": "includes rate and exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        },
+        {
+          "label": "Renewal rate change definition",
+          "source_value": "excludes exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV02",
+      "evidence_id": "TRV02",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "source_locator": "Fourth Quarter 2025 Results: Net investment income paragraph.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV01_TRV02.html",
+          "sha256": "c65fec813728833b793b34e33ab2e2b17f44daef71129444513e82bca4425ec8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Net investment income",
+          "source_value": 1054,
+          "unit_or_scope": "USD million; pretax; Q4 2025"
+        },
+        {
+          "label": "Net investment income growth",
+          "source_value": 10,
+          "unit_or_scope": "percent YoY; Q4 2025"
+        },
+        {
+          "label": "Company explanation of growth",
+          "source_value": "larger average invested assets and higher average long-term fixed-income yield",
+          "unit_or_scope": "Quarterly results commentary"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV03",
+      "evidence_id": "TRV03",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/PG05_TRV03.html",
+          "sha256": "4095976132da90eb24e7ce6b54ce4d542b0492db798262b7787c67cfebc05cf8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV04",
+      "evidence_id": "TRV04",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.swissre.com/dam/jcr%3A6bc7d3b7-0f42-4209-a01a-e22787b98685/sri-sigma4-2024-litigation-costs-claims-inflation-final.pdf",
+      "source_locator": "PDF page 2 Executive summary, social inflation index paragraph; publication date from Swiss Re September 7 launch page.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV04.pdf",
+          "sha256": "d79ff0a3b96e8c6d4b7532ed59b1d417738673e127879106b7547375b5f0e338"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "US social-inflation index estimate",
+          "source_value": 7,
+          "unit_or_scope": "percent approximately; 2023"
+        },
+        {
+          "label": "Historical comparison",
+          "source_value": "twenty-year high",
+          "unit_or_scope": "Swiss Re estimate published September 7, 2024"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV05",
+      "evidence_id": "TRV05",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.noaa.gov/news-release/spring-outlook-drought-forecasted-to-expand-in-us-west-parts-of-plains",
+      "source_locator": "Canonical NOAA page: March 20 date, line 35; April\u2013June outlook line 39; mid-March 55% drought line 46.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/noaa_retry_web_review.json",
+          "sha256": "7ab3f79d1108fd287d3ca49bf56ca5798cb3f895a2d1b15dc0ecc7d48f1ed14f"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Continental US drought coverage",
+          "source_value": 55,
+          "unit_or_scope": "percent; moderate-to-exceptional drought; mid-March 2026"
+        },
+        {
+          "label": "Seasonal outlook",
+          "source_value": "drought worsening or developing in many areas of West and south-central Plains",
+          "unit_or_scope": "Forecast for April\u2013June 2026; not observed target-period weather"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV06",
+      "evidence_id": "TRV06",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.marsh.com/ph/about/media/global-commercial-insurance-rates-fall-4-percent-in-q4-2025.html",
+      "source_locator": "Release opening paragraphs for global rate and sixth consecutive decrease; primary media index for February 11, 2026 date.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV06.html",
+          "sha256": "a2f7e8ede87057990994bbb080bdd35dcd714b3fc471c860d9c8317bddbb90f8"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Global commercial insurance rate change",
+          "source_value": -4,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Consecutive quarters of global rate decreases",
+          "source_value": 6,
+          "unit_or_scope": "quarters through Q4 2025"
+        },
+        {
+          "label": "Primary media-index publication date",
+          "source_value": "2026-02-11",
+          "unit_or_scope": "Index date; release body date label is inconsistent"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "numeric_claim_supported_but_date_conflicted_exclude",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV07",
+      "evidence_id": "TRV07",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx",
+      "source_locator": "CEO marketplace paragraph; Consolidated Highlights underlying combined-ratio row; Personal Insurance final written-premium paragraph.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV07.html",
+          "sha256": "fc6198563fe0becc4f9fbc78cbcf4f192595a07cb3e310bb04a93d49dfe6070c"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 5.8,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 86,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio",
+          "source_value": 85.3,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio prior-year comparison",
+          "source_value": 84.8,
+          "unit_or_scope": "percent; Q1 2025"
+        },
+        {
+          "label": "Personal Insurance written-premium growth excluding Canadian disposal",
+          "source_value": -5,
+          "unit_or_scope": "percent YoY; Q1 2026"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV08",
+      "evidence_id": "TRV08",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Injury-Impact-Report-Highlights-Longer-Recovery-Times-Amid-Declining-Injury-Rates/default.aspx",
+      "source_locator": "Release subtitle and first two body paragraphs, including quoted workdays statistic.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV08.html",
+          "sha256": "f64f9311fb1b6c60bb32c76e6f17e942810c9b329c99cdc70d429edae97b6f28"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Workers compensation claims analyzed",
+          "source_value": "more than 1.2 million",
+          "unit_or_scope": "claims received 2021\u20132025"
+        },
+        {
+          "label": "Average workdays missed",
+          "source_value": 80,
+          "unit_or_scope": "workdays; injured workers in report"
+        },
+        {
+          "label": "Injury frequency direction",
+          "source_value": "declining",
+          "unit_or_scope": "Company report description; not a quantified forecast"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV09",
+      "evidence_id": "TRV09",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "source_locator": "Final demand goods first paragraph; Final demand services Product detail paragraph mentioning legal services.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/bls_detail_web_review.json",
+          "sha256": "10bd4083e6deb4317dfac8cf62cb298231331abda1ded404a3f76c543acc37af"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Legal-services price direction",
+          "source_value": "increased",
+          "unit_or_scope": "April 2026 release narrative"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations.",
+        "Publisher blocked full direct download; web-tool source review retained."
+      ]
+    },
+    {
+      "review_id": "SRC_TRV10",
+      "evidence_id": "TRV10",
+      "reviewed_at_utc": "2026-10-02T13:09:58.147502+00:00",
+      "reviewer_role": "Research curator performing primary-source inspection; separate from blind model QA",
+      "official_source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "source_locator": "FOMC statement first paragraph for inflation; policy decision paragraph for maintained range.",
+      "capture_files": [
+        {
+          "path": "data/research/raw/TRV10.html",
+          "sha256": "15602b20b40fab39e451691354a05136eda23834808f7c52ff41b1e6f2bcb54d"
+        }
+      ],
+      "fact_cells_checked": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "April 29, 2026"
+        },
+        {
+          "label": "Fed inflation assessment",
+          "source_value": "elevated, partly reflecting recent increase in global energy prices",
+          "unit_or_scope": "April 29 statement"
+        }
+      ],
+      "check_method": "Compared each labeled value and scope against the original official release/table inspected with web tools; downloaded originals retained where permitted. This is an external-source curation review, not a statement that tool-disabled QA authenticated webpages.",
+      "support_status": "supported",
+      "limitations": [
+        "Retrospective retrieval; not a contemporaneous archive capture.",
+        "Semantic labels are curator transcriptions, explicitly not quotations."
+      ]
+    }
+  ]
+}

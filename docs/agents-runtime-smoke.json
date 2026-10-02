@@ -1,0 +1,17 @@
+{
+  "role": "finance",
+  "status": "completed",
+  "started_at": "2026-10-02T12:42:19.480581+00:00",
+  "input_sha256": "f0684d4cc796b0722fb05be43268f04a274f1562f075f017dfe4d3cdc0cae3e0",
+  "prompt_sha256": "9575c561cc4598b5480f6920ae362d694e25c7ee14b82efb9d69977794dbe768",
+  "requested_model": "gpt-6.1-sol",
+  "execution": "genuine_codex_exec",
+  "tool_policy": "disabled",
+  "retrospective": true,
+  "returncode": 0,
+  "output_sha256": "76d350376c4bdd00a7e49c094372542b8bd0a6bde5a730aac28f352f61069778",
+  "finished_at": "2026-10-02T12:42:35.186521+00:00",
+  "fixture": "Synthetic data only; no company assumptions created.",
+  "host_execution": "Initial restricted host launch failed to write Codex runtime state; approved host escalation succeeded. Model retained read-only sandbox and disabled tools.",
+  "runtime_note": "CLI emitted code-mode-host disabled warning, expected under the tool isolation policy; structured model completion succeeded."
+}

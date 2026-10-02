@@ -1,0 +1,71 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Review used only the serialized JSON and original packet excerpts. No tools, external webpages or remembered target results were used; excerpt authenticity against external webpages cannot be attested.",
+    "Growth-bridge and some cash-flow excerpts omit headers; their column interpretations depend on packet metric labels and locators.",
+    "Market evidence, detailed exposures, insurance information, cash/debt breakdowns and actual diluted-share denominators are absent. Causal sensitivities and scenario probabilities cannot be verified.",
+    "Pass applies narrowly to internal historical mapping, contract compliance and transparently illustrative assumptions, not forecast accuracy."
+  ],
+  "decision": "pass",
+  "source_accuracy": "checked_against_provided_excerpts",
+  "findings": [
+    {
+      "severity": "note",
+      "subject": "Dates and seasonal baseline",
+      "finding": "All supplied publication dates precede the 2026-03-31 availability cutoff. FY2025 Q4 quarterly sales of USD 20,889 million correctly anchor target FY2026 Q4 sales; annual sales are not substituted. Missing FY2026 Q3 and target outcomes are disclosed.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Finance arithmetic, units and double counting",
+      "finding": "Mapped ratios and component totals agree with original packet amounts to stated rounding. Percent-to-decimal conversion, positive capex outflow, total-income cash conversion and attributable-income EPS treatment follow the contract. Historical growth contributions are not added again to scenario growth; other income is included once below modeled operating income.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Unresolved source inconsistencies",
+      "finding": "Original excerpts support the disclosed USD 1 million FY2025 Q3 reconciliation differences and FY2026 Q1 component total of 179 versus pretax-minus-operating of 178. Other-income labels vary. Contract placement is transparent, but neither the discrepancies nor external source classifications are resolved.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Scenario bounds and interpretation",
+      "finding": "All nine scenario rows respect contractual units and ranges. Adverse/favorable directions are coherent for the applicable earnings or cash-flow measure. Base values reference eligible seasonal and recent history; spreads are explicitly analyst judgments. Lower capex is appropriately limited to near-term cash flow, and share counts are not presented as observed repurchases.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Research causality and unsupported precision",
+      "finding": "Empty evidence appropriately produces no research signals or claimed market sensitivities. Rounded ratios and inferred shares are disclosed as approximations; scenario values are assumptions rather than precise observations. No insurance-specific claims or invented cash/debt facts appear.",
+      "source_ids": []
+    },
+    {
+      "severity": "warning",
+      "subject": "Quotation fidelity",
+      "finding": "Several finance fields labeled source_excerpt concatenate or truncate original rows. Their numerical content is supported by the original packet, but those assembled strings are not single verbatim excerpts.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    }
+  ]
+}

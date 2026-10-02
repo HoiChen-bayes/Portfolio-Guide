@@ -1,0 +1,11 @@
+{
+  "role": "research",
+  "limitations": [
+    "The evidence array is empty. This history-only packet contains no eligible market evidence, so no causal research signals are returned.",
+    "Reported historical facts and finance-derived ratios may support baseline assumptions; they do not establish incremental market effects or target-period outcomes. Recasting those historical effects as research adjustments would risk double counting.",
+    "No supported evidence establishes premium price versus volume, exposure changes, catastrophe distributions, reserve adequacy, investment portfolio composition, or future buyback activity. Detailed cash, debt and capital coverage is insufficient for projections.",
+    "The 2026-05-15 cutoff is an information-availability boundary. Only the serialized packet was used; no external sources, model-memory results or target outcomes were added.",
+    "Any target-period driver choices remain analyst judgments within broad contract guardrails, rather than measured facts or official company guidance."
+  ],
+  "signals": []
+}

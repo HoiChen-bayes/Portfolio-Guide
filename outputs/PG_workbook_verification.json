@@ -1,0 +1,1041 @@
+{
+  "initial": 3624.5391408,
+  "expected": 3624.5391408,
+  "parity": [
+    {
+      "case": "March · history only · bear",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bear",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · base",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · history only · bull",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bear",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · base",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "March · market informed · bull",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bear",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · base",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · history only · bull",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bear",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · base",
+      "metric": "free_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "net_sales",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "gross_profit",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "sga",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "operating_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "pretax_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "income_taxes",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "net_income",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "net_income_attributable",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "diluted_eps",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "operating_cash_flow",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "capital_expenditures",
+      "difference": 0
+    },
+    {
+      "case": "May · market informed · bull",
+      "metric": "free_cash_flow",
+      "difference": 0
+    }
+  ],
+  "sensitivities": [
+    {
+      "driver": "sales_growth",
+      "changed": true
+    },
+    {
+      "driver": "gross_margin",
+      "changed": true
+    },
+    {
+      "driver": "sga_ratio",
+      "changed": true
+    },
+    {
+      "driver": "net_nonoperating_income",
+      "changed": true
+    },
+    {
+      "driver": "effective_tax_rate",
+      "changed": true
+    },
+    {
+      "driver": "noncontrolling_income",
+      "changed": true
+    },
+    {
+      "driver": "diluted_shares",
+      "changed": true
+    },
+    {
+      "driver": "ocf_to_net_income",
+      "changed": true
+    },
+    {
+      "driver": "capex_ratio",
+      "changed": true
+    }
+  ],
+  "formula_scan": {
+    "recordCount": 1,
+    "truncated": false,
+    "metadata": {
+      "revision": "i2mn02",
+      "target": {
+        "id": "wb/jqlrkl",
+        "beforeLines": 0,
+        "afterLines": 0
+      },
+      "kind": {
+        "requested": "match",
+        "tokens": [
+          "match"
+        ]
+      },
+      "include": {
+        "tokens": []
+      },
+      "exclude": {
+        "tokens": []
+      },
+      "notices": []
+    }
+  },
+  "inspections": [
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "2lmsr2",
+        "target": {
+          "id": "wb/avhdej",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "d5emei",
+        "target": {
+          "id": "wb/tpll98",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "pbj8tx",
+        "target": {
+          "id": "wb/cdqtok",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "o9pm2s",
+        "target": {
+          "id": "wb/ab6s5b",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "5upksg",
+        "target": {
+          "id": "wb/h2tfl7",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "oxlvn3",
+        "target": {
+          "id": "wb/l9zifd",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "ptld7l",
+        "target": {
+          "id": "wb/omzhy5",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": true,
+      "metadata": {
+        "revision": "b2tsun",
+        "target": {
+          "id": "wb/vsc41i",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 1,
+      "truncated": false,
+      "metadata": {
+        "revision": "d3o3ek",
+        "target": {
+          "id": "wb/25vgo0",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    },
+    {
+      "recordCount": 2,
+      "truncated": false,
+      "metadata": {
+        "revision": "3x5l7i",
+        "target": {
+          "id": "wb/4yjy18",
+          "beforeLines": 0,
+          "afterLines": 0
+        },
+        "kind": {
+          "requested": "region",
+          "tokens": [
+            "region"
+          ]
+        },
+        "include": {
+          "tokens": []
+        },
+        "exclude": {
+          "tokens": []
+        },
+        "notices": []
+      }
+    }
+  ]
+}

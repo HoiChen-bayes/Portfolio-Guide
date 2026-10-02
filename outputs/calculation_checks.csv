@@ -1,0 +1,31 @@
+company,check,difference,tolerance
+PG,pre_history bear pretax bridge,0.0,1e-06
+PG,pre_history base pretax bridge,0.0,1e-06
+PG,pre_history bull pretax bridge,0.0,1e-06
+PG,pre_market bear pretax bridge,0.0,1e-06
+PG,pre_market base pretax bridge,0.0,1e-06
+PG,pre_market bull pretax bridge,0.0,1e-06
+PG,mid_history bear pretax bridge,0.0,1e-06
+PG,mid_history base pretax bridge,0.0,1e-06
+PG,mid_history bull pretax bridge,0.0,1e-06
+PG,mid_market bear pretax bridge,0.0,1e-06
+PG,mid_market base pretax bridge,0.0,1e-06
+PG,mid_market bull pretax bridge,0.0,1e-06
+PG,pre research bridge,0.0,1e-06
+PG,mid research bridge,0.0,1e-06
+PG,May base to actual profit bridge,0.0,1e-06
+TRV,pre_history bear pretax bridge,0.0,1e-06
+TRV,pre_history base pretax bridge,0.0,1e-06
+TRV,pre_history bull pretax bridge,0.0,1e-06
+TRV,pre_market bear pretax bridge,0.0,1e-06
+TRV,pre_market base pretax bridge,0.0,1e-06
+TRV,pre_market bull pretax bridge,0.0,1e-06
+TRV,mid_history bear pretax bridge,0.0,1e-06
+TRV,mid_history base pretax bridge,0.0,1e-06
+TRV,mid_history bull pretax bridge,0.0,1e-06
+TRV,mid_market bear pretax bridge,0.0,1e-06
+TRV,mid_market base pretax bridge,0.0,1e-06
+TRV,mid_market bull pretax bridge,0.0,1e-06
+TRV,pre research bridge,0.0,1e-06
+TRV,mid research bridge,0.0,1e-06
+TRV,May base to actual profit bridge,0.0,1e-06

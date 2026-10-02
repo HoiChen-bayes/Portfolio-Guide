@@ -1,0 +1,86 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized original packet, supplied quotations, located factual transcriptions and prior outputs. No tools, external webpages, local captures or messaging were used; webpage accuracy and publication dates were not independently verified.",
+    "Material research details depend on curator transcriptions that short quotations do not fully corroborate. This review does not certify source accuracy.",
+    "The 2026-05-15 cutoff was treated as an information-availability boundary for retrospective reconstruction. No remembered or inferred target-quarter results were used.",
+    "Pass is limited to supplied finance mappings, causal interpretation and scenario assumptions. Final scenario arithmetic and implementation were not supplied for verification."
+  ],
+  "decision": "pass",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "warning",
+      "subject": "Transcription-dependent evidence",
+      "finding": "Retention, personal-lines growth excluding disposal, workers-compensation sample and frequency, goods PPI, NOAA forecast details and April policy bounds depend on located curator factual records. Those records support the narrowly stated interpretations and do not contradict the supplied quotations, but provenance and links are not independent verification.",
+      "source_ids": [
+        "TRV01",
+        "TRV07",
+        "TRV08",
+        "TRV09",
+        "TRV05",
+        "TRV10"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Finance mapping and reconciliation",
+      "finding": "Material mapped historical values agree with supplied table excerpts. Quarterly versus year-to-date selection, percent-to-decimal conversion, catastrophe sign reversal, favorable-development treatment and core tax derivations are coherent. The required Q2 2025 underwriting residual correctly equals -36.913 USD million; it must be included once across all scenarios. Final implementation remains unchecked.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q2",
+        "trv_2025q4"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Dates and availability",
+      "finding": "All supplied publication dates precede the cutoff. Q1 2026 results and April\u2013May research are eligible mid-quarter information. The outputs correctly distinguish the 2023 social-inflation estimate, 2021\u20132025 claims sample and prospective NOAA outlook from target-quarter observations. No supplied output uses realized Q2 outcomes.",
+      "source_ids": [
+        "TRV04",
+        "TRV05",
+        "TRV07",
+        "TRV08",
+        "TRV09",
+        "TRV10",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Incremental scenario changes and double counting",
+      "finding": "The only change from the frozen control is bear underlying combined ratio increasing from 0.88 to 0.89. This is explicitly an uncalibrated joint severity stress, rather than summed elasticities. All assumptions remain within bounds and have coherent profitability orientation. Pricing, historical investment growth and unchanged policy rates are not counted as additional base uplifts; catastrophe losses and reserve development remain separate.",
+      "source_ids": [
+        "TRV01",
+        "TRV02",
+        "TRV03",
+        "TRV04",
+        "TRV07",
+        "TRV08",
+        "TRV09",
+        "TRV10"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Insurance specificity and excluded risks",
+      "finding": "Drought and broad price indicators do not establish Travelers insured-loss magnitudes. The outputs appropriately avoid calibrated catastrophe or portfolio adjustments. Zero favorable releases cannot represent adverse reserve strengthening, and share reductions lack funding support; these restrictions are disclosed rather than presented as observed company forecasts.",
+      "source_ids": [
+        "TRV04",
+        "TRV05",
+        "TRV08",
+        "TRV09",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Cash-flow column attribution",
+      "finding": "Cash-flow quotations omit column headers, so period attribution depends on serialized notes. Finance discloses this ambiguity and uses the figures only as historical context. The excerpts cannot independently establish quarterly alignment or repurchase capacity.",
+      "source_ids": [
+        "trv_2025q4_supplement",
+        "trv_2026q1_supplement"
+      ]
+    }
+  ]
+}

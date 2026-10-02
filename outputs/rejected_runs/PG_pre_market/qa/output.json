@@ -1,0 +1,83 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized JSON, including original history and supplied excerpts; no tools, external sources or remembered target results were used.",
+    "Cannot attest that supplied excerpts match external webpages or verify publication dates independently.",
+    "Several material market figures lack supporting verbatim excerpts. Overall source accuracy therefore remains not_verified.",
+    "The 2026-03-31 cutoff governs information availability, not retrospective execution time. No target-period outcomes are supplied.",
+    "Missing company exposures prevent validation of quantitative causal transmission; illustrative sensitivities can be assessed for transparency and consistency only."
+  ],
+  "decision": "insufficient_evidence",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "blocker",
+      "subject": "Incomplete source support for market claims",
+      "finding": "PG01 quotes only commodity neutrality, not organic guidance of 0\u20134%, the $400m tariff headwind or $200m FX tailwind. PG02 and PG03 excerpts support monthly changes but omit annual figures; PG04 omits goods spending and saving rate; PG05 omits numeric rate bounds. Prior outputs acknowledge these gaps, but packet assertions cannot establish excerpt-level accuracy. Material tariff guidance used to contextualize the margin scenario remains unverified.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04",
+        "PG05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Historical finance mapping",
+      "finding": "Against the original supplied rows, the material mappings correctly select quarterly rather than annual values, use FY2025 Q4 sales of $20,889m as the target seasonal denominator, convert percentages to decimals, derive noncontrolling deductions and approximate diluted shares, and transform signed capex into positive outflow. Disclosed $1m arithmetic discrepancies and inconsistent other-income labels remain unresolved rather than silently corrected.",
+      "source_ids": [
+        "pg_2025q3",
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Dates and vintage",
+      "finding": "All supplied publication dates precede the cutoff and target quarter. The research and scenario preserve February PPI's supplied first-published monthly value of 0.7%, without importing the mentioned later revision. These checks establish internal eligibility only, not external date accuracy.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04",
+        "PG05",
+        "pg_2025q4",
+        "pg_2026q2"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Scenario bounds and counterfactual changes",
+      "finding": "All nine scenario rows satisfy contract units and bounds. Relative to the frozen control, only bear sales growth changes from -2% to -2.5% and bear gross margin from 48% to 47.5%; all other values remain unchanged. Higher adverse SG&A, tax, deductions, shares and capex are consistent with the stated profitability, EPS and cash mechanisms.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q1",
+        "pg_2026q2",
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Causality, precision and double counting",
+      "finding": "The 0.5-percentage-point demand stress and 50-basis-point margin stress are explicitly illustrative judgments, not measured elasticities. Demand signals share one stress budget; company cost guidance and PPI share one cost envelope. Annual after-tax amounts are not allocated to Q4 or converted mechanically into gross margin, CPI is not treated as company pricing, and policy rates do not generate an unsupported interest charge. Historical ratio precision describes arithmetic rather than forecast certainty.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04",
+        "PG05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Insurance specificity and review scope",
+      "finding": "No insurance-specific exposure, underwriting, reserve or portfolio claims appear; none are supported by this consumer-products packet. No final financial statements were computed, so this review cannot attest to downstream forecast arithmetic or final scenario outputs.",
+      "source_ids": []
+    }
+  ]
+}

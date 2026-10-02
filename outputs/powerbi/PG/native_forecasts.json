@@ -1,0 +1,110 @@
+﻿[
+    {
+        "Forecast[Vintage]":  "pre_history",
+        "Forecast[Case]":  "bear",
+        "Forecast[Revenue]":  20471.22,
+        "Forecast[Profit]":  2866.3111675000005,
+        "Forecast[Operating]":  3787.1757000000007,
+        "Forecast[Margin]":  0.18500000000000003,
+        "Forecast[Liquidity]":  1812.8535258750007
+    },
+    {
+        "Forecast[Vintage]":  "pre_history",
+        "Forecast[Case]":  "base",
+        "Forecast[Revenue]":  21202.335,
+        "Forecast[Profit]":  3799.6109599999995,
+        "Forecast[Operating]":  4664.5136999999995,
+        "Forecast[Margin]":  0.21999999999999997,
+        "Forecast[Liquidity]":  3894.9774979999993
+    },
+    {
+        "Forecast[Vintage]":  "pre_history",
+        "Forecast[Case]":  "bull",
+        "Forecast[Revenue]":  21724.56,
+        "Forecast[Profit]":  4581.379100000001,
+        "Forecast[Operating]":  5431.1400000000012,
+        "Forecast[Margin]":  0.25000000000000006,
+        "Forecast[Liquidity]":  5906.4634500000011
+    },
+    {
+        "Forecast[Vintage]":  "pre_market",
+        "Forecast[Case]":  "bear",
+        "Forecast[Revenue]":  20366.774999999998,
+        "Forecast[Profit]":  2772.4151125000003,
+        "Forecast[Operating]":  3666.0195000000003,
+        "Forecast[Margin]":  0.18000000000000005,
+        "Forecast[Liquidity]":  1720.5293681250007
+    },
+    {
+        "Forecast[Vintage]":  "pre_market",
+        "Forecast[Case]":  "base",
+        "Forecast[Revenue]":  21202.335,
+        "Forecast[Profit]":  3799.6109599999995,
+        "Forecast[Operating]":  4664.5136999999995,
+        "Forecast[Margin]":  0.21999999999999997,
+        "Forecast[Liquidity]":  3894.9774979999993
+    },
+    {
+        "Forecast[Vintage]":  "pre_market",
+        "Forecast[Case]":  "bull",
+        "Forecast[Revenue]":  21724.56,
+        "Forecast[Profit]":  4581.379100000001,
+        "Forecast[Operating]":  5431.1400000000012,
+        "Forecast[Margin]":  0.25000000000000006,
+        "Forecast[Liquidity]":  5906.4634500000011
+    },
+    {
+        "Forecast[Vintage]":  "mid_history",
+        "Forecast[Case]":  "bear",
+        "Forecast[Revenue]":  20889,
+        "Forecast[Profit]":  2845.2654999999995,
+        "Forecast[Operating]":  3760.0199999999995,
+        "Forecast[Margin]":  0.17999999999999997,
+        "Forecast[Liquidity]":  1765.6887749999999
+    },
+    {
+        "Forecast[Vintage]":  "mid_history",
+        "Forecast[Case]":  "base",
+        "Forecast[Revenue]":  21724.56,
+        "Forecast[Profit]":  3693.6232416000003,
+        "Forecast[Operating]":  4518.70848,
+        "Forecast[Margin]":  0.208,
+        "Forecast[Liquidity]":  3738.8822140800003
+    },
+    {
+        "Forecast[Vintage]":  "mid_history",
+        "Forecast[Case]":  "bull",
+        "Forecast[Revenue]":  22351.23,
+        "Forecast[Profit]":  4487.5566304999993,
+        "Forecast[Operating]":  5252.5390499999985,
+        "Forecast[Margin]":  0.23499999999999993,
+        "Forecast[Liquidity]":  5740.5295957499993
+    },
+    {
+        "Forecast[Vintage]":  "mid_market",
+        "Forecast[Case]":  "bear",
+        "Forecast[Revenue]":  20889,
+        "Forecast[Profit]":  2715.7537,
+        "Forecast[Operating]":  3592.9080000000004,
+        "Forecast[Margin]":  0.17200000000000001,
+        "Forecast[Liquidity]":  1629.7013850000005
+    },
+    {
+        "Forecast[Vintage]":  "mid_market",
+        "Forecast[Case]":  "base",
+        "Forecast[Revenue]":  21724.56,
+        "Forecast[Profit]":  3624.5391408,
+        "Forecast[Operating]":  4431.81024,
+        "Forecast[Margin]":  0.204,
+        "Forecast[Liquidity]":  3649.0728830400003
+    },
+    {
+        "Forecast[Vintage]":  "mid_market",
+        "Forecast[Case]":  "bull",
+        "Forecast[Revenue]":  22351.23,
+        "Forecast[Profit]":  4451.3476379,
+        "Forecast[Operating]":  5207.83659,
+        "Forecast[Margin]":  0.233,
+        "Forecast[Liquidity]":  5686.2161068500009
+    }
+]

@@ -1,0 +1,145 @@
+{
+  "role": "scenario",
+  "limitations": [
+    "Used only serialized input; quotations, transcriptions, publication dates and source provenance were not independently verified. No remembered target-period results were used.",
+    "This is a retrospective reconstruction using 2026-05-15 as the information-availability boundary. No Q2 2026 actuals are known or inferred.",
+    "All scenarios are illustrative analyst judgments, not observed outcomes, company budgets, guidance or calibrated probability estimates. Finance and research outputs were assessed as challengeable inputs.",
+    "Missing portfolio balances, duration, reinvestment fractions, exposure, reinsurance, cash, debt and capital detail prevent supported portfolio, catastrophe, funding or balance-sheet projections.",
+    "The reserve-development bounds exclude adverse reserve strengthening. Share assumptions lack a repurchase funding forecast; lower shares improve positive modeled EPS rather than core income.",
+    "Core measures are non-GAAP. Rounded ratios and reporting-basis differences require the contract's fixed historical underwriting adjustment. Modeled EPS omits participating/preferred adjustments and is not reported EPS."
+  ],
+  "assumptions": [
+    {
+      "driver": "earned_premium_growth",
+      "bear": -0.04,
+      "base": -0.01,
+      "bull": 0.02,
+      "unit": "decimal",
+      "basis": "Retain all control scenarios. Same-quarter-prior-year growth uses Q2 2025 earned premiums of 10,921 as its baseline. Base reflects latest Q1's approximately 1% contraction; bear extends weakness and bull allows modest recovery. TRV07's renewal deceleration and personal-lines weakness are counterbalanced by retention and overlap the refreshed control. No additional consolidated growth correction is supported; segment renewal changes include exposure and earn with a lag.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV01",
+        "TRV07"
+      ]
+    },
+    {
+      "driver": "written_premium_growth",
+      "bear": -0.05,
+      "base": -0.02,
+      "bull": 0.02,
+      "unit": "decimal",
+      "basis": "Retain all control scenarios, using Q2 2025 written premiums of 11,543 as the same-quarter-prior-year baseline. Base approximates latest Q1 contraction; bear extends contraction and bull assumes recovery. Segment pricing and retention do not establish an incremental consolidated adjustment. Do not deduct the Canadian disposal again. Written growth measures momentum and does not directly enter current-quarter contracted earnings.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV01",
+        "TRV07"
+      ]
+    },
+    {
+      "driver": "underlying_combined_ratio",
+      "bear": 0.89,
+      "base": 0.852,
+      "bull": 0.835,
+      "unit": "decimal",
+      "basis": "Retain control base and bull; increase bear from 0.88 to 0.89, an incremental 1 percentage-point joint current-period severity stress. Base remains near latest Q1's 85.3%, informed by prior-year Q2's 84.7%, without extrapolating Q4's 82.2%. Social inflation, longer worker recovery and replacement/legal-cost evidence justify wider downside uncertainty but no compelled base change. The joint increment is uncalibrated analyst judgment, not summed source sensitivities or a 7% claims increase. Higher ratios reduce profitability; catastrophes and prior-year development remain separate.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q2",
+        "trv_2025q4",
+        "TRV07",
+        "TRV04",
+        "TRV08",
+        "TRV09"
+      ]
+    },
+    {
+      "driver": "catastrophe_losses",
+      "bear": 1800,
+      "base": 1000,
+      "bull": 500,
+      "unit": "USD million",
+      "basis": "Retain all control scenarios as positive quarterly pretax losses net of reinsurance. Base is modestly above Q2 2025's 927; its reported Q2 2024 comparison of 1,509 supports substantial seasonal uncertainty. Bear represents heavier losses and bull lighter losses. NOAA drought context does not establish Travelers insured losses or justify a central dollar change. Existing scenario breadth is retained without converting drought coverage into catastrophe losses.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4",
+        "trv_2025q1",
+        "TRV05"
+      ]
+    },
+    {
+      "driver": "favorable_reserve_development",
+      "bear": 0,
+      "base": 300,
+      "bull": 425,
+      "unit": "USD million",
+      "basis": "Retain all control scenarios. Positive favorable releases increase profit. Base discounts prior-year Q2's 315 rather than repeating latest Q1's 413; Q3's 22 illustrates variability. Bear assumes no releases and bull somewhat exceeds latest Q1. Market severity evidence supplies no distinct prior-accident-year reserve deficiency, so do not duplicate the underlying-ratio stress here. Negative reserve strengthening cannot be represented within the contract.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2026q1",
+        "trv_2025q3",
+        "TRV04",
+        "TRV08",
+        "TRV09"
+      ]
+    },
+    {
+      "driver": "investment_income",
+      "bear": 950,
+      "base": 1030,
+      "bull": 1120,
+      "unit": "USD million",
+      "basis": "Retain all control scenarios for quarterly pretax net investment income. Base lies between latest Q1's 1,008 and Q4's 1,054, above prior-year Q2's 942; bear and bull represent weaker and stronger earnings. TRV02's asset/yield explanation already overlaps historical income. TRV10 supersedes TRV03 and indicates no incremental policy-rate shock. No additional uplift or dollar conversion of a reinvestment-rate sensitivity is supported without portfolio assumptions.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q4",
+        "trv_2025q2",
+        "TRV02",
+        "TRV03",
+        "TRV10"
+      ]
+    },
+    {
+      "driver": "other_income_including_interest",
+      "bear": -140,
+      "base": -110,
+      "bull": -85,
+      "unit": "USD million",
+      "basis": "Retain all control scenarios because no specific eligible evidence supports an incremental change. Signed quarterly pretax base remains near latest Q1's -111, versus Q4's -101 and prior-year Q2's -89. Bear increases expense pressure; bull reduces it toward historical levels. Interest expense is included and must not be deducted again.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q4",
+        "trv_2025q2"
+      ]
+    },
+    {
+      "driver": "effective_tax_rate",
+      "bear": 0.21,
+      "base": 0.195,
+      "bull": 0.18,
+      "unit": "decimal",
+      "basis": "Retain all control scenarios. Base reflects historical core tax relative to core pretax income in prior-year Q2 and Q4 rather than mechanically extending latest Q1's lower rate. Higher bear and lower bull rates are deliberate profitability sensitivities; actual tax rates may respond differently to earnings mix. No eligible market evidence supports a tax-policy or tax-mix adjustment.",
+      "source_ids": [
+        "trv_2025q2",
+        "trv_2025q4",
+        "trv_2026q1"
+      ]
+    },
+    {
+      "driver": "diluted_shares",
+      "bear": 219,
+      "base": 216,
+      "bull": 213,
+      "unit": "million shares",
+      "basis": "Retain all control scenarios for quarterly weighted-average diluted shares. Base assumes a moderate further decline from latest Q1's 218.4 after Q4's 224.0; bear assumes paused repurchases and modest dilution, while bull assumes a larger reduction. These are denominator judgments, not a funded capital-allocation forecast. No eligible market evidence justifies an incremental change.",
+      "source_ids": [
+        "trv_2026q1",
+        "trv_2025q4"
+      ]
+    }
+  ],
+  "narrative": "For Q2 2026, preserve every frozen-control base and all unrelated scenarios. The sole incremental market adjustment is a 1 percentage-point increase in the bear underlying combined ratio, jointly reflecting overlapping severity uncertainties without assuming measured Travelers loss-cost elasticities. Scenario orientation follows adverse/favorable profitability rather than numerical ordering. All values respect contractual bounds. Deterministic code owns final arithmetic and should apply the contract-required fixed same-quarter-prior-year underwriting basis adjustment across scenarios, without fitting it to target outcomes. No final statements or earnings outputs are computed here."
+}

@@ -1,0 +1,1167 @@
+{
+  "executed_at_utc": "2026-10-02T12:41:19.185084+00:00",
+  "target_period": "2026-04-01/2026-06-30",
+  "cutoffs": [
+    "2026-03-31",
+    "2026-05-15"
+  ],
+  "reconstruction": true,
+  "not_final_forecast": true,
+  "cutoff_convention": "End of named date; publication date governs eligibility, not observation period.",
+  "source_policy": "Primary dated release text/PDF; no current interactive revised data.",
+  "honesty_note": "No target company results opened. Search snippets and a Marsh navigation index incidentally displayed later publications; these are excluded from evidence and adjustments. This is timestamp-controlled reconstruction, not a claim of erased model knowledge.",
+  "records": [
+    {
+      "id": "PG01",
+      "company": "PG",
+      "driver": "organic_sales_and_cost_guidance",
+      "published_at": "2026-01-22",
+      "observation_period": "FY2026 guidance; quarter ended 2025-12-31",
+      "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Second-Quarter-Results/default.aspx",
+      "factual_datapoint": "FY organic sales growth guidance 0\u20134%; commodity impact neutral; tariffs $400m after-tax headwind; FX $200m after-tax tailwind.",
+      "rationale": "Company-specific outlook anchors demand and input-cost assumptions.",
+      "suggested_adjustment_analyst_judgment": "Keep organic-growth scenario envelope near 0\u20134%; downside commodity/tariff margin stress 0\u201350bp relative to history. Do not allocate the entire annual tariff cost to Q4.",
+      "confidence": "High on guidance; medium on mapping",
+      "duplicate_overlap_risk": "Cost guidance already incorporates commodities/tariffs/FX; do not add full macro shocks again.",
+      "evidence_type": "management_guidance",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "commodity costs to be neutral for the year",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "commodity costs to be neutral for the year"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Organic sales growth guidance",
+          "source_value": "0 to 4",
+          "unit_or_scope": "percent YoY; fiscal 2026"
+        },
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": "neutral",
+          "unit_or_scope": "fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Fiscal Year 2026 Guidance, first and third paragraphs (archived release lines 95 and 98).",
+      "local_source_file": "data/research/raw/PG01.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG01",
+      "source_factual_extract_count": 4
+    },
+    {
+      "id": "PG02",
+      "company": "PG",
+      "driver": "consumer_price_pressure",
+      "published_at": "2026-03-11",
+      "observation_period": "February 2026",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+      "factual_datapoint": "CPI +0.3% month-on-month seasonally adjusted; +2.4% year-on-year unadjusted.",
+      "rationale": "General household affordability backdrop, not P&G realized pricing.",
+      "suggested_adjustment_analyst_judgment": "Consider volume-growth downside 0\u20130.5 percentage points; do not directly apply CPI as price growth.",
+      "confidence": "High observation; low company elasticity",
+      "duplicate_overlap_risk": "Overlaps real spending and PPI; use one demand stress budget.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "increased 0.3 percent on a seasonally adjusted basis [\u2026] increased 2.4 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "increased 0.3 percent on a seasonally adjusted basis",
+        "increased 2.4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.3,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 2.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Official PDF page 1, opening paragraph lines 5\u20138; monthly 0.3% SA and annual 2.4% unadjusted. PDF page 9 Table 1 All items row corroborates.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "source_support_urls": [
+        "https://www.bls.gov/news.release/archives/cpi_03112026.htm",
+        "https://www.bls.gov/news.release/archives/cpi_03112026.pdf"
+      ],
+      "local_web_review_file": "data/research/raw/cpi_noaa_review_web_review.json",
+      "external_source_review_id": "SRC_PG02",
+      "source_factual_extract_count": 2
+    },
+    {
+      "id": "PG03",
+      "company": "PG",
+      "driver": "input_cost_pressure",
+      "published_at": "2026-03-18",
+      "observation_period": "February 2026 first-published vintage",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_03182026.htm",
+      "factual_datapoint": "Final-demand PPI +0.7% month-on-month seasonally adjusted; +3.4% year-on-year.",
+      "rationale": "Upstream inflation is an imperfect signal for packaging, freight and raw materials.",
+      "suggested_adjustment_analyst_judgment": "Gross-margin downside 0\u201330bp beyond baseline, subject to company guidance and procurement lag.",
+      "confidence": "High observation; low quantitative transmission",
+      "duplicate_overlap_risk": "Overlaps PG01 company cost guidance. Preserve the March 18 release vintage; later revisions must not overwrite this pre-quarter observation.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "increased 0.7 percent in February [\u2026] rose 3.4 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "increased 0.7 percent in February",
+        "rose 3.4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; seasonally adjusted; February 2026; March 18 vintage"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 3.4,
+          "unit_or_scope": "percent; unadjusted; 12 months ending February 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Opening PPI paragraph and Table A, February 2026 row; March 18 publication.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "local_web_review_file": "data/research/raw/bls_review_web_review.json",
+      "external_source_review_id": "SRC_PG03",
+      "source_factual_extract_count": 2
+    },
+    {
+      "id": "PG04",
+      "company": "PG",
+      "driver": "real_consumer_demand",
+      "published_at": "2026-03-13",
+      "observation_period": "January 2026 first release",
+      "source_url": "https://www.bea.gov/sites/default/files/2026-03/pi0126.pdf",
+      "factual_datapoint": "Real PCE +0.1% month-on-month; nominal goods spending fell $24.6bn; saving rate 4.5%.",
+      "rationale": "Weak real spending argues against inferring strong unit growth from nominal sales.",
+      "suggested_adjustment_analyst_judgment": "Volume-growth adjustment -0.5 to 0 percentage points relative to history-only.",
+      "confidence": "High observation; medium directional",
+      "duplicate_overlap_risk": "Same household demand channel as PG02; do not sum mechanically.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "Real PCE increased $17.0 billion (0.1 percent at a monthly rate) [\u2026] decrease of $24.6 billion [\u2026] was 4.5 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "Real PCE increased $17.0 billion (0.1 percent at a monthly rate)",
+        "decrease of $24.6 billion",
+        "was 4.5 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.1,
+          "unit_or_scope": "percent; January 2026"
+        },
+        {
+          "label": "Current-dollar goods PCE monthly change",
+          "source_value": -24.6,
+          "unit_or_scope": "USD billion; January 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 4.5,
+          "unit_or_scope": "percent of disposable personal income; January 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Release page 1: PCE, saving, spending-on-goods and real PCE paragraphs.",
+      "local_source_file": "data/research/raw/PG04.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG04",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "PG05",
+      "company": "PG",
+      "driver": "interest_rates_and_equity_valuation",
+      "published_at": "2026-03-18",
+      "observation_period": "March 2026 policy decision",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "factual_datapoint": "Federal funds target maintained at 3.50\u20133.75%.",
+      "rationale": "Financing and valuation anchor; policy rate is not P&G borrowing cost or a stock-return forecast.",
+      "suggested_adjustment_analyst_judgment": "Base immediate interest-expense change zero without refinancing evidence; sensitivity +/-25bp on floating/repriced debt only. Equity discount-rate sensitivity separate from operating forecast.",
+      "confidence": "High fact; low firm-specific pass-through",
+      "duplicate_overlap_risk": "PG01 already includes annual interest/tax headwind; no duplicate earnings charge.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "3\u20111/2 to 3\u20113/4 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "3\u20111/2 to 3\u20113/4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "local_source_file": "data/research/raw/PG05_TRV03.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG05",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "PG06",
+      "company": "PG",
+      "driver": "updated_company_guidance",
+      "published_at": "2026-04-24",
+      "observation_period": "FY2026 guidance update; quarter ended 2026-03-31",
+      "source_url": "https://www.pginvestor.com/news/news-details/2026/PG-Announces-Fiscal-Year-2026-Third-Quarter-Results/default.aspx",
+      "factual_datapoint": "FY commodity headwind now $150m after tax; tariffs $400m and FX tailwind $200m unchanged; EPS expected toward lower end of range. Q3 organic growth 3%.",
+      "rationale": "Clear company-specific cost deterioration and demand update available only in May vintage.",
+      "suggested_adjustment_analyst_judgment": "Relative to refreshed history control, gross-margin adjustment -20 to -80bp; use guidance as cross-check, not hard quarterly EPS target.",
+      "confidence": "High facts; medium allocation",
+      "duplicate_overlap_risk": "PG08 corroborates this cost signal; cap joint cost adjustment instead of summing. Historical Q3 refresh must be attributed separately.",
+      "evidence_type": "management_guidance",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "toward the lower-end of the guidance range [\u2026] approximately $150 million after tax",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "toward the lower-end of the guidance range",
+        "approximately $150 million after tax"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Commodity-cost guidance",
+          "source_value": 150,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "Tariff cost guidance",
+          "source_value": 400,
+          "unit_or_scope": "USD million; after-tax headwind; fiscal 2026"
+        },
+        {
+          "label": "FX guidance",
+          "source_value": 200,
+          "unit_or_scope": "USD million; after-tax tailwind; fiscal 2026"
+        },
+        {
+          "label": "EPS outlook positioning",
+          "source_value": "toward lower end",
+          "unit_or_scope": "fiscal 2026 guidance range"
+        },
+        {
+          "label": "Organic sales growth",
+          "source_value": 3,
+          "unit_or_scope": "percent YoY; quarter ended March 31, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Opening results paragraph and Fiscal Year 2026 Guidance, commodity/tariff/FX and lower-end EPS paragraphs.",
+      "local_source_file": "data/research/raw/PG06.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG06",
+      "source_factual_extract_count": 5
+    },
+    {
+      "id": "PG07",
+      "company": "PG",
+      "driver": "consumer_inflation_update",
+      "published_at": "2026-05-12",
+      "observation_period": "April 2026 initial release",
+      "source_url": "https://www.bls.gov/news.release/archives/cpi_05122026.htm",
+      "factual_datapoint": "CPI +0.6% month-on-month and +3.8% year-on-year; energy +3.8% month-on-month; personal care +0.7% month-on-month.",
+      "rationale": "In-quarter affordability pressure and category prices rose; category CPI includes competitors and retail margins.",
+      "suggested_adjustment_analyst_judgment": "Price/mix adjustment 0\u20130.5 percentage points; volume downside 0\u20130.5 points, jointly rather than assumed full pass-through.",
+      "confidence": "High observations; low elasticity",
+      "duplicate_overlap_risk": "Shares inflation signal with PG08 and demand PG09.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "the personal care index rose 0.7 percent [\u2026] increased 0.6 percent on a seasonally adjusted basis",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "the personal care index rose 0.7 percent",
+        "increased 0.6 percent on a seasonally adjusted basis"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "All-items CPI monthly change",
+          "source_value": 0.6,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "All-items CPI annual change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Energy CPI monthly change",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Personal-care CPI monthly change",
+          "source_value": 0.7,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Opening CPI paragraphs and All items less food and energy paragraph (personal care); Table A April column.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "local_web_review_file": "data/research/raw/bls_detail_web_review.json",
+      "external_source_review_id": "SRC_PG07",
+      "source_factual_extract_count": 4
+    },
+    {
+      "id": "PG08",
+      "company": "PG",
+      "driver": "input_inflation_update",
+      "published_at": "2026-05-13",
+      "observation_period": "April 2026 initial release",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "factual_datapoint": "Final-demand PPI +1.4% month-on-month, +6.0% year-on-year; goods +2.0% month-on-month; transportation/warehousing services +5.0%.",
+      "rationale": "Higher freight and producer prices strengthen cost downside; final demand is not a company cost basket.",
+      "suggested_adjustment_analyst_judgment": "Use 0\u201330bp incremental cost stress only if not already captured in PG06; procurement/inventory lag limits immediate recognition.",
+      "confidence": "High facts; medium direction; low magnitude",
+      "duplicate_overlap_risk": "Do not add broad PPI, freight and company commodity guidance as independent full shocks.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "The Producer Price Index for final demand increased 1.4 percent in April [\u2026] 5.0 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "The Producer Price Index for final demand increased 1.4 percent in April",
+        "5.0 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand PPI monthly change",
+          "source_value": 1.4,
+          "unit_or_scope": "percent; seasonally adjusted; April 2026"
+        },
+        {
+          "label": "Final-demand PPI annual change",
+          "source_value": 6.0,
+          "unit_or_scope": "percent; unadjusted; 12 months ending April 2026"
+        },
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Final-demand transportation and warehousing services monthly change",
+          "source_value": 5.0,
+          "unit_or_scope": "percent; April 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Opening PPI paragraph; Final demand goods paragraph; Final demand services transportation/warehousing paragraph.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "local_web_review_file": "data/research/raw/bls_detail_web_review.json",
+      "external_source_review_id": "SRC_PG08",
+      "source_factual_extract_count": 4
+    },
+    {
+      "id": "PG09",
+      "company": "PG",
+      "driver": "consumer_demand_update",
+      "published_at": "2026-04-30",
+      "observation_period": "March 2026 initial release",
+      "source_url": "https://www.bea.gov/sites/default/files/2026-04/pi0326.pdf",
+      "factual_datapoint": "Real PCE +0.2% month-on-month; real disposable income -0.1%; saving rate 3.6%; nominal PCE +0.9%.",
+      "rationale": "Nominal spending strength exceeded real growth, limiting inferred volume upside.",
+      "suggested_adjustment_analyst_judgment": "Volume-growth adjustment -0.5 to +0.25 percentage points versus refreshed historical trend.",
+      "confidence": "High facts; medium direction",
+      "duplicate_overlap_risk": "Combine with PG07 affordability; do not treat nominal and real PCE as two independent growth boosts.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "Real PCE increased $39.6 billion (0.2 percent at a monthly rate)",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "Real PCE increased $39.6 billion (0.2 percent at a monthly rate)"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Real PCE monthly change",
+          "source_value": 0.2,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Real disposable personal income monthly change",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; March 2026"
+        },
+        {
+          "label": "Personal saving rate",
+          "source_value": 3.6,
+          "unit_or_scope": "percent of disposable personal income; March 2026"
+        },
+        {
+          "label": "Current-dollar PCE monthly change",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; March 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Release page 1: saving and PCE paragraphs; Personal Income and Related Measures table, March column.",
+      "local_source_file": "data/research/raw/PG09.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG09",
+      "source_factual_extract_count": 4
+    },
+    {
+      "id": "PG10",
+      "company": "PG",
+      "driver": "competitive_category_performance",
+      "published_at": "2026-04-30",
+      "observation_period": "Unilever January\u2013March 2026",
+      "source_url": "https://www.unilever.com/files/unilever-q1-2026-full-announcement.pdf",
+      "factual_datapoint": "Unilever underlying sales +3.8%, volume +2.9%, price +0.9%; Home Care volume +6.2% with price -0.1%.",
+      "rationale": "Peer volume-led performance supports demand resilience but signals competition in overlapping categories.",
+      "suggested_adjustment_analyst_judgment": "No mechanical P&G uplift; stress P&G volume +/-0.5 points or selling-cost ratio +0\u201320bp for competitive response.",
+      "confidence": "High peer observations; low P&G causality",
+      "duplicate_overlap_risk": "Different geography/product mix; avoid assuming peer gains equal P&G market-share losses.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "volume growth of 2.9% and price growth of 0.9%",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "volume growth of 2.9% and price growth of 0.9%"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Group underlying sales growth",
+          "source_value": 3.8,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying volume growth",
+          "source_value": 2.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Group underlying price growth",
+          "source_value": 0.9,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying volume growth",
+          "source_value": 6.2,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        },
+        {
+          "label": "Home Care underlying price growth",
+          "source_value": -0.1,
+          "unit_or_scope": "percent; Unilever Q1 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "PDF page 2 First Quarter Review: Group Growth; PDF page 5 business-group table; publication time PDF page 4.",
+      "local_source_file": "data/research/raw/PG10_alternate.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_PG10",
+      "source_factual_extract_count": 5
+    },
+    {
+      "id": "TRV01",
+      "company": "TRV",
+      "driver": "renewal_pricing_retention",
+      "published_at": "2026-01-21",
+      "observation_period": "2025 Q4",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "factual_datapoint": "Business Insurance renewal premium change 6.1%; retention 85%; new business $675m.",
+      "rationale": "Positive renewal momentum supports future earning, with exposure change included in premium change.",
+      "suggested_adjustment_analyst_judgment": "Earned-premium growth tilt +0\u20131 percentage points relative to historical trend, with earning lag; do not map 6.1% directly to total growth.",
+      "confidence": "High observations; medium directional",
+      "duplicate_overlap_risk": "Already partly captured in historical written/earned trend; include only incremental tilt.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "renewal premium change was 6.1% [\u2026] including rate and exposure changes",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "renewal premium change was 6.1%",
+        "including rate and exposure changes"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 6.1,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 85,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Business Insurance new business",
+          "source_value": 675,
+          "unit_or_scope": "USD million; Q4 2025"
+        },
+        {
+          "label": "Renewal premium change definition",
+          "source_value": "includes rate and exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        },
+        {
+          "label": "Renewal rate change definition",
+          "source_value": "excludes exposure changes",
+          "unit_or_scope": "Operating Statistics definitions"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "CEO marketplace paragraph; Operating Statistics definitions for renewal premium and renewal rate.",
+      "local_source_file": "data/research/raw/TRV01_TRV02.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV01",
+      "source_factual_extract_count": 5
+    },
+    {
+      "id": "TRV02",
+      "company": "TRV",
+      "driver": "investment_income_yield_lag",
+      "published_at": "2026-01-21",
+      "observation_period": "2025 Q4",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx",
+      "factual_datapoint": "Net investment income $1.054bn pre-tax, up 10%; company attributes growth to larger average invested assets and higher average long-term fixed-income yield.",
+      "rationale": "Reinvestment and asset growth support income, but coupons reset over time.",
+      "suggested_adjustment_analyst_judgment": "Investment-income uplift 0\u20133% relative to history-only if asset growth/reinvestment persists; not an instantaneous policy-rate multiplier.",
+      "confidence": "High historical facts; medium projection",
+      "duplicate_overlap_risk": "Overlap with TRV03; asset volume and yield must be modeled separately.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "a higher average yield [\u2026] growth in average invested assets",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "a higher average yield",
+        "growth in average invested assets"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Net investment income",
+          "source_value": 1054,
+          "unit_or_scope": "USD million; pretax; Q4 2025"
+        },
+        {
+          "label": "Net investment income growth",
+          "source_value": 10,
+          "unit_or_scope": "percent YoY; Q4 2025"
+        },
+        {
+          "label": "Company explanation of growth",
+          "source_value": "larger average invested assets and higher average long-term fixed-income yield",
+          "unit_or_scope": "Quarterly results commentary"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Fourth Quarter 2025 Results: Net investment income paragraph.",
+      "local_source_file": "data/research/raw/TRV01_TRV02.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV02",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "TRV03",
+      "company": "TRV",
+      "driver": "interest_rate_backdrop",
+      "published_at": "2026-03-18",
+      "observation_period": "March 2026 policy decision",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260318a.htm",
+      "factual_datapoint": "Federal funds target maintained at 3.50\u20133.75%.",
+      "rationale": "Stable short rates support cash yields; long bonds and underwriting float have separate duration/exposure.",
+      "suggested_adjustment_analyst_judgment": "Base immediate yield change zero; sensitivity +/-25bp on reinvested fraction, not whole portfolio. Rate increases can reduce bond fair values/equity while eventually supporting income.",
+      "confidence": "High policy fact; medium direction",
+      "duplicate_overlap_risk": "TRV02 already captures historical yield increases; no second full uplift.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "3\u20111/2 to 3\u20113/4 percent",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "3\u20111/2 to 3\u20113/4 percent"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "March 18, 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "FOMC statement: policy decision paragraph beginning In support of its goals.",
+      "local_source_file": "data/research/raw/PG05_TRV03.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV03",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "TRV04",
+      "company": "TRV",
+      "driver": "social_inflation_tail_risk",
+      "published_at": "2024-09-07",
+      "observation_period": "Swiss Re estimate for US 2023",
+      "source_url": "https://www.swissre.com/dam/jcr%3A6bc7d3b7-0f42-4209-a01a-e22787b98685/sri-sigma4-2024-litigation-costs-claims-inflation-final.pdf",
+      "factual_datapoint": "Swiss Re estimated US social inflation around 7% in 2023, a twenty-year high.",
+      "rationale": "Liability claim severity can exceed consumer inflation; stale structural evidence, not a 2026 observation.",
+      "suggested_adjustment_analyst_judgment": "Widen adverse underlying-loss-ratio scenario by +0.5 to +1.5 points; do not add 7% to all claims or assume reserve strengthening.",
+      "confidence": "Medium estimate; low target-quarter magnitude",
+      "duplicate_overlap_risk": "Inflation and reserve-development risks overlap; underlying claims and prior-year development must remain distinct.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "reached around 7% in 2023 [\u2026] a 20-year high",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "reached around 7% in 2023",
+        "a 20-year high"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "US social-inflation index estimate",
+          "source_value": 7,
+          "unit_or_scope": "percent approximately; 2023"
+        },
+        {
+          "label": "Historical comparison",
+          "source_value": "twenty-year high",
+          "unit_or_scope": "Swiss Re estimate published September 7, 2024"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "PDF page 2 Executive summary, social inflation index paragraph; publication date from Swiss Re September 7 launch page.",
+      "local_source_file": "data/research/raw/TRV04.pdf",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV04",
+      "source_factual_extract_count": 2
+    },
+    {
+      "id": "TRV05",
+      "company": "TRV",
+      "driver": "catastrophe_uncertainty",
+      "published_at": "2026-03-20",
+      "observation_period": "NOAA April\u2013June 2026 seasonal outlook",
+      "source_url": "https://www.noaa.gov/news-release/spring-outlook-drought-forecasted-to-expand-in-us-west-parts-of-plains",
+      "factual_datapoint": "NOAA reported mid-March drought across 55% of continental US and forecast expansion in West/south-central Plains.",
+      "rationale": "Prospective hazard context does not establish insured loss, Travelers exposure, storm counts or coverage.",
+      "suggested_adjustment_analyst_judgment": "No calibrated central catastrophe adjustment; retain wide historical-seasonal range and stress +3\u20138 loss-ratio points. This range is illustrative analyst judgment.",
+      "confidence": "High published outlook; low insured-loss mapping",
+      "duplicate_overlap_risk": "Avoid converting drought to a numeric storm or wildfire-loss forecast. Do not use realized April\u2013June loss totals.",
+      "evidence_type": "agency_forecast",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "across 55% of the continental United States",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "across 55% of the continental United States"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Continental US drought coverage",
+          "source_value": 55,
+          "unit_or_scope": "percent; moderate-to-exceptional drought; mid-March 2026"
+        },
+        {
+          "label": "Seasonal outlook",
+          "source_value": "drought worsening or developing in many areas of West and south-central Plains",
+          "unit_or_scope": "Forecast for April\u2013June 2026; not observed target-period weather"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Canonical NOAA page: March 20 date, line 35; April\u2013June outlook line 39; mid-March 55% drought line 46.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "local_web_review_file": "data/research/raw/noaa_retry_web_review.json",
+      "external_source_review_id": "SRC_TRV05",
+      "source_factual_extract_count": 2
+    },
+    {
+      "id": "TRV06",
+      "company": "TRV",
+      "driver": "insurance_market_competition",
+      "published_at": "2026-02-11",
+      "observation_period": "Global commercial insurance 2025 Q4",
+      "source_url": "https://www.marsh.com/ph/about/media/global-commercial-insurance-rates-fall-4-percent-in-q4-2025.html",
+      "factual_datapoint": "Marsh published global commercial insurance rate change of -4% for Q4 2025, sixth consecutive quarterly decline.",
+      "rationale": "External softening challenges sustained rate increases; global broker mix differs from Travelers.",
+      "suggested_adjustment_analyst_judgment": "Written-premium growth adjustment -1 to 0 percentage points; earned effect smaller/slower.",
+      "confidence": "Medium: factual release downloaded; primary index dated February 11, 2026, but body date label incorrectly says February 12, 2025. Low company-specific transmission.",
+      "duplicate_overlap_risk": "Not a US all-line index or Travelers renewal rate. Overlaps TRV01; do not net percentages mechanically.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": true,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "global commercial insurance rates fell, on average, by 4% [\u2026] sixth consecutive global quarterly decreases",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "global commercial insurance rates fell, on average, by 4%",
+        "sixth consecutive global quarterly decreases"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Global commercial insurance rate change",
+          "source_value": -4,
+          "unit_or_scope": "percent; Q4 2025"
+        },
+        {
+          "label": "Consecutive quarters of global rate decreases",
+          "source_value": 6,
+          "unit_or_scope": "quarters through Q4 2025"
+        },
+        {
+          "label": "Primary media-index publication date",
+          "source_value": "2026-02-11",
+          "unit_or_scope": "Index date; release body date label is inconsistent"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Release opening paragraphs for global rate and sixth consecutive decrease; primary media index for February 11, 2026 date.",
+      "local_source_file": "data/research/raw/TRV06.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "date_verification_note": "Publication eligibility uses primary media index https://www.marsh.com/ph/about/media.html (dated 11/02/2026). Body date inconsistent; do not silently correct or claim date independently resolved.",
+      "source_support_urls": [
+        "https://www.marsh.com/ph/about/media/global-commercial-insurance-rates-fall-4-percent-in-q4-2025.html",
+        "https://www.marsh.com/ph/about/media.html"
+      ],
+      "admission_status": "excluded_pending_publication_date_resolution",
+      "excluded_from_model": true,
+      "eligibility_limitation": "Primary index and release-body publication dates conflict. Preserve as research audit material; exclude from all model packets, despite candidate published_at.",
+      "external_source_review_id": "SRC_TRV06",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "TRV07",
+      "company": "TRV",
+      "driver": "updated_pricing_and_underwriting",
+      "published_at": "2026-04-16",
+      "observation_period": "2026 Q1",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx",
+      "factual_datapoint": "Business renewal premium change 5.8%, retention 86%; consolidated underlying combined ratio 85.3% versus 84.8% a year earlier; personal written premiums -5% excluding Canada sale.",
+      "rationale": "Renewal deceleration and business mix temper growth despite strong retention.",
+      "suggested_adjustment_analyst_judgment": "Versus refreshed control, earned-premium growth adjustment -1 to 0 points; underlying ratio +0\u20130.5 points.",
+      "confidence": "High facts; medium projection",
+      "duplicate_overlap_risk": "History-only refresh already incorporates Q1. Do not count Canadian disposal again or equate combined ratio with claims-only ratio.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "Renewal premium change in Business Insurance was 5.8%",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "Renewal premium change in Business Insurance was 5.8%"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Business Insurance renewal premium change",
+          "source_value": 5.8,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Business Insurance retention",
+          "source_value": 86,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio",
+          "source_value": 85.3,
+          "unit_or_scope": "percent; Q1 2026"
+        },
+        {
+          "label": "Underlying combined ratio prior-year comparison",
+          "source_value": 84.8,
+          "unit_or_scope": "percent; Q1 2025"
+        },
+        {
+          "label": "Personal Insurance written-premium growth excluding Canadian disposal",
+          "source_value": -5,
+          "unit_or_scope": "percent YoY; Q1 2026"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "CEO marketplace paragraph; Consolidated Highlights underlying combined-ratio row; Personal Insurance final written-premium paragraph.",
+      "local_source_file": "data/research/raw/TRV07.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV07",
+      "source_factual_extract_count": 5
+    },
+    {
+      "id": "TRV08",
+      "company": "TRV",
+      "driver": "workers_compensation_severity",
+      "published_at": "2026-05-04",
+      "observation_period": "Claims received 2021\u20132025",
+      "source_url": "https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Injury-Impact-Report-Highlights-Longer-Recovery-Times-Amid-Declining-Injury-Rates/default.aspx",
+      "factual_datapoint": "Travelers analysis covered over 1.2m workers compensation claims; injured workers missed 80 workdays on average despite declining injury rates.",
+      "rationale": "Frequency and severity move differently; evidence supports severity stress, not a certain total claims increase.",
+      "suggested_adjustment_analyst_judgment": "Net underlying-loss-ratio adjustment 0\u20130.3 points, or widen severity scenario only.",
+      "confidence": "High report facts; low quarterly mapping",
+      "duplicate_overlap_risk": "Multi-year sample overlaps historical losses; do not compound entire severity trend onto updated ratio.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "missing an average of 80 workdays",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "missing an average of 80 workdays"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Workers compensation claims analyzed",
+          "source_value": "more than 1.2 million",
+          "unit_or_scope": "claims received 2021\u20132025"
+        },
+        {
+          "label": "Average workdays missed",
+          "source_value": 80,
+          "unit_or_scope": "workdays; injured workers in report"
+        },
+        {
+          "label": "Injury frequency direction",
+          "source_value": "declining",
+          "unit_or_scope": "Company report description; not a quantified forecast"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Release subtitle and first two body paragraphs, including quoted workdays statistic.",
+      "local_source_file": "data/research/raw/TRV08.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV08",
+      "source_factual_extract_count": 3
+    },
+    {
+      "id": "TRV09",
+      "company": "TRV",
+      "driver": "replacement_and_legal_cost_pressure",
+      "published_at": "2026-05-13",
+      "observation_period": "April 2026 initial PPI release",
+      "source_url": "https://www.bls.gov/news.release/archives/ppi_05132026.htm",
+      "factual_datapoint": "Final-demand goods prices +2.0% month-on-month; legal services prices also rose (release narrative).",
+      "rationale": "Repair/replacement and litigation expenses can increase, with heterogeneous coverage and settlement lags.",
+      "suggested_adjustment_analyst_judgment": "Underlying-loss-ratio downside +0\u20130.5 points; broad PPI is a weak proxy, not an actuarial severity estimate.",
+      "confidence": "High broad price fact; low loss-cost mapping",
+      "duplicate_overlap_risk": "Overlaps TRV04 social inflation and TRV08 severity; cap joint loss-ratio stress.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "legal services also moved higher",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "legal services also moved higher"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Final-demand goods monthly change",
+          "source_value": 2.0,
+          "unit_or_scope": "percent; April 2026"
+        },
+        {
+          "label": "Legal-services price direction",
+          "source_value": "increased",
+          "unit_or_scope": "April 2026 release narrative"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "Final demand goods first paragraph; Final demand services Product detail paragraph mentioning legal services.",
+      "local_source_file": null,
+      "source_capture_status": "Official dated release inspected via web tool; direct archive download blocked by publisher. No full local capture claimed.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "local_web_review_file": "data/research/raw/bls_detail_web_review.json",
+      "external_source_review_id": "SRC_TRV09",
+      "source_factual_extract_count": 2
+    },
+    {
+      "id": "TRV10",
+      "company": "TRV",
+      "driver": "updated_rate_policy",
+      "published_at": "2026-04-29",
+      "observation_period": "April 2026 policy decision",
+      "source_url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20260429a.htm",
+      "factual_datapoint": "Federal funds range again maintained at 3.50\u20133.75%; Fed described inflation as elevated partly due to global energy prices.",
+      "rationale": "No policy-rate change supports avoiding an invented immediate investment yield shock.",
+      "suggested_adjustment_analyst_judgment": "Incremental base yield adjustment zero versus March; preserve +/-25bp reinvestment sensitivity.",
+      "confidence": "High facts; medium mapping",
+      "duplicate_overlap_risk": "Supersedes TRV03 policy state rather than adding another income boost.",
+      "evidence_type": "reported_observation",
+      "eligible_pre_quarter": false,
+      "eligible_mid_quarter": true,
+      "binding_scope": "Only the cited historical observation or existence of guidance is binding; all target-quarter mappings are analyst judgment.",
+      "source_excerpt": "maintain the target range for the federal funds rate [\u2026] Inflation is elevated",
+      "excerpt_scope": "Short original wording plus separately labeled compact source fact transcription jointly support the record. Numeric fact cells are not quoted prose.",
+      "source_quote_fragments": [
+        "maintain the target range for the federal funds rate",
+        "Inflation is elevated"
+      ],
+      "source_factual_extract": [
+        {
+          "label": "Federal funds target lower bound",
+          "source_value": 3.5,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Federal funds target upper bound",
+          "source_value": 3.75,
+          "unit_or_scope": "percent"
+        },
+        {
+          "label": "Decision",
+          "source_value": "maintained",
+          "unit_or_scope": "April 29, 2026"
+        },
+        {
+          "label": "Fed inflation assessment",
+          "source_value": "elevated, partly reflecting recent increase in global energy prices",
+          "unit_or_scope": "April 29 statement"
+        }
+      ],
+      "factual_extract_kind": "Curator transcription of source facts and numeric table cells; NOT a verbatim quotation; NOT analyst forecast assumptions.",
+      "source_locator": "FOMC statement first paragraph for inflation; policy decision paragraph for maintained range.",
+      "local_source_file": "data/research/raw/TRV10.html",
+      "source_capture_status": "Official source downloaded; original file available for human verification.",
+      "extraction_provenance": "Human-readable primary-source release inspected by research agent via web tool; values copied into labeled fact cells. Monetary billions converted to millions only where explicit in label/value. See source_locator and original file where available.",
+      "claim_support": {
+        "published_observations": "Every element of factual_datapoint is represented in source_factual_extract.",
+        "short_quote": "source_excerpt and source_quote_fragments contain only verbatim fragments, separated by explicit omissions.",
+        "rationale": "Analyst causal interpretation, not an observed elasticity or a claim quoted from the source.",
+        "numerical_adjustment": "Explicitly illustrative analyst scenario sensitivity, not calibrated from the source."
+      },
+      "admission_status": "admitted",
+      "excluded_from_model": false,
+      "external_source_review_id": "SRC_TRV10",
+      "source_factual_extract_count": 4
+    }
+  ],
+  "evidence_support_version": 2,
+  "support_repaired_at_utc": "2026-10-02T13:06:34.270456+00:00",
+  "support_revision_note": "Original failed model QA correctly flagged partial quotation coverage. Added labeled source fact tables and source locators; original v1 records retained in audit_versions. No failed run outputs altered. PG03 later-vintage revision value removed from pre-eligible free text.",
+  "source_support_review": "data/research/external_source_review.json"
+}

@@ -1,0 +1,835 @@
+{
+  "name": "Travelers_Scenarios",
+  "compatibilityLevel": 1606,
+  "model": {
+    "culture": "en-US",
+    "defaultPowerBIDataSourceVersion": "powerBI_V3",
+    "defaultMode": "import",
+    "tables": [
+      {
+        "name": "Vintage",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "VintageLabel",
+            "dataType": "string",
+            "sourceColumn": "[VintageLabel]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Vintage",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"VintageLabel\",STRING,\"Sort\",INTEGER,{{\"pre_history\",\"March | History only\",1},{\"pre_market\",\"March | Market informed\",2},{\"mid_history\",\"May | History only\",3},{\"mid_market\",\"May | Market informed\",4}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "VintageCompare",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "VintageLabel",
+            "dataType": "string",
+            "sourceColumn": "[VintageLabel]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "VintageCompare",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"VintageLabel\",STRING,\"Sort\",INTEGER,{{\"pre_history\",\"March | History only\",1},{\"pre_market\",\"March | Market informed\",2},{\"mid_history\",\"May | History only\",3},{\"mid_market\",\"May | Market informed\",4}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Scenario",
+        "columns": [
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Scenario",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Case\",STRING,\"Sort\",INTEGER,{{\"bear\",1},{\"base\",2},{\"bull\",3}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Forecast",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Margin",
+            "dataType": "double",
+            "sourceColumn": "[Margin]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "Liquidity",
+            "dataType": "double",
+            "sourceColumn": "[Liquidity]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Forecast",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Margin\",DOUBLE,\"Liquidity\",DOUBLE,{{\"pre_history\",\"bear\",10921.0,271.9134599999998,-476.39300000000026,1.0402417361047522,1800},{\"pre_history\",\"base\",11248.630000000001,1620.3478433999999,1037.8678000000002,0.9044522933014953,1000},{\"pre_history\",\"bull\",11576.26,2449.1873160000005,1921.8138000000006,0.8307979606539591,500},{\"pre_market\",\"bear\",10921.0,186.72965999999977,-585.6030000000003,1.0502417361047522,1800},{\"pre_market\",\"base\",11248.630000000001,1620.3478433999999,1037.8678000000002,0.9044522933014953,1000},{\"pre_market\",\"bull\",11576.26,2449.1873160000005,1921.8138000000006,0.8307979606539591,500},{\"mid_history\",\"bear\",10484.16,182.63709799999972,-578.8138000000004,1.051687574397949,1800},{\"mid_history\",\"base\",10811.789999999999,1435.5016956,863.23192,0.9167441357998999,1000},{\"mid_history\",\"bull\",11139.42,2264.094866,1726.0913000000003,0.8417328460548215,500},{\"mid_market\",\"bear\",10484.16,99.81223399999975,-683.6554000000003,1.0616875743979488,1800},{\"mid_market\",\"base\",10811.789999999999,1435.5016956,863.23192,0.9167441357998999,1000},{\"mid_market\",\"bull\",11139.42,2264.094866,1726.0913000000003,0.8417328460548215,500}})"
+            }
+          }
+        ],
+        "measures": [
+          {
+            "name": "Selected Revenue",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Revenue]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Revenue",
+            "expression": "MAX(Actual[Revenue])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Profit",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Profit]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Profit",
+            "expression": "MAX(Actual[Profit])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Operating",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Operating]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual Operating",
+            "expression": "MAX(Actual[Operating])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Selected Margin",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Margin]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Actual Margin",
+            "expression": "MAX(Actual[Margin])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Selected Liquidity",
+            "expression": "VAR V=SELECTEDVALUE(Vintage[Vintage],\"mid_market\") VAR C=SELECTEDVALUE(Scenario[Case],\"base\") RETURN CALCULATE(MAX(Forecast[Liquidity]),KEEPFILTERS(Vintage[Vintage]=V),KEEPFILTERS(Scenario[Case]=C))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Vintage profit",
+            "expression": "CALCULATE([Selected Profit],REMOVEFILTERS(Vintage),TREATAS(VALUES(VintageCompare[Vintage]),Vintage[Vintage]))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit error",
+            "expression": "[Actual Profit]-[Selected Profit]",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit error %",
+            "expression": "DIVIDE([Profit error],[Selected Profit])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "History revenue",
+            "expression": "SUM(History[Revenue])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History profit",
+            "expression": "SUM(History[Profit])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History operating",
+            "expression": "SUM(History[Operating])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History cash flow",
+            "expression": "SUM(History[CashFlow])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "History ratio",
+            "expression": "AVERAGE(History[Ratio])",
+            "formatString": "0.0%;(0.0%);0.0%"
+          },
+          {
+            "name": "Segment value",
+            "expression": "SUM(Segments[Amount])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Bridge impact",
+            "expression": "CALCULATE(SUM(Bridge[ProfitChange]),KEEPFILTERS(Bridge[Window]=SELECTEDVALUE(Bridge[Window],\"mid\")))",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual bridge impact",
+            "expression": "SUM(ActualBridge[ProfitChange])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sensitivity impact",
+            "expression": "SUM(Sensitivity[ProfitChange])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Forecast comparison",
+            "expression": "SUM(Comparison[Forecast])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual comparison",
+            "expression": "SUM(Comparison[Actual])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Difference comparison",
+            "expression": "SUM(Comparison[Difference])",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "QA rows",
+            "expression": "COUNTROWS(QA)",
+            "formatString": "0"
+          },
+          {
+            "name": "Catastrophe losses",
+            "expression": "[Selected Liquidity]",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ]
+      },
+      {
+        "name": "Actual",
+        "columns": [
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Margin",
+            "dataType": "double",
+            "sourceColumn": "[Margin]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Actual",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Margin\",DOUBLE,{{10753.0,2160.0,1738.0,0.836}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "History",
+        "columns": [
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Revenue",
+            "dataType": "double",
+            "sourceColumn": "[Revenue]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Profit",
+            "dataType": "double",
+            "sourceColumn": "[Profit]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Operating",
+            "dataType": "double",
+            "sourceColumn": "[Operating]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Ratio",
+            "dataType": "double",
+            "sourceColumn": "[Ratio]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          },
+          {
+            "name": "CashFlow",
+            "dataType": "double",
+            "sourceColumn": "[CashFlow]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "History",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Quarter\",STRING,\"Revenue\",DOUBLE,\"Profit\",DOUBLE,\"Operating\",DOUBLE,\"Ratio\",DOUBLE,\"CashFlow\",DOUBLE,{{\"2024Q1\",10126.0,1096.0,577.0,0.9390000000000001,1458.0},{\"2024Q2\",10243.0,585.0,-65.0,1.002,1677.0},{\"2024Q3\",10704.0,1218.0,685.0,0.932,3875.0},{\"2024Q4\",10868.0,2126.0,1787.0,0.8320000000000001,2064.0},{\"2025Q1\",10710.0,443.0,-305.0,1.025,1360.0},{\"2025Q2\",10921.0,1504.0,1022.0,0.903,2334.0},{\"2025Q3\",11135.0,1867.0,1378.0,0.873,4227.0},{\"2025Q4\",11148.0,2511.0,2170.0,0.802,2685.0},{\"2026Q1\",10605.0,1696.0,1173.0,0.8859999999999999,2198.0}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Segments",
+        "columns": [
+          {
+            "name": "Segment",
+            "dataType": "string",
+            "sourceColumn": "[Segment]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Amount",
+            "dataType": "double",
+            "sourceColumn": "[Amount]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Segments",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Segment\",STRING,\"Amount\",DOUBLE,{{\"Business Insurance\",5786.0},{\"Bond & Specialty Insurance\",1066.0},{\"Personal Insurance\",3486.0}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Bridge",
+        "columns": [
+          {
+            "name": "Window",
+            "dataType": "string",
+            "sourceColumn": "[Window]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Bridge",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Window\",STRING,\"Driver\",STRING,\"ProfitChange\",DOUBLE,\"Sort\",INTEGER,{{\"pre\",\"earned premium growth\",0.0,0},{\"pre\",\"written premium growth\",0.0,1},{\"pre\",\"underlying combined ratio\",0.0,2},{\"pre\",\"catastrophe losses\",0.0,3},{\"pre\",\"favorable reserve development\",0.0,4},{\"pre\",\"investment income\",0.0,5},{\"pre\",\"other income including interest\",0.0,6},{\"pre\",\"effective tax rate\",0.0,7},{\"pre\",\"diluted shares\",0.0,8},{\"mid\",\"earned premium growth\",0.0,0},{\"mid\",\"written premium growth\",0.0,1},{\"mid\",\"underlying combined ratio\",0.0,2},{\"mid\",\"catastrophe losses\",0.0,3},{\"mid\",\"favorable reserve development\",0.0,4},{\"mid\",\"investment income\",0.0,5},{\"mid\",\"other income including interest\",0.0,6},{\"mid\",\"effective tax rate\",0.0,7},{\"mid\",\"diluted shares\",0.0,8}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "ActualBridge",
+        "columns": [
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "sortByColumn": "Sort"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Sort",
+            "dataType": "int64",
+            "sourceColumn": "[Sort]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "ActualBridge",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Driver\",STRING,\"ProfitChange\",DOUBLE,\"Sort\",INTEGER,{{\"earned premium growth\",-7.004240600000003,0},{\"written premium growth\",0.0,1},{\"underlying combined ratio\",95.2178150000002,2},{\"catastrophe losses\",388.0100000000002,3},{\"favorable reserve development\",223.78999999999996,4},{\"investment income\",32.19999999999982,5},{\"other income including interest\",7.245000000000346,6},{\"effective tax rate\",-19.098341666051056,7},{\"diluted shares\",0.0,8},{\"Reported rounding and basis residual\",4.138071666050564,9}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sensitivity",
+        "columns": [
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Shock",
+            "dataType": "double",
+            "sourceColumn": "[Shock]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "ProfitChange",
+            "dataType": "double",
+            "sourceColumn": "[ProfitChange]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sensitivity",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Driver\",STRING,\"Shock\",DOUBLE,\"ProfitChange\",DOUBLE,{{\"earned premium growth\",0.01,13.011279400000149},{\"underlying combined ratio\",0.01,-87.03490950000014},{\"catastrophe losses\",100,-80.5},{\"investment income\",100,80.5}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Comparison",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Metric",
+            "dataType": "string",
+            "sourceColumn": "[Metric]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Forecast",
+            "dataType": "double",
+            "sourceColumn": "[Forecast]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Actual",
+            "dataType": "double",
+            "sourceColumn": "[Actual]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "Difference",
+            "dataType": "double",
+            "sourceColumn": "[Difference]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "$#,0.0;($#,0.0);$0.0"
+          },
+          {
+            "name": "ErrorPercent",
+            "dataType": "double",
+            "sourceColumn": "[ErrorPercent]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "formatString": "0.0%"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Comparison",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Metric\",STRING,\"Forecast\",DOUBLE,\"Actual\",DOUBLE,\"Difference\",DOUBLE,\"ErrorPercent\",DOUBLE,{{\"pre_history\",\"bear\",\"net earned premiums\",10921.0,10753.0,-168.0,-0.015383206666056222},{\"pre_history\",\"bear\",\"net written premiums\",11312.14,11529.0,216.86000000000058,0.019170554819866143},{\"pre_history\",\"bear\",\"underlying underwriting gain\",1273.6069999999997,1678.0,404.39300000000026,0.3175178842452973},{\"pre_history\",\"bear\",\"underwriting gain\",-476.39300000000026,1738.0,2214.393,4.648248399955497},{\"pre_history\",\"bear\",\"investment income pretax\",950,1070.0,120.0,0.12631578947368421},{\"pre_history\",\"bear\",\"core pretax income\",348.60699999999974,2707.0,2358.393,6.765191175162868},{\"pre_history\",\"bear\",\"core income tax\",76.69353999999994,547.0,470.3064600000001,6.132282588598732},{\"pre_history\",\"bear\",\"core income\",271.9134599999998,2160.0,1888.0865400000002,6.943703853424547},{\"pre_history\",\"bear\",\"catastrophe losses\",1800,518.0,-1282.0,-0.7122222222222222},{\"pre_history\",\"bear\",\"favorable prior year development\",50,578.0,528.0,10.56},{\"pre_history\",\"base\",\"net earned premiums\",11248.630000000001,10753.0,-495.630000000001,-0.044061365695200305},{\"pre_history\",\"base\",\"net written premiums\",11716.144999999999,11529.0,-187.14499999999862,-0.01597325741530159},{\"pre_history\",\"base\",\"underlying underwriting gain\",1762.8678000000002,1678.0,-84.86780000000022,-0.048141896970379856},{\"pre_history\",\"base\",\"underwriting gain\",1037.8678000000002,1738.0,700.1321999999998,0.674587071686779},{\"pre_history\",\"base\",\"investment income pretax\",1080,1070.0,-10.0,-0.009259259259259259},{\"pre_history\",\"base\",\"core pretax income\",2017.8678,2707.0,689.1322,0.3415150387949102},{\"pre_history\",\"base\",\"core income tax\",397.5199566,547.0,149.4800434,0.37603154487766416},{\"pre_history\",\"base\",\"core income\",1620.3478433999999,2160.0,539.6521566000001,0.3330471039277838},{\"pre_history\",\"base\",\"catastrophe losses\",1000,518.0,-482.0,-0.482},{\"pre_history\",\"base\",\"favorable prior year development\",275,578.0,303.0,1.1018181818181818},{\"pre_history\",\"bull\",\"net earned premiums\",11576.26,10753.0,-823.2600000000002,-0.07111623270382664},{\"pre_history\",\"bull\",\"net written premiums\",12004.720000000001,11529.0,-475.72000000000116,-0.03962774641974166},{\"pre_history\",\"bull\",\"underlying underwriting gain\",2046.8138000000006,1678.0,-368.8138000000006,-0.18018922874176463},{\"pre_history\",\"bull\",\"underwriting gain\",1921.8138000000006,1738.0,-183.81380000000058,-0.09564599858737644},{\"pre_history\",\"bull\",\"investment income pretax\",1150,1070.0,-80.0,-0.06956521739130435},{\"pre_history\",\"bull\",\"core pretax income\",2986.813800000001,2707.0,-279.8138000000008,-0.09368304110554221},{\"pre_history\",\"bull\",\"core income tax\",537.6264840000001,547.0,9.373515999999881,0.017434996747667436},{\"pre_history\",\"bull\",\"core income\",2449.1873160000005,2160.0,-289.18731600000046,-0.11807480551234424},{\"pre_history\",\"bull\",\"catastrophe losses\",500,518.0,18.0,0.036},{\"pre_history\",\"bull\",\"favorable prior year development\",375,578.0,203.0,0.5413333333333333},{\"pre_market\",\"bear\",\"net earned premiums\",10921.0,10753.0,-168.0,-0.015383206666056222},{\"pre_market\",\"bear\",\"net written premiums\",11312.14,11529.0,216.86000000000058,0.019170554819866143},{\"pre_market\",\"bear\",\"underlying underwriting gain\",1164.3969999999997,1678.0,513.6030000000003,0.4410892504875918},{\"pre_market\",\"bear\",\"underwriting gain\",-585.6030000000003,1738.0,2323.603,3.9678809705551354},{\"pre_market\",\"bear\",\"investment income pretax\",950,1070.0,120.0,0.12631578947368421},{\"pre_market\",\"bear\",\"core pretax income\",239.3969999999997,2707.0,2467.603,10.307576953763009},{\"pre_market\",\"bear\",\"core income tax\",52.66733999999994,547.0,494.33266000000003,9.385943167055723},{\"pre_market\",\"bear\",\"core income\",186.72965999999977,2160.0,1973.2703400000003,10.567524944885578},{\"pre_market\",\"bear\",\"catastrophe losses\",1800,518.0,-1282.0,-0.7122222222222222},{\"pre_market\",\"bear\",\"favorable prior year development\",50,578.0,528.0,10.56},{\"pre_market\",\"base\",\"net earned premiums\",11248.630000000001,10753.0,-495.630000000001,-0.044061365695200305},{\"pre_market\",\"base\",\"net written premiums\",11716.144999999999,11529.0,-187.14499999999862,-0.01597325741530159},{\"pre_market\",\"base\",\"underlying underwriting gain\",1762.8678000000002,1678.0,-84.86780000000022,-0.048141896970379856},{\"pre_market\",\"base\",\"underwriting gain\",1037.8678000000002,1738.0,700.1321999999998,0.674587071686779},{\"pre_market\",\"base\",\"investment income pretax\",1080,1070.0,-10.0,-0.009259259259259259},{\"pre_market\",\"base\",\"core pretax income\",2017.8678,2707.0,689.1322,0.3415150387949102},{\"pre_market\",\"base\",\"core income tax\",397.5199566,547.0,149.4800434,0.37603154487766416},{\"pre_market\",\"base\",\"core income\",1620.3478433999999,2160.0,539.6521566000001,0.3330471039277838},{\"pre_market\",\"base\",\"catastrophe losses\",1000,518.0,-482.0,-0.482},{\"pre_market\",\"base\",\"favorable prior year development\",275,578.0,303.0,1.1018181818181818},{\"pre_market\",\"bull\",\"net earned premiums\",11576.26,10753.0,-823.2600000000002,-0.07111623270382664},{\"pre_market\",\"bull\",\"net written premiums\",12004.720000000001,11529.0,-475.72000000000116,-0.03962774641974166},{\"pre_market\",\"bull\",\"underlying underwriting gain\",2046.8138000000006,1678.0,-368.8138000000006,-0.18018922874176463},{\"pre_market\",\"bull\",\"underwriting gain\",1921.8138000000006,1738.0,-183.81380000000058,-0.09564599858737644},{\"pre_market\",\"bull\",\"investment income pretax\",1150,1070.0,-80.0,-0.06956521739130435},{\"pre_market\",\"bull\",\"core pretax income\",2986.813800000001,2707.0,-279.8138000000008,-0.09368304110554221},{\"pre_market\",\"bull\",\"core income tax\",537.6264840000001,547.0,9.373515999999881,0.017434996747667436},{\"pre_market\",\"bull\",\"core income\",2449.1873160000005,2160.0,-289.18731600000046,-0.11807480551234424},{\"pre_market\",\"bull\",\"catastrophe losses\",500,518.0,18.0,0.036},{\"pre_market\",\"bull\",\"favorable prior year development\",375,578.0,203.0,0.5413333333333333},{\"mid_history\",\"bear\",\"net earned premiums\",10484.16,10753.0,268.84000000000015,0.02564249305619145},{\"mid_history\",\"bear\",\"net written premiums\",10965.85,11529.0,563.1499999999996,0.05135488812996709},{\"mid_history\",\"bear\",\"underlying underwriting gain\",1221.1861999999996,1678.0,456.81380000000036,0.37407383083759094},{\"mid_history\",\"bear\",\"underwriting gain\",-578.8138000000004,1738.0,2316.8138000000004,4.002692748514288},{\"mid_history\",\"bear\",\"investment income pretax\",950,1070.0,120.0,0.12631578947368421},{\"mid_history\",\"bear\",\"core pretax income\",231.18619999999964,2707.0,2475.8138000000004,10.709176412778982},{\"mid_history\",\"bear\",\"core income tax\",48.54910199999993,547.0,498.45089800000005,10.266943722254652},{\"mid_history\",\"bear\",\"core income\",182.63709799999972,2160.0,1977.3629020000003,10.826731938108233},{\"mid_history\",\"bear\",\"catastrophe losses\",1800,518.0,-1282.0,-0.7122222222222222},{\"mid_history\",\"bear\",\"favorable prior year development\",0,578.0,578.0,BLANK()},{\"mid_history\",\"base\",\"net earned premiums\",10811.789999999999,10753.0,-58.789999999999054,-0.005437582490965794},{\"mid_history\",\"base\",\"net written premiums\",11312.14,11529.0,216.86000000000058,0.019170554819866143},{\"mid_history\",\"base\",\"underlying underwriting gain\",1563.23192,1678.0,114.76808000000005,0.07341718047824923},{\"mid_history\",\"base\",\"underwriting gain\",863.23192,1738.0,874.76808,1.0133639173120477},{\"mid_history\",\"base\",\"investment income pretax\",1030,1070.0,40.0,0.038834951456310676},{\"mid_history\",\"base\",\"core pretax income\",1783.23192,2707.0,923.76808,0.5180302514997601},{\"mid_history\",\"base\",\"core income tax\",347.7302244,547.0,199.2697756,0.5730585425636645},{\"mid_history\",\"base\",\"core income\",1435.5016956,2160.0,724.4983044,0.5047004170184416},{\"mid_history\",\"base\",\"catastrophe losses\",1000,518.0,-482.0,-0.482},{\"mid_history\",\"base\",\"favorable prior year development\",300,578.0,278.0,0.9266666666666666},{\"mid_history\",\"bull\",\"net earned premiums\",11139.42,10753.0,-386.4200000000001,-0.034689418300055126},{\"mid_history\",\"bull\",\"net written premiums\",11773.86,11529.0,-244.86000000000058,-0.020796917918167922},{\"mid_history\",\"bull\",\"underlying underwriting gain\",1801.0913000000003,1678.0,-123.09130000000027,-0.06834262094320274},{\"mid_history\",\"bull\",\"underwriting gain\",1726.0913000000003,1738.0,11.908699999999726,0.006899229490351828},{\"mid_history\",\"bull\",\"investment income pretax\",1120,1070.0,-50.0,-0.044642857142857144},{\"mid_history\",\"bull\",\"core pretax income\",2761.0913,2707.0,-54.09130000000005,-0.019590551025965727},{\"mid_history\",\"bull\",\"core income tax\",496.99643399999997,547.0,50.003566000000035,0.1006115186733916},{\"mid_history\",\"bull\",\"core income\",2264.094866,2160.0,-104.09486599999991,-0.04597637120387336},{\"mid_history\",\"bull\",\"catastrophe losses\",500,518.0,18.0,0.036},{\"mid_history\",\"bull\",\"favorable prior year development\",425,578.0,153.0,0.36},{\"mid_market\",\"bear\",\"net earned premiums\",10484.16,10753.0,268.84000000000015,0.02564249305619145},{\"mid_market\",\"bear\",\"net written premiums\",10965.85,11529.0,563.1499999999996,0.05135488812996709},{\"mid_market\",\"bear\",\"underlying underwriting gain\",1116.3445999999997,1678.0,561.6554000000003,0.5031200939208202},{\"mid_market\",\"bear\",\"underwriting gain\",-683.6554000000003,1738.0,2421.6554000000006,3.5422164441325257},{\"mid_market\",\"bear\",\"investment income pretax\",950,1070.0,120.0,0.12631578947368421},{\"mid_market\",\"bear\",\"core pretax income\",126.34459999999967,2707.0,2580.6554000000006,20.42552986039773},{\"mid_market\",\"bear\",\"core income tax\",26.53236599999993,547.0,520.4676340000001,19.616329504877232},{\"mid_market\",\"bear\",\"core income\",99.81223399999975,2160.0,2060.1877660000005,20.640633752371535},{\"mid_market\",\"bear\",\"catastrophe losses\",1800,518.0,-1282.0,-0.7122222222222222},{\"mid_market\",\"bear\",\"favorable prior year development\",0,578.0,578.0,BLANK()},{\"mid_market\",\"base\",\"net earned premiums\",10811.789999999999,10753.0,-58.789999999999054,-0.005437582490965794},{\"mid_market\",\"base\",\"net written premiums\",11312.14,11529.0,216.86000000000058,0.019170554819866143},{\"mid_market\",\"base\",\"underlying underwriting gain\",1563.23192,1678.0,114.76808000000005,0.07341718047824923},{\"mid_market\",\"base\",\"underwriting gain\",863.23192,1738.0,874.76808,1.0133639173120477},{\"mid_market\",\"base\",\"investment income pretax\",1030,1070.0,40.0,0.038834951456310676},{\"mid_market\",\"base\",\"core pretax income\",1783.23192,2707.0,923.76808,0.5180302514997601},{\"mid_market\",\"base\",\"core income tax\",347.7302244,547.0,199.2697756,0.5730585425636645},{\"mid_market\",\"base\",\"core income\",1435.5016956,2160.0,724.4983044,0.5047004170184416},{\"mid_market\",\"base\",\"catastrophe losses\",1000,518.0,-482.0,-0.482},{\"mid_market\",\"base\",\"favorable prior year development\",300,578.0,278.0,0.9266666666666666},{\"mid_market\",\"bull\",\"net earned premiums\",11139.42,10753.0,-386.4200000000001,-0.034689418300055126},{\"mid_market\",\"bull\",\"net written premiums\",11773.86,11529.0,-244.86000000000058,-0.020796917918167922},{\"mid_market\",\"bull\",\"underlying underwriting gain\",1801.0913000000003,1678.0,-123.09130000000027,-0.06834262094320274},{\"mid_market\",\"bull\",\"underwriting gain\",1726.0913000000003,1738.0,11.908699999999726,0.006899229490351828},{\"mid_market\",\"bull\",\"investment income pretax\",1120,1070.0,-50.0,-0.044642857142857144},{\"mid_market\",\"bull\",\"core pretax income\",2761.0913,2707.0,-54.09130000000005,-0.019590551025965727},{\"mid_market\",\"bull\",\"core income tax\",496.99643399999997,547.0,50.003566000000035,0.1006115186733916},{\"mid_market\",\"bull\",\"core income\",2264.094866,2160.0,-104.09486599999991,-0.04597637120387336},{\"mid_market\",\"bull\",\"catastrophe losses\",500,518.0,18.0,0.036},{\"mid_market\",\"bull\",\"favorable prior year development\",425,578.0,153.0,0.36}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Drivers",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Case",
+            "dataType": "string",
+            "sourceColumn": "[Case]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Driver",
+            "dataType": "string",
+            "sourceColumn": "[Driver]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Value",
+            "dataType": "double",
+            "sourceColumn": "[Value]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Drivers",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Case\",STRING,\"Driver\",STRING,\"Value\",DOUBLE,{{\"pre_history\",\"bear\",\"earned premium growth\",0},{\"pre_history\",\"bear\",\"written premium growth\",-0.02},{\"pre_history\",\"bear\",\"underlying combined ratio\",0.88},{\"pre_history\",\"bear\",\"catastrophe losses\",1800},{\"pre_history\",\"bear\",\"favorable reserve development\",50},{\"pre_history\",\"bear\",\"investment income\",950},{\"pre_history\",\"bear\",\"other income including interest\",-125},{\"pre_history\",\"bear\",\"effective tax rate\",0.22},{\"pre_history\",\"bear\",\"diluted shares\",224},{\"pre_history\",\"base\",\"earned premium growth\",0.03},{\"pre_history\",\"base\",\"written premium growth\",0.015},{\"pre_history\",\"base\",\"underlying combined ratio\",0.84},{\"pre_history\",\"base\",\"catastrophe losses\",1000},{\"pre_history\",\"base\",\"favorable reserve development\",275},{\"pre_history\",\"base\",\"investment income\",1080},{\"pre_history\",\"base\",\"other income including interest\",-100},{\"pre_history\",\"base\",\"effective tax rate\",0.197},{\"pre_history\",\"base\",\"diluted shares\",222},{\"pre_history\",\"bull\",\"earned premium growth\",0.06},{\"pre_history\",\"bull\",\"written premium growth\",0.04},{\"pre_history\",\"bull\",\"underlying combined ratio\",0.82},{\"pre_history\",\"bull\",\"catastrophe losses\",500},{\"pre_history\",\"bull\",\"favorable reserve development\",375},{\"pre_history\",\"bull\",\"investment income\",1150},{\"pre_history\",\"bull\",\"other income including interest\",-85},{\"pre_history\",\"bull\",\"effective tax rate\",0.18},{\"pre_history\",\"bull\",\"diluted shares\",219},{\"pre_market\",\"bear\",\"earned premium growth\",0},{\"pre_market\",\"bear\",\"written premium growth\",-0.02},{\"pre_market\",\"bear\",\"underlying combined ratio\",0.89},{\"pre_market\",\"bear\",\"catastrophe losses\",1800},{\"pre_market\",\"bear\",\"favorable reserve development\",50},{\"pre_market\",\"bear\",\"investment income\",950},{\"pre_market\",\"bear\",\"other income including interest\",-125},{\"pre_market\",\"bear\",\"effective tax rate\",0.22},{\"pre_market\",\"bear\",\"diluted shares\",224},{\"pre_market\",\"base\",\"earned premium growth\",0.03},{\"pre_market\",\"base\",\"written premium growth\",0.015},{\"pre_market\",\"base\",\"underlying combined ratio\",0.84},{\"pre_market\",\"base\",\"catastrophe losses\",1000},{\"pre_market\",\"base\",\"favorable reserve development\",275},{\"pre_market\",\"base\",\"investment income\",1080},{\"pre_market\",\"base\",\"other income including interest\",-100},{\"pre_market\",\"base\",\"effective tax rate\",0.197},{\"pre_market\",\"base\",\"diluted shares\",222},{\"pre_market\",\"bull\",\"earned premium growth\",0.06},{\"pre_market\",\"bull\",\"written premium growth\",0.04},{\"pre_market\",\"bull\",\"underlying combined ratio\",0.82},{\"pre_market\",\"bull\",\"catastrophe losses\",500},{\"pre_market\",\"bull\",\"favorable reserve development\",375},{\"pre_market\",\"bull\",\"investment income\",1150},{\"pre_market\",\"bull\",\"other income including interest\",-85},{\"pre_market\",\"bull\",\"effective tax rate\",0.18},{\"pre_market\",\"bull\",\"diluted shares\",219},{\"mid_history\",\"bear\",\"earned premium growth\",-0.04},{\"mid_history\",\"bear\",\"written premium growth\",-0.05},{\"mid_history\",\"bear\",\"underlying combined ratio\",0.88},{\"mid_history\",\"bear\",\"catastrophe losses\",1800},{\"mid_history\",\"bear\",\"favorable reserve development\",0},{\"mid_history\",\"bear\",\"investment income\",950},{\"mid_history\",\"bear\",\"other income including interest\",-140},{\"mid_history\",\"bear\",\"effective tax rate\",0.21},{\"mid_history\",\"bear\",\"diluted shares\",219},{\"mid_history\",\"base\",\"earned premium growth\",-0.01},{\"mid_history\",\"base\",\"written premium growth\",-0.02},{\"mid_history\",\"base\",\"underlying combined ratio\",0.852},{\"mid_history\",\"base\",\"catastrophe losses\",1000},{\"mid_history\",\"base\",\"favorable reserve development\",300},{\"mid_history\",\"base\",\"investment income\",1030},{\"mid_history\",\"base\",\"other income including interest\",-110},{\"mid_history\",\"base\",\"effective tax rate\",0.195},{\"mid_history\",\"base\",\"diluted shares\",216},{\"mid_history\",\"bull\",\"earned premium growth\",0.02},{\"mid_history\",\"bull\",\"written premium growth\",0.02},{\"mid_history\",\"bull\",\"underlying combined ratio\",0.835},{\"mid_history\",\"bull\",\"catastrophe losses\",500},{\"mid_history\",\"bull\",\"favorable reserve development\",425},{\"mid_history\",\"bull\",\"investment income\",1120},{\"mid_history\",\"bull\",\"other income including interest\",-85},{\"mid_history\",\"bull\",\"effective tax rate\",0.18},{\"mid_history\",\"bull\",\"diluted shares\",213},{\"mid_market\",\"bear\",\"earned premium growth\",-0.04},{\"mid_market\",\"bear\",\"written premium growth\",-0.05},{\"mid_market\",\"bear\",\"underlying combined ratio\",0.89},{\"mid_market\",\"bear\",\"catastrophe losses\",1800},{\"mid_market\",\"bear\",\"favorable reserve development\",0},{\"mid_market\",\"bear\",\"investment income\",950},{\"mid_market\",\"bear\",\"other income including interest\",-140},{\"mid_market\",\"bear\",\"effective tax rate\",0.21},{\"mid_market\",\"bear\",\"diluted shares\",219},{\"mid_market\",\"base\",\"earned premium growth\",-0.01},{\"mid_market\",\"base\",\"written premium growth\",-0.02},{\"mid_market\",\"base\",\"underlying combined ratio\",0.852},{\"mid_market\",\"base\",\"catastrophe losses\",1000},{\"mid_market\",\"base\",\"favorable reserve development\",300},{\"mid_market\",\"base\",\"investment income\",1030},{\"mid_market\",\"base\",\"other income including interest\",-110},{\"mid_market\",\"base\",\"effective tax rate\",0.195},{\"mid_market\",\"base\",\"diluted shares\",216},{\"mid_market\",\"bull\",\"earned premium growth\",0.02},{\"mid_market\",\"bull\",\"written premium growth\",0.02},{\"mid_market\",\"bull\",\"underlying combined ratio\",0.835},{\"mid_market\",\"bull\",\"catastrophe losses\",500},{\"mid_market\",\"bull\",\"favorable reserve development\",425},{\"mid_market\",\"bull\",\"investment income\",1120},{\"mid_market\",\"bull\",\"other income including interest\",-85},{\"mid_market\",\"bull\",\"effective tax rate\",0.18},{\"mid_market\",\"bull\",\"diluted shares\",213}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "QA",
+        "columns": [
+          {
+            "name": "Vintage",
+            "dataType": "string",
+            "sourceColumn": "[Vintage]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Check",
+            "dataType": "string",
+            "sourceColumn": "[Check]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Status",
+            "dataType": "string",
+            "sourceColumn": "[Status]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Detail",
+            "dataType": "string",
+            "sourceColumn": "[Detail]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "QA",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Vintage\",STRING,\"Check\",STRING,\"Status\",STRING,\"Detail\",STRING,{{\"pre_history\",\"QA approval\",\"pass\",\"checked_against_provided_excerpts\"},{\"pre_history\",\"Operating cash-flow period attribution\",\"warning\",\"The excerpt contains the cited cash amounts but omits period headers. The assigned 2025 quarters sum to 10,606 USD million, which supports internal consistency but does not establish column attribution. Finance acknowledges this limitation; cash-period mapping receives no independent source attestation.\"},{\"pre_history\",\"Scope of scenario coverage and precision\",\"warning\",\"Passing these narrowly stated checks does not validate forecast accuracy, probabilities or final financial outputs. Contract limits exclude adverse reserve development and constrain underwriting stress. Historical ratios are rounded, target residuals and realized gains are unspecified, and precise scenario inputs should remain illustrative rather than presented as calibrated estimates.\"},{\"pre_market\",\"QA approval\",\"pass\",\"not_verified\"},{\"pre_market\",\"Transcription-dependent source support\",\"warning\",\"TRV01 retention and new business, TRV02 long-term fixed-income attribution, TRV03 maintained-policy decision, TRV04 estimate scope and publication date, and TRV05 drought severity, timing and expansion geography depend partly on supplied factual transcriptions. The located factual records support the narrowly stated interpretations, and no quotation/transcription contradiction was identified, but independent source accuracy remains unverified.\"},{\"pre_market\",\"Operating cash-flow column assignments\",\"warning\",\"The quoted cash-flow row contains the assigned values but lacks date headers. Its displayed annual total is consistent with the serialized quarterly sum, which does not verify individual quarter assignments. Finance discloses this limitation and uses the amount only as historical context; those assignments are not independently attested.\"},{\"pre_market\",\"Model coverage and execution\",\"warning\",\"Nonnegative favorable-development bounds exclude adverse reserve development, and absent exposure, portfolio, debt and capital details limit risk coverage. These limitations are disclosed. No target arithmetic was supplied to verify that the fixed residual is actually applied; the pass is limited to the supplied model design and evidence-to-assumption checks.\"},{\"mid_history\",\"QA approval\",\"pass\",\"checked_against_provided_excerpts\"},{\"mid_history\",\"Cash-flow column attribution\",\"warning\",\"The supplied cash-flow excerpts contain the mapped numbers but omit period headers. Their quarterly attribution cannot be established from the excerpts alone. Finance discloses reliance on packet attribution and derives no cash-flow forecast; that limitation must remain.\"},{\"mid_history\",\"Excerpt presentation and numerical precision\",\"warning\",\"Some finance source_excerpt fields concatenate separate rows or normalize whitespace rather than reproduce one verbatim excerpt. Their numerical components are supported by original packet rows, but the assembled strings should not be represented as verbatim quotations. Long derived decimals and the three-decimal residual express arithmetic precision, not forecast accuracy or a verified component breakdown.\"},{\"mid_market\",\"QA approval\",\"pass\",\"not_verified\"},{\"mid_market\",\"Transcription-dependent evidence\",\"warning\",\"Retention, personal-lines growth excluding disposal, workers-compensation sample and frequency, goods PPI, NOAA forecast details and April policy bounds depend on located curator factual records. Those records support the narrowly stated interpretations and do not contradict the supplied quotations, but provenance and links are not independent verification.\"},{\"mid_market\",\"Insurance specificity and excluded risks\",\"warning\",\"Drought and broad price indicators do not establish Travelers insured-loss magnitudes. The outputs appropriately avoid calibrated catastrophe or portfolio adjustments. Zero favorable releases cannot represent adverse reserve strengthening, and share reductions lack funding support; these restrictions are disclosed rather than presented as observed company forecasts.\"},{\"mid_market\",\"Cash-flow column attribution\",\"warning\",\"Cash-flow quotations omit column headers, so period attribution depends on serialized notes. Finance discloses this ambiguity and uses the figures only as historical context. The excerpts cannot independently establish quarterly alignment or repurchase capacity.\"},{\"All\",\"Source dates\",\"Passed\",\"Financial periods through March 2026; publication gates March 31 / May 15\"},{\"All\",\"Retrospective reconstruction\",\"Disclosed\",\"Runs executed today; do not claim forecasts were authored before the target\"},{\"All\",\"Accounting identity\",\"Passed\",\"72 historical checks; rounding tolerance retained\"},{\"All\",\"Actual holdout\",\"Separated\",\"Targets loaded only after model assumption freeze\"},{\"All\",\"Model basis\",\"Illustrative\",\"Analyst scenarios, not company guidance or official budget\"},{\"All\",\"Liquidity boundary\",\"Limited\",\"PG cash conversion assumption; TRV liquidity is not a retail cash budget\"}})"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Sources",
+        "columns": [
+          {
+            "name": "Quarter",
+            "dataType": "string",
+            "sourceColumn": "[Quarter]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Metric",
+            "dataType": "string",
+            "sourceColumn": "[Metric]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "Published",
+            "dataType": "string",
+            "sourceColumn": "[Published]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn"
+          },
+          {
+            "name": "SourceURL",
+            "dataType": "string",
+            "sourceColumn": "[SourceURL]",
+            "summarizeBy": "none",
+            "type": "calculatedTableColumn",
+            "dataCategory": "WebUrl"
+          }
+        ],
+        "partitions": [
+          {
+            "name": "Sources",
+            "mode": "import",
+            "source": {
+              "type": "calculated",
+              "expression": "DATATABLE(\"Quarter\",STRING,\"Metric\",STRING,\"Published\",STRING,\"SourceURL\",STRING,{{\"2025Q1\",\"core income\",\"2025-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-First-Quarter-Net-Income-of-395-Million-and-Core-Income-of-443-Million/default.aspx\"},{\"2024Q1\",\"core income\",\"2025-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-First-Quarter-Net-Income-of-395-Million-and-Core-Income-of-443-Million/default.aspx\"},{\"2025Q1\",\"net earned premiums\",\"2025-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-First-Quarter-Net-Income-of-395-Million-and-Core-Income-of-443-Million/default.aspx\"},{\"2024Q1\",\"net earned premiums\",\"2025-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-First-Quarter-Net-Income-of-395-Million-and-Core-Income-of-443-Million/default.aspx\"},{\"2025Q2\",\"core income\",\"2025-07-17\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2024Q2\",\"core income\",\"2025-07-17\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2025Q2\",\"net earned premiums\",\"2025-07-17\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2024Q2\",\"net earned premiums\",\"2025-07-17\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Second-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2025Q3\",\"core income\",\"2025-10-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2024Q3\",\"core income\",\"2025-10-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2025Q3\",\"net earned premiums\",\"2025-10-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2024Q3\",\"net earned premiums\",\"2025-10-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2025/Travelers-Reports-Excellent-Third-Quarter-and-Year-to-Date-Results/default.aspx\"},{\"2025Q4\",\"core income\",\"2026-01-21\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx\"},{\"2024Q4\",\"core income\",\"2026-01-21\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx\"},{\"2025Q4\",\"net earned premiums\",\"2026-01-21\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx\"},{\"2024Q4\",\"net earned premiums\",\"2026-01-21\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-Fourth-Quarter-and-Full-Year-Results/default.aspx\"},{\"2024Q1\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2024Q2\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2024Q3\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2024Q4\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2025Q1\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2025Q2\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2025Q3\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2025Q4\",\"operating cash flow\",\"2026-01-21\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000008/a992finsupp123125.htm\"},{\"2026Q1\",\"core income\",\"2026-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx\"},{\"2026Q1\",\"net earned premiums\",\"2026-04-16\",\"https://investor.travelers.com/newsroom/press-releases/news-details/2026/Travelers-Reports-Excellent-First-Quarter-Results/default.aspx\"},{\"2026Q1\",\"operating cash flow\",\"2026-04-16\",\"https://www.sec.gov/Archives/edgar/data/86312/000008631226000110/a992finsupp33126.htm\"}})"
+            }
+          }
+        ]
+      }
+    ],
+    "relationships": [
+      {
+        "name": "2c81ffee-3d77-5ef1-af41-99ee50831309",
+        "fromTable": "Forecast",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "651728c1-9c94-5615-bbcb-cb581de9b3d0",
+        "fromTable": "Forecast",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "8ba9e085-42b6-5675-bbb9-d5f52c431615",
+        "fromTable": "Comparison",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "c920b27c-2cc0-5440-9c38-a36b47075ccf",
+        "fromTable": "Comparison",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "c9c97185-9a66-5c34-8555-460caeaf57d7",
+        "fromTable": "Drivers",
+        "fromColumn": "Vintage",
+        "toTable": "Vintage",
+        "toColumn": "Vintage",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      },
+      {
+        "name": "81a232d8-89b2-58a8-a27a-37a99488eb9a",
+        "fromTable": "Drivers",
+        "fromColumn": "Case",
+        "toTable": "Scenario",
+        "toColumn": "Case",
+        "fromCardinality": "many",
+        "toCardinality": "one",
+        "crossFilteringBehavior": "oneDirection"
+      }
+    ]
+  }
+}

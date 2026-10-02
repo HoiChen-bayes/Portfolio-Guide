@@ -1,0 +1,87 @@
+{
+  "role": "qa",
+  "limitations": [
+    "Reviewed only the serialized original packet and supplied outputs; used no tools, files, browsing, messaging, or remembered target results.",
+    "Cannot attest that quotations or curator transcriptions match external webpages. Material guidance and macro details depend partly on curator transcriptions.",
+    "The 2026-05-15 cutoff is an information-availability boundary, not execution time. No target-quarter outcomes were supplied.",
+    "Checks cover evidence support, mapping arithmetic, scenario coherence, dates, units, and overlap; they do not establish calibrated forecasting accuracy."
+  ],
+  "decision": "revise",
+  "source_accuracy": "not_verified",
+  "findings": [
+    {
+      "severity": "blocker",
+      "subject": "Unresolved historical reconciliation and classification",
+      "finding": "Original excerpts contain unresolved contradictions: FY2026 Q3 gross profit less SG&A is 4,577 versus operating income 4,576; operating income plus signed income components is 4,990 versus pretax 4,989; pretax less taxes is 3,950 versus net income 3,951. Other income is labeled operating in Q2/Q3 but mapped below operating income under the contract. Finance correctly preserves and discloses these issues, but disclosure does not resolve them. An unqualified pass on historical reconciliation or accounting classification is unsupported; any acceptance must explicitly exclude those checks. No silent correction or assumed rounding explanation is warranted.",
+      "source_ids": [
+        "pg_2026q2",
+        "pg_2026q3",
+        "pg_2025q3",
+        "pg_2026q1"
+      ]
+    },
+    {
+      "severity": "warning",
+      "subject": "Transcription-dependent factual support",
+      "finding": "Short quotations corroborate selected observations, but do not independently establish all annual guidance amounts and scopes, CPI/PPI details, income and saving metrics, or peer category figures. The located factual transcriptions support the supplied interpretations without an apparent quotation/transcription mismatch. This supports limited evidence-to-assumption review, not source-accuracy certification.",
+      "source_ids": [
+        "PG01",
+        "PG05",
+        "PG06",
+        "PG07",
+        "PG08",
+        "PG09",
+        "PG10"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Scenario arithmetic, units, and bounds",
+      "finding": "Gross-margin changes reconcile to the frozen control: bear 0.475\u22120.008=0.467, base 0.490\u22120.004=0.486, bull 0.505\u22120.002=0.503. All nine drivers remain within contract bounds; other scenario values remain unchanged. Percentage, decimal, USD-million, share-million, and positive capex-outflow treatments are coherent. Inferred share denominators and calculated ratios are explicitly approximate or rounded, rather than claimed observed precision.",
+      "source_ids": [
+        "pg_2025q4",
+        "pg_2026q2",
+        "pg_2026q3"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Causal interpretation and double counting",
+      "finding": "The 80/40/20 bp cost adjustments are explicitly illustrative assumptions, not source-calibrated effects. The scenario combines PG06/PG08 into one cost allowance, excludes repeated Q3 compression, and avoids mechanically allocating annual after-tax guidance. Demand signals are assessed jointly; CPI is not treated as P&G pricing, peer growth is not treated as P&G share loss, and policy rates are not applied to unsupported debt exposures. The unrecognized Q4 cost portion remains an assumption, so the base reduction is permissible but not compelled by evidence.",
+      "source_ids": [
+        "PG01",
+        "PG02",
+        "PG03",
+        "PG04",
+        "PG05",
+        "PG06",
+        "PG07",
+        "PG08",
+        "PG09",
+        "PG10"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Unsupported overlap claim excluded",
+      "finding": "PG05's overlap note asserts an annual interest/tax headwind in PG01 that neither supplied evidence surface establishes. Finance and research identify and exclude it; the scenario does not use it.",
+      "source_ids": [
+        "PG01",
+        "PG05"
+      ]
+    },
+    {
+      "severity": "note",
+      "subject": "Availability and sector specificity",
+      "finding": "Supplied publication dates precede the cutoff. PG06\u2013PG10 and FY2026 Q3 history are eligible for the mid-market vintage, while their pre-quarter exclusion is preserved. No insurance-specific financial mapping is applicable to this consumer-products packet, and no insurance exposure is invented.",
+      "source_ids": [
+        "PG06",
+        "PG07",
+        "PG08",
+        "PG09",
+        "PG10",
+        "pg_2026q3"
+      ]
+    }
+  ]
+}

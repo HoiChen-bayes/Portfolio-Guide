@@ -1,0 +1,12 @@
+{
+  "role": "research",
+  "limitations": [
+    "The evidence array is empty. This history-only packet contains no market evidence, so no driver-level causal signals are returned.",
+    "Reported financial history and prior finance mappings describe baseline facts or derived historical measures; they do not establish incremental market effects. Recasting those trends as additional signals would risk double counting effects already represented in the baseline.",
+    "No evidence supports a causal decomposition or precise target-period driver adjustments. Any scenario assumptions remain analyst judgments; contract bounds are guardrails, not forecasts.",
+    "The 2026-03-31 cutoff is an information-availability boundary. Supplied historical publication dates precede it; no target-period outcomes are supplied or inferred.",
+    "Detailed cash balances, debt, capital, exposures, reinsurance structure and investment portfolio breakdowns are unavailable, limiting causal assessment and projections.",
+    "Only the serialized JSON was used. Sources were not independently verified, and no external information or remembered target results were used."
+  ],
+  "signals": []
+}

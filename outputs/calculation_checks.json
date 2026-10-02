@@ -1,0 +1,182 @@
+[
+  {
+    "company": "PG",
+    "check": "pre_history bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre_history base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre_history bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre_market bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre_market base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre_market bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_history bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_history base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_history bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_market bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_market base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid_market bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "pre research bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "mid research bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "PG",
+    "check": "May base to actual profit bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_history bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_history base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_history bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_market bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_market base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre_market bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_history bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_history base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_history bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_market bear pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_market base pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid_market bull pretax bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "pre research bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "mid research bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  },
+  {
+    "company": "TRV",
+    "check": "May base to actual profit bridge",
+    "difference": 0.0,
+    "tolerance": 1e-06
+  }
+]

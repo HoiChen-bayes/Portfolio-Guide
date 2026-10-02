@@ -1,0 +1,12 @@
+node_modules/
+docs/private_zh/
+data/research/raw/
+data/history/sources/*.html
+data/history/sources/*.txt
+data/holdout/*.html
+data/holdout/*.txt
+outputs/runs/*/*/events.jsonl
+outputs/runs/*/*/runtime.stderr.txt
+__pycache__/
+.DS_Store
+*.pbix.tmp
