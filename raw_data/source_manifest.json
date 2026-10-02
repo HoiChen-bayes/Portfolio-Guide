@@ -19,6 +19,32 @@
     2026
   ],
   "fiscal_year_end": "June 30",
-  "reported_values": 45,
-  "normalisation": "Source em dashes on impairment become numeric zero; negatives retained; years reordered chronologically. No adjusted earnings calculated."
+  "reported_values": 199,
+  "normalisation": "Reported dashes become zero; signs and original amounts retained; chronological years. Displayed rounding residuals are preserved. Driver percentages transcribed from identified report tables and independently reviewed.",
+  "reported_statement_values": 199,
+  "statement_periods": {
+    "income": [
+      2024,
+      2025,
+      2026
+    ],
+    "cash_flow": [
+      2024,
+      2025,
+      2026
+    ],
+    "balance": [
+      2025,
+      2026
+    ]
+  },
+  "additional_printed_pages": [
+    20,
+    21,
+    22,
+    38,
+    40,
+    44,
+    45
+  ]
 }

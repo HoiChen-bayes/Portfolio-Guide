@@ -1,0 +1,1074 @@
+{
+  "balance_sheet": [
+    {
+      "metric": "Cash and cash equivalents",
+      "values": [
+        9556,
+        9942
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 7,
+      "source_page": 38
+    },
+    {
+      "metric": "Accounts receivable",
+      "values": [
+        6185,
+        6056
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 8,
+      "source_page": 38
+    },
+    {
+      "metric": "Materials and supplies",
+      "values": [
+        2022,
+        2143
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 10,
+      "source_page": 38
+    },
+    {
+      "metric": "Work in process",
+      "values": [
+        1012,
+        1105
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 11,
+      "source_page": 38
+    },
+    {
+      "metric": "Finished goods",
+      "values": [
+        4516,
+        4922
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 12,
+      "source_page": 38
+    },
+    {
+      "metric": "Total inventories",
+      "values": [
+        7551,
+        8170
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 13,
+      "source_page": 38
+    },
+    {
+      "metric": "Prepaid expenses and other current assets",
+      "values": [
+        2100,
+        2040
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 14,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL CURRENT ASSETS",
+      "values": [
+        25392,
+        26208
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 15,
+      "source_page": 38
+    },
+    {
+      "metric": "PROPERTY, PLANT AND EQUIPMENT, NET",
+      "values": [
+        23897,
+        25360
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 16,
+      "source_page": 38
+    },
+    {
+      "metric": "GOODWILL",
+      "values": [
+        41650,
+        41276
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 17,
+      "source_page": 38
+    },
+    {
+      "metric": "TRADEMARKS AND OTHER INTANGIBLE ASSETS, NET",
+      "values": [
+        21910,
+        21444
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 18,
+      "source_page": 38
+    },
+    {
+      "metric": "OTHER NONCURRENT ASSETS",
+      "values": [
+        12381,
+        12231
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 19,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL ASSETS",
+      "values": [
+        125231,
+        126521
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 20,
+      "source_page": 38
+    },
+    {
+      "metric": "Accounts payable",
+      "values": [
+        15227,
+        16306
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 24,
+      "source_page": 38
+    },
+    {
+      "metric": "Accrued and other liabilities",
+      "values": [
+        11318,
+        11091
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 25,
+      "source_page": 38
+    },
+    {
+      "metric": "Debt due within one year",
+      "values": [
+        9513,
+        11296
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 26,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL CURRENT LIABILITIES",
+      "values": [
+        36058,
+        38694
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 27,
+      "source_page": 38
+    },
+    {
+      "metric": "LONG-TERM DEBT",
+      "values": [
+        24995,
+        22842
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 28,
+      "source_page": 38
+    },
+    {
+      "metric": "DEFERRED INCOME TAXES",
+      "values": [
+        5774,
+        5760
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 29,
+      "source_page": 38
+    },
+    {
+      "metric": "OTHER NONCURRENT LIABILITIES",
+      "values": [
+        6120,
+        4914
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 30,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL LIABILITIES",
+      "values": [
+        72946,
+        72210
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 31,
+      "source_page": 38
+    },
+    {
+      "metric": "Convertible Class\u00a0A preferred stock, stated value $1 per share (600 shares authorized)",
+      "values": [
+        777,
+        756
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 33,
+      "source_page": 38
+    },
+    {
+      "metric": "Non-Voting Class B preferred stock, stated value $1 per share (200 shares authorized)",
+      "values": [
+        0,
+        0
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 34,
+      "source_page": 38
+    },
+    {
+      "metric": "Common stock, stated value $1 per share (10,000 shares authorized; shares issued: 2026 - 4,009.2, 2025 - 4,009.2)",
+      "values": [
+        4009,
+        4009
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 35,
+      "source_page": 38
+    },
+    {
+      "metric": "Additional paid-in capital",
+      "values": [
+        68770,
+        69533
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 36,
+      "source_page": 38
+    },
+    {
+      "metric": "Reserve for ESOP debt retirement",
+      "values": [
+        -672,
+        -596
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 37,
+      "source_page": 38
+    },
+    {
+      "metric": "Accumulated other comprehensive loss",
+      "values": [
+        -12143,
+        -12465
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 38,
+      "source_page": 38
+    },
+    {
+      "metric": "Treasury stock (shares held: 2026 -1,685.4; 2025 - 1,667.3)",
+      "values": [
+        -138702,
+        -143008
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 39,
+      "source_page": 38
+    },
+    {
+      "metric": "Retained earnings",
+      "values": [
+        129973,
+        135852
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 40,
+      "source_page": 38
+    },
+    {
+      "metric": "Noncontrolling interest",
+      "values": [
+        272,
+        230
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 41,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL SHAREHOLDERS' EQUITY",
+      "values": [
+        52284,
+        54311
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 42,
+      "source_page": 38
+    },
+    {
+      "metric": "TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY",
+      "values": [
+        125231,
+        126521
+      ],
+      "years": [
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Balance Sheet 2026",
+      "source_row": 43,
+      "source_page": 38
+    }
+  ],
+  "cash_flow": [
+    {
+      "metric": "CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR",
+      "values": [
+        8246,
+        9482,
+        9556
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 5,
+      "source_page": 40
+    },
+    {
+      "metric": "Net earnings",
+      "values": [
+        14974,
+        16065,
+        16144
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 7,
+      "source_page": 40
+    },
+    {
+      "metric": "Depreciation and amortization",
+      "values": [
+        2896,
+        2847,
+        3160
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 8,
+      "source_page": 40
+    },
+    {
+      "metric": "Share-based compensation expense",
+      "values": [
+        562,
+        476,
+        524
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 9,
+      "source_page": 40
+    },
+    {
+      "metric": "Deferred income taxes",
+      "values": [
+        -244,
+        149,
+        51
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 10,
+      "source_page": 40
+    },
+    {
+      "metric": "(Gain)/loss on sale of assets",
+      "values": [
+        -215,
+        755,
+        -351
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 11,
+      "source_page": 40
+    },
+    {
+      "metric": "Indefinite-lived intangible asset impairment charge",
+      "values": [
+        1341,
+        0,
+        0
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 12,
+      "source_page": 40
+    },
+    {
+      "metric": "Change in accounts receivable",
+      "values": [
+        -766,
+        45,
+        84
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 13,
+      "source_page": 40
+    },
+    {
+      "metric": "Change in inventories",
+      "values": [
+        -70,
+        -324,
+        -641
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 14,
+      "source_page": 40
+    },
+    {
+      "metric": "Change in accounts payable",
+      "values": [
+        878,
+        -542,
+        919
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 15,
+      "source_page": 40
+    },
+    {
+      "metric": "Other",
+      "values": [
+        491,
+        -1653,
+        -333
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 16,
+      "source_page": 40
+    },
+    {
+      "metric": "TOTAL OPERATING ACTIVITIES",
+      "values": [
+        19846,
+        17817,
+        19556
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 17,
+      "source_page": 40
+    },
+    {
+      "metric": "Capital expenditures",
+      "values": [
+        -3322,
+        -3773,
+        -4409
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 19,
+      "source_page": 40
+    },
+    {
+      "metric": "Proceeds from asset sales",
+      "values": [
+        346,
+        107,
+        508
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 20,
+      "source_page": 40
+    },
+    {
+      "metric": "Acquisitions, net of cash acquired",
+      "values": [
+        -21,
+        -11,
+        -85
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 21,
+      "source_page": 40
+    },
+    {
+      "metric": "Other investing activity",
+      "values": [
+        -507,
+        -141,
+        -638
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 22,
+      "source_page": 40
+    },
+    {
+      "metric": "TOTAL INVESTING ACTIVITIES",
+      "values": [
+        -3504,
+        -3818,
+        -4624
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 23,
+      "source_page": 40
+    },
+    {
+      "metric": "Dividends to shareholders",
+      "values": [
+        -9312,
+        -9872,
+        -10232
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 25,
+      "source_page": 40
+    },
+    {
+      "metric": "Additions to short-term debt with original maturities of more than three months",
+      "values": [
+        3528,
+        8020,
+        7941
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 26,
+      "source_page": 40
+    },
+    {
+      "metric": "Reductions in short-term debt with original maturities of more than three months",
+      "values": [
+        -7689,
+        -6512,
+        -9984
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 27,
+      "source_page": 40
+    },
+    {
+      "metric": "Net additions/(reductions) to other short-term debt",
+      "values": [
+        857,
+        -1138,
+        2674
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 28,
+      "source_page": 40
+    },
+    {
+      "metric": "Additions to long-term debt",
+      "values": [
+        3197,
+        2237,
+        2652
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 29,
+      "source_page": 40
+    },
+    {
+      "metric": "Reductions in long-term debt",
+      "values": [
+        -2335,
+        -1977,
+        -3390
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 30,
+      "source_page": 40
+    },
+    {
+      "metric": "Treasury stock purchases",
+      "values": [
+        -5006,
+        -6500,
+        -5028
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 31,
+      "source_page": 40
+    },
+    {
+      "metric": "Impact of stock options and other",
+      "values": [
+        1905,
+        1707,
+        907
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 32,
+      "source_page": 40
+    },
+    {
+      "metric": "TOTAL FINANCING ACTIVITIES",
+      "values": [
+        -14855,
+        -14036,
+        -14460
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 33,
+      "source_page": 40
+    },
+    {
+      "metric": "EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH",
+      "values": [
+        -251,
+        112,
+        -86
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 34,
+      "source_page": 40
+    },
+    {
+      "metric": "CHANGE IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH",
+      "values": [
+        1235,
+        75,
+        386
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 35,
+      "source_page": 40
+    },
+    {
+      "metric": "CASH, CASH EQUIVALENTS AND RESTRICTED CASH, END OF YEAR",
+      "values": [
+        9482,
+        9556,
+        9942
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 36,
+      "source_page": 40
+    },
+    {
+      "metric": "Cash payments for interest",
+      "values": [
+        878,
+        896,
+        866
+      ],
+      "years": [
+        2024,
+        2025,
+        2026
+      ],
+      "source_sheet": "Cons Statement of Cash 2026",
+      "source_row": 39,
+      "source_page": 40
+    }
+  ],
+  "segments": [
+    [
+      "Beauty",
+      14964,
+      16023
+    ],
+    [
+      "Grooming",
+      6662,
+      6918
+    ],
+    [
+      "Health Care",
+      11998,
+      12456
+    ],
+    [
+      "Fabric & Home Care",
+      29617,
+      30314
+    ],
+    [
+      "Baby, Feminine & Family Care",
+      20248,
+      20401
+    ],
+    [
+      "Corporate",
+      794,
+      919
+    ]
+  ],
+  "sales_drivers": [
+    [
+      "Beauty",
+      0.04,
+      0.02,
+      0.01,
+      0,
+      0,
+      0.07
+    ],
+    [
+      "Grooming",
+      -0.01,
+      0.03,
+      0.02,
+      0,
+      0,
+      0.04
+    ],
+    [
+      "Health Care",
+      -0.02,
+      0.03,
+      0.02,
+      0.01,
+      0,
+      0.04
+    ],
+    [
+      "Fabric & Home Care",
+      0,
+      0.01,
+      0.01,
+      0,
+      0,
+      0.02
+    ],
+    [
+      "Baby, Feminine & Family Care",
+      -0.01,
+      0.02,
+      0,
+      0,
+      0,
+      0.01
+    ],
+    [
+      "Total company",
+      0,
+      0.02,
+      0.01,
+      0,
+      0,
+      0.03
+    ]
+  ],
+  "gross_margin_drivers": [
+    [
+      "Product mix",
+      -120
+    ],
+    [
+      "Product and packaging investment",
+      -70
+    ],
+    [
+      "Restructuring",
+      -60
+    ],
+    [
+      "Net tariffs",
+      -30
+    ],
+    [
+      "Commodities",
+      -20
+    ],
+    [
+      "Foreign exchange",
+      -10
+    ],
+    [
+      "Other and rounding",
+      -10
+    ],
+    [
+      "Manufacturing productivity",
+      180
+    ],
+    [
+      "Pricing",
+      40
+    ]
+  ],
+  "source_pages": {
+    "segments": [
+      44,
+      45
+    ],
+    "sales_drivers": [
+      20,
+      22
+    ],
+    "gross_margin_drivers": [
+      20,
+      21
+    ]
+  }
+}

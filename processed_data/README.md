@@ -1,8 +1,20 @@
 # Analysis outputs
 
-- [Excel analysis](../outputs/PG_1_Analysis.xlsx): reported income statement and formula-based revenue/profit analysis.
-- [Financial history CSV](financial_history.csv): 45 reported observations, with metric, fiscal year, numeric value, unit, classification and source location.
-- [Calculation checks](../outputs/calculation_checks.json): profit reconciliation and formula-propagation checks.
-- [Independent review](../agents/review.md).
+- [Excel analysis](../outputs/PG_1_Analysis.xlsx): four analysis sheets followed by reported income, balance sheet, cash flow and business drivers.
+- [Income-statement inputs](financial_history.csv): 45 reported values.
+- [Balance-sheet and cash-flow inputs](three_statement_inputs.csv): 154 reported values, with full source labels, years and row references.
+- [Business drivers and extracted statements](extended_history.json): company-disclosed approximate percentages and reported segment sales.
+- [Statement and driver checks](../outputs/extended_checks.json) · [Independent review](../agents/review.md).
 
-**Reported** values come from the company. **Derived** values are gross profit, growth, margins and changes calculated from those amounts. No **Adjusted** series or forecast assumptions are created in this sample.
+Reported values remain unchanged. Derived values include growth, margins and contributions. No forecast, valuation or adjusted earnings series is included in this stage.
+
+## How to read the Excel
+
+| Worksheet | Question answered |
+|---|---|
+| PG_1_Analysis | Did revenue growth produce higher operating profit? |
+| PG_2_Analysis | Do the statements and their key connections reconcile? |
+| PG_3_Analysis | What drove growth and which segments contributed? |
+| PG_4_Analysis | What explains the decline in profit margins? |
+
+The [analysis page](../investment/01_financial_statements.md) links every question to its answer and expandable source-versus-Excel screenshots.

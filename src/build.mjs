@@ -1,9 +1,12 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {Workbook,SpreadsheetFile} from '@oai/artifact-tool';
+import {extendWorkbook} from './extend_workbook.mjs';
 const R=path.resolve(import.meta.dirname,'..');
 const data=JSON.parse(await fs.readFile(path.join(R,'processed_data/financial_history.json'),'utf8'));
-const w=Workbook.create(),a=w.worksheets.add('PG_1_Analysis'),s=w.worksheets.add('Reported Earnings');
+const w=Workbook.create(),a=w.worksheets.add('PG_1_Analysis');
+for(const name of ['PG_2_Analysis','PG_3_Analysis','PG_4_Analysis'])w.worksheets.add(name);
+const s=w.worksheets.add('Reported Earnings');
 const money='$#,##0;($#,##0);"–"',num='#,##0;(#,##0);"–"',pct='0.0%;(0.0%);"–"';
 for(const sh of [a,s]){
  sh.showGridLines=false;sh.getRange('A1:H33').format.font={name:'Arial',size:12};sh.getRange('A1:H33').format.rowHeight=22;
@@ -39,6 +42,7 @@ a.getRange('B29').values=[['FY2024 includes $1,341m impairment; the FY2025 recov
 a.getRange('B30').values=[['Gross profit uses net sales less cost of products sold; no adjusted series created.']];
 for(const r of [7,12]){a.getRange(`B${r}:F${r}`).format.font.color='#C00000';a.getRange(`B${r}:F${r}`).format.font.bold=true;}
 for(const sh of [a,s])sh.getRange('B23:F30').format.rowHeight=22;
+await extendWorkbook(w,R);
 w.recalculate();
 const checks={revenue_change:a.getRange('F7').values[0][0],operating_profit_change:a.getRange('F12').values[0][0],bridge_check:a.getRange('C26').values[0][0],revenue_growth:a.getRange('D17').values[0][0],operating_growth:a.getRange('F17').values[0][0]};
 if(checks.revenue_change!==2748||checks.operating_profit_change!==-703||checks.bridge_check!==0)throw Error(JSON.stringify(checks));

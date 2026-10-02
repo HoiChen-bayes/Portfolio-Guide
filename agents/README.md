@@ -4,8 +4,8 @@
 
 | Agent | Responsibility | This sample |
 |---|---|---|
-| [Financial Statements & Quality](financial.md) | Check financial inputs, comparability and earnings quality. | Independently reviewed three years of reported income statements. |
-| Business Driver | Explain volume, price, mix, FX, segments and concentration. | Planned. |
+| [Financial Statements & Quality](financial.md) | Check financial inputs, comparability and earnings quality. | Reviewed the three statements, source residuals and disclosed business drivers. |
+| Business Driver | Explain volume, price, mix, FX, segments and concentration. | Driver analysis is included; a separate specialist role is planned. |
 | Market & Competitor Research | Compare company claims with external evidence. | Planned. |
 | Forecast, Scenario & Valuation | Propose assumptions and interpret calculated scenarios and value. | Planned. |
 | [Independent QA & Evidence](qa.md) | Find inconsistencies between source, data, Excel and claims. | Separate review of this sample. |
@@ -21,6 +21,6 @@ flowchart LR
     E --> F[Evidence and answer]
 ```
 
-[Actual review record](review.md) · [Two worked examples](../investment/01_financial_statements.md) · [Rerun instructions](../src/README.md)
+[Actual review record](review.md) · [Seven worked questions](../investment/01_financial_statements.md) · [Rerun instructions](../src/README.md)
 
 Only the Financial and QA roles were used for this pilot. The five-agent investment workflow and insurance module are not yet implemented end to end.

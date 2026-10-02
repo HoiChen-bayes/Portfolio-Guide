@@ -1,0 +1,155 @@
+statement,metric,fiscal_year,value,unit,source_sheet,source_row,printed_page
+Balance sheet,Cash and cash equivalents,2025,9556,USD million,Cons Balance Sheet 2026,7,38
+Balance sheet,Cash and cash equivalents,2026,9942,USD million,Cons Balance Sheet 2026,7,38
+Balance sheet,Accounts receivable,2025,6185,USD million,Cons Balance Sheet 2026,8,38
+Balance sheet,Accounts receivable,2026,6056,USD million,Cons Balance Sheet 2026,8,38
+Balance sheet,Materials and supplies,2025,2022,USD million,Cons Balance Sheet 2026,10,38
+Balance sheet,Materials and supplies,2026,2143,USD million,Cons Balance Sheet 2026,10,38
+Balance sheet,Work in process,2025,1012,USD million,Cons Balance Sheet 2026,11,38
+Balance sheet,Work in process,2026,1105,USD million,Cons Balance Sheet 2026,11,38
+Balance sheet,Finished goods,2025,4516,USD million,Cons Balance Sheet 2026,12,38
+Balance sheet,Finished goods,2026,4922,USD million,Cons Balance Sheet 2026,12,38
+Balance sheet,Total inventories,2025,7551,USD million,Cons Balance Sheet 2026,13,38
+Balance sheet,Total inventories,2026,8170,USD million,Cons Balance Sheet 2026,13,38
+Balance sheet,Prepaid expenses and other current assets,2025,2100,USD million,Cons Balance Sheet 2026,14,38
+Balance sheet,Prepaid expenses and other current assets,2026,2040,USD million,Cons Balance Sheet 2026,14,38
+Balance sheet,TOTAL CURRENT ASSETS,2025,25392,USD million,Cons Balance Sheet 2026,15,38
+Balance sheet,TOTAL CURRENT ASSETS,2026,26208,USD million,Cons Balance Sheet 2026,15,38
+Balance sheet,"PROPERTY, PLANT AND EQUIPMENT, NET",2025,23897,USD million,Cons Balance Sheet 2026,16,38
+Balance sheet,"PROPERTY, PLANT AND EQUIPMENT, NET",2026,25360,USD million,Cons Balance Sheet 2026,16,38
+Balance sheet,GOODWILL,2025,41650,USD million,Cons Balance Sheet 2026,17,38
+Balance sheet,GOODWILL,2026,41276,USD million,Cons Balance Sheet 2026,17,38
+Balance sheet,"TRADEMARKS AND OTHER INTANGIBLE ASSETS, NET",2025,21910,USD million,Cons Balance Sheet 2026,18,38
+Balance sheet,"TRADEMARKS AND OTHER INTANGIBLE ASSETS, NET",2026,21444,USD million,Cons Balance Sheet 2026,18,38
+Balance sheet,OTHER NONCURRENT ASSETS,2025,12381,USD million,Cons Balance Sheet 2026,19,38
+Balance sheet,OTHER NONCURRENT ASSETS,2026,12231,USD million,Cons Balance Sheet 2026,19,38
+Balance sheet,TOTAL ASSETS,2025,125231,USD million,Cons Balance Sheet 2026,20,38
+Balance sheet,TOTAL ASSETS,2026,126521,USD million,Cons Balance Sheet 2026,20,38
+Balance sheet,Accounts payable,2025,15227,USD million,Cons Balance Sheet 2026,24,38
+Balance sheet,Accounts payable,2026,16306,USD million,Cons Balance Sheet 2026,24,38
+Balance sheet,Accrued and other liabilities,2025,11318,USD million,Cons Balance Sheet 2026,25,38
+Balance sheet,Accrued and other liabilities,2026,11091,USD million,Cons Balance Sheet 2026,25,38
+Balance sheet,Debt due within one year,2025,9513,USD million,Cons Balance Sheet 2026,26,38
+Balance sheet,Debt due within one year,2026,11296,USD million,Cons Balance Sheet 2026,26,38
+Balance sheet,TOTAL CURRENT LIABILITIES,2025,36058,USD million,Cons Balance Sheet 2026,27,38
+Balance sheet,TOTAL CURRENT LIABILITIES,2026,38694,USD million,Cons Balance Sheet 2026,27,38
+Balance sheet,LONG-TERM DEBT,2025,24995,USD million,Cons Balance Sheet 2026,28,38
+Balance sheet,LONG-TERM DEBT,2026,22842,USD million,Cons Balance Sheet 2026,28,38
+Balance sheet,DEFERRED INCOME TAXES,2025,5774,USD million,Cons Balance Sheet 2026,29,38
+Balance sheet,DEFERRED INCOME TAXES,2026,5760,USD million,Cons Balance Sheet 2026,29,38
+Balance sheet,OTHER NONCURRENT LIABILITIES,2025,6120,USD million,Cons Balance Sheet 2026,30,38
+Balance sheet,OTHER NONCURRENT LIABILITIES,2026,4914,USD million,Cons Balance Sheet 2026,30,38
+Balance sheet,TOTAL LIABILITIES,2025,72946,USD million,Cons Balance Sheet 2026,31,38
+Balance sheet,TOTAL LIABILITIES,2026,72210,USD million,Cons Balance Sheet 2026,31,38
+Balance sheet,"Convertible Class A preferred stock, stated value $1 per share (600 shares authorized)",2025,777,USD million,Cons Balance Sheet 2026,33,38
+Balance sheet,"Convertible Class A preferred stock, stated value $1 per share (600 shares authorized)",2026,756,USD million,Cons Balance Sheet 2026,33,38
+Balance sheet,"Non-Voting Class B preferred stock, stated value $1 per share (200 shares authorized)",2025,0,USD million,Cons Balance Sheet 2026,34,38
+Balance sheet,"Non-Voting Class B preferred stock, stated value $1 per share (200 shares authorized)",2026,0,USD million,Cons Balance Sheet 2026,34,38
+Balance sheet,"Common stock, stated value $1 per share (10,000 shares authorized; shares issued: 2026 - 4,009.2, 2025 - 4,009.2)",2025,4009,USD million,Cons Balance Sheet 2026,35,38
+Balance sheet,"Common stock, stated value $1 per share (10,000 shares authorized; shares issued: 2026 - 4,009.2, 2025 - 4,009.2)",2026,4009,USD million,Cons Balance Sheet 2026,35,38
+Balance sheet,Additional paid-in capital,2025,68770,USD million,Cons Balance Sheet 2026,36,38
+Balance sheet,Additional paid-in capital,2026,69533,USD million,Cons Balance Sheet 2026,36,38
+Balance sheet,Reserve for ESOP debt retirement,2025,-672,USD million,Cons Balance Sheet 2026,37,38
+Balance sheet,Reserve for ESOP debt retirement,2026,-596,USD million,Cons Balance Sheet 2026,37,38
+Balance sheet,Accumulated other comprehensive loss,2025,-12143,USD million,Cons Balance Sheet 2026,38,38
+Balance sheet,Accumulated other comprehensive loss,2026,-12465,USD million,Cons Balance Sheet 2026,38,38
+Balance sheet,"Treasury stock (shares held: 2026 -1,685.4; 2025 - 1,667.3)",2025,-138702,USD million,Cons Balance Sheet 2026,39,38
+Balance sheet,"Treasury stock (shares held: 2026 -1,685.4; 2025 - 1,667.3)",2026,-143008,USD million,Cons Balance Sheet 2026,39,38
+Balance sheet,Retained earnings,2025,129973,USD million,Cons Balance Sheet 2026,40,38
+Balance sheet,Retained earnings,2026,135852,USD million,Cons Balance Sheet 2026,40,38
+Balance sheet,Noncontrolling interest,2025,272,USD million,Cons Balance Sheet 2026,41,38
+Balance sheet,Noncontrolling interest,2026,230,USD million,Cons Balance Sheet 2026,41,38
+Balance sheet,TOTAL SHAREHOLDERS' EQUITY,2025,52284,USD million,Cons Balance Sheet 2026,42,38
+Balance sheet,TOTAL SHAREHOLDERS' EQUITY,2026,54311,USD million,Cons Balance Sheet 2026,42,38
+Balance sheet,TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,2025,125231,USD million,Cons Balance Sheet 2026,43,38
+Balance sheet,TOTAL LIABILITIES AND SHAREHOLDERS' EQUITY,2026,126521,USD million,Cons Balance Sheet 2026,43,38
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR",2024,8246,USD million,Cons Statement of Cash 2026,5,40
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR",2025,9482,USD million,Cons Statement of Cash 2026,5,40
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, BEGINNING OF YEAR",2026,9556,USD million,Cons Statement of Cash 2026,5,40
+Cash flow,Net earnings,2024,14974,USD million,Cons Statement of Cash 2026,7,40
+Cash flow,Net earnings,2025,16065,USD million,Cons Statement of Cash 2026,7,40
+Cash flow,Net earnings,2026,16144,USD million,Cons Statement of Cash 2026,7,40
+Cash flow,Depreciation and amortization,2024,2896,USD million,Cons Statement of Cash 2026,8,40
+Cash flow,Depreciation and amortization,2025,2847,USD million,Cons Statement of Cash 2026,8,40
+Cash flow,Depreciation and amortization,2026,3160,USD million,Cons Statement of Cash 2026,8,40
+Cash flow,Share-based compensation expense,2024,562,USD million,Cons Statement of Cash 2026,9,40
+Cash flow,Share-based compensation expense,2025,476,USD million,Cons Statement of Cash 2026,9,40
+Cash flow,Share-based compensation expense,2026,524,USD million,Cons Statement of Cash 2026,9,40
+Cash flow,Deferred income taxes,2024,-244,USD million,Cons Statement of Cash 2026,10,40
+Cash flow,Deferred income taxes,2025,149,USD million,Cons Statement of Cash 2026,10,40
+Cash flow,Deferred income taxes,2026,51,USD million,Cons Statement of Cash 2026,10,40
+Cash flow,(Gain)/loss on sale of assets,2024,-215,USD million,Cons Statement of Cash 2026,11,40
+Cash flow,(Gain)/loss on sale of assets,2025,755,USD million,Cons Statement of Cash 2026,11,40
+Cash flow,(Gain)/loss on sale of assets,2026,-351,USD million,Cons Statement of Cash 2026,11,40
+Cash flow,Indefinite-lived intangible asset impairment charge,2024,1341,USD million,Cons Statement of Cash 2026,12,40
+Cash flow,Indefinite-lived intangible asset impairment charge,2025,0,USD million,Cons Statement of Cash 2026,12,40
+Cash flow,Indefinite-lived intangible asset impairment charge,2026,0,USD million,Cons Statement of Cash 2026,12,40
+Cash flow,Change in accounts receivable,2024,-766,USD million,Cons Statement of Cash 2026,13,40
+Cash flow,Change in accounts receivable,2025,45,USD million,Cons Statement of Cash 2026,13,40
+Cash flow,Change in accounts receivable,2026,84,USD million,Cons Statement of Cash 2026,13,40
+Cash flow,Change in inventories,2024,-70,USD million,Cons Statement of Cash 2026,14,40
+Cash flow,Change in inventories,2025,-324,USD million,Cons Statement of Cash 2026,14,40
+Cash flow,Change in inventories,2026,-641,USD million,Cons Statement of Cash 2026,14,40
+Cash flow,Change in accounts payable,2024,878,USD million,Cons Statement of Cash 2026,15,40
+Cash flow,Change in accounts payable,2025,-542,USD million,Cons Statement of Cash 2026,15,40
+Cash flow,Change in accounts payable,2026,919,USD million,Cons Statement of Cash 2026,15,40
+Cash flow,Other,2024,491,USD million,Cons Statement of Cash 2026,16,40
+Cash flow,Other,2025,-1653,USD million,Cons Statement of Cash 2026,16,40
+Cash flow,Other,2026,-333,USD million,Cons Statement of Cash 2026,16,40
+Cash flow,TOTAL OPERATING ACTIVITIES,2024,19846,USD million,Cons Statement of Cash 2026,17,40
+Cash flow,TOTAL OPERATING ACTIVITIES,2025,17817,USD million,Cons Statement of Cash 2026,17,40
+Cash flow,TOTAL OPERATING ACTIVITIES,2026,19556,USD million,Cons Statement of Cash 2026,17,40
+Cash flow,Capital expenditures,2024,-3322,USD million,Cons Statement of Cash 2026,19,40
+Cash flow,Capital expenditures,2025,-3773,USD million,Cons Statement of Cash 2026,19,40
+Cash flow,Capital expenditures,2026,-4409,USD million,Cons Statement of Cash 2026,19,40
+Cash flow,Proceeds from asset sales,2024,346,USD million,Cons Statement of Cash 2026,20,40
+Cash flow,Proceeds from asset sales,2025,107,USD million,Cons Statement of Cash 2026,20,40
+Cash flow,Proceeds from asset sales,2026,508,USD million,Cons Statement of Cash 2026,20,40
+Cash flow,"Acquisitions, net of cash acquired",2024,-21,USD million,Cons Statement of Cash 2026,21,40
+Cash flow,"Acquisitions, net of cash acquired",2025,-11,USD million,Cons Statement of Cash 2026,21,40
+Cash flow,"Acquisitions, net of cash acquired",2026,-85,USD million,Cons Statement of Cash 2026,21,40
+Cash flow,Other investing activity,2024,-507,USD million,Cons Statement of Cash 2026,22,40
+Cash flow,Other investing activity,2025,-141,USD million,Cons Statement of Cash 2026,22,40
+Cash flow,Other investing activity,2026,-638,USD million,Cons Statement of Cash 2026,22,40
+Cash flow,TOTAL INVESTING ACTIVITIES,2024,-3504,USD million,Cons Statement of Cash 2026,23,40
+Cash flow,TOTAL INVESTING ACTIVITIES,2025,-3818,USD million,Cons Statement of Cash 2026,23,40
+Cash flow,TOTAL INVESTING ACTIVITIES,2026,-4624,USD million,Cons Statement of Cash 2026,23,40
+Cash flow,Dividends to shareholders,2024,-9312,USD million,Cons Statement of Cash 2026,25,40
+Cash flow,Dividends to shareholders,2025,-9872,USD million,Cons Statement of Cash 2026,25,40
+Cash flow,Dividends to shareholders,2026,-10232,USD million,Cons Statement of Cash 2026,25,40
+Cash flow,Additions to short-term debt with original maturities of more than three months,2024,3528,USD million,Cons Statement of Cash 2026,26,40
+Cash flow,Additions to short-term debt with original maturities of more than three months,2025,8020,USD million,Cons Statement of Cash 2026,26,40
+Cash flow,Additions to short-term debt with original maturities of more than three months,2026,7941,USD million,Cons Statement of Cash 2026,26,40
+Cash flow,Reductions in short-term debt with original maturities of more than three months,2024,-7689,USD million,Cons Statement of Cash 2026,27,40
+Cash flow,Reductions in short-term debt with original maturities of more than three months,2025,-6512,USD million,Cons Statement of Cash 2026,27,40
+Cash flow,Reductions in short-term debt with original maturities of more than three months,2026,-9984,USD million,Cons Statement of Cash 2026,27,40
+Cash flow,Net additions/(reductions) to other short-term debt,2024,857,USD million,Cons Statement of Cash 2026,28,40
+Cash flow,Net additions/(reductions) to other short-term debt,2025,-1138,USD million,Cons Statement of Cash 2026,28,40
+Cash flow,Net additions/(reductions) to other short-term debt,2026,2674,USD million,Cons Statement of Cash 2026,28,40
+Cash flow,Additions to long-term debt,2024,3197,USD million,Cons Statement of Cash 2026,29,40
+Cash flow,Additions to long-term debt,2025,2237,USD million,Cons Statement of Cash 2026,29,40
+Cash flow,Additions to long-term debt,2026,2652,USD million,Cons Statement of Cash 2026,29,40
+Cash flow,Reductions in long-term debt,2024,-2335,USD million,Cons Statement of Cash 2026,30,40
+Cash flow,Reductions in long-term debt,2025,-1977,USD million,Cons Statement of Cash 2026,30,40
+Cash flow,Reductions in long-term debt,2026,-3390,USD million,Cons Statement of Cash 2026,30,40
+Cash flow,Treasury stock purchases,2024,-5006,USD million,Cons Statement of Cash 2026,31,40
+Cash flow,Treasury stock purchases,2025,-6500,USD million,Cons Statement of Cash 2026,31,40
+Cash flow,Treasury stock purchases,2026,-5028,USD million,Cons Statement of Cash 2026,31,40
+Cash flow,Impact of stock options and other,2024,1905,USD million,Cons Statement of Cash 2026,32,40
+Cash flow,Impact of stock options and other,2025,1707,USD million,Cons Statement of Cash 2026,32,40
+Cash flow,Impact of stock options and other,2026,907,USD million,Cons Statement of Cash 2026,32,40
+Cash flow,TOTAL FINANCING ACTIVITIES,2024,-14855,USD million,Cons Statement of Cash 2026,33,40
+Cash flow,TOTAL FINANCING ACTIVITIES,2025,-14036,USD million,Cons Statement of Cash 2026,33,40
+Cash flow,TOTAL FINANCING ACTIVITIES,2026,-14460,USD million,Cons Statement of Cash 2026,33,40
+Cash flow,"EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2024,-251,USD million,Cons Statement of Cash 2026,34,40
+Cash flow,"EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2025,112,USD million,Cons Statement of Cash 2026,34,40
+Cash flow,"EFFECT OF EXCHANGE RATE CHANGES ON CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2026,-86,USD million,Cons Statement of Cash 2026,34,40
+Cash flow,"CHANGE IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2024,1235,USD million,Cons Statement of Cash 2026,35,40
+Cash flow,"CHANGE IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2025,75,USD million,Cons Statement of Cash 2026,35,40
+Cash flow,"CHANGE IN CASH, CASH EQUIVALENTS AND RESTRICTED CASH",2026,386,USD million,Cons Statement of Cash 2026,35,40
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, END OF YEAR",2024,9482,USD million,Cons Statement of Cash 2026,36,40
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, END OF YEAR",2025,9556,USD million,Cons Statement of Cash 2026,36,40
+Cash flow,"CASH, CASH EQUIVALENTS AND RESTRICTED CASH, END OF YEAR",2026,9942,USD million,Cons Statement of Cash 2026,36,40
+Cash flow,Cash payments for interest,2024,878,USD million,Cons Statement of Cash 2026,39,40
+Cash flow,Cash payments for interest,2025,896,USD million,Cons Statement of Cash 2026,39,40
+Cash flow,Cash payments for interest,2026,866,USD million,Cons Statement of Cash 2026,39,40
