@@ -1,6 +1,6 @@
 # Finance Agent
 
-**Purpose:** Turn reported financial figures into clearly defined model inputs, so the forecast uses the right amount, period and accounting measure.
+**Purpose:** Check reported financial figures and their Excel mapping before analysing past performance and building forecasts.
 
 [Skills and examples](https://github.com/hoichengit/Portfolio-Guide/blob/main/agents/finance-skills.md) · [Reusable instructions](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/agents/finance.md) · [Actual P&G run](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/outputs/runs/PG_mid_history/finance/output.json) · [P&G Part 1](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/docs/public_cases/PG/01_agents.md)
 
@@ -8,7 +8,7 @@
 
 | Area | Click a question | What Finance checks |
 |---|---|---|
-| Revenue inputs | [Quarterly revenue](#quarterly-revenue) | Quarter versus full year; the amount passed to the model. |
+| Revenue inputs | [Revenue extraction](#revenue-extraction) | Reported amount, financial period, currency and unit against Excel. |
 | Information timing | [Report cutoff](#report-cutoff) | Publication date versus forecast date. |
 | Profit drivers | [Gross margin](#gross-margin) | Gross profit and sales belong to the same period and unit. |
 
@@ -29,21 +29,31 @@ flowchart TB
 
 ## Real P&G examples
 
-Each comparison below is an Excel evidence view: the left side transcribes source data, and the right side shows its treatment in this project; the source links and actual agent output remain available for checking.
+The revenue example compares the original company report directly with the full Excel historical-financials worksheet. The later examples retain the earlier comparison format for now.
 
 <a id="quarterly-revenue"></a>
-### Quarterly revenue
+<a id="revenue-extraction"></a>
+### 1. Revenue extraction: How do we transfer reported revenue into Excel accurately?
 
-**Answer:** Finance selects **$20,889M** of quarterly sales and excludes **$84,284M** of annual sales from the quarterly baseline.
+**Answer:** The original report's **$20,889 million** of April–June 2025 net sales matches **$20,889.0M** in the Excel historical financial statements, cell **I14**.
 
 <details>
-<summary>Open the source-versus-input comparison</summary>
+<summary>Compare the original report with the full Excel worksheet</summary>
 
-**Look for red 20,889 on both sides:** the amount matches, and its three-month period matches the forecast's seasonal reference.
+**Follow the red marks:** NET SALES of **$20,889 million** in the report matches **$20,889.0M** in Excel; the extra decimal is display formatting, and M means million.
 
-![Quarterly revenue: source on the left, selected input on the right](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue.png)
+| Original company report — page 8 | Actual Excel workbook — Historical Financials |
+|---|---|
+| [![Original P&G earnings statement with net sales outlined in red](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_original_source.png)](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_original_source.png) | [![Full Historical Financials worksheet in Microsoft Excel with net sales highlighted in red](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_excel_full.png)](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_excel_full.png) |
+| Three months ended 30 June 2025, 2025 column; NET SALES. | FY2025Q4 column; Net Sales row; cell I14. |
 
-[Original P&G report](https://www.pginvestor.com/news/news-details/2025/PG-Announces-Fourth-Quarter-and-Fiscal-Year-2025-Results/default.aspx) · [Actual Finance mapping](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/outputs/runs/PG_mid_history/finance/output.json)
+Click either image to open it at full size.
+
+**Check:** Same amount (**20,889**), period (**April–June 2025 / FY2025 Q4**), currency (**USD**) and scale (**millions**).
+
+[Original report PDF](https://s204.q4cdn.com/332108499/files/doc_financials/2025/q4/FY2425-Q4-AMJ-Press-Release-Final.pdf#page=8) · [Actual Excel workbook](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/outputs/PG_Financial_Scenarios.xlsx)
+
+The left image is the original PDF page with red outlines added. The right image is a genuine Microsoft Excel screenshot showing every populated row and period of the historical-financials worksheet, with temporary red emphasis; the workbook's data and formulas are unchanged.
 
 </details>
 

@@ -1,6 +1,7 @@
 # 1. Build the analysis team
 
-- **Goal:** Build three P&G profit scenarios for April–June 2026 using only information available at each forecast date.
+- **Goal:** Organise P&G’s reported financial data in Excel, check and analyse it, then build three profit scenarios for April–June 2026.
+- **First step:** Transfer historical reported figures into Excel; forecasting starts after the historical data has been checked.
 - **Output:** Checked financial inputs, bear/base/bull assumptions, and an editable Excel model.
 
 ## My datasets
@@ -16,7 +17,7 @@
 
 | Area | Click a question | Purpose |
 |---|---|---|
-| Financial inputs | [1. Revenue baseline](#revenue-baseline) | Select quarterly sales, not annual sales. |
+| Financial inputs | [1. Revenue extraction](#revenue-extraction) | Transfer reported revenue into Excel and check amount, period and unit. |
 | Information timing | [2. Report availability](#report-availability) | Exclude reports published after the forecast date. |
 | Profit drivers | [3. Margin baseline](#margin-baseline) | Turn reported sales and costs into comparable ratios. |
 | Starting forecast | [4. Three scenarios](#three-scenarios) | Compare earnings under different assumptions. |
@@ -32,8 +33,10 @@
 
 ```mermaid
 flowchart TB
-    A[Financial reports] --> B[Finance: check inputs]
-    B --> C[Research: no market adjustment yet]
+    A[Original financial reports] --> X[Extract reported figures into Excel]
+    X --> B[Finance: check amounts, periods and units]
+    B --> Y[Analyse historical financial performance]
+    Y --> C[Research: no market adjustment yet]
     C --> D[Scenario: bear / base / bull]
     D --> E{QA review}
     E -->|Revise| D
@@ -47,24 +50,32 @@ The agents check and propose inputs; the calculation engine performs the arithme
 ## Answers and evidence
 
 <a id="revenue-baseline"></a>
-### 1. Revenue baseline: Which past quarter’s revenue should we use to forecast April–June 2026?
+<a id="revenue-extraction"></a>
+### 1. Revenue extraction: How do we transfer reported revenue into Excel accurately?
 
-**Meaning:** Revenue baseline is the historical revenue amount we use as the starting point before applying forecast growth assumptions.
+**Meaning:** Revenue extraction means taking the revenue amount from the original financial report and recording it in Excel under the correct period and unit.
 
-**Why this quarter:** April–June 2025 covers the same three calendar months as the forecast quarter, giving us a prior-year seasonal reference.
+**Task:** Read the original report's NET SALES row, then check the same figure in the Historical Financials worksheet.
 
-**Answer:** Use **$20,889M** of April–June 2025 sales as the seasonal starting point, rather than **$84,284M** of full-year sales.
+**Answer:** The report's **$20,889 million** of April–June 2025 net sales matches **$20,889.0M** in Excel under **FY2025Q4**.
 
 <details>
-<summary>Compare source figures with the selected input</summary>
+<summary>Compare the original report with the full Excel worksheet</summary>
 
-**Left:** Quarterly and annual reported sales transcribed into Excel. **Right:** The quarterly amount retained for the model.
+**Follow the red marks:** NET SALES of **$20,889 million** in the report matches **$20,889.0M** in Excel; the extra decimal is display formatting, and M means million.
 
-The matching red **20,889** shows the same three-month amount carried across; annual sales are excluded because the forecast covers one quarter.
+| Original company report — page 8 | Actual Excel workbook — Historical Financials |
+|---|---|
+| [![Original P&G earnings statement with net sales outlined in red](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_original_source.png)](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_original_source.png) | [![Full Historical Financials worksheet in Microsoft Excel with net sales highlighted in red](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_excel_full.png)](https://raw.githubusercontent.com/hoichengit/Portfolio-Guide/refs/heads/codex/financial-scenarios/outputs/guide_evidence/revenue_excel_full.png) |
+| Three months ended 30 June 2025, 2025 column; NET SALES. | FY2025Q4 column; Net Sales row; cell I14. |
 
-![Revenue baseline: source and selected input](../../../outputs/guide_evidence/revenue.png)
+Click either image to open it at full size.
 
-[Finance Agent's actual output](../../../outputs/runs/PG_mid_history/finance/output.json) · [Evidence Excel](../../../outputs/guide_evidence/Finance_Evidence.xlsx)
+**Check:** Same amount (**20,889**), period (**April–June 2025 / FY2025 Q4**), currency (**USD**) and scale (**millions**).
+
+[Original report PDF](https://s204.q4cdn.com/332108499/files/doc_financials/2025/q4/FY2425-Q4-AMJ-Press-Release-Final.pdf#page=8) · [Actual Excel workbook](https://github.com/hoichengit/Portfolio-Guide/blob/codex/financial-scenarios/outputs/PG_Financial_Scenarios.xlsx)
+
+The left image is the original PDF page with red outlines added. The right image is a genuine Microsoft Excel screenshot showing every populated row and period of the historical-financials worksheet, with temporary red emphasis; the workbook's data and formulas are unchanged.
 
 </details>
 
