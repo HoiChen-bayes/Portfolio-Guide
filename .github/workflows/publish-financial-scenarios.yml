@@ -1,0 +1,84 @@
+name: Publish financial scenario portfolio
+on:
+  workflow_dispatch:
+permissions:
+  contents: write
+concurrency:
+  group: financial-scenarios-publication
+  cancel-in-progress: false
+jobs:
+  publish:
+    if: github.repository == 'hoichengit/Portfolio-Guide'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: Verify and extract approved public package
+        env:
+          EXPECTED_ZIP_SHA: d1b7a1ad41c5dde694dda9d863472234cd463ee27f402aa915e2a5779bbdf9d1
+        run: |
+          python3 - <<'PY'
+          import hashlib, os, pathlib, zipfile
+          archive=pathlib.Path('financial-scenarios.zip')
+          assert hashlib.sha256(archive.read_bytes()).hexdigest()==os.environ['EXPECTED_ZIP_SHA'], 'Package hash mismatch'
+          destination=pathlib.Path(os.environ['RUNNER_TEMP'])/'financial-publication'
+          destination.mkdir(exist_ok=False)
+          with zipfile.ZipFile(archive) as package:
+              assert package.testzip() is None, 'ZIP CRC failure'
+              for member in package.infolist():
+                  path=pathlib.PurePosixPath(member.filename)
+                  assert not path.is_absolute() and '..' not in path.parts
+                  assert path.parts[0] in ('project','main')
+                  assert (member.external_attr >> 16) & 0o170000 != 0o120000, 'Symlinks prohibited'
+              package.extractall(destination)
+          import json
+          project=destination/'project'
+          freezes=list((project/'outputs/runs').glob('*/freeze.json'))
+          assert len(freezes)==8
+          for file in freezes:
+              for relative, expected in json.loads(file.read_text())['files'].items():
+                  assert hashlib.sha256((file.parent/relative).read_bytes()).hexdigest()==expected, relative
+          assert (project/'outputs/PG_Financial_Scenarios.pbix').exists()
+          assert (project/'outputs/TRV_Financial_Scenarios.pbix').exists()
+          expected_main={'README.md','agents/README.md','agents/finance.md','agents/research.md','agents/scenario.md','agents/qa.md'}
+          assert {str(f.relative_to(destination/'main')) for f in (destination/'main').rglob('*') if f.is_file()}==expected_main
+          print('Verified package and eight unchanged freeze manifests')
+          PY
+      - name: Publish project and navigation atomically
+        shell: bash
+        run: |
+          set -euo pipefail
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git fetch origin main
+          BASE=$(git rev-parse origin/main)
+          test "$(git rev-parse "$BASE:README.md")" = 'bd8f9f5fa52c24c9dd1022bfec3eef4343b0f06f'
+          PACKAGE="$RUNNER_TEMP/financial-publication"
+          git ls-remote --heads origin refs/heads/codex/commercial-finance refs/heads/codex/global-electronics refs/heads/codex/it-spend refs/heads/codex/pets-more > "$RUNNER_TEMP/old-branches-before"
+          export GIT_INDEX_FILE="$RUNNER_TEMP/project-publication.index"
+          git read-tree --empty
+          git --git-dir="$GITHUB_WORKSPACE/.git" --work-tree="$PACKAGE/project" -C "$PACKAGE/project" add -f --all
+          PROJECT_TREE=$(git write-tree)
+          PROJECT_COMMIT=$(printf '%s\n' 'Publish dated P&G and Travelers financial scenarios with real agent audit' | git commit-tree "$PROJECT_TREE" -p b9149ec95b82fa3e42a884c04fd0254407a7d22d)
+          EXISTING=$(git ls-remote --heads origin refs/heads/codex/financial-scenarios | cut -f1)
+          if [ -n "$EXISTING" ]; then
+            git fetch origin codex/financial-scenarios
+            test "$(git rev-parse "$EXISTING^{tree}")" = "$PROJECT_TREE"
+            PROJECT_COMMIT="$EXISTING"
+          fi
+          unset GIT_INDEX_FILE
+          git checkout --detach "$BASE"
+          cp "$PACKAGE/main/README.md" README.md
+          mkdir -p agents
+          cp "$PACKAGE/main/agents/"*.md agents/
+          git add README.md agents/README.md agents/finance.md agents/research.md agents/scenario.md agents/qa.md
+          git rm financial-scenarios.zip
+          MAIN_TREE=$(git write-tree)
+          MAIN_COMMIT=$(printf '%s\n' 'Add financial scenarios and reusable agent workflow to portfolio navigation' | git commit-tree "$MAIN_TREE" -p "$BASE")
+          git push --atomic origin "$PROJECT_COMMIT:refs/heads/codex/financial-scenarios" "$MAIN_COMMIT:refs/heads/main"
+          git ls-remote --heads origin refs/heads/codex/commercial-finance refs/heads/codex/global-electronics refs/heads/codex/it-spend refs/heads/codex/pets-more > "$RUNNER_TEMP/old-branches-after"
+          cmp "$RUNNER_TEMP/old-branches-before" "$RUNNER_TEMP/old-branches-after"
+          echo "Published project commit: $PROJECT_COMMIT"
+          echo "Published main commit: $MAIN_COMMIT"
+          echo 'Temporary ZIP removed. Temporary workflow intentionally retained for owner cleanup.'
